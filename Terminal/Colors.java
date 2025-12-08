@@ -1,3 +1,5 @@
+package Terminal;
+
 public class Colors {
     
     public static final String RESET = "\u001B[0m";
