@@ -10,7 +10,7 @@ public class gif {
 
         while (true) {
 
-            System.out.print("\033[H");
+            System.out.print("\033[H\033[2J");
             System.out.flush();
 
             System.out.println(frames[index]);
@@ -38,7 +38,7 @@ public class gif {
     public static void main(String[] args) {
         String[] frames = aray.frames;
 
-        animatePingPong(frames, 180);
+        animatePingPong(frames, 120);
     }
 
 }

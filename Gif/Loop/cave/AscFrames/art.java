@@ -3,3877 +3,523 @@ package Gif.Loop.cave.AscFrames;
 public class art {
 
     public static String frame0 = """
-c:,cclodxxxxkkxxxxkkkxxxkkddxxdxkkkkOOkOOOOkoolooxododxkkK0KXXXXXXXXX
-:l;:;clodddddxxxxkkkkkkxxxddddddxxkkkkkkkxkxdololooloooddxk0KKKKKKKKK
-c:;;::ccodddddddxxxxddoddxddooddodxkkkkkkxdodxdllclllllddxOOkkO0OOOOO
-:;:;cclodddddddddxxxxxdooooodooddxxkkkkkkxdoodollcccccloodddxkkkkkkOk
-c:;;:llooooloddxxxxxdooooclllclodxxxxxkxxdolcclclcc:cccllllldxxxxxxxk
-;;;::lllllollollodxdoolollcllcldxdxdxxdddoollollc::::cccclloloddxdodx
-:ccc:::cccllcc:clllcclolclcccclloooooodocccllllc::;::::cccllcllollllo
-:::;;clllolc::::ccclcllcc::c::clooooololc:::cc:::::,;::ccccc:ccclcccl
-,:::;ccccc;;;;;;;:lc:cc::::::;cccllcccc:;;;;;;;;;,;;;:::::::::::::ccc
-'''';::::;,,'',;;:::;:c:::;;:;:ccccc::;;,;;;;;;,;;,;::;:;;::c::c:cc::
-'''',;;::;;,:;,,;;:dkkkxxxool::::cc::,,''',;;;,;,,,;;;;;;;;;::;;:::::
-,'',:lllolllllcccodddddoxxxxdlcccccc;,,;::,;,,;;,,,;;,;:;:;;;;;;;;c::
-;;;;::cclxxxxx;'.',;;::;,:llllcdoooollllllllcccc:::ll:;:::;;;:::;;l:c
-,;:cooddxxkkxo............''.o,kxxxxxxxddddolllllllllllllllllcccc::::
-llllooooodoool,''........';:.::xOOOkxxxxddddddddddooollccccccccccc:::
-ccclllllloooooooooooooooooooddddddkO0Okxddddddddddddddddddoolc:::::::
-:ccccllllllllllllooooooooddddddddddddkO0Okxdddddddddddddddxxxxxdoolcc
-::::ccccllllllllllllooooooooooooodooooodkO0OOkxdddddddddddddddddddddd
-;;::::cccllllllllllllllllllloooooooooooooodkOOOOOxooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllllollooxO0OOOOxdooooooodddddooo
-,;;;::::::ccccccccclllllllllllllllllllllllllllloxO0OOO0kxoooooooooool
-,,;;;;:::::::cccccccccccllllllllllllllllllllllllllox0KOkO0Oxollllllll
-,,,,;;;;:::::::ccccccccccccccllcccccclllcclllllllllllxKXOdkKKkolllccc
+                                               
+                                               
+                                               
+                                               
+                                 'WX'          
+                               .Kkc;.          
+        odxk    ;o:x0  0dc  ;Kkddoc.           
+         'loddxx:o;lldolclx;xoxdoc'            
+           lodddcooolollllllodolc;.            
+            :lcodxxdooollllllolc;'.      d     
+       ,.   .':dxxddolllllllllc;;.cOOkxxl:     
+     .coodoxd;:loolllodoccclll:;;;:loodo:l'    
+    ldloooc;;l:o;:llllc,dklc::l;;;looloo'      
+        ,:;;.l::olcllllccckO'cl;;;;:;,         
+             lldd0oO0xkXXOK:llc;;;;,'.         
+             'lllxOxXKd0xlclll;;;;;;'          
+              :llllccccllllll;;;;;;,'lxO       
+              ,;clllllllllc:;;::::,,,,         
+              .;:,,,;::;;;;,clloddo'.          
+              ';cc:'.        ;llool.           
+                                'c.            
+                                               
+                                               
 """;
 
     public static String frame1 = """
-::,:clodxxxxkkxxxxkkkxxxkxddxddxkkkkOOkOOOkdoloodoododdxOO0KKXXXKXXXX
-:l;::clodddddxxxxkkkkkkkxxddddddxxkkkkkkkxxdololoollloddxk00KK0000000
-cc:;;:ccodddddddxxxxddoddxddooddodxkkkkkkdodxdolccllllodxkOkkO00OOOOO
-c;:;:clodddddddddxxxxxdooooodloddxxkkkkkkxdodooccccccloooddxkkkkkkkOk
-::;;:cloooolodoxxxxxdolooclllcloxxxxxxkxxdllccllcccccccclllddxxxxxxxk
-;;;::lllllollollodxdoolollcllcldxdxdxxdddolllllc::::ccccllooloddxoodx
-:ccl:::cccllcc:clllcclolclcccclloooooodlcccllcc:::;:::ccclllclllllllo
-:::;;clllolc:;;:ccclcllc::c::cclooooollc:::cc:::::;;;;:cccc:::cllccll
-';::;:ccc:;;,;,;;:l::cc:::;::;cccllcccc:;;;;;;;;;;;;;::::::::c:::cccc
-'''';::::;,''',;;::::cc:::;;;::ccccc:;;,;;;;;;;,;,;;:;:;;:::::ccccc::
-'''',;;;:;;;::,;:cxOOOkkkxdo::::ccc:;,'''';;,,;;,,,;;;;;;;;;:;;:::::;
-,,',:lloooooolcccdooooooxxkxolcccllc:;;:c;:;;;;,,;::,;::;;;;;:;:c:::;
-;;;;::ccldxxxd....'',,;,',ccooddddoooooolllclllcccll:::::::::::c:;:;,
-c:cloddxxxxxxc..........'.,,.cOkkxxxxxxxdddoooolllllllollclcccccc::;;
-cclllllooooooc,,,''''.'''';:,ldxOOOkxxxxdddddddddddoolllcc:::::c:::c:
-ccclllllloloooooooooooooooddddddddkO0Okxddddddddddddddddxddollcc:::::
-:cccclllllllllllloooooooodddddddddddxkO0Okxdddddddddddddddxxxxxddoolc
-::::ccccllllllllllllooooooooooooodoooooxO00OOkddddddddddddddddddddddd
-;;::::ccclllllllllllllllllllooooooooooooodk00OOOkdooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllllollodOKOOO0kdoooooooodddddooo
-,;;;::::::ccccccccclllllllllllllllllllllllllllox00OOO0Oxooooooooooool
-,,;;;;:::::::ccccccccccclllllllllllllllllllllllllokK0kkO0Oxolllllllll
-,,,,;;;;:::::::ccccccccccccccllcccccclllccllllllllllkXKkdkKKklllllccc
+                                               
+                                               
+                                               
+                                               
+                                 'WX'          
+                       c0:    lNkxl,.          
+        odkOXXo lkxO;;Ooc''XKOdddl;.           
+         .loddoc;o:lcllllcl,ddddo:.            
+           ,odddcooooolllllloool:,.            
+            .c;oxxxdooollllllll;;..   kko,     
+     .lxdOk .,lddddoollllcclll;;;,ccdllccl'    
+     .coddl:c::clllllodccolclc:;;:looodd'      
+       .ll:;,lcd::clll::dxcc;:l;;:llll,        
+          ,,.c::lllllll:ccx0:cl;;;;,'.         
+            .cldd0oO0xkXXOK:llc;;;;,,,         
+             'lllxOxXKd0xlcllc;;;;;;,o.        
+              .llllcccclllllc;;;;;;,',::c      
+              :,:cclllllcc:;;:cccc;',.         
+              .;:;,'',,;;;,'clloddo'.          
+              ';cc:,         ;llool.           
+                                'c.            
+                                               
+                                               
 """;
 
     public static String frame2 = """
-,',,;:;;cldxxxxxxxkkkxxkkkkxdddddxkkOOkOOOOkoloodoooooddkxO0000000000
-,;;:;;:;:cldddxddxxxkkkkxxxxdodddddxkkkOkkxxollllllllloddkOOO0O00OOOO
-,;::ccl:;:ccooddddxxxxxdddddddooododxkkkkkdodxolcclllllodxdxkkkkkkkkx
-,,;;clc:::llodddoddxxxxxddooolooodoxxkkkkxddolollclccllllodxxxxxxxxxx
-,,;:clc;;:loooolloddxkxxolllcllccodxxxxxxxdlccclc:ccccccccoddddolddxd
-,,:cc::;::lllllllllcoodollollclccodxddddoooolllc::::c::ccloolllllllol
-',;::cccl:::cclolc:collcloolccccccoooooolccccccc:c;;::ccccccccccllllc
-..'',:::::cllooc::;::ccccccc:::::cloollcc::::::::::,;:::c::cccccclccc
-,''..',::;:ccc;;;:;;::c::c:::;:::cccccc:;;;;;;;;;;;;:::;;::::c:::cc:c
-,'''.'''',;:::,:kkkkkkkkxlc:::::::cccc;,',,;;;,;;,;;;;:;;::::;;;;::c:
-;,,,,,''',:,''.;lodxdooodxdlc:ccccccc:;;::;;,,;;cc,;;;;;;l::;,,;;;;::
-,,,,,;;:;:c..''....'';::::c::codododoooollllllllloccc::::c:::;;;;,,;,
-:::ccclclll.................''kOkxxxxxxxxdddooolllcccclccc::ccccccc::
-::ccclllllc;,'..............';dK0Oxxxxxxdddddddddddoollcc::::cccc:c::
-::cccllllllllllllllllllllllllookKO0Oxxxxddddddddddddddddxddoolc::;;;;
-:::cccccclllloooooooooooooooddddkKkO0kddddddddddddddddddxxxxdddddddol
-;:::cccccllllllllooooooooooooooooOXkxK0xddddddddddddddddddxxxxxdddddd
-;::::cccclllllllllllooooolooooollo0XOdOXOdddododddddddddddddddddddddd
-;;;:::ccccccllllllllllllllllllllllo0XOokKKkooooooolllloooodddddddddoo
-,;;:::::cccccllllllllllllllllllllllo0X0od0X0xoooooolllllllllloooooooo
-,;;;;:::::ccccccccclllllllllllllllllo0KKxox0X0xollloollllllclllllllll
-,,;;;;:::::::cccccccccccccllllclccllllkKKOolxKX0dlllllllllllccccccccc
-',,,;;;;:::::::ccccccccccccccclccccccllOXKKllo0KXklllllllllccccccc:::
+                                               
+                                               
+                                   NKl         
+                        .0l    .Kkxlc'         
+         ckO0NWX oOKxKWOolcKdkkdddo:           
+           coooox;d:ccclllclcoddol:..          
+            .ldddcoddooollllllool;,.    ';     
+        c l   c,oxxxxdoollllllll;;': ckdc:00   
+        ;ldddk,:odddolloolcccll:;;;:cldocc'    
+       .clool:::ccllllodc:oo:lcc;;clooool.     
+          ;:;,lcod:clllccoxlc:,l:;;ccc:.       
+             .l:ccccllllclcxOlcl:;;;,''        
+              :ldoKkxK0dNM00lcll;;;;;;,        
+              .clloko00dkxlclll;;;;;;,;:       
+                :llllllllllllc;;;;;;,',;;.     
+              ;o,;:ccllllc::;;;::::;,,'        
+               'c:,,''',;;;;,:lllddo;.         
+               ;;cl:,         'llodo:          
+                                cclc'          
+                                               
+                                               
+                                               
+                                               
 """;
 
     public static String frame3 = """
-..............''''''',,.....''..'..''''''','....'...................'
-...............''''''''.....'....'''.'''''''........................'
-..................''.........'.........'''''.........................
-.....................................................................
-........................................''''''.......................
-..................''..'.......'..'''.................................
-.................'....'..'....''..''.................................
-..........................'.'.''..'''''..''''''''',,,''''''''''',''',
-..................''''.......'....'''.'...'''',,,,,,,,;,;;;;:;;;:;;:;
-..................'.''...............'''......',,,;;;:::;::::::loooc:
-.........'......'.......''.''.'......''......',;;,,,,::c:::c::clc::c:
-...................''......'............'''';c:::;,ccc::c:::::;;;;:;,
-....................''......'..'......';:::cc:::;;;;;;;;:::::::;:;;;,
-.....................'....clodxkkdl::;;;;;;;;;;;;:;;;::::;;;;;;;;;;;;
-.....',':.........';:.....':;;:;;,',,;:::;,;:;;;;;;;;;;;;;;:;,,,'''';
-.....';':,,,;cc;...................',;;,,'...,;;;;;;;;;;;;;;:::::::;;
-,,;:clllc:;;,,,,..... ...   ... ......'''.',;;,;;;;;;;;;;;;;;;;;;;;;;
-:;;;'''.,;,;,;;,.''.              ........',,,,;;;;;;;;;;;;;;;;;;;;;;
-',;,,;,,'''.............,;,l'.''',,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;,,,
-,,.....''''''''''''''''cd,kd,,,,,,,,,,,,,,,,,,,,,;,,;,,,;;,;,,,,,,,,,
-.....''''''''''''''''';ko,dOl,,,,,,,,,,,,,,,;,,,,,,,,,,;;,,,,,,,,,,,,
-.....''''''''''''''''',xkc,lOkl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......'''''''''''''''',:OOc,:k0Oc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
+                                               
+                                               
+                                dX0            
+                      kx.    x0xdl'            
+       kk0KWW;,xXkOWXdl;0OdOxddoc.             
+        ;oooodcll:o:lllcclcdddoc;'             
+          :oddllddooolllllllol:;.     d        
+     .',.  ,c:dxxxxoollllllll:;,,  Oxlcd0:     
+     .coodkl,ldddoollollccllc;;;:ccddl:l       
+     cloooc;c:cclllldo;odcll::;;looooo;        
+       .:;,:ccx:cllll::xocc'll;;:ccc,          
+           ,::clcllllclcokk;ll;;;,'..          
+           .lldkKoKKoKWNOO;ll:;;;;;'.          
+            ;lllxkx00oxoclll:;;;;;,'x          
+             'llllllllllllc:;;;:;,,,,;,        
+            .:;;:cllllcc:;;;cllooc',           
+             .;;,,''';;;;,':lllddoc.           
+            .clcc:'          ,;''',            
+                                               
+                                               
+                                               
+                                               
+                                               
 """;
 
     public static String frame4 = """
-................''''''''''....'''..''.'''''.','......................
-.................''''''.''.....,...'..'.''''''.......................
-..................'''''........''....'..'''''''......................
-................................'....................................
-..........................................'''''''....................
-.....................'...........'..''...............................
-....................'....'..'...','..''..............................
-..............................''.''..''''...'''''''',,,''''''',',,,,,
-.....................''''.......'...''''.'...''',,,,,,,,;;;;;;::;;::;
-.....................'.''..............'.''.....',,,;;;;::::::::ccloo
-...................'......'...'..'......'......',;;;,,;;:c:::c::ccc::
-.....................'''..................'''',c;c:;;:cc::::c:::;;;;;
-.......................''.....'.........';:c::c:::;;,;;;;;::::;;;;;;,
-..........................;:coddddc::;;;;;;;;;;;;;;;;;;::;;;;;;;;;;;,
-.........;,:'......':;...'':c:cc:;,,,,;;;;,;;;;;;;;;;;;;;;;;;,,,,'';,
-.......'.;,:;;:c........  ..........,:;;;,'..';;;;;;;;;;;;;;:::::;;;,
-.',,;:clllc;:,,'.....  ...  ...  . ....''..';;,;;;;;;;;;;;;;;;;;;;;;;
-cc::;,,'',',;;;,'.,'              .........',,,;;;;;;;;;;;;;;;;;;;;;;
-'',;;;;,,,'''............,,;c..'',,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;,,,
-,,,'.'.'''''''''''''''',ol;Oc,,,,,,,,,,,,,,,,,,,,;,,;,,,;;,;,,,,,,,,,
-.....''''''''''''''''''ck:;kk:,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,
-.....'''''''''''''''''';kx:;dOxc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......'''''''''''''''',,lOk:,cOOx:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
+                                               
+                                               
+                                               
+                                               
+                            Nkdl               
+                 .kx;;K  l0koo;                
+   kOOOXXl.kKxx00dl:xx;Kxdxdl;.                
+     :odddlco:oclllllllooddlc,.                
+       coolcoddooolllllllllc;.     ;'          
+        ,:oxxxdoolllllllllc;;cK.l0xlc          
+  c    ,:lddddolloolcclll;;;;:ccloo:c:         
+.doxddolccccllllodl,xo:lcc;;;lloooo,           
+Ocoooc;,cclx,clllccoxl:l'lc;;:clc'             
+    ;;;.;::colccccco:OXlclc;;;;'.              
+        ,lllOOoNNxNMXdocll;;;;;;.              
+        .clldkddkdodlclll;;;;;;,lO;            
+          ,llllllllllllc;;:cloo;',;d.          
+         :,;:ccllccc:;;;,;llldxd:.             
+          ,::,,'''.,,,'   .l:,,,:              
+          ::cl;'            .'''               
+                                               
+                                               
+                                               
 """;
 
     public static String frame5 = """
-.................''''''''''''...'.'.''.'''''.','.....................
-..................''''''''......'...'.....''''''.....................
-...................'''''.........,....''..''''''.....................
-.....................................................................
-...........................................'''''''...................
-.......................'.............',..............................
-..........................'..'...'''..''.............................
-......................'........'''''.'''''...''''''''',,,''''',,',,,,
-......................''''.......'...''''.....''',,,,,,,,;;;;;;::;;::
-......................''''..............'.''......,,,;;;;::::::::lclo
-..............'.....'......'....'.'.............',;;;,,;;:::::cc:cc:c
-.......................''..................'''',c;c:;;:cc::::::::;;;;
-........................''.....''.......'';::::c::;;;,;;;;;::::;;;;;,
-..........................,:cloddoc::;;;;;;;;;;;;;;;;;;::;;;;;;;;;;;,
-..........';;:......;;...'':c:cc:;;,,,;;;;,;;;;;;;;;;;;;;;;;;,,,,',;,
-.......'.',;;:;:,.......  ..........,:;;;,'..';;;;;;;;;;;;;;:::::;;;,
-..',,;:lllcc;;,''..... ...  ...  . ....''..,;;,;;;;;;;;;;;;;;;;;;;;;;
-cc:;:;,''',;,;;;,.,'.             .........',,,;;;;;;;;;;;;;;;;;;;;;;
-.''';;;;,,'''............';,c'.'',,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;,,,
-,,,,''''''''''''''''''''lo,kl,,,,,,,,,,,,,,,,,,,,;,,;,,,,;,;,,,,,,,,,
-.....'''''''''''''''''';kl,xkc;,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,
-.....'''''''''''''''''',dkc,lkkl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''',:OOl,;xOOl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
+                                               
+                                               
+                                               
+                                               
+                          Kkxd:                
+                 .Ko    O0ddl'                 
+          .X dN':dlcOlOddxdl;'                 
+   llxdkkOxcococllllclcddol:,.                 
+     .ldddc:olooolllllllllc;.. OcdOk.          
+       .llodxxdooollllllll;;,lollcc'           
+,kOd0   ,:dxxddollllcclll;;:cooddo;            
+ ;ddoo:',cloolllod:locllcc;;llllc              
+  .ll:;;ccco;clloc,xkcl;:l:;;:;,.              
+     ',':c:oocllllllcclk;lc;;;,,'              
+       .;;occcccocxOoWWo:l;;;;;;.              
+         codNWkWMONMKOx:l:;;;;;,;x             
+          ;ckK0XNOdko:llc;:cloo:';oO'          
+         :,,cclcclllcc:;,;llldxd:..            
+          ,::,,;;;;;;;;,,,.l:,,,:              
+          ::cl;'            .'''               
+                                               
+                                               
+                                               
 """;
 
     public static String frame6 = """
-..................'''''''''''....'.'''''.''''..''....................
-...................'''..'''''....''...'....''''''....................
-.....................'''..........,....''..''''''....................
-...................................'.................................
-............................................''''''''.................
-........................'.............',.............................
-.......................''.....'...'''..''............................
-..............................'.'''.'.''''....'''''''',,,,''',',,,,,,
-.......................''''...........''''.....'''',,,,,,,,;;;;;::;;:
-........................'''..............'.''......,,,;;;;::::::::ccl
-......................'.....'''..'.'......'.....''';;;,,;;:::::cccccl
-........................''..................','',c:c::;:cc:::::::;;;;
-.........................''.....''.......'';::::c:;;:;,;;;;::::;;;;;,
-..........................,;:clooo:;:;;;;,;;;;;;;;;:;;;;;;;;;;;;;;;;,
-............:,:'....,;...'':l:cc::;;,,;;;;,;;;;;;;;;;;;;;;;;;,,,,';,;
-.........'',:,::,........ ..........,:;;;,'.'';;;;;;;;;;;;;;:::::;;,,
-...',,;:cllc:;,;'..... ...  ...  . ....''..,;;,;;;;;;;;;;;;;;;;;;;;;;
-cc::;;:,'',,;,,;,.''.            ..........'',,;;;;;;;;;;;;;;;;;;;;;;
-..'',,;;;,,''''....'......;'c'.'',,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;,,,
-;;,,'''''''''''''''''''':d,xo,,,,,,,,,,,,,,,,,,,,;,,;,,,,;,;,,,,,,,,,
-.....'''''''''''''''''',ko,oOl;,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,
-.....'''''''''''''''''',oOl,ckko:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''',,kOd,,oO0x:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
+                                               
+                                               
+                                               
+                                               
+                        .Kxcd                  
+                 .0    Xxol,                   
+                0d,;0xOoxo:.                   
+          okxlddlllclcddol:'   o               
+   cox0xxx;olclllllllloolc;. xolldc            
+     .loddolddooollllllll;;;dcxocc.            
+  c     ,ldxxxdolllllcll:;;coooooc'            
+ddododox'odddolloolc:lllc:;:lllc.              
+.oooo:;'::cllllloo'xkcl:ll;;;;;.d              
+    :;;,cclx;:llllloocdc:lc;;;;;'              
+        'c:lollllcldcWWd:l:;;;;;'              
+        ,:lodxo00dWMOKd:ll;;:::,'x             
+          ;ddMNOMWkXKocll:cllodc.,:            
+         :,:lodcddlclll:;;lllodol.;;           
+          ,;;::ccccc:;;;,'';,''',              
+          ::cl;.                               
+                                               
+                                               
+                                               
 """;
 
     public static String frame7 = """
-...................'.''''''''''...''''''..''''.''''..................
-...................'''''''''''....''...'....''''''...................
-.....................'''..'........,........''''''...................
-.......................'.'..........'................................
-.............................................''''''''................
-.......................................''............................
-........................''.....'...'''..''...........................
-.........................'.....'.'''...'''''...'''''''',,,,''',,,,,,'
-.........................'''...........''''.....'''',,,,,,,;;;;;;::;;
-.........................'''.......'......'.''......,,,;;;;::::::::cc
-.......................'.....''...'''............'',;;;,,;;;c:::ccccl
-.........................''..................','',c:::;;:cc:::::::;:;
-..........................''.....''.......'';::::::;;:;,;;;;:::;;;;,'
-..........................';;cclll:,;;;;;;,;;,;;;;;;:;;;;;;;;;;;;;;,;
-.............,;:,...,,...',clcclcc:;;,,;;,,,;;;;;;;;;;;;;;;;;,,,,,;;;
-..........'',;;:;..................',;;;;;,'',,;;;;;;;;;;;;;:::::;;,,
-....',,;cclcc:;,;..... ...  ... .. .....'..,;;,;;;;;;;;;;;;;;;;;;;;;;
-ccc:;;;;;'',,;,,;.,'.            ..........'',,;;;;;;;;;;;;;;;;;;;;;;
-'...',,;;;,,'''....'......,':'..''',,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;,,,
-;;;;,''''''''''''''''''':d,dd,,,,,,,,,,,,,,,;,,,,;,,;,,,,;,;,,,,,,,,,
-''...'''''''''''''''''',xd,oOl;,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,'
-.....'''''''''''''''''',lOo;cxOdc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''',,dOk:,cO0kl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
+                                               
+                                               
+                                               
+                                               
+                          K0ox                 
+                 .0     O0oo;.                 
+                0d,;0ckxodol..                 
+   .0KXKKKxdxlddlllclcldddl:'.                 
+     coddd;olcllllllllllol:;..    d0'          
+       :oocoddooolllllllll;;,OK0xoccdd.        
+        :odxxxoollllllll:;;;;cclddoc;          
+0K00KOOOccdddolloolcc:llc:;;:loollc            
+.oddoc;'::cllllloo'xkcc;:l;;;:c:;              
+x:clc;;,cccx;:lllllol:Occlc;;;,'.              
+        '::clcccccxOdXk:ll:;;;;;'              
+         llokNONMKKNk:llll;;;;;;'K;            
+          :lllocxxclclllc;:cloo:',lK'          
+         :,,lllllllllll:;;llldxd:.'            
+          ,;:::c:cc:;;;;,,:l:,,,:              
+          ::cl;.            .'''               
+                                               
+                                               
+                                               
 """;
 
     public static String frame8 = """
-..........................'''''.'.'.''.''''..''''''''................
-.....................''.''.''''''....,...'....''''''.................
-......................''''...'.......''..'....'''''''................
-........................''''..........'..............................
-................................................''''''...............
-...........................'..............'..........................
-...........................'.....'...'','.''.........................
-...........................'........'''..''''.....''''''',,,,''',,,,'
-...........................''''..........'''''....''',,,,,,,,;;;;;;::
- ...........................''.......'......'.''......,,,;;;;::::::::
- ........................'.....''..''''............'',,;;',;;;c:c:ccc
-.....................'.....'''.................',',,l::c;;:c:::::::::
-   .........................''.....''......'',:::::::;:;;,;;;:::;;;,'
-   ........................',::::;,,:;;;;;;;,;;,;;;;;;;;;;;;;;;;;;;;;
-     ...........:,:..,'..',clclllcc;;,,;,,,,;;;;;;;;;;;;;;;;;,,,,;;:;
-cco..........',,,...''........'....,,;:;;;,,',,;;;;;;;;;;;;;c:::;;;;;
-c;o'..',;:cccc:;:..... ...  ... ..  .......,;,,;;;;;;;;;;;;;;;;;;;;;;
-;ccc:;;;;,,,,;;,;.'..            ..........'',,;;;;;;;;;;;;;;;;;;;;;;
-'''''',;;,,,,''....'......'';,..''',,,,,,,,,,,,,,,,;,;;;;;;;;;;;;;,,,
-:;;;;,,''''''''''''''''',d:ck,,,,,,,,,,,,,,,,,,,,;,,,,,,,;,;,,,,,,,,,
-''''.'''''''''''''''''''lk;:kd:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-.....'''''''''''''''''',;xkl;lkkdc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-......''''''''''''''''',,,dOkc,:k0Od:,,,,,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                               
+                            Nkdl               
+                 O0: N.  l0koo;                
+   kOOOXXl.kxlx0kllcocdKxdxdl;.                
+     :odddlco:oclllllllooddlc,.                
+       cooccooooollllllllllc;.     ;'          
+        ,:odxxdoolllllllllc;;ck.l0xlc          
+  c     :cdxddooloolcclll;;;;:ccloo:c:         
+.doxddo:::lollllod,oxcllcc;;;lloooo,           
+Ocoooc;;ccco,cllllldd:cl'lc;;:clc'             
+    ;;;';::lllccccco:OXlcl:;;;;'.              
+         lllOOoNNxNMXdoclc;;;;;,:              
+         .lldkddkdodlclll:;;;;;,'k;            
+          ,lllllllllllll;;:cloo:',;d.          
+         :,':ccclllcc:;;,;llldxd:.             
+          ,::;,,'.,,,,,'  .l:,,,:              
+          ::cl;'            .'''               
+                                               
+                                               
+                                               
 """;
 
     public static String frame9 = """
-...........................'''..'''.'''.''''..''''.'''...............
-......................'..''.''''''....,...'....''''''................
-.......................''''..''.......,'..'....''''''................
-.........................'''...........'.............................
- ...............................................'''''''..............
-...........................................'.........................
-............................'.........'',.'''........................
-............................'........''...''''......'''''',,,,,,,,,,,
-............................'''...........'''''....''',,,,,,,,;;;;;;:
-.  ..........................''.......'......'.''.....',,,;;,::::::::
-   .......................'.....'....'''............',,,;,,;;:;cc:ccc
- .....................''....'''................'',,,;lcc:;;cc::::::::
-     ........................''.....''.....'',;::::::;;;;,;;;:::;;;,'
-     ......................',;:c:,',;;;;;;;,;;,,;;;;;;;;;;;;;;;;;;;;;
-  ..  ...........:,:','..';llclllc:;;,,;,,,;;;;;;;;;;;;;;;;;;,,,;;;;;
-locl;........';,'...'.........'....,,;;;;;,,',,,,,;;;;;;;;;;c:::;;;;;
-cl,::..',:cccc:;;..... ...  ... .. .......',;,,;;;;;;;;;;;;;;;;;;;;;;
-;:ccc;;;;,'';;;;,.'..           ...........',,,;;;;;;;;;;;;;;;;;;;;;;
-,'.',,;,;;,,,''....'......,':,..''',,,,,,,,,,,,,,,,;,;;;;;;;;;;;;;,,,
-;:;;;,,''''''''''''''''',d:lk,,,,,,,,,,,,,,,,,,,,;,,,,,,,;,;,,,,,,,,,
-''''.'''''''''''''''''''lk;:xxc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-.....'''''''''''''''''',,oko:cdkxo:;,,,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-......''''''''''''''''',,,ckOd;,oO0Oo;,,,,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                               .0              
+                   ,Xl     kNOxo               
+    l0XN'   'K kK.ldlcKdOXOdodl;'              
+      ,ldxx0dcxclllllcclcdddol;.               
+       .lddoc:ocllllllllloolc;'.   ;'          
+         'llddxdoolllllllllc;,'koKdccOx        
+  ;dxd0d ;,dxxddolllllclll:;;;;;loocl.         
+  :codol:':oooollodlcllcll:;;clooool.          
+    'll:;cc:l:cllol,okocl;cc;;cllc,            
+       ,,;::olllllllcccdk;ll;;;,'..            
+        .'lcddklkklkXK0X:ll:;;;;;,'            
+          ,lloO0ONXk0kccllc;;;;;;;,            
+          ;;lllcccccllllll;;;::;,'cxkc         
+           .,clllllllllc:;;clooo:';,           
+          .,,;,;,:::;;;;;'cllodoo;.            
+             ccc:'.         :,''''             
+             '.                                
+                                               
+                                               
+                                               
 """;
 
     public static String frame10 = """
-............................'''...'.'..'.''''..''''''''..............
-.......................'..'..'''''.'.'.,...'....''''''...............
-........................''''..''.......,'..'....'''''................
-..........................''............'............................
-.. ...............................................''''''.............
-.. ......................................'.''........................
-.............................'.........'',.',........................
-.............................'.......''...'''''.....'''''',,,,,,,,,,,
-.............................'''...........'''''....''',,,,,,;,;;;;;;
-... ..........................''.......'.....'''''.....',,,;;,::c::::
-.   ..................'....'.....'..'.'..............,,;;;',;:::ccccc
-  .....................'.....'''................',,,;:ccc:;;c::::::::
-     .........................''....',.....',,;;::::::;;;;;;::::;;,''
-      ..............'.....'',;:c;,',;:;;;:;,;,,,;;;;;;;;;;;;;;;;;;;;;
-   ...............:':,...';llcllcc:;;,,,,,,;;;;;;;;;;;;;;;;:,,,,;;;;;
-;cxo:l.......',,'...'.........'....,;;;;;,',',,,,,;;;;;;;;;:c:::;;;::
-:;c';c'';:cclc:;;..... ...  ... .......'..';;,,,;;;;;;;;;;;;;;;;;;;;;
-;:c:::;,','',;;;,.,..           ..........'',,,,;;;;;;;;;;;;;;;;;;;;;
-,',',,;;;;,,,''....'......,,c,.''',,,,,,,,,,,,,,,,,;,;;;;;;;;;;;;;,,,
-;;;;;,'''''''''''''''''';x;ok,,,,,,,,,,,,,,,,,,,,;,,,,,,,;,;,,,,,,,,,
-''''''''''''''''''''''''lkc;dko:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-....''''''''''''''''''',,ckxl:lxkdl:,,,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-......''''''''''''''''',,,,dOOo;;d00ko;,,,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                              lX0x,            
+                     Oo: l  0kdol.             
+       lxk00KWdxdlkOolllx;xdddol,              
+        ,odddl;oclllllllllodolc;               
+         'loolcdddoolllllllll:;''    Ok        
+    cxOx' .'ldxxxdolllllllll:;;'dOxocccxc      
+    ccodoo:;odddooloolcccll:;;;cloodol;        
+     .lllc,c:lclllld:,xdcll:c;;clolll.         
+       .;;,ccol:clllcodo:cc:l:;;::;.           
+          .l:lccclllcodoX0;ll;;;;,,,           
+           clldW0KMX0MWxocll:;;;;;'            
+           .llllocxxcdlllll:;;;;;,'cO0.        
+           c.:llllllllllll;;;;;;;,,;,.         
+            .';;:clccc::;;;;clooc,.            
+            ..;;;,''.''''.'llloddl,            
+               ,lc:          .,,;.             
+                                               
+                                               
+                                               
+                                               
+                                               
 """;
 
     public static String frame11 = """
-.............................'''..'.'.'.''''''..''''''''.............
-............................'.''''.'.''.,...'....''''''..............
-.........................''''..''.......,'.......'''''...............
-...........................''............'...........................
-.............................'.....................''''''............
-..........................................'.''.......................
-..............................'.........'',.',...............''......
- .....................................'.'..'''''....''''''',,,,,,,,,,
-  ............................','..........''''''....''',,,,,;;,;;;;;
- ..............................''..............'''......',,,;,,:c::::
- .    .................'....'.....'..................';,;;;',:::ccccc
-    ..........................''.................,,,;;cccc;;:::::::::
-       ........................''....,;....'',;;;::::::;;;;;:;::;;,''
-.      ..............'....',,;;:;,',;;;;;::;,,,,;;;;;;;;;;;;;;;;;;;;:
-.  ..., ...........;;;...';lccllc:;;,,,;,,,;;;;;;;;;;,;;;;;:,,,,;:;;,
-ll:dk:o,.....',,'...'.........'....,;;;;,,'',,,,,,,;;;;;;;;:c:::;;:::
-cl,;;,:;,;:cccc;;..... ...  ... .......'..,;;,,,,;;;;;;;;;;;;;;;;;;;;
-;::c:;;:,''',,;;;.,..           ..........'',,,,;;;;;;;;;;;;;;;;;;;;;
-;,'',,;;;;;,,''....'......,,c;.'',,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;;,,,
-;;:;;;,''''''''''''''''',x:ck;,,,,,,,,,,,,,,,,,,,;,,,,,,,;,;,,,,,,,,,
-'''''''''''''''''''''''':ko;lkdl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-....''''''''''''''''''',,;okdccokkdl:,,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-.....'''''''''''''''''',,,,:kOkl,:x00xl,,,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                  l            
+                       Xx    .WKkol,           
+       ;KKN;   dK;Ox Xxl;l0X0kodoc.            
+         cldxxO:olccolllclccdddoc'.            
+          ;oddd;ooooolllllllool:;.             
+      x l   c:ldxxxdoollllllll:;.: ;XkocNN     
+      ,doxkK:;ddddoolllllclll:;;;:lllocc;.     
+     kcoooo:,cclllllldocll:ll:;;clooodd:       
+        ,c;,lcoo;clllc:ckocc,l:;;cllc.         
+           .c::lolllllccclko;lc;;;,'.          
+           .llolkxokkl0XONx:ll;;;;;;'          
+             lllxOkXNOKOd:lll:;;;;;,,l         
+            .'llllccccclllll:;;;;;,',:ll       
+              'cclllllllcc:;;;:cc:,','         
+             ;,;,,',;;;;;;,,clloddo..          
+               ,ccc;.        ;llooo.           
+                ,             .:cc;,           
+                                               
+                                               
+                                               
 """;
 
     public static String frame12 = """
-..... .......................''...'...'''',.''.'..''''''.............
-................................''''.''..',..'.....'''''.............
-..........................''..'..'........,'..'....''''..............
-...........................''..............'.........................
-...............................'.....................''''''..........
-...... ........................................'.....................
-................................'..'......'.,'',..............'''....
-................................'...........'''''.....''''''',,,,,,,,
-...  ...........................'''...'......'''''.....'.,,,,,,;,;;;;
-... ... .........................''......'......'.''......,,,;;,::c::
-    ... .................'...'.....''..................,,;;;,';:::ccc
-      ..........................''................',,;;:cc::;;::::c::
-       . ........................''....,,...'',;;;;::::;;;;;;:::;;,,,
- ...      .............'...',,,,,.'',;;;;;::;;,,,;;;;;;;;;;;;;;;;;;;:
-  ......'...........';...'coclllcc;;;,,,',,;;;;;;;;;;,;;;;;;,,,;:;;;;
-:,;olcxd;l.....,'...,........''...,,;;;;;,;',,,,,,,;;;;;;;;c:::;;::::
-dd;c;,;,;c;::cc:;......... ...  . .......',;,,,,,;;;;;;;;;;;;;;;;;;;;
-,;:ccc:,;;,'',,,;.,.           ..........'',,,,,;;;;;;;;;;;;;;;;;;;;;
-;;,;,;;::;;;,,''...'......,,:,.''',,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;;,''''''''''''''''',d:ck:,,,,,,,,,,,,,,,,,,,;,,,,,,,;,;,,,,,,,,,
-,''''''''''''''''''''''',dxccdxoc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-....''''''''''''''''''',,,cxko:cdkxoc;,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-.....'''''''''''''''''',,,,,lOOo,,lk0Odc,,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                               
+                                dN0k.          
+                       Xd;   .X0doo.           
+        odkOXXo lkxd0Kdlcdkckddxol'            
+         'lodddo;o:lcllllllcddooc;.            
+           ,loooldddooollllllll:;'.   .0x      
+      dk0O. .;;dxxxdoollllllll:;;'kKkdlccxc    
+       cododo;cooooolloolcclll;;;:cloxocl.     
+       .lolc;c:cccllloo,lxlclcc;;llolll.       
+         .;;'ccolcclll:ldo:c::l;;;:c;.         
+            .l:l::ccccclloK0;ll;;;;'',         
+            .:loxNkKN00WWkx:ll:;;;;;,,         
+              llloxlkkcxoclll:;;;;;;'cKX       
+              .:lllllllllllc:;;;;;;,,;,'       
+              :,;;:ccccc::;;;:cccc;'           
+              .;:;,''.',,,..clloddo'.          
+              ';cc:,.        ;llool.           
+                                'c.            
+                                               
+                                               
 """;
 
     public static String frame13 = """
-''',;:;,:ldxxxxxxxkkkxxkkkkkxdddddxkOOkOOOOkdoloooooooooxxkO000000000
-,,;;:;::;ccoddxdddxxxkkkxxxxxdododdxxkkOOkxxdolllololloodxOOOOO00OOOO
-,,;c:ccl:;:cloddddxxxxxxdddddddooddodxkkkkxdoxdolclllllloxddkkkkkkkkx
-,,;;:clc:::llddddddxxxxxdddoooloooddxxxkkxxdollllclcccllllodxxxxxxxxx
-,,,;:cl:;;cloooollddxkxkxololcllcloxxxxxxxdolcclc:cc:cccccloddddooddd
-;;,ccc:c;:clllllllllloodlllolcclcloxddddoooolllcc:::c:::cllollllllllo
-,,,;::cccl:::cclolc:colcclolccccccloooooocc:cccc:c:;:::ccccccclccllll
-'..'';:::::lllolc::;:ccccccc:::::cllllllc::::::::c:,;;::c:::cccccclcc
-,,''.'',::;ccc:;::::::cc:cc::;;:;cccccc:;;;;;;;;;;;;:::;;::cc::::cccc
-,,,''.'''',::;,;kkkkkkkOxlcc::;:;::ccc:;,',,;;,,:;;;;;;;;:::;;,;;:c:;
-,;,,,,,'''''...'cldddooooxdocccccccccc:;:c;;;,,;cc;;;;;;:l:;;,;;;;;:c
-,,,,,;;::;;.........',::::cc;:oddddodoooolllllllllccc::::::::;;;:;;;c
-:c:cccllcc;..................':Okxxxxxxxxxdddooolllccccclcc:ccccccc::
-::cccclllcc;,''.............',lKO0xxxxxxddddddddddddoolcc:::cccc:::::
-::cccllllllllllllllllllllllllloO0OKkxxxxdddddddddddddddxxddoolcc::;;;
-:::cccccclllloooooooooooooooooodK0xKOdddddddddddddddddddxxxxdddddddoo
-;:::ccccclllllllloooooooooooooooxX0d0Kkdddddddddddddddddddxxxxxdddddd
-;;:::c:cccllllllllllooooolooooolo0XOd0XOdoooooooooooddddddddddddddddd
-;;;:::ccccccllllllllllllllllllllldKXkokKKxooooooollllllooodddddddddoo
-,;;;::::cccccllllllllllllllllllllldKKOod0X0dooooooolllllllllloooooooo
-,,;;;::::::cccccccclllllllllllllllldKK0olkKKOollllloollllllllllllllll
-,,,;;;;:::::::ccccccccccccllllclcclloKKKxloOKKkollllllllllllccccccccc
-',,,;;;;:::::::ccccccccccccccclccccccdKKXxllkKKKollllllllllccccccc:::
+                                               
+                                               
+                                   NKl         
+                        .0l    .Kkxlc'         
+         ckO0NWX :xKxKWOolcKdkkdddo:           
+           coooox;d:ccclllclcoddol:..          
+            .lddoldddoooolllllool;,.    ';     
+        c l   :;ldxxxdoollllllll;;.  ckdc:00   
+        ;ldddx.:loodolloolcccll:;;:ccldocc'    
+       .clool:l:lcclllodc:oo:lc:;;clooool.     
+          ;:;'lllo;clllccoxlc:,l:;;ccc:.       
+             .l:ccccllllclcxOlcl:;;;,'.        
+              ,ldoKkxK0dNM00lcll;;;;;;,        
+              .clloko00dkxlclll:;;;;;,;:       
+                clllllllllllc::cllc,',;;;.     
+              ;o;::cllllcc:;,:llldxo,''        
+               ':;,'''';;;;,';llc;;;c.         
+               :;lcc;           .,,.           
+                                               
+                                               
+                                               
+                                               
+                                               
 """;
 
     public static String frame14 = """
-..... ........................'...'...''''','''''..'''''''''.........
-................................''''''''.'''..'....''''''............
-..........................''...'...........,........''''.'...........
-...........................'''.............''........................
-.............................'..'.....................'''''..........
-.....................................................................
-.................................'.........'.''',...............'....
-.................................'........'..'''''.....''''''',,,,,,,
-....  ...........................'''.........''''''....''',,,,,;,,;;;
-.... .............................''.....''.....'.'''.....',,,;,,::::
-     .........................'.....'......'............,,;;;',;:::cc
-        ...................'....'''................',,;;cccc:;:c:c:::
-        . .......................''....','...'',;;;;::::;;;;;;:;:;;;,
-   ...     .............'...''''...'',;;;;;::;;,,,;;;;;;;;;;;;;;;;;::
-. ........'.........','..'cllloll:;:;;;,',,;;;;;;;;;;;,,;,;;,,,:;;;;;
-.;;,co:dx:o......'.';........,''..,,;:;;;,,,;,,,,,,;;;;;;;:c::;;:::::
-ccx:;:,;;;c;::cc;......... ... ..........',;,,,,,;;;;;;;;;;;;;;;;;;;;
-;;;:ccc:;;;,'',;,.'.           ..........'',,,,,;;;;;;;;;;;;;;;;;;;;;
-::;,;,;;::;;;,''..''......'';'..'',,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;;;,,''''''''''''''',dc:kc,,,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,,'''''''''''''''''''''',oklcdxoc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-....''''''''''''''''''',,,:dko:cdkxoc;,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-.....'''''''''''''''''',,,,,:kOo,,:x00xl;,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                     NKc       
+                          'Xc    'Kkxl:'       
+           lkO0NW0 :xxlXWOlllW00kdddo:         
+            .loooox;dclcclllcc:oddol:..        
+              .lddooodddooolllllolc;,.    ;.   
+          l l   c':xxxxdoolllllllc;;.  ckdcc0k 
+          ;lddxkc::oooollloolcclll;;;ccldocl.  
+         ,:lool;clcc;lllodlcooclcc;;clooool    
+            ;:;.llloc:lllccdxl::;l:;;ccc:.     
+               .c:ccclllllclcxOccl:;;;,'.      
+                ,ldoKkOKOxNMOOcclc;;;;;,       
+                'llldkl00oOxccllc;;;;;;'x,     
+                 ,cllllllllllll::cllc,,';;;    
+                :,,;;;clllcc::;:llodxo,'.      
+                 .::,.'',;;;;;,;llc;;;:.       
+                  :cc:            .,,.         
+                                               
+                                               
+                                               
+                                               
+                                               
 """;
 
     public static String frame15 = """
-...............................''''....'''..,'.'....''''''''.........
-................................'.'''''.''.''..'....''''''...........
-...........................''...............,.......'''''............
-............................''..............'........................
-..............................'..........................'''.........
-.............................................'..'....................
-..................................'..........'''''..............''...
-..................................'........'..''''......'''''',,,,,,,
-...... ...........................''...'......'''''.....''',,,,,;,;;;
-...... ............................'......''.....'.''......',,;;,;:::
-      ...  ....................'.....'.....'............';,;;,';:::cc
-         ........................'''...............',,,;;cc::;;::c:::
-           .......................''....';...'',;;,;:::::;;;;;:::;;;,
- .  ...     ..................'.....'',;,;;;:;;,,,;;;;;;;;;;;;;;;;;::
-.. ........'.........'...,clllolc;;:;;;,,,,;;;;;;;;;;;,,;,;;,,;:;;;;;
-..,:;:dlok;o.....'.';......'.,''.',,;:;;;;,;;,,,,,,;;;;;;;cc::;::::::
-;o;oc,:,;;;c:::c,............. ....'.....,;,,,,,,;;;;;;;;;;;;;;;;;;;;
-;::;:ccc:;,,,',,,.'.           ..........'',,,,,,;;;;;;;;;;;;;;;;;;;;
-::;;,;;;:::;;,,'..'.......'';'..'',,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;;;,,''''''''''''''''dl;kl,,,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,,'''''''''''''''''''''',cko:okdl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-...'''''''''''''''''''',,,;okd::oxkdl:,,,,,,,,,,,,,,,,,,,,,,,,,,',,''
-.....'''''''''''''''''',,,,,;xOx:,;oO0Oo:,,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                               
+                                               
+              ;K     N.cO   X0c      lNXOx     
+              ocOKXx;ldllXkdl;cO; dKxdooc      
+               ,oddx;olclclllcllcddddol,       
+                coooolddxxodllllloool:;        
+          .;',  ;cc,lddxddollllllllc;,'        
+           cookO:c;::llolllool:clll;;',dkxxxdol
+         ldcoool;'lco::lllod;ldlcll;;;;cooodo:l
+            .c:;'':cllcllllcodlcc,lc;;;clllll  
+                ':ccccccccccocOOd;lc;;;;,'     
+                 'lolXXkNNxNMKdd:lc:;;;;,.     
+                  .llldodkddoc:llc;;;;;;,;xkl  
+                  ,,:lllllllllll:;;;;;;,',,    
+                 .c,,,;::cc:::;;;:lloo:'       
+                 oclc;''.',,,,,,:llldddc;      
+                   '.;'.         .l;,,,;       
+                                   ....        
+                                               
+                                               
 """;
 
     public static String frame16 = """
-...............................''''......''.'''''.'..''''''''........
-.................................'.'.''.''..''..'....'''''...........
-.............................'..............''..'....''''............
-.............................''..............'.......................
-..............................''..........................'''........
-..............................................'..'...................
-...................................'..........'''''.............''''.
-...................................'........'..''''......'''''',,,,,,
-.......  ..........................''...'......'''''.....'.',,,,,;,;;
-....... ............................'......''....''.''......,;,;;,:::
-       .... ....................'.....'..................,;;;;,'::::c
-          ........................'''...............',,;;:::::;:cc:::
-.         .........................''....,,..'',;;,;;::::;;;;;;::;;;,
-   . ...     ............'....'....'',,;;;;;:;;,,,,;;;;;;;;;;;;;;;:::
-   .........;........'...,clllolc;;;;;,',,,,;;;;;;;;;,,,;,;;,,;:;;;;;
-..''cc:ddckcc,...'.';.....'..,''.,,,;;;;,;';;,,,,,,;;;;;;;c::;:::::::
-..d::c,:;;;;cc::,............. ....'.....,;,,,,,,;,;;;;;;;;;;;;;;;;;;
-',c:cccc:;;,,,,,,.'.           ....'.....'',,,,,,;;;;;;;;;;;;;;;;;;;;
-::;;,;;:;:::;,,'..'.......,':,.''',,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;;;,,''''''''''''''''ld,xd:,,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-;,'''''''''''''''''''''',;dxccdxoc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-.....'''''''''''''''''',,,,:dxl:cokkdl:,,,,,,,,,,,,,,,,,,,,,,,,,'''''
-.....'''''''''''''''''',,,,,,:kOl,,;d00Od:,,,,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                               
+                                               
+                N.                      'Nd    
+               :coKx  cx;kx ;Ooc     KOkdo:.   
+                :oddloll:ooool;oooOddddoc'     
+             do xloddcooddodolllllodool:.      
+             ;ldcl:c'xxxxddoollllllll:;.    K00
+            o:oooc'c:ooooollllllllll;;',ccld:cl
+              ccc;cco;:lllodclo:cll:;;:looodd, 
+                ,.llldl:lll:cdxocl:c;;;lllc    
+                 ,:cclllllllolcco'lc;;;,..     
+                 ::xd0Ocddcx0oKNO;l:;;;;;      
+                  .lcMWOWMkWMOX0:l:;;;;;,lcx:  
+                 .l:clddKKokxcclc:;;;;;,,,.    
+                 Oo:,;cccclccc:;;;;:::;.       
+                  :cc;'..;;;;;;,:llloxdc;      
+                                 .lllooc       
+                                     ,,        
+                                               
+                                               
 """;
 
     public static String frame17 = """
-.................................'''.....'''.','.'.'..'''''..........
-..................................'..'''''.'.','.'....''''''.........
-..............................................,........''''..........
-..............................'''....................................
-................................'........................'''''.......
-....................................'..........'.....................
-.............................................''.''',........'''''''''
-.....................................'..........''''......''''',,,,,,
-.........  .........................''..........'''''.....'.',',;,;;;
- ........ ...........................'.......'.....''''......,;,;,,::
-.....   . ... ..............'.'..'.'...'..'..............';;:;;,,cc::
-.           ........................''.....'.........,;:::::::;;c::::
-.... .  .... ........................'....';',;;,,,;;:;;;;;;;;;;;;,,'
-.... .. ..     ..........'';',''.'',;;,,;;:;;;;,,;;;;;;;;;;;;;;;;::::
-.........'.;:,:.....,...':lclllc:;;;,'',,,,;;,,,,;;,,,,,;:;,,;;;;;;;,
- ...:clx:do;l;l,...,........''..',;;;,,,,';,,,,,,,,;;;;;;:c::::::::::
-....;;::,;:::::;............. ....'.....,;,,,,,,,;,;;;;;;;;;;;;;;;;;;
-,:cccc::::;,;;;;'''.          .........'',,,,,,,,;;;;;;;;;;;;;;;;;;;;
-:;;,;;;:;;;;;,''..'......,c,d;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;:;;;,,'''''''''''''''''lx:okl;,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,''''''''''''''''''''''',,cxo:cdxdl:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-......''''''''''''''''',,,,,cdxl::lxkxol:;,,,,,,,,,,,,,,,,,,,,,,'''''
-.....'''''''''''''''''',,,,,,,;xOdl;':dO00xl;,,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                               
+                                               
+                 OK                            
+                  lxK   k:      ox        dx   
+                 .coddxdlxcdO0dl;  Kk0dxdoo,   
+              ;0KO,ooll;ocllllll:l;ddddoc;     
+            ':kllo;:::xxxddooollllllolc:.      
+              .looc,ccooooolllllllll:;'.oxxxxxd
+                :::lcl:llllodlcccll:;;'lloodoo:
+                ..cccdc:lllc;lkocllc;;;cllllo; 
+                 'l,:clllllllooll:;l;;;,',     
+                 :llkkOldl:doldxxc:c;;;,'cd    
+                 .cocMWkWWkMWkMXo:c;;;;;,.;    
+                  .cclOdXWkXNod:lc;;;;;;''     
+                 0o:;::llcclclc:;;;;;;,.       
+                  :lc,.,,;;;;;;;;cllooocl      
+                            . .  .llodoc       
+                                   :;l:.       
+                                               
+                                               
 """;
 
     public static String frame18 = """
-...............................''.'''....'.'..''..'....'''''.........
-...................................'.'.'''.'..,''.'....'''''.........
-..............................................''..'....'''''.........
-..............................''''.............'.....................
-.................................'.......................''''''......
-................................................'..'.................
-.....................................'........'.'''''........''''''''
-.........................................'.......''''.....''''',,,,,,
-..........  .........................''.........''''''.....'.,',,,;;;
- ......... ...........................'......''.....''''.....';;,;,,:
-......    ...  ..............'''..'''..''.'...............'::;;;,:cc:
-.. .         .......................'''....'.........';:::::::::c::::
-....... ....    .....................'....',,,;;,,,;:;:;;;;;:;;;;;,,'
-.......  ..     ..........,,,'''..',;;,,;;::;;;,,;;;;;;;;;;;;;;;;::::
- ..... ...,';c;:...',...,clclllc;;;;,'.,,,,;;,,,,;;,,,,,;c;,,:;;;;;,,
-. ...;llk:ol,c;l...,........''..',;;;,,,,,,,,,,,,,,;;;;;;c:::::::::::
-.....,::;;::::::............. ....'....';;,,,,,,,;,;;;;;;;;;;;;;;;;;;
-,;cccc::::;,;:;;'''.          .........'',,,,,,,,;;;;;;;;;;;;;;;;;;;;
-::;,;;:::;;;;,''..'......,c,x;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;;,,'''''''''''''''''ck:lxo:,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,''''''''''''''''''''''',,:do:coxdlc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-......''''''''''''''''',,,,,:oxocccoxkxoc:;,,,,,,,,,,,,,,,,,,,,,'''''
-.....'''''''''''''''''',,,,,,,,lO0Ol,':d000xl;,,,,,,,,,,,,,,,,,,,''''
+                                               
+                                               
+                                               
+                                               
+                                               
+                NO                             
+                'lxO;  x.lx  .0k;     dlXKOo   
+                ,codddolclldkol,ck0Kkxdodl;    
+                 clodo:oooollllclccodddl:.     
+           ckdxOc.;c;oxxxxdoollllllolc:,       
+          'kcodold::loodoollllllllll:;,.'kO'c.:
+             ,ll:;cc:cclllodoccccll:;;;;xllcol:
+              .,;.ccoocclllc,okoclc:;;;:lolodo;
+                .,l:lclllllcoolcc:;c;;;,;;''   
+                  lllOOoOdcxklKXcclc;;;,;,     
+                 .:llo0xKMxXWxdocl:;;;;;,.l    
+                  .cllccclcllclllc;;;;;;''.    
+                 .c;;:llllllllc:;;;;;;,.       
+                 oclc,'',;;;;;;;;cllooocl      
+                    ';.     .    .llodoc       
+                                   :;l:.       
+                                               
+                                               
 """;
 
     public static String frame19 = """
-.............................''''..''....'.'''.''.'....''''''........
-...................................'''..''.'..'''.'....''''''........
-.....................................'.........,........''''.........
-..............................''.'..............'....................
-.................................'........................''.''......
-.....................................................................
-......................................'........'.''',.........'''''''
-.................................................''''......'''',,,,,,
-......................................''.........'''''.....'.'',,,,;;
-   ........ ..........................'.......'.....''''......,;,;,,:
-....... .   .. ...............''..'.'...'.................';;;;;,;cc:
-.....         .......................''..............',:::::;::c:::::
-........ ....   ......................'....,,,;;,,,,:;;;;;;;;;;;;;,''
-........  ..     .........',;'....',,;,,;;::;;;,,,;;;;;;;;;;;;;;:::;;
-. ........','::;,...'...;clclll:;::;,'',,,,;;,,,,;;,,,,,;:,,;;;;;;,,,
- . ...:llx:dc;:;;.',.......',...,,;;;,,,',,,,,,,,,,;;;;;:c:::::::::::
-......;;:;:::::;............ ....'.....,;,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-;;:cclc:::;;;;:;.,.          ..........'',,,,,,,,;;;;;;;;;;;;;;;;;;;;
-:;;,,;::::;;;,''.........,c,x,,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;;,,'''''''''''''''''ck;lxo:,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,''''''''''',''''''''''',,:do:coxdlc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''',,,,,:oddoccldxxdl:;,,,,,,,,,,,,,,,,,,,,,'''''
-.....'''''''''''''''''',,,,,,,,ck0Od;';oO00ko:,,,,,,,,,,,,,,,,,,,''''
-""";
-
-    public static String frame20 = """
-..............................''''..'....''.''.''....'..''''''.......
-....................................'....'.....''..'....'''''........
-.....................................''........''..'....''''.........
-...............................''.'.............'....................
-....................................................'......'.''......
-......................................'..........'..'................
-.................................................'''''........'''''''
-..........................................'.......''''......'''',,,,,
-.......................................'.....'...''''''.....'',',,,;;
-    ........ .........................'.......'......'''......,;,,;,;
-...........  .. ...................'.......................,::;;,,cc:
-.....          ......................''.....'.........,;:::::::c;::::
-......... .....  .....................'....',',;;,,,;:;:;;;;;;:;:;,''
-.............     .........','.....',;;,,;;::;;;,,;;;;;;;;;;;,;;::;;c
-.. ........',':::...'...:cclllc;;::;;''',,,;;,,,,;;,,,,,:;,,:;;;;,,,;
-  .....;lox:d;:;:,',.....'.''..',,;;;,,;',,,,,,,,,,;;;;;c::::::::::::
-.......;;:;:::c,............ ....'....',;,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-;;::cclc:::;;;:;.,.          ..........',,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-::;;,;;::;;;;,''.'.......,c,d,,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;::;;;;,'''''''''''''''''ck;lxo:,,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,'''''.''''',''''''''''',,:do:coddoc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-.......'''',''''''''''',,,,,;lxkoccldxxdoc;,,,,,,,,,,,,,,,,,,,,,'''''
-.....''''',,''''''''''',,,,,,,,;x00xc,,cd00Od:,,,,,,,,,,,,,,,,,,,''''
-""";
-
-    public static String frame21 = """
-.............................''''''..'.'...''''.''.'..'..'''''.......
-................................'.'..'..........''''.....'''''.......
-......................................'.........'...'....''''........
-...............................''..'..'..........'...................
-.....................................................'........''.....
-  ................................................'..'...............
-.........................................'........''',.........''''''
-.....................................'..'..'.......''''.....'''',,,,,
-......................................'...........'''''.....'.''',,,;
-..   .................................''......''.....''''.....',;,;,,
-............ ...................''.'''...'................''::;;;,:c:
-...... ..       ......................''..............';::::::c:;::::
-........... ...   ....................''....,;,;,,,;;:;;;;;;;:;:;,,''
-........... ..     .........,,,..'',;;;,,;:::;,,;,;;;;;;;;;;,;;:;;c:l
-  .........'':;:oc;'...;cccllc:;::;;,,',,,,;,,,,,;,,,,,:;,;:;;;,,;;;:
-   ......o:d:::;;,;.....'.','.',,;;,,,,',,,,,,,,,,,;;;;c:::::::::::;;
-.......''cc::cc.................'....',;,,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-;::lclcc::;;;::','          .........'',,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-:;;,,;::::;;,,'..'.......cccx,,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;::;;;,,'''''''''''''''''lx;lxoc;,,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,'''.....'',,,'','''''',,,;odolloodol:;,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-.....'''''',''''''''''',,,,,,:oxkdlccdxxxol:;,,,,,,,,,,,,,,,,,,,'''''
-.'.''''''',,,'''''''''',,,,,,,,,:d00kl;,coxOOko:,,,,,,,,,,,,,,,,,''''
-""";
-
-    public static String frame22 = """
-..............................'''''...''...''''..''.'....'''''.......
-................................''....'.........'''''....'''''.......
-......................................'..........,..'.....''''.......
-................................''.....'.............................
-..............................................................''.....
-  ...................................................................
-........................................'.........'''',........''''''
-......................................'..'.'.......''''......'''',,',
-.......................................'..........''.'''.......,',,,;
-..    ........ ........................'......''......'''......,;,;,,
-............   .................''..'''.................'''';:::;;;cc
-............     .....................'''....'.......',;:::::;c::::::
-................   ....................'...',:;;,;,;;;;,;;;;;:;;;,'''
-............ ..   . ......''';;..,,,;;,;,;:;;,,,;;;;;,,,;;;;,;::;::lc
-.  ........';,c:lll'...:cccllc;;:;;,'',,,,,,,,,,,,,,,,;:;,;;;;,;;;;;;
-.  .......d;l;:,,,,.......''..',;;,,,'',,,,,,,,,,,,;;;;c::::::::::;;;
-'......',;lc:c:............ ....''...',,,,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-cccclccc::;;:::.,'         .........'',,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-;;,,;;::::;;,,'.........'lccx;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;::;,,,'''''''''''''''''cx:cddl:;,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-,''......'',,,'','''''',,,,cdxolloddol:;,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-.....'''',',''''''''''',,,,,,,cdxkolclodxdolc;,,,,,,,,,,,,,,,,,,'''''
-''.''''''',,,'''''''''',,,,,,,,,,cx00kl;,cxOO0kdc,,,,,,,,,,,,,,,,''''
-""";
-
-    public static String frame23 = """
-...........................'..''''''..''....''''.'''.....'''''.......
-................................''...............''''....'''''.......
-.......................................'.........'...'....''''.......
-................................''.....'.............................
-.................................'............................'......
-   ................................................'..'..............
-.........................................'.........''',........''''''
-......................................'..'.''.......''''.....'''',,',
-.....................................'.'..........''.'''.......,',,,,
-....   ........ .......................''......'......'''....'',;,,;;
-.............  .................'''.''''................'',',:c::;;c:
-............     ......................''....'......'',;:::::::::::::
-............ ...    ......................'',;;,;;;;;,;,;;;;:;;;,,'''
-.........................'''';,,',;;;,;;,;;;;,,,;;;;,,,;;,;;;;:::clcc
-..  ... ....;:;o:xc,..'ccclll:;::;;,',,,,;,,,,,,,,,,,,:;;;:;;;;;;:;;;
-:. . .....'l;c,;','.......''..,;;,,,',',,,,,,,,,,,,;;;::::::::::;::::
-;'...''';:cccc;................''.'..,;,,,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-lccccc:::;;;::,.;.        ..'......'',,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-,,,,;;::::;,,''........''d:lx;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;,'''''''''','''''''':dlloool:,,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-'''.....''',,,,','''''',,,,:oxdlllddolc:,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-..''''''',',''''''''''',,,,,,,:ldkxolcldxxdol:;,,,,,,,,,,,,,,,,,'''''
-'''''''''',,,'''''''''',,,,,,,,,,,lk0Oxc,;lk000koc,,,,,,,,,,,,,,,''''
-""";
-
-    public static String frame24 = """
-'''',;:;;;ldxxxxxxkkkxxkkkkkkdxxxddkkkkOOOOkkdlooooooooodxxkO00000000
-',,;;;;::;ccodddddxxxxkkxxxxxxdododdxkkOOkkxxolllollolloodkOOOOOOOOOO
-',,;c:ccl:::cloddddxxxxxxdddddddoododdxkkkkdodxolcllllllldxdxkkkkkkkx
-,,,,::cllc::llodddodxxxxddddoooooloddxxkxxxddolollclccllllloxxxxxxdxx
-;;,,;:clc:;cloooollddxkkxxololcllcloxxxxxxxdlccccc:cc:ccccclddddooldo
-,;;,:cl:c::cllllllllllooolllolcclcldxddddoooollcc:::cc::ccllollllllll
-,;,,;::ccclc::cclolc:colccloocccccclooooolcccccc::c:;:::cccccccccclll
-''..',,:::::cllooc::::ccccccc:::::cllllllc::::::::c;,;;::c::ccccccllc
-,,,''.'',::;:cc:::::;;::c:cc::;;:;:ccccc:;;;;;;;;;;;;:::;;:cc::::c:cc
-;,,,''.''',;:;,,lkkkkkkOko:cc::;:;::ccc:;',,;;;,;:;;;;;:;;:::;;;;:c::
-;,;,,,,,''''....,cldddoooddolc:cccccccc;;:c;;;,,;cc;;:;;;l:;;,;;;;::l
-,,,,,,;;::,..........',:::ccc;:ddddodooooolllllllllccc:::c:::;;;:;;;l
-:;:c:ccclc;...................,lOxxxxxxxxxdddoooollccccclcc:cccc:cc::
-::cccclllc:;;,'.............'';dOKkxxxxxddddddddddddoollc:::c:cc::::;
-:::cccccllllllllllllllllllllllokKkKkxxxxdddddddddddddddxxdddollcc:;;;
-;::cccccclllllooooooooooooooooodKOxKOdddddddddddddddddddxxxxddddddddo
-;;:::ccccclllllllooooooooooooooo0XxxK0ddddddddddddddddddddxxxxxdddddd
-;;;:::::ccccllllllllooooolooololkK0dxK0xooooooooooooddddddddddddddddd
-;;;::::::cccllllllllllllllllllllo0KOoxKKkoooooooollllllooodddddddddoo
-,;;;;:::::::ccllllllllllllllllllldKKOlo0K0doooooooolllllllllllooooooo
-,,;;;::::::ccccccccllllllllllllllldKK0olxKKOollllllllllllllllllllllll
-,,,,;;;:::::::ccccccccccccllllclccloKKKxloOKKkolllllllllllllccccccccc
-',,,;;;;;;:::::cccccccccccccccccccccdKKKxllkKXKollcllllllllcccccccc::
-""";
-
-    public static String frame25 = """
-...........................''.'..'''...'.....'''..'''.....'''''......
-................................'''.'..'.........'.'.'....''''.......
-..................................................'..'....''''.......
-.................................'................'..................
-......................................................'.........'....
-   ................................................'..'..............
-.........................................''........'''''........'''''
-......................................'...'.'.......'''''....'''',,',
-.......................................'......'....'''''.......'',,;,
-.....   ................................'......''......''....'',,;,;,
-..............  .................''..'''................'''',cc::;;::
-.............     .....................''....''.....'',;:::::c:::::::
-............. ....  ......................'',;;,;;;;;,;,;;;;:;;;,,',,
-.................... .....''.',;,,;;;;;;;;;;;,,,;;;;,,,,;;;;;;:::lclc
-...  ......'':;llol,..,cccllc:;::;,',,,,,;,,,,,,,,,,,;:;;;:;,;;;;;;;;
-,:. . .....::c,;,,.......'''.',;,,,,'',,,,,,,,,,,,,;;;:::::::::::::::
-';'.'',,;:cccc'................'''..';,,,,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-lccccc:::;;:::,',.       ..........'',,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-,,,;;::::;;,,''.'......''x;od;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-;;;;;,'''''''',,,''''''',:doloool:;,,,,,,,,,,,,,,,,,,,,,,;,;,,,,,,,,,
-'''....'''',,,,',,''''',,,,:oxdllododol:;,,,,,,,,,,,,,,,,,,,,,,,,,,''
-..''''''',,,''''''''''',,,,,,,;cdkkdllldkkxdoc:,,,,,,,,,,,,,,,,,'''''
-'''''''''',,,','''''''',,,,,,,,,,,ck00xl;;cdO00Oxl;,,,,,,,,,,,,,,''''
-""";
-
-    public static String frame26 = """
-................................'''''..'.....'''..''.'..'.'''''''....
-...............................'''''.............'''.'....'''''......
-........................................'.........,..'....'''''......
-........................................'............................
-..................................'..................................
-     ...............................................'................
-..........................................'........'''.,........'''''
-.......................................'..'.''......''''.....''',',',
-. .....................................''......'...''.''.......''',,,
-........ ...............................'......''......'''....'';;,;,
-...............  ................''..''''...............''''':c:::;::
-..............     ....................''....''......',,::::c::::::::
-.............. ...   ...................'..',;:,;;;;;,;,;;;:::;;;,,,,
-..............................;,,,,;:;,;;;:;;,,,;;;;,,,,;;,,;;::clclc
-..... ......''::llc,,':ccllc:,:::;,,,,,,,;,,,,,,,,,,;:;;;;;;:::::::::
-..;, .......,::;:,....''.,''';;;,,,,',,,,,,,,,,,,,,;::::::::::::;::::
-'';;',,,,:ccc;......'.........,'...',,,,,,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-clccc:::::;::;.;.        ..'......'',,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,,;;::::;;,,'.'......'';d;xl;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-:::;;,'''.''',,,,'','',,,ldoloool:;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,
-,''''''''',,,,,',,,'''',,,,:oddolooddol:;,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-'''''''',,,,,''',,''',,,,,,,,,;cdkkdolloxkxdoc:;,,,,,,,,,,,,,,,,'''''
-'''''''''',,,',,''''''',,,,,,,,,,,cx00Oo;,:oO00Oxl;,,,,,,,,,,,,,,,','
-""";
-
-    public static String frame27 = """
-................................'''.'...'....'''..'''...'.'''''''....
-................................''''....'.........''''....'''''......
-................................'''...............'...'....''''......
-.....................................................................
-.................................''..................................
-      ..............................................'..'.............
-..........................................'........''..'........'''''
-.......................................'....''......''.'......'''',',
-. .....................................''......'...''.'''......''',,,
-................. ......................''.....''......'''....'',;,;,
-................ ................'''.''''....'..........''''':c:::;::
-..............     .....................''....'......',,::::c::::::::
-..................   ...................'..',;;,;;;;;,;,;;::::;;;,,,,
-..............................,,;,,;;;,;;;;;;,,,;;;;,,,,;;,,;;:lclllc
-.....  ......,;c:l;,';::cll:;;:::;,,,,,,,,,,,,,,,,,,:;;;:;;:::::cc::;
-...:. .......:;:;.....'.'''',;;;,,,,',,,,,,,,,,,,,,;c::::::::::::::::
-,,';;,,,;:ccc,.....'.........''....,;,,,,,,,,,,,,;,;;;;;;;;;;;;;;;;;;
-cclcc:::::;::,''.        ..'.....''',,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,,;;;:::;;,''.'......'':o:xl;,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-:::;;,''..''',,,,',,,',,,ldoloool:;,,,;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,
-,''''''''',,,,,',,,,''',,,,:ldxooodddolc;,,,,,,,,,,,,,,,,,,,,,,,,,,,'
-'''''''',,,,,''',,''',,,,,,,,,;cokkxolloxkkxol:;,,,,,,,,,,,,,,,,','''
-'''''''''',,,',,,,'''',,,,,,,,,,,,:d000d:,:lk000xo:,,,,,,,,,,,,,,,','
-""";
-
-    public static String frame28 = """
-................................'''.''..'....'''...'''..'...'''''....
-................................'''''.............'.'''....''''......
-.................................''...............'...'....''''......
-...................................................'.................
-..................................'....................'.............
-      ..............................................'..'.............
-...........................................'.......'''.''........''''
-.......................................'...'''......''.''.....'''',,,
-.......................................''......'...''.'''.'....',,,;,
-........................................''......'......''.....'',;,;,
-................ .................''.''''....'..........''',':c:::;::
-...............     ....................''....'.....'',,;::cc::c:::::
-............... ...   ...................''',;;;;::;;,,;;;::::;;;,,,;
-.. ............................;;,;:;;;;;;;;,,,;;;;,,,,;;;,;;:ccoolcc
-......   ....';ccc,;':cclll:,;::;,,,,,,,,,,,,,,,,,,;:;;;;;::::cc::::;
-...':........';;;.....'.,'.';;;,,,,,',,,,,,,,,,,,,,;:::::::::::::::::
-,,,,:;;;:cccc'.....'......'..''...',,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-llcc:::::;:::',,.       ...'....''',,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,;;::;::;,,''.'....'''':d:do:,,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-:::;,,''''''',,,,,,,,,,,,:ddlooool:;,,;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,
-,'''''''',,,,,,,,,,,,,,,,,,,cdxdoooddddlc;,,,,,,,,,,,,,,,,,,,,,,,,,,'
-'''''''',,,,,,,,,,,'',,,,,,,,,,;lxkkdllldxkkxol:;,,,,,,,,,,,,,,,,,'''
-'''''''',',,,',,,,',,',,,,,,,,,,,,,cx00Oo:,:ok000ko:,,,,,,,,,,,,,,','
-""";
-
-    public static String frame29 = """
-................................'''.''..'.....''...''.'.....'''''....
-................................'''''.'..'.......''.'.'....''''......
-.................................'''..'............'..'....''''......
-...................................................'.................
-..................................''.................................
-.     ..............................................'..'.............
-...........................................'........''.''.....'..''''
-...........................................'.''..'..''''''..'.'',,,,,
-.......................................'''.....'...''''''.'.....,,,;,
-.................. ......................'......''.....''.....'',;,;;
-................. .................'..''''..............',',,:c:::;::
-................    ....................''....,'...'',,,;::c:::::::::
-...................   ..................''',,;;;;::;;,,;;::::;;;;;;;;
-.....................'.........:;;:;;;;;;;;;,,;;;;,,,,,;;;;;:ccoolclo
-.......  .....::oc;',ccccll:,:::;,,,,,,;,,,,,,,,,,,:;;;;;::::c:::::::
-,...,:........,,,....'..,'.';;,,,,,',,,,,,,,,,,,,,,::::::::::::::::::
-;,;;;::::cccl'....''.........'''..,;,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-llcc:::::;;::','      . ..',...''',,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,;;:::;;;,''..'...''''':dcooc;,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-:::;,,''''''',,,,,,,,,,,,;odoooodoc:,,;,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,
-,'''''''',,,,,,,,,,,,,,,,,,,:oxxdooodxxol:;,,,,,,,,,,,;,,,,,,,,,,,,,'
-'''''''',,,,,,,,,,,'',,,,,,,,,,;coxOxollodkkkdol:;,,,,,,,,,,,,,,,,'''
-'''''''',',,,',,,,,,,',,,,,,,,,,,,,;oOK0kl;;cdO000koc;,,,,,,,,,,,,','
-""";
-
-    public static String frame30 = """
-...............................''''''....''....'....'''..'..'''''....
-.................................''''....'.......'...''....'''''.....
-................................''''...............'..'....''''......
-...................................................'.................
-..................................''.................................
-...  ................................................'...............
-...........................................'........''..,.....'..''''
-...........................................''''..'...'''''..'.'''',,,
-.... ..................................'''.....'....'.'''.'.....,,,;,
-.......................................'.'......''.....''.....'',;,;;
-.................  ...............'''.''''...............,',,:c:::;::
-.................    ...................''....,'...'',,,;:c::::c:::::
-....................   .................''',,,;;;::;;,,;::::::;;;;;;,
-....................'.'........,;::;;;;;;;;;,,;;;;,,,,;;,,;:codclloc:
-........  .....cc,;'c::cll:,;:::,;,,,,,;,,,,,,,,,,:;;;::::c::::::::::
-,,''.':.......';....''.,''';;;,,,,',,,,,,,,,,,,,,,:::::::::::::::::::
-,;;;::cccccc;'....,.........''...';,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-llc:::;;;:::;',..      ...,'...'',,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,;:::::;,'''.'...''''',cdlooc;,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-::;;,,'''''',,,,,,,,,,,,,;oddododdl:;,;,,,,,,,,,,;,,,,,,,,,;,,,,,,,,,
-,'''''''',,,,,,,,,,,,,,,,,,,;ldxdoooddxdoc:;,,,,,,,,,,,,,,,,,,,,,,,,'
-'''''''',,,,,,,,,,,'',,,,,,,,,,,:ldkkxooooxkkkxolc:;,,,,,,,,,,,,,,'''
-'''''''',',,,',,,,,,,',,,,,,,,,,,,,,:dOKKOd:;:ld0KK0koc;,,,,,,,,,,'''
-""";
-
-    public static String frame31 = """
-...............................''',''....'''...'....'''.....'''''....
-.................................'''''...........'...''....'''''.....
-.................................''''..............'.......'''.......
-...................................................'.................
-...................................'.................................
-... .................................................'..............'
-....................................................',..,.....'..''''
-............................................''...'...'''''..'.'''',,'
-.......................................'''.....'....'''''.'.....,',;,
-................... ...................'.'......''.....''.....'',;,;;
-.................. ................''.''''...............,',,:c:::;::
-..................   ...................''....,'....',,,;:c:c::c:::::
-....................   ..................'',,,;;;::;;,,;::::::;;;;;;;
-....................'.'........,:::;;;;;;;;;,,;;;;,,,,;;,;::ooclll:cc
-'.......  .....;:;,;c:clcc;,;::;,;,,,,;;,,,,,,,,,;;;;::::cc::::::::::
-,,,'..;,.......;....'''''',;;,,,,,',,,,,,,,,,,,,,;:::::::::::::::::::
-,;::::cccccc,'....,........''....,;,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-lll:::;;;:::,,, .    . ...;'..''',,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,;::::;;,'''.'...''''',ldlool:,,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-::;;,,'''''',,,,,,,,,,,,,;lddddoddlc;,;,,,,,,,,,,;,,,,,,,,,;,,,,,,,,,
-,'''''''',,,,,,,,,,,,,,,,,,,;ldxxdooddddolc:;,,,,,,,,,,,,,,,,,,,,,,,'
-'''''''',,,,,,,,,,,'',,,,,,,,,,,;coxkkdoooodxxkxolc:;,,,,,,,,,,,,,'''
-'''''''',',,,,,,,,,,,',,,,,,,,,,,,,,,:d0KKko:,,cd0KK0koc;,,,,,,,,,'''
-""";
-
-    public static String frame32 = """
-...............................''''''....'''..''....''......'''''....
-.................................'''......'......'...'''...'''''.....
-.................................''''..............'........''.......
-....................................................'................
-...................................'.................................
-... .................................................'..............'
-....................................................',..,........''''
- ...........................................''...'...''.''....'''',,'
-.......................................''......'....'.'''.......,',,,
-.......................................'.'......''.....''.....'';;,;,
-.................. ...................''''....'..........,',,:c:::;::
-..................   ....................'....,'....',,,;::::::::::::
-.....................   .................'',,,;;;::;;,,:::::::;;;;;;;
-.....................''........':::;;;;;:;,,,,;;;;,,,,;,;;:locllccccc
-''.....'. .....';;':c:clcc;,;::;,;,,,,;;,,,,,,,,,:;;::::cc:::::::::::
-,,,,''':'.....';...',.'''';;;,,,,',,,,,,,,,,,,,,,::::;::::::::::::::;
-,;::::clcccc''...''........''...';,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-llcc::;;;:::',' .   .  .'.:'..'',,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,;::::;;,'''.'..'''''',cdlool:;,,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-::;,,,''''',,,,,,,,,,,,,,;cdddddddol:;;,,,,,,,,,,;,,,,,,,,,;,,,,,,,,,
-,'''''''',,,,,,,,,,,,,,,,,,,,:oxxddddddddolc:;,,,,,,,,,,,,,,,,,,,,,,'
-'''''''',,,,,,,,,,,'',,,,,,,,,,,,:coxkkdollldxxkxdol:;,,,,,,,,,,,,'''
-'''''''',',,,,,,,,,,,',,,,,,,,,,,,,,,,:dOKKOo:,':dOKKKOdl;,,,,,,,,'''
-""";
-
-    public static String frame33 = """
-...............................''''''....'',..''....'''......''''....
-.................................'''......'......'...'.'....''''.....
-.................................'''''.............'...'....''.......
-....................................................'................
-.....................................................................
-.....................................................'..'...........'
-............................................'.......',..''.......''''
- ...........................................''...'...''.''..'.'''',,'
-........................................''......'...'.'''.......,',;,
-.........................................'.......'.....''.....'',;,;;
-................... ..................''''....'.........',,,,cc::;;::
-..................   ....................'....''..'',,,,;c::c::::::::
-.....................   .........'......',,,,;;;;::;,,;::::::;;;;;;;;
-...................'.,',.....'',:c;;;;::;;,,,;;;;,,,,;;,;:coclc:lcclc
-''.....'' .....';,,;c:cllc,;::;,,,,,,,,,,,,,,,,,;:;;:::cc::::::cccc::
-,,,,,'',;.....',..'''.'''';;,,'',',,,,,,,,,,,,,,,:::::::::::::::;;;;;
-,;:ccclccccc''...''.....'..'....,;,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;
-lc:c:;;;;:::',' ........,.:,''',,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;,
-,,;::::;,'''''''''',',,,:doooolc;,,,,,,,,,,,,,,,,,,;,,;;;;;;;;;;;,,,,
-:;;,,,'''',,,,,,,,,,,,,,,,;ldddddddolc:;,,,,;,,,,;,,,,,,,,,;,,,,,,,,,
-,''''''',,,,,,,,,,,,,,,,,,,,,;coddxdddddddxdoc:;,,,,,,,,,,,,,,,,,,,,'
-'''',,',,,,,,,,,,,,,,,,,,,,,,,,,,,;:ldkkxdlllodxkOkdol:;,;,,,,,,,,'''
-'''',,'',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;cxKKKko,.,cx0KKKOxl:,,,,,,'''
-""";
-
-    public static String frame34 = """
-..............................'.''''''....,,'..'.....''''....''''....
-................................''''.'.....'..........''....''''.....
-.................................''''''....'........'..'....''.......
-..................................'.................'................
-...................................'.....'...........................
-.....................................................'..'..........''
-............................................'.......'''.''.......''',
- ...........................................'''..'...''.'''.'''''',,'
-........................................''......'...'..'''......,,,,,
-........................................'''.....''......'....',,;;';;
-................... ................''.''''...'.........',,;;cc:::;::
-..................... ...................'....''.',,,,,,:cccc::::::::
-......................   .......',....'',;,;;;::::;,;;::::::;;;;;;;;:
-.''...............'',,::....',;;:;;;:::;;,';;;,,,,,,;;;:clcocclllcllc
-'''''...',.....''',cc:clc:,::;,',,,,,,,,,,,,,,,,cc:cccccccccccccccccc
-,,,;;;,,;:;,.','...'.....';;'''',,,,,,,,,,,,,,,,;;;;;;;:;;;;;;;;;;;;;
-::clollcc:::''...'...........''';,,,,,,,;;;;,,;;;;;;;;;;;;;;;;;;;;;;;
-c::;;;;::::;.,..........;;:c;,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;
-,;::::;;,,''',,,,,,,,,,,;ldddoool:;;,;;;;,,;;,,,,,;;;;;;;;;;;;;;;,,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,;ldddxxdoodolc:;;;,,,,;,;,;,,;;;;,,,,,,,,,
-,,''''',,,,,,,,,,,,,,,,,,,,,,,,;:lddxddooodxxxdol:;,;,,,;,,,,,,,,,,,,
-'',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:coxOOxolllodkkOkxdoc:;,,,,,,'''
-''',,,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:oOKKKkl;,;cdOKXXKOdl;,,','
-""";
-
-    public static String frame35 = """
-'''',,,;;;;:ldddxxkkkxxkkkkkkkkxxxdddxkOOOOkkkkoloooooodoodxxkOO00000
-..'',,,;;;:;clodddxxxxxxxxxxxxxxdododdxkOkkkkkxolllollooooodkOkOOOOOO
-...',;::cccc;:cloodxdxxxxxxxddxxddoododdxkkkxdoddollllllllodddxkkkkkx
-.'',,;;::cll::cclddddddxdxxddooddooloddxxxxxxddooolcccccllllldxxxxxxd
-.',;;;;:clc:::coooooloddkkkxdoolcllcldxxxxxxxdlccccccccccccccloddoool
-.',,,;;ccc::::lllllolllloooolllllclclddxdddoooollcc:::cc:::clllllllcc
-..';:;;cccclcc:cclcllcccollcloolccccccooooolcccccc::c;::::ccccccccccc
-,''''.'',::cc::lllolc:::ccccllcc::::ccllollc:::::::::;;:;::cc:ccccccc
-,',,,'''.',;c::cclc::::;::c:cc:::;:;cccclc:;;;;;;;;;;;;::;;:c::::c:c:
-,,,;,,,,'.';;;,,':kkkkkkOko::cc::;:;::ccc;,',,;;,,;;;;;;;;:;:;;;;::::
-',,;;;,,,,'......'ccoxxdodxxlllc::cccccc:;;::;;,,;:c;;;;;:l:;,,;;;;cl
-,,,,,;;;;;,...........'',::ccl::cddoddodoooollllllllccc::c:;;:;::;::c
-;;::::cccc,'....................,Okxxxxxxxxddddooollccccccccccccc::::
-:;::::cccc:;;,'..............'',oxKxxxxxddddddddddddddollccc::c::::,;
-;;;:::ccccllllllllllllllllllllloKdKOxxxxdddddddddddddddxxdxdooolcc:;;
-;;::::cccccllllllooooooooooooookXxkXkdddddddddddddddddddxxxxddddddddo
-;;;:::ccccccclllllooooooooooooo0XxdKKdoodoooooodddddddddddxxxxxdddddd
-;;;;:::::ccccccllllllooolloolllOKOokX0doooooooooooooodddddddddddddddd
-,;;;;;;::::cccccclllllllllllllldKKdlkX0dooooooooollllllooodddddddddoo
-,,,;;;;::::::cccclllllllllllllllOKKdlkKKxllloooooollllllllllllooooooo
-,,,,;;;;;::::ccccccccclllclllllloOKKxld0X0xllllllllllllllllllllllllll
-',,,,,,;;;;;:::::cccccccccllllclclOKKkllxKX0dlccclllllllllllccccccccc
-',,,,,;;;;;;;:::ccc:ccccccccccccccl0KKOlldKKKxllcccclllllclcccccccc::
-""";
-
-    public static String frame36 = """
-............................'.'.'''',''...','..'......'''....''''....
-................................''''''.....'..........''....'''''....
-..................................'''''.............'..'....''.......
-..................................''................'................
-...................................'.................................
-....................................'................'..'.........''.
-............................................'.......'',.''.......'',,
- ...........................................'''..'...''.'''.'''''',,,
-........................................''......'...'..'''......,,,,,
-........................................'''.....''......''...',';;,;;
-...................  ...............''.''''...'.........',,;;cc:::;::
-.........................................'....''.'',,,,,:::cc::::::::
-......................   ........,'...'',;,;;;::::;,,;::::::;;;;;;;;;
-..''...............',,:;,...',;;:;:;;::;;,';;;,,,,,;;;;:ccolclllcoolc
-'',,''...;.....'.',cl:cll:,::;,',,,,,,,,,,,,,,,;c:::cccccccccccccccc:
-,,,;;;;;;:;,.','...''....,;;,''',,,,,,,,,,,,,,,,;;::::::::;;;;;;;;;;;
-;:cclolcc:::''...'.............';,,,,,,,;;;;,,;;;;;;;;;;;;;;;;;;;;;;;
-lc::;;;::::;.,..........;;:c:;,,,,,,,,;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;::::;;,,''',,,,,,,,,,,,codddoolc;;;;;;;,,;;,;;;;;;;;;;;;;;;;;;;,,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,;coodxxdooodolc:;;,;;,;;;;;,,;;;;,,,,,,,,,
-,,,'',,,,,,,,,,,,,,,,,,,,,,,,,,,;codxxdoodddxxxdoc:;;;;,;,,,,,,,,,,,,
-',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:ldkOOxollloxkOOkxdoc:;,,,,,,,'
-''',,,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:oOKK0dc;,;cx0XXXKkdc,,,,'
-""";
-
-    public static String frame37 = """
-............................'.'''''''''...,''..'......'.'..'.'''.....
-................................''''''.....'..........''....'''''....
-..................................'''''....'........'.......''.......
-..................................''................'................
-.....................................................................
-...................................''................'..'.........'..
-....................................................','.''.......',,'
- ...........................................''.......',.'''...'''',,,
-........................................'......''...'.'''......',',,,
-........................................'''.....''.....''....''';;,;;
-.................... ................''''''...'.........',,,,cc::;;c:
-..................... ...................'....''.''',,,;:::cc:::;::::
-......................   ........'.....'';,,,;;;::;,;:cc::::;;;;;;;;;
-..''...............',,:;'....',;:::;;::;;,',;;;,,,,;;;:::oclllcloolcc
-,',,,'...,'....'.',cccllc;;::;,,,,,,,,,,,,,,,,,c::::c::::cccccccccc::
-,,,,;;;,;::''',..'''''''',;,,''',,,,,,,,,,,,,,,;:::::::::::::::;;;;;;
-;:cclollc::;'....'.... ........,;,,,,,,,;;;;,,;;;;;;;;;;;;;;;;;;;;;;;
-lc::;;:::::;.,..........;,:c;;,,,,,,,,;;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;::::;;,,''',,,,,,,,,,,;loddooolc;;;;;;;,,;;;;;;;;;;;;;;;;;;;;;;,,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,;coooxxdooodolc:;;,;;;;;;;;,,;;;;,,,,,,,,,
-,,,'',,,,,,,,,,,,,,,,,,,,,,,,,,,;cldxxddddddddxdolc:;;;;;;;,,,,,,,,,,
-',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:coxkkxolloodkOOkxdol:;,,,,,,,,
-''',,,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;cx0K0koc;;cdOKXXKOxl:,,,'
-""";
-
-    public static String frame38 = """
-........................''....'''''''''.'',,'..'......'....'''''.....
-................................''''''....',.....'....'''...'''''....
-.................................''''''....'........'.......''.......
-..................................'''...............,..'.............
-...................................'.....'...........................
-...................................''................'..'............
-....................................................'''.''.......',,'
- .. ........................................''......'',.''.....''',,,
- .......................................'......''...'.'''....'.',',,,
- .......................................'''.....''....''''.....';,;,,
-...................................'..'''''...'.........',',,:c::;;c:
-.........................................'....,'...',,,;::::c:::;::::
-...................... . ........'.....'',,,,;;;::;;;;ccc::::;;;;;;;;
-'.'''..............'',;;,....',;:::;;:::;,',;;;;,,,;;:::cccclclolc:cc
-,'',,''..',....'..,cccllc,;::;,,,,,,,,,,,,,,,,;:;::cc:::ccccccccccc::
-,,,,;;;;;;:''';..'',''''';;,,'',',,,,,,,,,,,,;;:::::::::::::::::;;;;;
-;;:clollcc:;'....'.............,;,,,,,,;;;;;,;;;;;;;;;;;;;;;;;;;;;;;;
-lc::;;:::::,',..........;;:c;;,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;:::;;,,''',,,,,,,,,,,;codxdollc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,,:loodxxdooddol:;;;;;;;;;;;,,;;;;,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:codxdddddddxxxdolc;;;,;;;,,,,,,,,,,
-',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:coxxkxdooooxkkOkxdol:;,,,,,,,
-''',,,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;lkKK0Odl;;:ok0KKK0xo:,,'
-""";
-
-    public static String frame39 = """
-.........................'...'''','''''''',;'..'......'....'''.......
-..............................'''''''''...',.....'....'''...''''.....
-.................................''''''....'.......'........''.......
-..................................''................'..'.............
-.....................................................................
-...................................'.................'...............
-....................................................',..'''.....',,''
- ...........................................',......'',.,'.'..''',,,,
-  ......................................'......''..''''''.'..'.,,,,,,
-........................................'''.....''....''''...'',;,;,,
-''.................................''''''''..'..........,,,,:c:::;::;
-...................... ..................'....,..'',,,;::::c:::::::::
-.'...................... ........,'...'',;,,;;;::;;;::cc:::;;;;;;;;;;
-''..'..............,';::;...',;;;;:;:::;,,,;;;;,,,;;:::cclcclllcolcc:
-,,,,,,,'..;'..''.';c:clc:,;;;;,,,,,;,,,,,,,,,;c:ccccccccccccccccc::::
-'',,,;;:::c,',,.''''....',,,''',;;,,,,,,,,,,,;;;::::::::::;;;;;;;;;;;
-ccclllll:::,,....'..........'',;,,,,,,,;;;;;,;;;;;;;;;;;;;;;;;;;;;;;;
-cc:;;;::::;,,'..........:coll:;,;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;::::;;,,,,,,,,,,,,,,,,,,;looxxdllolc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,,,;:loddxxddoddddlc:;;;;;;;;,;;;;,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;:lodxxxdddddxxxxdolc:;;,,,,,,,,,,
-',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:loxkOkdoooodxkOOOxdoc:;,,,
-''',,,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;cd0KXKOdc;;cdOKXXK0xo
-""";
-
-    public static String frame40 = """
-...........................'.''',,'''''.'';,'..'.....''....'''.......
-..............................''''''''..'.,,.....'...''.'...''''.....
-................................'''''''....'.......'..'.....''.......
-.................................'''...............''..'......'......
-.........................................'...........................
-...................................'.................................
-....................................................',..'''....',,'''
- ...........................................''......','.,'....'',,,,,
-. ......................................'....'.''..''''''.'..'',',,,,
-........................................''......''....''''...'';,,;,,
-''.................................''.'''''..'.........',,,,cc::;;c;,
-...................... ..................'....,.''',,,;;::cc:::;::::;
-.'...................... .......',...'',,,,,;;:::;;;::cc:::;;;;;;;;;;
-''..''.............,,::c:..'';;;;;;:::;;,,;;;;,,,;;:::cccclllclolc:::
-,,,,,,,,'.,,..,..':c:ccc;,;;;,,,,,;,,,,,,,,,,c:cccccccccccccccc::::::
-,',,,;:c:cc,,,,.''''....',,'''';;,,,,,,,,,,,,;;;:::::::;;;;;;;;;;;;;;
-lclllllc:::''..............''',,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-cc:,;:::::;','.........'clollc;;;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-:::::;;,,,,,,,,,,,,,,,,,,;clldxxollolc:;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:loooddxxdddddolc;;;;;;;;;;;;,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,;:loddxxxdddxxxxxxolc:;,,,,,,,,,,
-',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;codkOOxdoooodkOOOkxolc;,,
-'''',,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:okKXKOxl;,:lx0KXXKO
-""";
-
-    public static String frame41 = """
-...........................''''',''''''.',;,'..'.....'''...''...'....
-..............................''.''''''.'',,.....'...''.'...''''.....
-................................'''''''....'.......'........''.......
-.................................'''...............'..........'......
-..................................''.....'...........................
-...................................'.................................
-.....................................................,.''''....',,'''
- ...........................................''.....'',..''....'',,,,,
-........................................'....'.''..''''''...'.',,,,,,
-'.......................................''......'....''''.....';,;,,,
-'''................................''.''''..''.........',,,;c:::;::;,
-.........................................'...''.''',',;;::cc:::;::::;
-..'..................... .......',...'',,,,,;;:::;;;:cc::::;;;;;;;;;;
-'''.''.............,,::c:..',;;;;;;:::;;,,;;;;,,,;;:::ccccllcoolc::c:
-;,,,,,,,'.,;..,..':c;cc:;,;;;,,,,;;,,,,,,,,,;::cccccccccccccccc::c:c:
-;,',,;:c:cc,,,'.''''....',,'.',;;,,,,,,,,,,,;;;;:::::::;;;;;;;;;;;;;;
-dlllllcc:::''.............'''',,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-c:;;;:::::;',..........'codllc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-::::;;;,,,,,,,,,,,,,,,,,,;:llodxdolloolc;;;;;;;;;;;;;;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;cloooxxxxdddddolc:;;;;;;;;;;,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:codxxxxxxddxxxkxdolc;,,,,,,,,,
-',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:ldxkOxdoooodxkOOOxdol:;
-','',,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;lx00Okdl:,,:okKXXX
-""";
-
-    public static String frame42 = """
-...........................''''','''''''',;''..'.....'''...'''..'....
-.........................'....'''''''''..',,.....'...''.'..'''''.....
-................................'''''''....'.......'..'.....'''......
-.................................'''...............'.........''......
-..................................''................'................
-...................................'.................................
-.....................................................,.''''....,,,'''
- ...........................................''.....'',..''....',,,,,,
-........................................'....'.''..''''''...'.',,,,,,
-'.......................................''......''...''''.....,;,;,,,
-'''................................''.''''..''..'......',,,;c:::;::;,
-.........................................'...',.'',,';;;::cc:::::::;;
-..'.............................',..'',,,,,,;::::;;::cc::::;;;;;;;::;
-'''.'''...........',;cclc..',;;;;;:::;;,,,;;,,,,;;::::lccllloolc::cc:
-;,;,,,,;,'':.','.';c;:c:;;;;,,;;,;,,,,,,,,,,::clcccccccccccccc:ccc:::
-:;,,;;:cllc;,,'',,''.....',''',;;,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;
-kdoolcc::;:',........ ...',','',,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-::;::::::;;','.......'',coddlccc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-::::;;;,,,,,,,,,,,,,,,,,,;;:clooxxdooooolc:;;;;;;;;;;;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,;:cooddxxxxxddxxdol:;;;;;;;;;;,,,,,,,
-,,,,,,,,,,,,,;;;,,,,,,,,,,,,,,,,,,,,,;;;:lodxxxdddddxxxkxdolc:;,,,,,,
-',,,,,,,,,,,,,;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;cloxkkxdoooooxkOOOkxdl
-',',,,,',,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;lxO0OOkoc;,;lxOK
-""";
-
-    public static String frame43 = """
-...........................''''',''''''.',;'...'.....'''..'''........
-..............................'''''''''..','.....'...''.'..'''''.....
-................................'''''''....'.......'.......''''......
-.................................'''...............'..'.......'......
-...................................'.................................
-...................................''...............'................
- ..................................................'''.'''....',,''''
-...........................................'''..'..'',.''''..'',,,,,,
-'......................................''......'...'''''.'....,,,,,,,
-.''...................................''''.....''.....''...'',;,,;,,,
-.'''................................'..'''...'.........,;:::c::;::;,,
-.......................  ...............''..';;,,,,,;::ccc::::::::;;;
-..''''.................'........,;,;;;;;;;::;;;;;;::::::::;;;;:::cc::
-,,,,'','...'......;:clcl:,;;;;:::;;,,,;;,,,,,;:;::ccllcclclll:ccc::::
-;;,,,,;;;;,;,,;'.',;';,,,,,;;,;,,,,,,,,,,,,:ccccccccccccc:::cccccc:::
-xdc:clllllc;'...,,.......','..',,,,,;;;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-ollcc:;;:::';...........;;:;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;::::::;;,,'''',,,,,,,,,;clldddollllcc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-::;;;;,,,,,,,,;;;;,,,,,,,;;;;;;:loooxkkxdooddolc:;;;;;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,;;;;,,,,,,,,,,,,,;;;;;;;;cloddddddxxdxxxxdolc:;;;,,,,,,,
-,,,,,,,,,,,,,;;;,,,,,,,,,,,,,,,,,,,,,,;,;,,,;clodxxxddddddxkkkkxdol:;
-',,,,,,,,,,,,,;;;,;,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,;cldxkOOxdlccclodx
-',',,,,',,,,,,,;;,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,,;cdOKOOOxl;'
-""";
-
-    public static String frame44 = """
-...........................''''',''''''.,,,'...'.....'''..''''.......
-..............................'''''''''.'','.....'...''.'..'''''.....
-................................'''''''....'.......'.......'''.......
-.................................'''...............,..'..............
-...................................'.................................
-...................................'................'................
-  .................................................''..'''...',,'''''
-...........................................'''..'..'','''''..',,,,,,,
-''.....................................''......'...'.'''.....',,,,,,,
-.''...................................''''.....'.....'''...,',;,;,,,,
-..''................. .................'''...'........';;::c:::::;,,,
-.......................  ...............'..'':;,,,,,::ccc::::::::;;,,
-..'''''..............'','......';:;;;;;;;;:;;;;;;::::::::;;;::ccc::;;
-,,,,',,,'..''.....:::ccc:,;;:::;;;,,,;;,,,,,;:::cccclccccllccccc::::;
-:;,,,,;;::;,,,;'',,;.,,',;;;,,,',,,,,,,,,,,cccc:cccccc:c::cccccc::c::
-kxoclllllcc,'...,'.....'.''...,;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-lcc::;;::::';...........;:c:::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;:::::;;,,,',,,,,,,,,,,,;;cclodddolllllc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-:;;;;;,,,,,,,,;;;;,,,,,,,;;;;;;;:cloooxkkxdddddolc:;;;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,;;;;,,,,,,,,,,,,,;;;;;;;;;;cloodddddxxxxxxxxdoc:;;,,,,,,
-,,,,,,,,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,;,;,,,,,;cloxxxxddoooodxxkkkxol
-',,,,,,,,,,,,,;;;,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;clodkOOkdlccclo
-',',,,,',,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,:ox0K00kd
-""";
-
-    public static String frame45 = """
-...........................''''',''.''''',,'...'.....'''..''''.'.....
-..............................'''''''''.',,'.........''.'..'''''.....
-................................'''''''....'.......'.......'''.......
-.................................'''...............'..'..............
-...................................'.................................
-...................................''...............'..'.............
-  .................................................'''.'''...',,'''''
-...........................................'''..'..'',''''''.',,,,,,,
-.'....................................'''......'...'''''.....',,,,,,,
-..''..................................''''.....'.....'''...,',;,,,,,,
-..'''................ .................'''...'........';;::c:::::;,,;
-....'..................  ...............'..'';;,,,,,::ccc::::::c:;;,;
-'..''''..............'';,.....',;:;;;;;;;;:;;;;;;::::::::;;::cc::c:;;
-',;,,,,,''..;..'..,c:ccc:,;;:::;;,,,;;;,,,,,;:::cccllcccllccclc::::;;
-o::,,,,;:::,,,:'',,;',,'';;,,,,',,,,,,,,,,;c:c::cccc::::::cccc::ccc::
-kkxllllllcc;,...''.....'..'...,;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-lccc::;::::,,'..........,:lccc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-::::::;;,,,,,,,,,,,,,,,,;;:ccloddddollllc:;;;;;;;;;;;;;;;;;;;;;;;;;;;
-::;;;;,,,,,,,,;;;;,,,,,,,;;;;;;;;;clooodxxxxdodddolc:;;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,;;;;,,,,,,,,,,,,,;;;;;;;;;;;:cloddddddddxxxxxdolc:;,,,,,
-,,,,,,,,,,,,,;;;;,;,,,,,,,,,,,,,,,,,,;,,;,,,,,,;:codddxxoloooodxkkkkx
-',,,,,,,,,,,,,;;;,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;cloxkOkxdlccc
-',',,,,',,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;lxO00O
-""";
-
-    public static String frame46 = """
-.''',,,,;;;;:cdddxkkxxxkkkkkkkkxxxxdddxkOOOkkkkkoloooooodoodxxkOOOO00
-....'',,,;;:;:loddxxxxxxxxxxxxxxxdododdxkkkkkkkdolllollooooodkkkOOOOO
-'...',,::cccc::clooddddxxxxxxdxxdddoododdxkkkxdoddolclllllloddddkkkxx
-...',;;;::cll:::lldddddddxxxdddoddoolodoxxxxxxddooolcccccllllldxdxxxd
-..'',;;,;cllc::coooooloddxkkxdollcllcloxxxxxxddlccccccccccccccloddooo
-...,,;;;:cl:c::colloolllloooolllllclclodxdddoooollc::::c:::ccllllllcc
-...',:;,:c:clcccccclllcccollcloolcccccclooooocccccc::c;::::cccccccccc
-,,''''''',;:c:::lllolc:::ccccllcc::::ccloollc:::::::::;;::::c::cccccc
-,,',,,,''''',::::cllcc:::;:c:cc:::;:;:cclcc:;;;;;;;;;;;;::;;:cc::::c:
-,,,,;;,,,'.';;,','okkkkkOOxl:::c::;;;::ccc;,',,;;,,;;;;;;;:;:;;;;::::
-,',,;;;;,,,.......'::odddodxdlllc::ccccccc:;c:;:;;;cc;;;,;cc;;,;;;;cl
-;,,,,,,;;;;.............',::ccl;;ldddddddooooollllllllcc:cc::;;:::::c
-:;;::::ccc:'...... .............''0xxxxxxxxxxdddooollcccccccllcc::::;
-;;;:::cccc::;,,''............'',co0Oxxxxdddddddddddddddoollc:::::::;;
-;;;:::ccccclllllllllllllllllllloKxO0xxxxdddddddddddddddxxdxxddoolcc:;
-;;;:::::cccclllllllooooooooooooOKdOXxdddddddddddddddddddxxxdddddddddd
-,;;;:::::ccccllllllooooooooooodKKokXOoooooooooodddddddddddxxxxxdddddd
-,;;;:::::ccccccclllllllllllllloKKdo0Xkooooooooooooooodddddddddddddddd
-,;;;;;;::::ccccccclllllllllllllOK0oo0Kkolooooooolllllllooodddddddddoo
-,,,;;;;;:::::cccccccccclccllllld0KOooOK0dllllooollllllllllllllooooooo
-,,,,;;;;;;;:::::c:ccccccccllccccd0K0olxKXOolcccllllllllllllllllllllll
-',,,,,,;;;;;;:::::c:::cccccccccccd0KKdlokKKOolccccllllllllllccccccccc
-''',,,,,;;;;;:::::c:c:ccccccccccccd0KKdllxKKKdllc::clllcccccccccccc::
-""";
-
-    public static String frame47 = """
-...........................''''',''.'''',,''...'.....'''..''''''.....
-.........................'...''''''''''.',,'.........'..'.''''''.....
-................................'''''''....'.......'.......'''.......
-.................................'''...............,..'.....'........
-..................................''.................................
-...................................'................'................
-  ..................................................,..'''...,,''''''
-...........................................''...'..'',''''..',,,,,,,,
-.''...................................'''.....''..''''''.....',,,,,,;
-..''.................................'.'''.....'.....''...',';,,,,,,,
-..'''................ .................'''............,;:::c:::::,,;:
-....'..................  ...............'..',:,,,,;;::cc:::::::::;;;;
-''.''''..............',;,.....',::;;;;;;;;;;;;;;::ccc::::;::::::cc;;;
-,,;,,,,,''..;.....;:;ccc:,;;:;;;,,,,;;,,,,,;;:::ccclcccllccllc:c::;;;
-dc:,,,,;:::;,;:'',,;.,'',;;,,,,',,,,,,,,,,:cc::ccccc::::cc:ccccccccc:
-kkxollllccc;,...''.....'..'...,;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-lcc:::;::::,,'..........;:llccc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-cc::::;;,,,,,,,,,,,,,,,,;;;:ccloddxdollllc::;;;;;;;;;;;;;;;;;;;;;;;;;
-:;;;;;,,,,,,,,;;;;,,,,,,,;;;;;;;;;;clooooxxxxdddddolc:;;;;;;;;;;;;,,,
-;;,,,,,,,,,,,;;;;;,,,,,,,,,,,,;;;;;;;;;;;;:coddddddddodxxxxxdolc:;,,,
-,,,,,,,,,,,,,;;;;;;;;,,,,,,,,,,,,,,,,,,,;,,,,,,;;:codxxxxdooooodxxkkk
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:codxkkkdolc
-',,,,,,',,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:ok0K
-""";
-
-    public static String frame48 = """
-.................'.........'''''''''''',;,'....'.....'''..''''''.....
-.........................'...''''''''''.',,'.........'.''.'''''......
-................................'''''''....'......'..'.....''''......
-.................................'''...............,.......'.'.......
-..................................''...............'.................
-.. ................................'................'................
-  ..................................................,.'.'...','''''''
-...........................................',..''.''''''''.'',,,,,,,,
-..'...................................'''.....''..'''''.'...',,,,,,;;
-..'''................................'.'''....''.....''...'',;,,,,,;;
-....''.................................''............';;::cc::::;,;::
-'....'.................  ...............''',;;,;,,;::ccc::::::::;;;;;
-,'''''''............',,:;....',;::;;;;;;;;;;;;;::ccc:::::::::cccc:c:;
-;,;;;,,,,,'.;'''.';c;:c::,;::,;,',,,,,,,,,;;:::cccclcclcclclc:::::::;
-kdlc,,;:clc:;,;'',''.'..',,''',,,,,,,,,,,;::::::::::::cccccccccccc:::
-kkkxollccc:,,....'........'''';;,,;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;;;;
-cc;;::::::;,,,........'';coooolcccc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-ccc::;;;,,,,,,,,,,,,,,,,;;;;;:ccllddxxdooloolc::;;;;;;;;;;;;;;;;;;;;;
-:;;;;;,,,,,,,,;;;;;,,,,,,;;;;;;;;;;;;:cloooddxxdddddddoolc:;;;;;;;,,,
-;;,,,,,,,,,,,;;;;;,,,,,,,,,,,;;;;;;;;;;;;;;;;:cldddddddddddxxxxxxdolc
-,,,,,,,,,,,,,;;;;;;;;,,,,,,,,,,,,,;,,,,,;,,,,,,,,,;;;:clodxxxxdoooolo
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:lodxkk
-',,,,,,',,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''',
-""";
-
-    public static String frame49 = """
-.................'.........'''''''''''',;''....'.....'''..''''''.....
-.........................'...''''''''''.',,'.........'.''.'''''......
-................................'''''''....'......'........''''......
-.................................'''...............,.......'''.......
-..................................''...............'.................
-..  ...............................'................'................
-  ................................................'.,.'.'...','''''''
-...........................................',..''.'''''''''',,,,,,,,,
-..''..................................'''.....''..'''''.'...',,,,,,;;
-..'''................................'.'''....''.....''...,',;,,,,,;:
-....''.................................''............,;:::cc:::;,,;;:
-'....'..................................,',,;;,;;,:cccc::::::::;;;;;;
-','''''''...........,,;:c...',;;;:;;;::;,;;,;;;:ccc:::::ccc:ccclcc:;;
-c:;:;;,,;;,',;,,.';c;:c::,;:;,,,,;,;,,,,,;;:::ccccccclc:cclccc::::::;
-kkdoc;::cll:;,,'',...'...',''',;;,,,,,,,,:::::::::::::ccccccc::::::::
-kkxdoll::::;,'........ ...,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;::;;;;;;
-c::;::::::;,',......''',;clooooolllcc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-ccc::;;;,,,,,,,,,,,,,,,,;;;;;;;:clllodxxddooooolc::;;;;;;;;;;;;;;;;;;
-:;;;;;,,,,,,,,;;;;;;;,,,,;;;;;;;;;;;;;;;cloooodxxxxdddddddolc:;;;;,,,
-;;,,,,,,,,,,,;;;;;;;;,,,,,,,,;;;;;;;;;;;;;;,;;;:clodddxdddddddxxxkkxd
-,,,,,,,,,,,,,;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,;;:cldxxxxxdoll
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:cld
-',,,,,,,,,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''''
-""";
-
-    public static String frame50 = """
-.................'.........'''',''''''',,''....'.....'''.''''','.....
-.........................'..'''',''''''.',,..........'.'..''''.......
-................................'''''''....'......'.......'''''......
-.................................'''..............''.......''........
-..................................''.................................
-..  ...............................''.................'..............
-. ................................................'.'.'.'...,''''''''
-..........................................'''..'..''''''''.',,,,,,,,,
-'..'..................................'''.....'...'''''.....,,,,,,;;;
-..'''................................''''''...''....'''..',,;,,,,,;;;
-.....'.................................''...'..'....',::::c::::;,;;:;
-''...'..........................''.....',',,;;;;;;ccccc::::::c:;;;;;;
-','',''''..........';;:c:...';;;;:;;:::;,;;;;;::ccc::::ccc:ccclcc:;;,
-ll;;;;,,;;;,,;;;.';c,:c::,;;;,;,,;,,,,,,,:;::cccccc:ccclclclc::::::::
-kkkdl::clllc;,'.',.......','',;;,,,,,,,,;::::::::::::::::::::::::::::
-kxdolcc:::c:,'.......  ..,;;;',,;;;;;;;;;;;;;;;;;;;;;;;;;;:;;::;;;;;;
-:::::::::;;,',...''''',,;:cloooooolllcc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-ccc::;;;,,,,,,,;;,;,,;,,;;;;;;;;:ccclodxxxdoooooolcc:;;;;;;;;;;;;;;;;
-::;;;;,,,,,,,,;;;;;;;;,,,;;;;;;;;;;;;;;;;:cloooodxxxxdddddxddolc:;;,,
-;;,,,,,,,,,,;;;;;;;;;;,,,,,,,;;;;;;;;;;;;;,,;;;;;:cloddddddddddodxxxx
-,,,,,,,,,,,,,;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,;;;;:clodxxxddo
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;:
-',,,,,,,,,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''''
-""";
-
-    public static String frame51 = """
-...........................''''''''''',,,''....'..'.''''.''''',......
-.........................'..'''''''.'''',,,'.........'''..''''.......
-................................'''''''..'.'......'.......'''''......
-.................................'''..............''.'.....''........
-..................................''.................................
-..  ..................................................'..............
-....................................................'.'''..',''''''''
-..........................................'''..'..'''''''''',,,,,,,,,
-'..''.................................'''....''..''''''....',,,,,,;;;
-...'''...............................'''''''..''....'''..',,;,,,,,;:;
-.....'.................................''...'.......';::::c:::;;,;;;;
-''...''.................. ......''.....',,,,;;;;;:cccc::::::::;;;;;;;
-',',,,'',..........';;:lc..',;;;;:;:::;;,;;;;;::cc::::ccc:llcccc:;;;:
-olc;:,,,;;;,,:;;'',:,;c;:;;;;,;;,;,,,,,,;::::ccccccccclllccc:::::::::
-0kkxdc:llllc;''.','......',',,,;,,,,,,;;;::::::::::::::::::::::::::::
-xdollcc:;:c:,,.......  ..;::;',;;;;;;;;;;;;;;;;;;:;;;;;;;;:;;::;;;;;;
-;::c:c:::;,,',''''',,,,,;;:ccloodddollllc:;;;;;;;;;;;;;;;;;;;;;;;;;;;
-ccc::;;;,,,,,,,;;,;,;;,,;;;;;;;;;;:clllodxxxddoooooolcc:;;;;;;;;;;;;;
-::;;;;,,,,,,,;;;;;;;;;;,,;;;;;;;;;;;;;;;;;;:cloooodxxxxxddddxxdoolc:;
-;;,,,,,,,,,,;;;;;;;;;;,,,,,,,;;;;;;;;;;;;;,,,,;;;;;;:cloddddddoodoooo
-,,,,,,,,,,,,,;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,;;;;;,;:cccodxx
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-',,,,,,,,,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''''
-""";
-
-    public static String frame52 = """
-...........................'''','''''',,,.'.........''''.''''''......
-.........................'..'''','''''.',,''........'..'.''''........
-................................'','''............'......'''''.......
-.................................'''..............,..'.....'.........
-.................................'.'.................................
-..  ...............................'...............'.'.....'.........
-.................................................'.'.'''..','''''''''
-...........................................''.'..''''''''',,,,,,,,,,,
-''.''................................''''....''..'''''.....',,,,;;;;;
-...''''...........................''.'''''''..'.....'''',;;;,,,,;;:;;
-'.....'................................'...''...'',,;:::::c:c:;;;;;:;
-,'''.'''.......................','',,,,,,;;;;:c::c::::::::::::::::;;;
-l,;,;,,,,,'..,....'c:cllc',;;;;::;;;;,,,,,;;;:::c:cccllcoolccc:;;:;::
-kkdo:,,,;:c:;;;;'',;,,,',;;;;,;,,,,,,,,,cccccccccccccccccccc:::::cccc
-0Okxkolllccc;''..'.......''...,;;;;;;;;;;;;;:::::::::::::::::::::::::
-llcc:::::::;,,..........';:cllllcccc:;;;;;;:;;;;;:;;;;;;;;:;::::;;;;;
-:cccc::;;;,,,,,;;;;;;;;,;;;;;;:cccloddxxdoolooolcc::;;;;;;;;;;;;;;;;;
-cc:::;;;,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;:ccllloodxkkxddoooooooolc:;;;;
-:;;;;;,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:cloooooooddxxxxxxx
-;;,,,,,,,,,,;;;;;;;;;;;;;,,,,;;;;;;;;;;;;;,,,,;;;;;;;;;;;;;;cclodxxxx
-,,,,,,,,,,,,,;;;;;;;;;,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,;,,,,,,,,,,
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-',,,,,,,,,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''''
-""";
-
-    public static String frame53 = """
-...........................'''','''''',,,.'...'.....''''.''''''......
-.........................'...''','''''.',,''........'..'.''''........
-................................''''''............'......'''''.......
-.................................'''..............,..'.....'.........
-.................................'.'.................................
-..  ...............................'...............'.'.'...'.........
-.................................................'.'.'''..','',''''',
-.......................................'...''.'..''''''''',,,,,,,,,,,
-.'''''...............................''''....''...'','....'',,,,;;;;;
-....''''..........................''''''''''..'.....'''',:;;;,,;;::;;
-''....'................................'...''''',,,,;::::cc:c:;;;:::;
-;''''''''..............''......';,,,,,,,;;;:::c::::::::::::::::::;:::
-dc;;;;;,,,,'.;..'.'c:;llc,,;:;;:;;;;;;;,,,;;:::c:cccllclllcccc;;;:ccc
-0kkxl:,;::ccc;,:'',,,''',;;,,,,',,,,,,,;ccccccccccccccccccccccccccccc
-Okkkxdllcccc;,'..'..........'',:;;;;;;;;;;:::::::::::::::::::::::::::
-ccc::::c:::;,,'........',;clllooollllcc::;;:;;;;;:;;;:;;:;:;:::::;;;;
-:cccc::;;;,,,,,;;;;;;;;;;;;;;;;;;:ccloodxxxddoooooolcc:;;;;;;;;;;;;;;
-c::::;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::cllooooddxxddoddddddollc:
-:;;;;;,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:cloddddxxxxxxx
-;;,,,,,,,,,,;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;,,,,;,,,,;;;;;;;;;;;;:clodd
-,,,,,,,,,,,,,;;;;;;;;;,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
-',,,,,,,,,,,,,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,',,'''''
-""";
-
-    public static String frame54 = """
-...........................'''','''''',,'.'...'.....''''.'''',.......
-.........................'..''''''''''.','''.............''''........
-................................'','''...........''......''''........
- ................................''...............,.......'..........
-.................................'.'.................................
-..  ..............................''...............'.'.'...'.........
-................................................''.'.'''.',,''''''',,
-......................................''.'.''.'.''''''.'',,,,,,,,,,,,
-.''.''...............................''''....''..''''''...',,,,,;:;;;
-....''''.........................'''''''''''..'.....'''';:;;;,,;::;;;
-''....'................................'...''',,,,,;:::::c:c:;;;::;;;
-;',''''''............'','.....',:;;,;,,;;;:::::::::::::::::::::;:::::
-xl:;;;;,;;,'.;.''.,l;:lcc,;;:;;;;,,;;;,,,;;::::ccccllclllcccc:::ccllc
-0Okkoc;::cllc;,;',''''..,;,,'',,,,,,,,,:ccccccc:ccc:ccccccccccccccccc
-kkkxdolccc:c;,'..'........',,';;;;;;;;;;;::::::::::::::::::::::::::::
-c:::c:cc::;;,,,.'...'''',::cllloooollcllc:::;;;;;:;:;:;;:::;:::::;;;;
-cccc:::;;;,,,,;;;;;;;;;;;;;;;;;;;;:ccllloddxxxdoollllolcc:;;;;;;;;;;;
-c::::;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::cllllllodxkkkxdddddddoo
-:;;;;;,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:clodddxdddoo
-;;,,,,,,,,,,;;;;;;;;;;;;;;,;;;;;;;;;;;;;;;,,,,,,,,,,;,,,;;;;;;;;;;::c
-,,,,,,,,,,,,,;;;;;;;;;,;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-',,,,,,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
-',,,,,,,,,,,,,,;,;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,',,'''''
-""";
-
-    public static String frame55 = """
-..................'........'''','''''',,'.'...'.....''''''''',.......
-............................'''','''''.','''.............''''........
-................................'','''..'........'.......''''........
- ................................'''..............,.......'..........
-.................................'.'.................................
-..  ..............................''...............'.'.'...'.........
-................................................''.'.'''.','''''''','
-.......................................'.'.''.'.''''''.'',,,,,,,,,,,,
-..'.''...............................''''....''..''''''..'',,,,;;;;;;
-.....'''.........................'''.''''''...'.....'''':;;;,,;;::;;;
-''....'................................'...'''',,',;:::::c:c:;;;::;;;
-:;',''''''............','.....',:;;,;,,;;;::::::::::::::::::::::::;::
-kdcc;:;,,;,,';'''.,c:;ccc,,;:;;;,,,;;;,,,;;:::cccclllcllccccc::cclccc
-00kkxo:;:cllc:,,',''''..';,,'',,,,,,,,,:ccccc:cccc:cccccccccccccccccc
-kkkddolcc::c:,'...........',,,;;;;;;;;;;;::::::::::::::::::::::::::::
-c:::cccc::;;,,,...''''',,;::clllooooolllllcc:;:;;:::;:;;:::::::::;;;;
-ccccc::;;;;,,,;;;;;;;;;;;;;;;;;;;;;::ccllooddxxddolloooollc::;;;;;;;;
-c::::;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:ccllllodxkkkkxddddddd
-:;;;;;,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:cloooddddd
-;;;,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,;;;;;;,,;,;
-,,,,,,,,,,,,,;;;;;;;;;,;;,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-',,,,,,,,,,,,,;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
-',,,,,,,,,,,,,,,',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,',,'''''
-""";
-
-    public static String frame56 = """
-.''',,,,;;;;:cdddxkkxxxkkkkkkkkxxxxdddxkOOOkkkkkoloooooodoodxxkOOOO00
-....'',,,;;:;:loddxxxxxxxxxxxxxxxdododdxkkkkkkkdolllollooooodkkkOOOOO
-'...',,::cccc::clooddddxxxxxxdxxdddoododdxkkkxdoddolclllllloddddkkkxx
-...',;;;::cll:::lldddddddxxxdddoddoolodoxxxxxxddooolcccccllllldxdxxxd
-..'',;;,;cllc::coooooloddxkkxdollcllcloxxxxxxddlccccccccccccccloddooo
-...,,;;;:cl:c::colloolllloooolllllclclodxdddoooollc::::c:::ccllllllcc
-...',:;,:c:clcccccclllcccollcloolcccccclooooocccccc::c;::::cccccccccc
-,,''''''',;:c:::lllolc:::ccccllcc::::ccloollc:::::::::;;::::c::cccccc
-,,',,,,''''',::::cllcc:::;:c:cc:::;:;:cclcc:;;;;;;;;;;;;::;;:cc::::c:
-,,,,;;,,,'.';;,','okkkkkOOxl:::c::;;;::ccc;,',,;;,,;;;;;;;:;:;;;;::::
-,',,;;;;,,,.......'::odddodxdlllc::ccccccc:;c:;:;;;cc;;;,;cc;;,;;;;cl
-;,,,,,,;;;;.............',::ccl;;ldddddddooooollllllllcc:cc::;;:::::c
-:;;::::ccc:'...... .............''0xxxxxxxxxxdddooollcccccccllcc::::;
-;;;:::cccc::;,,''............'',co0Oxxxxdddddddddddddddoollc:::::::;;
-;;;:::ccccclllllllllllllllllllloKxO0xxxxdddddddddddddddxxdxxddoolcc:;
-;;;:::::cccclllllllooooooooooooOKdOXxdddddddddddddddddddxxxdddddddddd
-,;;;:::::ccccllllllooooooooooodKKokXOoooooooooodddddddddddxxxxxdddddd
-,;;;:::::ccccccclllllllllllllloKKdo0Xkooooooooooooooodddddddddddddddd
-,;;;;;;::::ccccccclllllllllllllOK0oo0Kkolooooooolllllllooodddddddddoo
-,,,;;;;;:::::cccccccccclccllllld0KOooOK0dllllooollllllllllllllooooooo
-,,,,;;;;;;;:::::c:ccccccccllccccd0K0olxKXOolcccllllllllllllllllllllll
-',,,,,,;;;;;;:::::c:::cccccccccccd0KKdlokKKOolccccllllllllllccccccccc
-''',,,,,;;;;;:::::c:c:ccccccccccccd0KKdllxKKKdllc::clllcccccccccccc::
-""";
-
-    public static String frame57 = """
-...'',,,,,;;::codddxxxxkxkkkkkkxxxdxdddxkkkkkkkkkolooooooooodxxkOOOOO
-.....'',;;;;::;clddxxxxxxxxxxxxxxxdododdxxkkkkkkxolllollooloodkkkkkOO
-......',;::ccc::ccooddddxxxxxxddxxdddodoodxkkxxdoddolclllllllddodxxxx
-....'',;;:::llc;:ccoddddddxxxdddoodoolodoxxxxxxddolllcccccclllldddddd
-....',;;;;:clc::clooooolodxkkxxoollllclodxxxxxxdlccccc:cccccccclooool
-....',,;;;ccc:::clllllllllldoolllllclccodxdddoloollc::::c::::ccllllcl
-.....';:;;ccccccccccllllcclolcloolcccccclooooocccccc::c;:::::cc:ccccc
-,,,,'''''',,::c:::llloc::::cccclcc:::::clllllc:::::::::;;;;:::::ccc::
-',,,',,,''''',:c;;cllcccc:;::::c:::;;;:ccccc:;;;;;;,;;;;;::;;:c::;:::
-'',,,,;,,,'',;;'.,'xkkkkOOOxc:::c::;;;:::cc;,'',;;,,;;;;;;;:;;;,;;:::
-;,,',,;;;,,'.......';;loolldxdlolcccccccclc::c:;;;;:cc;;;,;l:,;,;;;:l
-,,,,,,,,;;;'.............',;::cc;;lxdddddddoooollllllllccccc::;;:;:cc
-:::;;:::cc:'.......  ............,'Kxxxxxxxxxdddddoollcccc::cllcc:;;;
-;;;:::::cc:::;;,''............'';lo0xxxxdddddddddddddddddollc:::::;::
-;;;::::cccccccllllllllllllllllloKkkKxddddddddddddddddddxxdxxdxddollc;
-,;;:::::cccccclllllllooooooooodK0d0Xddooooooddddddddddddxxddddddddddd
-,;;;;::::cccccclllllllllloooookKko0Xxoooooooloooodddddddddddddddddddd
-,,,;;:;::cccccccllllllllllllllkK0oxKKdooooooooooooooooodddddddddddddd
-,,,;;;;:::::cccccccccccllllllld0KxlxKKxolloooollllllllloooodddddoddoo
-,,,;;;;;::::::::cccccccccccllllkKKxld0KOolclllllllllllllllllllooloool
-,,,,,;;;;;;:::::::ccccccccclccclk0KklokKKkolcccllllllllllllllllllllll
-'',,,,,;;;;;;:::::::::cccccccccclk0KOoloOKKkllccccllllllclllccccccccc
-'''',,,,;;;;;;;:::;:::::cccccccccck0K0ollOKK0olcc:cclllcccccccccccc::
-""";
-
-    public static String frame58 = """
-....'',,,,,;;::cldddxxxkxkkkkkkkkxxdxdddxkkkkkkkkxoloooooooooddxOOOOO
-......'',;;;;::;clddxxxxxxxxxxxxxxxdoooddxxkkkkkkdolllollllloodkkkkkk
-...'..'',;::ccc::ccloddddxxxxxxddxxddooddodxkkxxooddoccllllllldoddxxx
-'....'',;;:::lll;:ccodddddxxxxdddoodoolodoxxxxxxddolllccccccllllddddd
-.....',;;;;:clc:::loooooloddxxxxoollllccoxxxxxxdolccccccccccccccllooo
-......,,;;;ccc::::lllllllllldooollolclccoddxddoloollc::::c::::ccllllc
-......',:;;cc:cccc::cclllcclolcloolccccccloooolcccccc::c;::::::c:cccc
-',,,,''''.'',;:c:::llloc::::ccccccc:::::cllllcc:::;::;::,;;::::::cc::
-.',,,',,,,''.',;:;;loollcc:;::::c:::;;;:ccccc:;;;;;;;;;;;;::;;:c:;:::
-,'',,,,;;,,',,,,.,';kxxkkO0kdc:;:c:;;;;:::c:;,''';,,,;;;;;;::;;,;;:::
-:;,,',,;;;,'........',;llccodxoollcccccccclc::c::;;;cl:;;,,c:;;;;;,cl
-,,,,,,;,,;;'..............,,;;:::,;dxddddddddooolollllllcccccc::;;;::
-;::::::::c:,.......  .............;lOxxxxxxxxddddddoollcccc:clcccc:;;
-;;;;::::::::::;;,,''..........'';:lkxxxxdddddddddddddxxdddolcc:::::;;
-;;;::::ccccccccllllllllllllllllx0x00dooddddddddddddddddxxdxxdxxddolc:
-,;;;:::::cccccclllllllooooooooOKxxXOodoooolooodddddddddddxddddddddddd
-,,,;;;::::ccccccclllllllllooodKKoxK0ooooooooloooodddddddddddddddddddd
-,,,;;:;::::::cccllccclllllllldKKdo0Kkollooooooooooooooodddddddddddddd
-,,,;;;;;:::::::cccccccclllllll0KOlo0KOolllllolllllllllloooooodooooooo
-,,,;,;;;;:::::::ccccccccccclllo0KOolkKKxllcclllllllllllllllllloolloll
-,,,,,;;;;;;;::::::ccccccccccccco000dld0K0dllcccllllllllllllllllllllll
-'',,,,,;;;;;;::::::::::ccccccccco00Kxllx0K0dllccclllllllclllccccccccc
-'''',,,,;;;;;;;;::;:::::cccccccccd00Kkllo0KXkllccccclllcccccccccccc::
-""";
-
-    public static String frame59 = """
-.....''.',,,,;;::lldddxxxkkkkkkkkkkkxdxdddxkkkkkkkkdlloooooooooddxkkk
-.......''',;,;;::;clddxxxxxxxxxxxxxxxdododdxxkkkkxxolllllllllllodkxxx
-.'......'',;::c:cc:ccloddxdxxxxxxddxxddoodoodxkkxdooxdlcclllllllooddd
-..''....'';;;::cll::ccoddddddxxxxddoooooloddxxxxxddoolccccccccccclodd
-........',;;;;cllc::coooooloddxxxdollcll:coxxxxxddolcccc:ccccc:::clll
-........',;;;:lcc:::cllllllllloooollllclccoodddoolollcc:::::::::ccccc
-,'.......'::;:cccccl::cllllcclolcloolc:::ccloooolcccc:::c:;:::::::c:c
-,,,,,,,,,'''.',;:c:::llloc::::ccccccc:::::cclllc:;::;;;;:;,:::::::::c
-',,.',,,',,,'''',,,;cdddoolc;;;:::c:::;;;:cccc:;;;;;;,;;;;;:;;;::;;::
-''',,',,,;;,',,,..'',xddxxkkkoc::;:c:;;;;:::c:;,,',;,,;:;;;;::;,,;;c:
-lcc:;,,',;;;..........',:c::coooooc:ccclcllllccclcc:::lc::;;c:,;;;;cc
-'',,,,,,,;;;...............'',,,;;,;oOxxxxxxddddooolllllccccccccc:::;
-:;;::::::c:;'.......   ...........';:kxxxxxxxxddddxdddollccc:cc:::::c
-,;;;;;;::::::::::;;;,,'''......'c;:klddddddddddddddddxxxxxddoolc::;;;
-,,;;;;:;:::cccccllllllllllloook0xOKdooodooddddddddddddddddxxddddddolc
-,;;;;;::::::ccccccllllllooooo0KokXkoooooooooooddddddddddddddddddddddd
-,,,;;;:::::::::cccccclllllooxKOokKOollooooooloooooddddddddddddddddddd
-,,,,;;;;:::::::::cccclllllllxK0ooOKOolllooolooooooooooooodddddddddddd
-',,,;;;;;;;:;::::::ccccllllllO00ookK0dllllllllllllllllloooooodooooooo
-,,,,,;;;;;;;;:::::::cccccccccoO00old0KOolllllllllllllllllllllloolloll
-,,,,,,,,;;;;;:::::::cccccccccclO00xllkKKkolllclllllllllllllllllllllll
-'',,,,,;;;;;;;;;;::::::cccccccclk0KOlcokKKOoclccclllllllcllcccccccccc
-'''',,,,,,;;;;;;::;::::::::cccc:lO000l:cxKKKdlccccccllccccccccccccc::
-""";
-
-    public static String frame60 = """
-......'''',,,,;;::lldodxxkkkkkkkkkkkkxdxdddxkkkkkkkkdlloooooooooodkkk
-.......'''',,,;;::;clodxxxxxxxxxxxxxxxdododdxxkkkkxxollllllllllloxxxx
-..''...'.'',;;:::cc:cclodddddxxxxxddxxddooddodxkxxdooxolccclccllllodd
-...'.....'',;;::cll::clldddddddxxxddoodooloodxxxxxddollcccccccccccloo
-.........',;;;;:clc::coooooolddxxxdollcll:coxxxxdddolcccc::ccc:::ccll
-.........',;;;;clc:::cllllolllloooollllccccoodddolllllcc:::::::::cccc
-;;'.......';:;;cccccl::cllllcccolcloolc:::cclooollcccc:::c:;:;:::::::
-.:',,,,,,,''''',;:::::lllol::::cccccc::::;:cclllc:;;;;;;;:;;:::::::::
-',','',,,',,,'''',',;dddddoo:;;;:::::::;;;:cccc:;,;;;;,;;;;;;;;;:;;::
-'''',,',,,;;,''''..'.lddxxxkOdlc;;;:c:;;;;:::c:,;,',,,,;:;;,::;,,;;c:
-:lcc::;,,,,;'...........,::::loolocccllcllllllccllccc:cl:::;c:;;,;;cc
-'''',,,,,,;;................,',,,;,,:xkxxxxxxxdddooolllllccccccccc:::
-:::;;::::::;,'.......   .......'..';'dxxxxxxxxddddxddddoolcc:c::::;::
-,,;;;;;;:::::::::;;;,,,'''..''';l;cdlodddddddddddddddxxxxxxdddolc;;;;
-,,,;;;;;:::::cccccllllllllloox0kxKOdooodooddddddddddddddddxxddddddool
-,;;;;;:::::::cccccccllllloookKkoKKooooooooooooddddddddddddddddddddddd
-,,,;;;;::::::::ccccccclllllo0Kdo0Kxlllooooooloooooddddddddddddddddddd
-',,,;;;;::;::::::::cccclllllOKOod0Kxllllooolooooooooooooodddddoooodoo
-',,,,;;;;;;:;::::::cccclllllo00kloOKOollllllllllllllllloooooooooooooo
-,,,,,,,;;;;;;::::::::ccccccccd00OllxKKkolllllllllllllllllllllloollllo
-,,,,,,,,;;;;;::::::::ccccccccco000ocokKKkllllclllllllllllllllllllllll
-'',,,,,,,;;;;;;;;::::::cccccccclO00klcoOKKxlclccclllllllcllcccccccccc
-'''',,,,,,;;;;;;;:;::::::::c:cc:oO00OccckKKOlcccccccllccccccccccccc::
-""";
-
-    public static String frame61 = """
-;;,:clddxxxxkkxxxxkkkxxxkxddxddxkkkkOOkOOOkdoooddodoodxk0O0KKXXXKXXXX
-:l;::clodddddxxxxkkkkkkxxxddddddxkkkkkkkxkdollooolllooddxO000K0000000
-cc;;;:ccodddddddxxxxdddddxddooddddxkkkkkxdodxollclllllodkOkkO000OOOOO
-c::;:clodddddddddxxxxxdooooodldddxxkkkkkxdoodolclccccloodddxkkkkkkkOk
-c:;;:cloooolodoxxxxxdololclllcldxxxxxxkxxolcclclcc:ccclllloddxxxxxxxk
-;;;::lllllollollodxdoolollclccodxdxdxxdddolloll:::::cccclloolddxdooxx
-:ccc:::cccllcc:clllcclolclccccllooooooocccllcc:::;;:::ccllllclllllllo
-:::;;clllolc::::cccccllcc:c::cclooooollc:::cc::::;;;::ccccc::clllccll
-';::;cccc:;;,;,;::l::cc:::;:;:cccllccc::;;;;;;;;;;;;::::::::cc::ccccc
-'''',::::;,,'',;;::c:ccc::;;;:ccccc::;;,;;:;;;,;;;;:;;;;;:::::ccccc::
-.''',;;;:;;;:;,;:oOOOkkkxxdc;:::ccc:,'''',;;;,;;,,,;;;:;;;;::;::::::;
-,,',:lloooooolccldoodoodxxkdlcccclc::;;::::;;;;,,c:;,;:;;;;;::c:::;,'
-;;;;::ccldxxxl...'',,;;,',llldddddoooooolllclllllllcc::::::::cl:;;,,,
-c:cloddxxxxxx,..........'.,,,OOkxxxxxxxxdddoooollllllllllcccccccc::;;
-ccllllloooooo:,,'''''''''';::ddkOOkkxxxxddddddddddooollcc::::c:::::::
-cccllllllolooooooooooooooodddddddxO00Okdddddddddddddddddxdoollcc:::;;
-:cccclllllllllllloooooooodddddddddddkO0OOkddddddddddddddddxxxxddoolll
-::::ccccllllllllllllooooooooooooodoooodO00OOkxddddddddddddddddddddddd
-;;::::ccclllllllllllllllllllooooooooooooox00OO0kdoooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllllllldOKOO00Oxooooooooodddddooo
-,;;;::::::cccccccccllllllllllllllllllllllllllox00OkO0Oxoooooooooooool
-,,;;;;:::::::cccccccccccllllllllllllllllllllllllokK0kkO0Oxollllllllll
-,,,,;;;;:::::::ccccccccccccccllcccccclclcclllllllllOXKxokKKkllllllccc
-""";
-
-    public static String frame62 = """
-.......'''',,,,,;;clldooxxkkkkkkkkkkkkxdxdddxkkkkkkkkdlloooooolllodkk
-........'''',,,,;::::lodxxxxxxxxxxxxxxxdoooddxkkkkkxxolllllllllllldxx
-....'...'..',;;::::c:cclodddddxxxxxdddxddolddodxxxxdooxolccccccclllod
-....'''....',;;:ccllc:clldddddddxxxddoodoollodxxxxxddollccccccccccclo
-......'...',,;;;:clc::cooooooloddxxdoollll:coxxxddddolcccc::cc:::::cc
-..........',;;;;clc:::collllolllodoollllclccoooddolllllcc::::c:::::cc
-.';'.......',:;;ccccclc:clcllcccolccoooc:::ccloooolccc::::c;;:;::::::
-c.;,,,,,,,,''''',;::c::cllolc::::cccccc:::;:cclllc:;;;;;;;;;;::::::::
-.',','.',,',,,,'','',lddddddl;;;;:::c:::;;;:cccc:;,;;;;,,;;;;;;:;:;;:
-,,''',,'',,,;''''..'.,dddxxkkkol;;;;:c:;;;;:::c:,;,';,,,;:;;,c:;,;;::
-:;clcc:;,,,,,...........';:;::loooo::llllllllllccllccc:ll:;;;c:;;;;cc
-''''',,,;;;;,................,',,,,,;cOkxxxxxxxxddooolllllccccccc::::
-;:::;;:::::;,'.......   ........'''';;xxxxxxxxddddxdddddollc:c::::;::
-,,;;;;;;:::::::::::;;,,,,'''''':cclclldddddddddddddddxxxxxxdddoll:;;;
-,,,;;;;;:::::ccccccllllllllook0xO0ddooodooodddddddddddddddxxdddddddol
-,,;;;;::::::::cccccccllllloo00okKkooooooooooooddddddddddddddddddddddd
-',,,;;;:::::::::cccccclllllx0OodK0olllooooooloooooddddddddddddddddddd
-',,,;;;;;:;::::::::ccccllllo00xlxK0dllllllolooooooooooooodddddoooodoo
-',,,,;;;;;;:;:::::::ccccllllx00xld0Kkollllllllllllllllloooooooooooooo
-,,,,,,,;;;;;;::::::::cccccccck00xllkK0xllllllllllllllllllllllllollllo
-,,,,,,,,,;;;;;:::::::cccccccccx00kocoOK0dllllclllllllllllllllllllllll
-'',,,,,,,;;;;;;;;;:::::ccccccccd000xccd0K0xlclccclllllllcllcccccccccc
-'''',,,,,,;;;;;;;;;::::::::c:cc:d000kcclOKK0lcccccccllccccccccccccc::
-""";
-
-    public static String frame63 = """
-....'...'''',,,,;;;coododxxkkkkkkkkkkkkxdxdodxkkkkkkkkolooooooollloxk
-.........',',,,,,;::::oodxxxxxxxxxxxxxxxdoooddxkkkkxxdolllllllllllldx
-.....''..'..',;;::::c:ccloddddxxxxxxddxxddoodoodxxxxdooxocccccccclllo
-.....''.....',;;:ccllc:clldddddddxxxxdoooooloodxxxxdddollccccccccc:cl
-.......'....',;;;:clc::cooooooloddxxdoolcll:coxxdddddlcccc:::cc::::cc
-............,;;;;clc:::collllolllodoollllccccoooddolllccc::::cc:::::c
-...;'.......',c;;ccccclc:clcllcccolcloolc:::cclooollccc::::c;;:;:::::
-,l.,;,,,,,,,,'''',;::c::cllll:::::ccccc::::;:cclllc:;;;;;;;;,;:::;:::
-...,,,,'',,'',;,',''':xxxxxxd:,,;;:::c:::;;;:cccc:;;;;;;,,;;;;;:;;;;:
-,;;',',,'',,,''''.....oodxdxkOxl:;;:;:c:;;;;::::;,;,,;,,;::;,::;,;;::
-;;;clcc:;;,,,............';;;;cooodc:cooollllllllllllcccll::;::;:;:cc
-''','',,;;;;;................,''',,,,:kOxxxxxxxxxdddooolccllccccc::::
-;;:::::::;;;;'........   .....'.','':,dxxxxxxxddddxddddddollc::::;:;;
-,,,,;;;;;:::::::::::;;;;,,,,,,:lcll:cloddddddddddddddxxxxxxdxddolc:;;
-,,,;;;;;::::::cccccclllllllox0xkKxooooooooodddddddddddddddxxddddddddo
-,,,,,;;;:::::::ccccccllllloOKddK0oolooooooooooddddddddddddddddddddddd
-''',;;;;:;::::::::ccccclllo00doOKxolllooooooloooooddddddddodddddddddd
-',,,;;;;;;;::::::::ccccclllk0OooOKOollllllolooooooooooooodddddoooodoo
-',,,,;;;;;;:;::::::::cccccllO0OolkKKxlllllllllllllllllloooooooooooooo
-''',,,,;;;;;;::;::::::ccccccoO00oloOKOollllllllllllllllllllllllollllo
-',,,,,,,,;;;;;;;;:;:::::ccccclO00xllx0KOoclllclllllllllllllllllllllll
-''',,,,,,,,;;;;;;;;;;:::ccccccck00Ooclx0KOocclccclllllllccccccccccccc
-'''',,,,,,;;;;;;;;;::::::::c:ccck000occl0KKkccccccccccccccccccccccc::
-""";
-
-    public static String frame64 = """
-....'''.....'',,,;;;:cdododxxkkkkkkkkkkxkxdddodxkkkkkkkdllooololllllo
-..........'',',,,,;;:::codddxxxxxxxxxxxxxxdododdxkkkkxxoolllllllllclo
-......'''...''',;;;::cc:ccloddxxxxxxxxddxxddoooodxxxxdooddlcccccccccc
-.......',..''.',;;:ccll::cllddddoddxxxxdooooocoodxxxdddolcccccccc::::
-.........'....',;;;:clc::cooooooooddxxdoolllc:ldddxxddolccc:::cc:::::
-..............,,;;;:lcc::coloolollloollllllccccoooddlcllcc::c::c:::::
-.....,,.......',::;ccccclc:cllllc:colcloolc:::ccloollccc::::c:;:;::::
-...l:.c',,,,,,,'''',;::c::clolcc::::ccccc::::;cccllc:;;;;;;;;;,c:::;:
-...'.',','',,,,;;,,...oxxxxkkd:;,,;;:::c:::;;;:ccc:;,;;;;,,;;;;:;;;;:
-;;,,;;,,,,,','........,lldxddxkdl:::;:::c:::::::::;;;,,,,:::;;c:;;;lc
-;:;;;;ccc:;;,.............',;,,clloo;;ooooooooooooollllllllcc:c:;;:cc
-''',;;;,,;;;;.'......... .....'..'''';cOkxxxxxxxxxxdddoolccccllc:::::
-;;;;;;;;;;;;,,'......... ......''''.,:cxxxxxxxddddxdddddxxdolc:::;;;;
-,,,,,;;;;;:::::::::::::;;;;;:llooo:;:clodddddddddddddxxxxxxddxdollc:;
-',,,,;;;:::::::ccccccclllldkkdO0dlooooooooodddddddddddddddxxddddddddd
-'''',,;;:::::::::ccccccllo00odK0oollooooooooooddddddddddddddddddddddd
-''',,;;;;;:::::::::ccccccl00doOKkoolllooooolloooooddddddddodddddddddd
-'',,,;;;;;;;:::::::::cccccx0OolkKOolllllllllllooooooooooodddddooooooo
-',,,,;;;;;;;;:::::::::cccclk00old0Kkllllllllllllllllllloooooooooooooo
-''',,,,,;;;;;;;;:::::::::cclk00xllkK0xccllllllllllllllllllllllllllllo
-',,,,,,,,,,;;;;;;;;;:::::cccck00OlcokK0xlclllclllllllllllllllllllllll
-''',,,,,,,,,,;;;;;;;;:::ccccccx000xccd0K0klcccccccllllllccccccccccccc
-''''',,,,,;;;,,,;;;;;::::::c:cck000kcccOKK0o:cccccccccccccccccccccc::
-""";
-
-    public static String frame65 = """
-.............'',,;;;;:ldddodxxkkkkkkkkkkkkdxxdodxkkkkkkkollooooolllll
-...........'',',,,,;;:::coddxxxxxxxxxxxxxxxdoooddxkkkkxdollllllllcccl
-.......'''....'',;;;::cc:ccooddxxxxxxxxddxxddoooodxxxxdooxdlccccccccc
-........',.'.'.',;;:ccllc:cllddddddxxxxxdoooooclodxxxdddollccccccc:::
- .........'....',:;;:clc::cloooooooddxxdoolllc:ldddxxddolccc:::cc::::
- ..............,;;:;:lcc::colooollllooollllllccloooddllllcc::c::c::::
-......''.......',::;ccccclc:cllllcclollloolc:::ccloollcc:::::c;;:;:::
-....::.c',,,,,,,'''',;::cc:clolcc:::cccccc::::;cclllc:;;;;;;;;,;c::::
-....'.';','',,,,;;,''.cxxxxkkxl;,,,;;:::c:::;:;::cc:;,;;;;,,;;;;:;;;;
-;;,,,;;,,,,,''........'cloxddxkxoc;:;;::cc:::::::::;;;,;,;:::;c:;;;lc
-;::;;;;ccc:;;'.............,;;,clllo:;looooooooooooolllllllcc:c:;;:cc
-''',,;;;,,;;;,'......... .....'..'''';;kOkxxxxxxxxxxddoolcccccclc::::
-;;;;;;;;;;;;,,'.........  .....''',.'::dxxxxxxddddxdddddxxdolc:::;;;;
-,,,,,;;;;;::::::::::::::;;;;cloooc:;:clodddddddddddddxxxxxxddxdollc::
-'',,,,;;;:::::::ccccccclllkOdxKxolooooooooodddddddddddddddxxddddddddd
-'''',,;;:::::::::::ccccllx0klOKxooloooooooooooddddddddddddddddddddddd
-''',,;;;;;::::::::::cccccx0OldKKololllooooolloooooddddddddodddddddddd
-'',,,;;;;;;;;::::::::cccclO0klo0Kxllllllllllllooooooooooodddddooooooo
-',,,,;;;;;;;;:::::::::cccco00kllkK0dclllllllllllllllllloooooooooooooo
-''',,,,,;;;;;;;;:::::::::ccd00OocoOKOoclllllllllllllllllllllllllllllo
-',,,,,,,,,,;;;;;;;;;:::::cccd000xccx0KOocclllclllllllllllllllllllllll
-''',,,,,,,,,,;;;;;;;;:::ccccco000klclOKKOdlcccccccllllllccccccccccccc
-''''',,,,,;;,,,,;;;;;::::::c:cd0000lccxKK0Ooccccccccccccccccccccccc::
-""";
-
-    public static String frame66 = """
-.........'...'',,,;,;;:ldddoxdxkkkkkkkkkkkxdxdddxxkkkkkkxolooololllll
-......'.....'',',,,;;:::cloddxxxxxxxxxxxxxxdodooddxkkkxxollllllllcccl
-........'''...''',;;;::c:cclooddxxxxxxxxdxxdddoooodxxxxdoddoccccccccc
-.........',.'''.',;;:ccll::cloddddddxxxxdddooollooxxxxdoolllc:cccl:::
-  ........''....',:;;:clc:ccooooooooddxxdoolllcclddxxxddlccc::::cc:::
-  .............',;;:;:llc::coooooolllooollllllcclooodolllcc:::c:cc:::
-.......'........',::;ccccllcccllllcclolcloolc::cclloolcccc:::::,;;;::
-.....::'c',,,',,,'''';;::cc:clolc::::clcccc::::;ccllc:;;;;;;;;;,:c:::
-.....''';','',;,,;,''.cxxxkkkko:;,,;;;::cc:::;:::cc:;,,;;;,,;;;;;;;;;
-:;;;;,;;,,,,,'.........ccoddddkxoc:;;;;;:c:;::::::::;:,;;,:::::c,;;lc
-;;::;;;;ccc:;,.............,,;,:lllo:;coooooooooooooolllllllccc::;;cc
-''',,,;;;;;;;,'.........  ....'...''',;kkkxxxxxxxxxxxddoolcccclcccc::
-;;;;;;;;;;;;,,'.........  .....''',.'::dxxxxxxddddxdddddxxdool:::;;;;
-,,,,,;;;;;::::::::::::::;;;:llool:::::codddddddddddddxxxxxxddxdoolcc:
-''',,,,;;:::::::::ccccclldOxd0Oooloooooooooddddddddddddddddxddddddddd
-'''',,;;;;:::::::::cccclo00ldKOoooloooooooooooddddddddddddddddddddddd
-''',,,;;;;::::::::::ccccl00dlOKkllolllooooolloooooddddddddodddddddddd
-'',,,,,;;;;;;:::;::::ccccx00olxKOolllllllllllloooooooooooddddddoooooo
-',,,,,,;;;;;;;;:::::::cccck00dlo0Kkollllllllllllllllllloooooooooooooo
-''',,,,,;;;;;;;;:::::::::ccO00xllkKKxlclllllllllllllllllllllllllllllo
-',,,,,,,,,,;;;;;;;;;;::::c:lO00klcdOK0kocclllclllllllllllllllllllllll
-'''',,,,,,,,,;;;;;;;;:::cccclO00Ooccd0KKkocccccclcllllllccccccccccccc
-''''',,,,,;;,,,,;;;;;::::::c:l000kocco0KK0dcccccccccccccccccccccccc::
-""";
-
-    public static String frame67 = """
-..........''.''',,,;,;:coodooxdxkkkkkkkkkkkxxxdddxkkkkkkkdllooolollll
-.......''....'',',;;;;:::cldddxxxxxxxxxxxxxxdoooodxkkkkxxolllllllcccc
-.........''...'''',;;;::c:cclodddxxxxxxxxdxxdddoooodxxxxooddlcccccccc
-..........',.'''.',;;:ccll::cloddddddxxxxddddoollooxxxdddollc::cccc::
-   ........''....,;:;::clc:clooooooooddxxdoolllcclddxxxdolccc::::cc::
-    ............',;;:;:llc::coooooollloolollllccclooodolllcc::c::c:::
-.................',:c:ccccllcccllllccoolcoooc:::cclloolccc::::::,:;::
-......;c':',,''',,''',;::ccc:clolc::::clclcc:::::ccllc:;;;;;;;;;;::::
-......''';','',;,,;''.;xxxxkkkdl:;,,;;:::cc:::;;::cc:;,;;;;,,;;;;;;;;
-;;;;;,,;;,,,,,.........cclddddkxoc::;;;;;:c:::::::::;::,;,;:::;l;;;lc
-;;;::;;;;ccc:;.............',;,:llloc;coddoooooooooooollllllccc::;;::
-',,',,,;;;;;;,..........  ........''',,dkkkxxxxxxxxxxxddolccccccccc:;
-;;;;;;;;;;;;,,''........  .....''',''::oxxxxxxddddxdddddxxddol:::;;;:
-,,,,,,;;;;;:::::::::::::;;:lloooc;::::codddddddddddddxxxxxxdddddollc:
-''',,,,;;:::::::::cccccllkOokKdolloooooooooddddddddddddddddxddddddddd
-'''',,;;;;:::::::::cccccx0xlOKdlooloooooooooooddddddddddddddddddddddd
-''',,,;;;;::::::::::::ccd0Olo00dllolllooooolloooooddddddddodddddddddd
-'',,,,,;;;;;;:::;:::::cclO0OloOKkllllllllllllloooooooooooddddddoooooo
-',,,,,,;;;;;;;;::::::::cco00OllxK0dlllllllllllllllllllloooooooooooooo
-''',,,,,;;;;;;;;;::::::::cd00Oocd0K0xlclllllllllllllllllllllllllllllo
-',,,,,,,,,,;;;;;;;;;;::::::x00koclxKK0dlcclllclllllllllllllllllllllll
-'''',,,,,,,,,;;;;;;;;:::::ccx00OdcclOKK0dcccccccccccllllccccccccccccc
-''''',,,,,;;,,,,;;;;;:::::::cO00Od:ccOKKKkccccccccccccccccccccccccc::
-""";
-
-    public static String frame68 = """
-...........',''',,,,,;,;:coododxxkkkkkkkkkkkkxxxdodxkkkkkkxolooololll
-............'..'',';;;;;::cloddxxxxxxxxxxxxxxxdoooddxkkkxxdolllllllcc
-..........''...'''',,;;;::c:ccoodddxxxxxxxxdxxddoooodxxxxdoodolcccccc
-...........','.'.'.',;;:ccll:cllodddddddxxxdddoooloodxxxdoolllc::cclc
-   ..........,'...',,::::llc:cloooodoooddxdodolll:loodxxxdoccc:::::c:
-..    ........'...',;::;:llc:ccoooooollooollollccccloooollllc:::c;cc:
-...................',;c:ccc:llcccolllccollloooc:::ccllolccc::::::,;:;
-........':':','''',,',,,;:::cc:clolc::::ccccc::::;:cclcc:;;;;;;;:;:::
-.........,';',',;;;,'.'dxxxkkkxlcc:;,,;;:::cc::;;;:cc::,,;;;,;;;;;;:;
-::;;;;;,,;;,,,.........;ccddddxkdoc:::;;;;::c:::::::c:::;;;;c::cc;;ol
-;;;;;:::;;;ccc'.............,;,;cllol;;ddddddddoddodooolllllllccc:::;
-'',,,,,;,;;;;;.'........  .........''';:kkkkxxxxxxxxxxxddolcccc::ccc:
-;,,,,,,,;;;;,,''........  .....'''''',:cdxxxxxddddxdddddxxxddlc:::;;;
-''',,,,,,;;;:::::::::::::cllodoc::::::cloddddddddddddxxxxxxdddddoolc:
-''',,,,,;;;:::::::::ccccxOox0dlooloooooooooddddddddddddddddxddddddddd
-'''',,;;;;:::::::::cccco0Old0xlloollooooooooooddddddddddddddddddddddd
-''',,,;;;;::::::::::::cl00dlkKklllolllooooolloooooddddddddodddddddddo
-'',,,,,;;;;;;:::;:::::::k0OllkKOdllllllllllllloooooooooooddddddoooooo
-',,,,,,;;;;;;;;;::::::::o00klcd0Kkllllllllllllllllllllloooooooooooooo
-''',,,,,;;;;;;;;;::::::::d00xcco0K0xllclllllllllllllllllllllllllllllo
-'',,,,,,,,,;;;;;;;;;;:::::k00xcclkKKOdllcclllclllllllllllllllllllllll
-'''',,',,,,,,;;;;;;;;;::::ck00kl:co0KKOdlcccccccccccllllccccccccccccc
-''''',,',,,,,,,,;;;;;;;;:::c000k::cl0KKKdcccccccccccccccccccccccccc::
-""";
-
-    public static String frame69 = """
-............''''',,,,,;;;:clodoxxxkkkkkkkkkkkkxxxdodxkkkkkkdllooololc
-............'''..',,;;;,;;:clodddxxxxxxxxxxxxxdddooddxkkkxxolllllllcc
- .........'''...'',',,;;;::::cloodddxxxxxxxddxxddoooodxxxxdoddocccccc
- ...........','.'''.',;::cclc:clloddddddxxxxdodooollodxxxdoolcc:::ccl
-   ...........,'...',;::::clc:clodoodoooddxdodlllc:loodxxxdlccc::;::c
-...   .........'...',:::;:llc:ccoooooollooolllllccccloooollllc::::;cc
-....................',;c:ccccllcccollcccollloolc:::ccllolcc::::::;,;:
-.........':':','''',,,,,,;:::cc:clolc::::ccccc::::;:cclc:;;;;;;;;:;::
-..........;';,,,,;;,'..oxxkkOOkoccc:;,,;;:::cc::;;;:cc:;,,;;;,;;;;;::
-:::;;;;;,,;;,,'........'ccoddddxxdcc:::::;;:cc::::::cc:::;:;:c::l;;ol
-;;;;;;:::;;;:c,.............',,,clllo;;odddddddoddddddooollllllcc::::
-,,,,,,,,,;;;;;''........  .....'......;,kkkkxxxxxxxxxxxxddlcccc::::c:
-,,,,,,,,,,,,,,''......... .....''''''':cdxxxxxddddxdddddxxxxdlc::::;,
-'''',,,,,,;;;::::::::::::looxdl::::::ccloddddddddddddxxxxxxddddddolc:
-''',,,,,;;;:::::::::ccclOxlOOllooloooooooooddddddddddddddddxddddddddd
-'''',,;;;;;;:::::::c:ccx0xlk0olllollooooooooooddddddddddddddddddddddd
-'',,,,;;;;;;:::::::::::d0Olo00dlllllllllooolloooooddddddddodddddodddo
-'',,,,,;;;;;;:::;::::::l00dcoO0Oollllllllllllloooooooooooddddddoooooo
-',,,,,,,;;;;;;;;::::::::k0OoclOK0dllllllllllllllllllllloooooooooooooo
-''',,,,,,,;;;;;;;::;;;::c00Olccx0KOollcllllllllllllllllllllllllllllll
-'',,,,,,,,,;;;;;;;;;;;:::o00Ol:co0KKklllcclllclllllllllllllllllllllcc
-'''',,,,,,,,,;;;;;;;;;;:;:o00Oo::ckKKKxlccccccccccccllllccccccccccccc
-''''',,',,,,,,,,;;;;;;;;;;;x000d;::xKKK0lcccccccccccccccccccccccccc::
-""";
-
-    public static String frame70 = """
-.............''''',;,,;;;::clodoxxxkkkkkkkkkkkkxxddoxxxkkkkkollollloc
-.............'''''',,;;,,;:cclodddxxxxxxxxxxxxxdddooddxkkkxdollcccccc
-  .........'''...'',',;;;;::::lloodddxxxxxxxddxxddoooodxxxdooddlc:::c
-  ...........','.''''',;::cclccclloddddddxxxxddooooloodxxddollcc::::c
-     ..........,'...',;::::llc:clodoodoooddxdodlllccloodddxollc::;;:c
- ....   ........'...',:::;:llc:cloooooollooolllllccccooooollllc:;:;;c
-.....................';;c:clccllcccollcccollloolc:::cclcllcc::::;:,,:
-..........':':','''',',,,;::::cc:clolc::::ccccc::::;ccccc:;;;;;;;;;;;
-...........;';,,,;:,''.lxxkkOOOdcccc:;,,;;:::cc::;;;:cc:;,,;;;;;:;;::
-ccc::;:;;,,,;,;.........:clddodxxdllc:c::::::cc::cc:ccc:cc:;:c::c:;ll
-,;,,;;;;::;;;:;.............'',,ccllo:;ldddxxddddddddddoooollllccc::;
-,,,,,,,,,,;;;;,'........  .....'......,'xkkkxxxxxxxxxxxxdxolcc:::::;;
-,,,,,,,,,,,,,,,''.............''''''''::dxxxxxddddxdddddxxxxdllc::;;;
-'''''',,,,;;;;::::::::::ldoxxdlccccccclloddddddddddddxxxxxxddddddolcc
-'''',,,,;;;;;::::::::ccdOoo0xlloolooooooooodddddddddddddddddddddddddd
-''',,,;;;;;;;::::::::ccO0ll00llllollooooooooooddddddddddddddddddddddd
-',,,,,;;;;;;;;::::::::cO0dcd00ollllllllllollloooooddddddddodddddodddo
-',,,,,,;;;;;;;;;;::::::x0kccx00xllllllllllllllooooooooooodddddooooooo
-',,,,,,,,;;;;;;;;;:::::l00x:cd0KOollllllllllllllllllllloooooooooooooo
-''',,,,,,,;;;;;;;;;;;;::x00d:coOK0xlllcllllllllllllllllllllllllllllll
-''',,,,,,,,;;;;;;;;;;;;;:k00xc:cx0K0dlcccclllcllllllllllllllllllllccc
-''''''',,,,,,,;;;;;;;;;;;:k00Ol::lOKKOdlccccccccccccccclccccccccccccc
-'',''''',,,,,,,,;;;;;;;;;;cO00ko::ckKKKkcccccccccccccccccccccccccc:::
-""";
-
-    public static String frame71 = """
-...  ........''''',,;,,;;;::llddoxxxkkkkkkkkkkkxxxdddxxxkkkkdllllllll
-..............'''.'';,;;,;;:cclodddxxxxxxxxxxxxxdododddxkkxdoolcccccc
-  ..........'''..''',',;;;;::::lloodddxxxxxxdddxddooooodxxxdoodoc::::
-   ...........','.''''';:::cclccclloddddooxxxxddololllodxddoolcc::;::
-     ..........','...',;::::llccclododoooodddooolllcclooddddollc:;;;:
-  ....   ........'...',:::;:lcc:clooooollloooolllccccloooolclcc::;:,:
-.....................',;:c:clc:llcclollccclllloocc:::clcllcc::::;;;,;
-...........,:,;,,,'','';;;;:cc:cc:lllc::;::ccccc:::::cclc::;;;;;;;:;;
-.'.........',';',,;,'''ckkkkO0Oxocccc;;,,;;:::cc::;;::c:;,,,;;,;::;::
-clcccc::::;;;;;.........::coooodddlllccc:::::clc::cccccccl:c:cl:c::lc
-',,,,,,,;;;;;;;...............'':clll;;lxxxxxxddddddddddoolllllcccc::
-,,,,,,,,,,;;;;,.. ......  .....'......''xkkxxxxxxxxxxxxxxxdlcc::::;;;
-,,,,,,,,,,,,,,,,''...........'.'''','':codxxxxddddxdddddxxxxdolc::;;;
-'''''',,,,,;;;:::::::::cdddkxlcllllllllooddddddddddddxxxxxxddddddooll
-'''',,,,;;;;;;:::::::clOklk0llllolooooooooodddddddddddddddddddddddddd
-'',,,,;;;;;;;;:::::::cd0xcx0kllllollooooooooooddddddddddddddddddddddd
-',,,,,;;;;;;;;::::::::d0kclO0klllllllllllollloooooddddddddodddddodddo
-'',,,,,,;;;;;;;;;:::::o0Ol:lO0Oollllllllllllllooooooooooodddddooooooo
-',,,,,,,,;;;;;;;;;:;:::k0kc:lO00xlllllllllllllllllllllloooooooooooooo
-''',,,,,,,;;;;;;;;;;;;;cO0Ol:cx0KOdlllcllllllllllllllllllllllllllllll
-''',,,,,,,,,;;;;;;;;;;;;lO0Od::lkKKOolcccclllcllllllllllllllllllllccc
-''''''',,,,,,,;;;;;;;;;;;lO00kl::oOKKOocccccccccccccccclccccccccccccc
-'''''''',,,,,,,,;;;;;;;;;;oO000l::cOKKKkcccccccccccccccccccccccccc:::
-""";
-
-    public static String frame72 = """
-;,,::cddxxxxkkxxxxkkkxxxkxddxddkkkkkOOkOOOxdldodoooodddOOO0KKXXKKKXXX
-:c;::clodddddxxxxkkkkkkxxdddddddxkkkkkkkkxdololoololoddxkO000K0000000
-cc:;;::codddddddxxxxddddxxddoododxxkkkkkddoxxolccllllooxOOkkO000OOOOO
-c::;:clldddddddddxxxxddooooddldddxxkkkkkxdooddlclcccllodddxkkkkkkkkOk
-c:;;:clooooloddxxxxxdololcllllldxxxxxxkxdolcclcccccccclllldxdxxxxxxxk
-;:;::lllllollollodxdoolollclccodxdddxxddoollllc::::ccccllooolddxdooxx
-:ccc:::cccllcc:clllcclolclccccllooooooocccllcc:::;:::cccllllllllllllo
-::::::lllolc::::cccccllcc:c::cclooooollc::cc:::::;;;::cccc:::cllcccll
-';::;:cccc;;;;,;::l::cc:::;:;:cccllccc:;;;;;;;;;;;;;::::::::c:::ccccc
-'',',::::;,,'',;;:cccccc::;;;:ccccc::;,,;;:;;;,;;;;:;;;;:::::cccccc::
-.''',;;;:;;;:;,;cxOOOkkkxxo:;:::ccc:,'''',;,,,:;,,;;;;;;;;;:;;:::::;,
-,,,,;lloooooolccoooodoooxkxdlcccclc::;:c:;;;;:;,:c:,;;:;;;;::c:::;,,,
-;;;;;:ccldxxx:....',,;;;',lloddddddooooollcclllllllccc::::cccl:;;,,,'
-cccloddxxxxxx'............,;cOOkxxxxxxxddddoooollllllllllcccccccc:::;
-ccllllloooooo;,,'''''''''';;cddkOOkkxxxxddddddddddoooolc:::ccc:::::::
-cccllllllolooooooooooooooodddddddkO0OOxdddddddddddddddddxddollcc:::,;
-:ccccllllllllllllooooooooddddddddddxO00OOxddddddddddddddddxxxxddooool
-::::ccccllllllllllllooooooooooooooooodk00OOOxdddddddddddddddddddddddd
-;;::::cccllllllllllllllllllloooooooooooodO0OO0Oxdoooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllllllok00kO0Oxdooooooooodddddooo
-,;;;::::::ccccccccclllllllllllllllllllllllllldOKOkO0Okdoooooooooooool
-,,;;;;:::::::cccccccccccllllllllllllllcclllllllox00kxk00kdlllllllllll
-,,,,;;;;:::::::ccccccccccccccllcccccclccccclllllllkXKkoxKXOollllllccc
-""";
-
-    public static String frame73 = """
-     .  .......''''',,;,,;;;:coldodxdxxxxkxxxxxxxxdddddxxxxkkxollcclc
-    ...........'''''',;,;;,;;:ccldddxxxxxxxxxxxxxxdododddxxxxdoolcccc
-   ...........''...'',,,,;;;;:c:clloodddxxxxxxdddxddolooodxxdoooolc::
-     ..........'','.'''',;:::cclccclodddddoodxxxdoollllooodddolccc::;
-       ..........','...',;:;::llccclodoooooooooooolllcloooddodolc:;::
-...  ...   ........'...',:::::lcc:cloodollcloooololcccccoolllccc::;;;
-.......................',::c:clc:llccldllc:cllclllc:::cccllcc:::;;;;;
-.............,;,;,,,,'',:c::ccc::ccclll::;;;:cccc::::;:cccc;;;;;;;;:;
-'''.'.........',;,;;',';xxxkO00Oxllcccc;;,,;;:::c::;;;::c:;,,;;;;c:::
-cccclccc:ccc:::,........',;:ccccoddoolc:cl:ccccccccclclllcllccll:c:c:
-''''',',,'',,,;'...............,,;;::;,:dkkkkkkxxxxxxxxxxdolllcccc:;;
-;,,,,,,,;;,,,,,.'.......  ............',cxxxxxxxxxxxxxxxxxxoc::::;;;,
-',,,,,,,,,,,,,,,,,''''...,,',.....'''',:ldddddddddxdddddxxxxddolc::;;
-'''''',,,,,;;;;:::::::cxxlkklllllllllloooddddddddddddxxxxxxddddddddoo
-'',,,,,,;;;;;;:::::::ckOld0xllllllooooooooodddddddddddddddddddddddddd
-,,,,,,,;;;;;;;:::::::oOxco00olllllllooooooooooodddddddddddddddddddddd
-',,,,,;;;;;;;;;;;::::d0k:ck0Ollllllllllllolllooooooodddddoodddddoddoo
-'',,,,,,,;;;;;;;;::;;lOOd:ck00dllllllllllllllloooooooooooooddoooooooo
-',,,,,,,,;;;;;;;;;;;;;dO0x::d00Ooclllllllllllllllllllllooooooooooolll
-''',,,,,,,;;;;;;;;;;;;;x00kc:lO00kolcccclllllllllllllllllllllllllllll
-'''',,,,,,,,;;;;;;;;;;;;k00Ol::oO0Kkocccccccccccccllcccllllllllcccccc
-''''''',,,,,,,;;;;;;;;;;:k000xc:cx00Kkoccccccccccccccccccccccccccccc:
-'''''''',,,,,,,,;;;;;;;;;:O000k:::o00KKxccccccc:cccccccc:ccccccccc:::
-""";
-
-    public static String frame74 = """
-     .   .......'''''',;,;;;;:clododdxxxxxxxxxxxxxddddodxxxkkkdlllccc
-    ............'',''',,,:;,;;:clldddxxxxxxxxxxxxxxddoodddxxxddlocc:c
-    ...........''...'',,,;;;;;:::clloodddxxxdxxddddddolooodxddoollc::
-     ...........',''.'''',;:::ccl:cclooddddoodxxxdoollclooodddolccc;;
-        ..........''...'';;::::lcccclodoooooooooooolllcllooooodolc:;;
-....  ...   ............',:::::lccccllodollclooooollcccclolllcccc::;;
-........................',::::clc:loccodocc:clllollc:::cccccc:::;;;;:
-'...'.........;;,;,,,'',::ccccc:::ccclll::;;;:cccc::::;:ccc:;;;;;,;::
-''''.'........'',;,;',,,xxdxkOOOxlcccccc;;,,;::::c::;;;::c:;,,;;;:c::
-lcccccccc:cccc:,.........,;::::cldoool::cclcccccllllllllllloclclc::c:
-'''''',,,,'',,,'...............,,,;;:;,:dkkkkkkkxxxxxxxxxddlclcclc:;;
-,;,,,,,,,;;,,,,''.... ..   ...........',:xxxxxxxxxxxxxxxxxxocc::;;;,,
-',,,,,,,,,,,,,,,,,''''..',,,'......''.':cdddddddddxdddddxxxxddolcc::;
-'''''',,,,,;;;;:::::::lkdoOocllllllllloooddddddddddddxxxxxxdddddddddo
-,,,,,,,,;;;;;;:::::::oOdcO0ollllllooooooooodddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;::::::OOccO0xllllllllloooooooooodddddddddddddddddddddd
-,,,,,,;;;;;;;;;;;;:::OOo:o00xllllllllllllolllooooooodddddoodddddoddoo
-'',,,,,,,;;;;;;;;::;;xOOl:lO0klllllllllllllllloloooooooooooddoooooooo
-',,,,,,,,;;;;;;;;;;;;:O0Ol:ck00xlccclllllllllllllllllllloooooooooolll
-''',,,,,,,;;;;;;;;;;;;cO00d::d000xlccccclllllllllllllllllllllllllllll
-''''',,,,,,,;;;;;;;;;;;lO00kc:cx000xlcccccccccccccclcccllllllllcccccc
-''''''',,,,,,,;;;;;;;;;;lO00Oo::lkKK0xlccccccccccccccccccccccccccccc:
-'''''''',,,,,,,,;;;;;;;;;o0000o:::xKKK0lccccccc:ccccccc:::cccccccc:::
-""";
-
-    public static String frame75 = """
-         .......''''''',;,,;;;:clododxxxxxxxxxxxxxxddddodxxkkkxdlllcc
-     ............'','',,;,:;,;;:cllodddddddxxdxxxxxxdooooddxxxdooocc:
-     ...........'....'',,,;;;;;:::cllooddddxdddddddxddolooodxddolllc:
-.    . ..........',''.'''',;:::ccl:cllooddddoodxxxdoollclooldddlccc:;
-.        ..........'''..'';;::::lcccclooodoooooooooolllclloooooollc:;
-..... ....   ............,,:cc::lc:ccllldollcloooooolcccclllllcc::::;
-l........................',::::clc:loccldolc:cllllllc:::cccccc::;;;;:
-l,.............,;,,,,'.'ccclcccc;::ccccll:;;;;:cccc::::;:ccc:;;;;;;;:
-'',,''''.......'';;;'',,oxdxxkOOxlc:ccccc;;;,:::;:c::;;;::::;,,;:;c::
-clcccccccc:cccc:.........,;;::::coolol::lcclccllllllllllllllollcl::::
-''''''',,,,,',,,...............,,,,;;;,;lkkkkkkkkxxxxxxxxxdocccccc:;;
-,,;;,,,;;,;;,,,'..... ..   ...........',;xxxxxxxxxxxxxxxxxxdlc::;;;,,
-,,,,',,,,,,,,,,,,,,,'''';;;:'......''.':ldddddddddxdddddxxxxddollcc::
-''',',,,,,,;;;;;::::::dkoxOlclllllllllooodddddddddddddxxxxddddddddddd
-,,,,,,,,;;;;;;;;:::::xkcl0Olllllllloooooooodddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;;;:::oOx:l00ollllllllloooooooooodddddddddddddddddddddd
-,,,,,,;;;;;;;;;;;;:;oOOc:x00ollllllllllllollloooooooddodooodddddooooo
-'',,,,,,,;;;;;;;;::;:k0kc:d00xllcllllllllllllllloloooooooooddoooooooo
-',',,,,,,;;;;;;;;;;;;l00kc:lO0Odcccccllllllllllllllllllloooooooooolll
-''',,,,,,,;;;;;;;;;;;;d00Ol:cx00Oocccccccccccllllllllllllllllllllllll
-''''',,,,,,,;;;;;;;;;;;d000d::lOKKOoccccccccccccccclccclllllllccccccc
-''''''',,,,,,,;;;;;;;;;;o000kc::o0KKOdcccccccccccccccccccccccccccccc:
-'''''''',,,,,,,,;;;;;;;;;k000Oc::c0KKKkcccccccc:ccccccc:::cccccccc:::
-""";
-
-    public static String frame76 = """
-..        .......''''''',;,,;;;:clododdxxxxxxxxxxxxxddddoddxxxxxolccc
-..     ...........'','',,;,;;,;;:cllodddddddddxxxxxxxdooooodxxxololcc
-      ................'',,,;;;;;:c:cllooddddddddddddddoolooodxddolllc
-..     ...........','''','',;:::cclccllooddddoodxxxdololclollddolccc:
-..       ...........'''..'';:c;::llccclooodoooooooooolllclllooololl:;
-...... ....   .......'....,,:ccc:ll:ccllldollcloooooolcccclllllcc:::;
-,c,.......................',:::::lccloccodolc:ccllllcc::;ccccc::;;;;;
-,:;'............,;;,,,''cllllllc;;::ccccll:;;;;:c:cc::::;:ccc;;;:;;;;
-,'',,,'''.......',;;'.,,lxddxxkkkoc:::c:cc;;;,;::;:c::;;;::::;,;:::cc
-c:ccccccccc::ccc'........',;;;;:cooloo:;lllllllllooooooooooolollcc:;;
-'''''''',',,,',;...............''',,;;,;:kkkkkkkkxxxxxxxxxxdlccc:::;;
-,,,;;,,,;;,,;,,,.'... ..   ...........',,dxxxxxxxxxxxxxxxxxdlc:::;;,,
-',',',,,,,,,,,,,,,,,,'',:;::'.....'','':ldddddddddxdddddxxxxddollllcc
-',',,,,,,,,;;;;;:::::cxxlOkcclllllllllooodddddddddddddxxxxddddddddddd
-,,,,,,,,;;;;;;;;::::lOdcx0dcllllllllooooooodddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;;;:::kOl:x0klccllllllllooooooooodddddddddddddddddddddo
-,,,,,,;;;;;;;;;;;;:;xOk:cO0klccllllllllllollloooooooddodooodddddooooo
-'',,,,,,,;;;;;;;;::;l00d:ck0Odclcccclllllllllllllloooooooooddoooooooo
-',',,,,,,,;;;;;;;;;;;x00x::d00Oocccccclllllllllllllllllloooooooooolll
-''',,,,,,,,;;;;;;;;;;:k00kc:lO00klcccccccccccllllllllllllllllllllllll
-''''',,,,,,,;;;;;;;;;;:k00Ol::d0KKklccccccccccccccccccclllllllccccccc
-''''''',,,,,,,,;,,,;;;;;k000x::cx0KKkocccccccccccccccccccccccccccccc:
-'''''''',,,,,,,,;;;,;;;;:0000k:::o0KKKdcccccccc:ccccccc:::cccccccc:::
-""";
-
-    public static String frame77 = """
-.....  .. ........'''',,,'';;;;;::clldodxxxxxxxxxxxxxxxdddodddxxxxdlc
- ....   ............''',',,,,;:;;;:clldodddddddxxxxxxxxddooooodxxoolo
-         ..............''',;,;;;;;:::clloodddddddddddddddoloooooddolc
-  ..    ............',''''',',;::::clcclloodddddooddddoloocloolloolcc
-......    . ..........,'.'.'',;c:::clccccoooddooooooooolllccollolclll
-.........   ... ........'...',:lcccclccccllodolcloolooolccc:clllccc::
-.,,':'......................',;l:::clccllclodlc:cclllllc::::cccc:;;;;
-.,o,:;'..'........':,;'',clllllc:,;;:::cccllc;;;;::ccc:::;;::cc;;;:;;
-...,,''''.'.......';;'',,xxdxxkkOxc:;;;:cc:c:;;;;;;::c::::::::::,,::c
-lllcclccccccc::cc.........,,;:;;:looloc::llllloloooooooooooooooolc::;
-'''''''',',,,,,,,...............,',,;;;,;okkkkkkkkkxxxxxxxxxdlc:::;::
-,,,,,,;;,,,,,,,,,'. .. ..  ............',:ddxddxxxxxxxxxxxxdlc:::;,,,
-,,,,,,,,,,,,,,,,,,,,,,';:;:;........''.':lddddddddxdddddxxxxdddooool:
-,,,,,,,,,,,;;;;;;::::lxooOdcclllllllllooooddddddddddddxxxxddddddddddd
-,,,,,,,,;;;;;;;;;:::dOcc0kccllllllllllloooodddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;;;::lOO:c00occclllllllllloooooooddddddddddddddddddodoo
-,,,,,,;;;;;;;;;;;;:cOOl:o00dccccccllllllllllloooooooddodooodddddooooo
-'',,,,,,,;;;;;;;;::;k0Oc:o00xlccccccllllllllllllllooooooooodooooooooo
-',',,,,,,,;;;;;;;;;;cO0Ol:lO00dcccccccclllcllllllllllllllloooooooolll
-''',,,,,,,,;,;;;;;;;;l000o::d00Odccccccccccccclllllllllllllllllllllll
-''''',,,,,,,,,;;;;;;;;l000xc:lk00Odcccccccccccccccccccclllllllccccccc
-''''''',,,,,,,,;,,,;,;;cO000d::lk0K0xlcccccccccccccccccccccccccccccc:
-'''''''',,,,,,,,;;;,;;;;l0000x:::x0KK0dcccccccc:ccccccc:::c:cccccc:::
-""";
-
-    public static String frame78 = """
- ......  ..........'''',,,'';;;;;::clldoddxxxxxxxxxxxxxxdddooddxxxdoc
-  .....  ............''',,,,,,,:;;;:clloodddddddxxxxxxxxddoooooddxoll
-     .    ...........'..'',,;,;;;;;::::lloodddddddddddddddolooooodool
-.  ...    ...........''''''',',;::::clcclloodddddooodddoloocloolloolc
-.......     ..........','.'''',;c:::clcccclooddooooooloolllcclllllclc
-.......... .... .............',:ccccclccccllodollloooooolcc:cclllcc::
-.'.,';,......................',;lc::clccllcloolc::cllllcc::::cccc:;;;
-...d:;c.'.'........':;;',clllollc,,,;;::cccllc;;;;:::cc:::;;::c:;,,;;
-....';''''.''.....'':,',,oxddxxkkkoc;;;;:cc:::;;;;:;::l::::::::::,;::
-cclcccccccccccc::,........,,;;;;:loolll;;llloolooooooooooooooololl::;
-'''''''''''',,,,,'..............,',,,;;,;:kkkkkkkkxxxxxxxxxxdlc::;;::
-,,,,,,,;;,,,,,,,,.'... ..   ...........',,ddddddxxxxxxxxxxxdlc:::;,,,
-,,,,,,,,,,,,,,,,,,,,,,,;:;:;.........''';cddddddddxdddddxxxxddxddooc:
-,,,,,,,,,,,;;;;;;;:::oxldOlcclllllllllloooddddddddddddddxdddddddddddd
-,,,,,,,,;;;;;;;;;:::kk:o0xccclllllllllloooodddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;;;::oOx:l0Olccclcllllllllloooooodddddddddddddddddooooo
-,,,,,,;;;;;;;;;;;;:o0Oc:x0Ooccccccccllllllllloooooooddodoooddddoooooo
-'',,,,,,,;;;;;;;;;;:O0kc:x00xccccccccclcllllllllllooooooooooooooooooo
-',',,,,,,,;;;;;;;;;;l00Oc:lO0Odcccccccccccclcllllllllllllloooooooolll
-''',,,,,,,,;,;;;;;;;;l00Oo::x00Odccccccccccccccclllllllllllllllllllll
-''''',,,,,,,,,;,,;;;;;l000kl:lx000dlcccccccccccccccccccllllclcccccccc
-''''''',,,,,,,,,,,,;,;;cO000d::cx0K0xl::::cccccccccccccccccccc::c::::
-'''''''',,,,,,,,',,,;;;;c0000k:::d0KK0xc::ccccc:ccccccc:::::ccc:;;:::
-""";
-
-    public static String frame79 = """
- ........ ...........''',,,'',;;;;::clloooxdxxxxxxxxxxxxxdodooodxxddd
- .  ....  ............''',,,,,,,:;;;:cllooddddddddxxxxxxdddoooooddddl
-.   ....    ...........''''',;;,;;;;::c:llooodddddddddddddddloooooloo
-..   .      ..........'''''''',,;::::cclcclloodddddooddddllocclolllll
-.........    ...........,,.''',,;:c:::llccclooddooooooololllcclllllcc
-..........................'...',;cl:c:cc:cccllddllcloloddlccc::cllc::
-.'''''':..................'...'',cl:::lccclccodoc::ccllllc:::;cccc:;;
-....,o,c''...........;;,':llllool:,,,;;::ccccll:;;;;:::c:::;:;:::;,,;
-.....',,''''''....''';.,':xdddxkkkxl:,,;;:cc::c:;:;::::cc:::::::::,,:
-cccccccccccccccc::........',,;:;;:loolo:;:llooooooodddooooodddooolc::
-''''''''''''',,,,,'.............',,,,,;,,:lxxkxkkxxxxxxxxxxxxol:;;;::
-,,,,,;,,;;;,,,,,,''......   ............',cdddddxxxxxxxxxxxdolc::;;,,
-,,,,,,,,,,,,,,,,,,,,,,,;:::;'........''.,codddddddddddddxxxdddxdddlc:
-,,,,,,,,,,,;;;;;;;:::odldklcccllllllllloooddddddddddddddxdddddddddddd
-,,,,,,,,;;;;;;;;;:::kk:o0dccccclllllllloloooddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;;;::oOx:l0Olcccccllllllllllloooodddddddddddddddodooooo
-,,,,,,;;;;;;;;;;;;;o0Oc:x0Ooccccccccclclllllllooooooddodoooddddoooooo
-'',,,,,,,;;;;;;;;;;:k0kc:d00xlccccccccccclllllllllloooooooooooooooooo
-',',,,,,,,,;;;;;;;;;cO0Ol:lO00dccccccccccccccllllllllllllllloooooolll
-''',,,,,,,,;,;;;,;;;;lO00d::d000dcccccccccccccccccllllllllllllllllllc
-''''',,,,,,,,,,,,,;;;;cO00Oo:cd000xlc:::ccccccccccccccccccccccccccccc
-''''''',,,,,,,,,,,,,,;;;k000xc:cx0KKkoc:::::ccccccccccccccccc::::::::
-'''''''',,,,,',,',,,;;;;:k000Ol::l0KK0kl::ccc:::ccc:c:c:::::::::;;;::
-""";
-
-    public static String frame80 = """
- ......... ...........'',,,,'',;;;;::clloooddxxxxxxxxxxxxddoooooddddd
- ... ..... ............'''',,',;,:;;;:cllooddddddddxxxxxddddolooooddo
-.   .....   ...........'''''',;:,;;;;::::llooodddddddddddddddloooollo
-....        ...........'''''''',,;::::cclcllloodddddooododllocclollll
-.........    ...........',,.''',,:cc:::clccclooddoooooollolllcclllllc
-...........................'...',:clccclcccccllddlccloloddlcc::cclcc:
-...''''';..................'...'',cl:::cccclccoolc::cclllcc:::;cccc:;
-'..'.'d,c,'...........:'';looooooc,,,,;;::cccclc:;;;;:::c:::;:;:::;,,
-'.....',,',,'''....'';.'';xddddxkkkoc,,,;;:cc::::::;::::lc:::::cccc;;
-lcccccccccccccccc:........',,;:;;:lloloc;,cloooooooddddddddddddollc:;
-'''''''''','',,,,,'..............,',,,,,,:cxxxxxxxxxxxxxxxxxdol:;,;:;
-,,,,,,;,,;;;,,,,,''.......  ............',:ddddddddxxxxxxxxdolcc:;,;;
-,,,,,,,,,,,,,,,,,,,,,,,::cc,'........''',cldddddddddddddxxdddddddollc
-,,,,,,,,,,,;;;;;;;::cdolkdccccclllllllllooodddddddddddddxdddddddddddd
-,,,,,,,,;;;;;;;;;::lOd:k0lccccclllllllloloooddddddddddddddddddddddddd
-,,,,,,,;;;;;;;;;;;:kOo:x0xcccccclllllllllllooooddddddddddddddoooooooo
-,,,,,,;;,,;;;;;;;;;k0k:cO0klccccccccclclllllllloooooooodoooddddoooooo
-'',,,,,,,;;;;;;;;;;cO0xcck00dcccccccccccclllllllllloooooooooooooooolo
-',',,,,,,,,;;;;;;;;;o00Ol:oO0Odccccccccccccccllllllllllllllloolllllll
-''',,,,,,,,;,;,,,;;;;lO00d::d000dccccccccccccccccccllclllllllllllllcc
-''''',,,,,,,,,,,,,,;;;cO00kl:cx000xlc:::cccccccccccccccccccccccccccc:
-''''''',,,,,,,,,,,,,,;;:k000xc:cx0KKOoc:::::cccccc::cc:c:c:::::::::::
-'''''''',,,,,',,',,,;;;;:O000Ol::l0KK0kl::ccc:::ccc:::::::::::::;;;;;
-""";
-
-    public static String frame81 = """
-.........................',;,;',,;;;;::clloooddxxxdxxxxxxddddoooooodd
-............  ..........''''',,',;,:;;;:cllooddddddddxxxdxddddolooood
-...... .....  ...........''''',,;:,;;;;::::lloooddddddddddoddddoloool
-......        ..........'''''''',;,;:::::clclllooddddddooooolloccloll
-............   ...........','.''',,:cc:::clcclcoodddoloooolllllc:cllc
-............... ............'....',:cll:clcccccllddoccloloddlc::::ccc
-..'..''.'.,'.................'...'',clc;:ccccccclolc::cclllcc:::;::c:
-...'.''.l:;:''........''',lloooooo:;,,,,;;:::ccccc:;,,;:::c:::;:;:::,
-''.,....'';,'''''..'','',,oxdddxkkkdl:,,,,,;:cc::::::;::::lc:::c:ccc;
-llllcccccccccccccc;........,',;;;;llllol;,;:cloodddddddddddddddolll:;
-''''','''''',,,,,,,'.............,'',,,,,;;xxxxxxxxxxxxxxxxxdol:;;;;,
-;,,,;;,;;;;;;,,,,'.,......  ............',,ddddddddxxxxxxxdddllc:;;;;
-,,,,,,,,,,,,,,,,,,,,,,;:cl:''........'''':coddddddddddddxxddddddoollc
-,,,,,,,,,,,;;;;;;;::oxldklccccccclllllllooodddddddddddddddddddddddddd
-,,,,,,,,;;;;;;;;;::xOclOxccccccllllllllllooodddddddddddddoddddddddddd
-,,,,,,,;;;;;;;;;;;cOOccO0occccccclllllllllllooooddddddddddooooooooooo
-,,,,,,;;,,;;;;;;;;:O0x:cO0xcccccccccclclllllllloooooooooooooooooooool
-'',,,,,,,;;;;;,;;;;lO0xcck00dcccccccccccccccclllllllllooollllllllllll
-',',,,,,,,,;,,,,,;;;l00Ol:oO0Odccccccccccccccccccclcccllllllllllccccc
-''',,,,,,,,;,;,,,;;;;lO00dc:d000xlcc:ccc::::c:ccccccccccccccccccccccc
-''''',,,,,,,,,,,,,,;;;cO00Oo:cd000koc:::cc::c::ccccccccccccccccccc:::
-''''''',,,,,,,,,,,,,,;;:x000kl:cdOKKOdl:::::cccccc::cc:::c:::::;:::;;
-'''''''',,,,,,,,,,,,;;;;;x000Oo::cOKK0Odc:ccc::::cc::::::::::::;;;;;;
-""";
-
-    public static String frame82 = """
-..........................',,,;,,,;;;;:cclloodddxxdxxxxxxdddddooooood
-.............. ..........''',,,,,,;,:;;;:cllooddddddddxxdxdddddoloooo
-.............  ...........'''',,,,:,;;;;::::lloooddddddddoooodddooloo
-...........    ..........'''''''',;;::::::clclllooddddddooooollocclol
-.............  ............',''.'',,:ccc::cccclcoooddoooooolollcc:ccl
-.............................''...',:cll:clccc:cllddoccllloddlc:::::c
-....'.''''.''.................'...'',clc::ccccccclolc::cccllcc:::;::c
-....'.''.:c,c''.'......'.,coooooooc;;,',,;;::cccccc:;,,;:::c:::;;;:::
-.''',....'';,'''''..',,.',oxdddxkkkxoc;,,,,,;::c::::::;::::cc::ccccc:
-cclllccccccccccccc:........,',;;;;clllll;,;;:cloddddddddddddddddoll:;
-,''''''''','',,,,;,'.............,'',,,,,;;dxxxxxxxxxxxxxxxxdol:,;;;,
-;;,,;;;,;;;;;,,,,,''......  ............',,odddddddxxxxxxxdddoo:;;::,
-,,,,,,,,,,,,,,,,,,,,,,::cc;'..........''';coddddddddddddxxdddddddollc
-,,,,,,,,,,,;;;;;;;::oxcdkccccccccllllllllooodddoodddddddddddddddddddd
-,,,,,,,,;;;;;;;;;::kO:lOxccccccclllllllllloooodddddddddddododdddddddd
-,,,,,,,;;;;;;;;;;;cOOccO0occccccccccllllllllooooodoodoooooooooooooooo
-,,,,,,;;,,;;;;;;;;:kOk:cO0xcccccccccclcllllllllllooooooollllollllllll
-'',,,,,,,;;;;;,;;;;cO0kccx00dccccccccccccccccllllllllllllllllllllcccc
-',',,,,,,,,;;,,,;;;;lO0Oo:lk00xlccccccccccccccccccccccllllllllllccccc
-''',,,,,,,,;,;,,,;;;;cO00xc:oO00xocc:c:c::::c:ccccccccccccccccccccccc
-''''',,,,,,,,,,,,,,;;;:k00Odc:oO00Odc:::::::c::ccccccccccccc:::::::::
-''''''',,,,,,,,,,,,,,;;;d000ko::oOKK0xl::::::::c:::::::::::::::;:::;;
-'''''''',,,,,,,,,,,,;;;;;d000Ox::cdKK00xc:::c::::cc:::::::::;;;;;;;;;
-""";
-
-    public static String frame83 = """
-,;,::cddxxxxkkxxxxkkkxxxkxddxddkkkkkOOkOOOxoldododoodddOOO0KKXXKKKKKK
-:c:;:clodddddxxxxkkkkkkxxdddddddxkkkkkkkkkdololoololoddxkO000K0000000
-ccc;;:ccodddddddxxxxddddxxddoodddxxkkkkkdddxdolclllllooxOkkkO000OOOOO
-c::;::lldddddddddxxxxddoodoodldddxxkkkkkxdooddlcccccllodddxkkkkkkkkOk
-cc;;:clooooloddxxxxxdooolcllllldxxxxxxkxdolcclcccccccccllldxdxxxxxxxk
-;:;;:lllllollollodxdoololcclccodxdddxxddoollllc::::ccccllooolddddoodx
-:cccc::ccclllc:clllcclolclcccclloooooooccclccc:::;:::ccclllllllollllo
-::::::lllolc::::cccccllcc:c::cclooooollc::cc:::::;;;::cccc::ccllcccll
-',::;:cccc;;,;;;;:l::cc:::;:;:cccllccc:;;;;;;;;;;;;;::::::::c::cccccc
-''',,;::::,''',;;:lccccc::;;;:ccccc::;,;;;:;;;,;;;;:;;;;::c::ccccc::,
-''''';;;;:;;::,:okOOOkkkxxc:;:::ccc:,'''',;,,;:;,,;;;:;;;;;:;::::;;,,
-,,,';clloooooccloooooooodkxolllcclc:::cc::;:;:;,cc;,;:;;;;;:cc::;,,,,
-;;;;;:ccloxxx,....'',,;;',ccdddddddoooooolcclllllllccc::::cclc:;;,,',
-lcccldddxxxxd.............':cOOkxxxxxxxddddoooolllllllllcccccccccc::;
-ccllllloooool;,,'''''''''',;cdxk0Okxxxxxdddddddddddoollcc:ccc::::::::
-cccllllllolooooooooooooooodddddddkO0Okxdddddddddddddddddxddollc::;;;;
-:ccccllllllllllllooooooooddddddddddxO0OOkdddddddddddddddddxxxxxdddool
-::::ccccllllllllllllooooooooooooooooodO0OOOkxdddddddddddddddddddddddd
-;;::::ccclllllllllllllllllllooooooooooook00OO0kdooooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllllloxO0Ok00kdoooooooooodddddooo
-,;;;::::::cccccccccllllllllllllllllllllllllldkK0kkO0kdooooooooooooool
-,,;;;;:::::::cccccccccccllllllllllllllcclllllllx0Kkdk0Kkdllllllllllll
-,,,,;;;;:::::::ccccccccccccccllcccccclcccclllllllkXKkoxKXOolllllllccc
-""";
-
-    public static String frame84 = """
-..........................'',;,;,,,;;;;:cclloooddxdxxxxxxddddddoooooo
-..........................''',,,,,,;,::;;:cllooddddddddxdxddddddolool
-......... ..... ...........'''',,,,c,;;;;::::lloooddddddddoooodooolll
-.............    ..........''''''',;;::::::ccclllooodddddoooolllol:ll
-..............   ...........','..'',,:ccc::cccclcoodddoloooooollcc:cc
-................. ............''...',:cll:clccc:cllddocclllldolc:::::
-.....'..'''.''.................'...'',clc:::cccccclolc:::ccclcc:::;::
-......'''.,l,c''''.....'.':oooooooc;;;,',,;;::cccclc:;,,;;::cc::;;;::
-,.''''.....';,,,''''',,.''lxddddxxkxoc:;;,,,,;::c:::::c;::::lc::cccc:
-cllllcccccccccccccc........'',;;;,clllll;;;:::llddddxxxxxxxxxxxdoll;;
-'''',''','',,,,,,,;'.............,''',,,';,ddxxxxxxxxxxxxxxdool:;;;,,
-,;;;,;;;,;;;;;,,,,''....... ............',,odddddddxxxxxxxdddol::::;,
-,,,,,,,,,,,,,,,;,,,,,;c:lc;'..........''';codddddddddddddxdddddddollc
-,,,,,,,,,,;;;;;;;;::ddckxccccccccclllllllloodddoodddddddddddddddddddd
-,,,,,,,,;;;;;;;;;::kk:d0dcccccccclllllllllooooodddddddoddodododdddooo
-,,,,,,,;;;;;;;;;;;lOOccO0occccccccccllllllllooooooooooooooooooooooooo
-,,,,,,;;,,;;;;;;;;;kOk:cO0klccccccccccccccclllllloooollllllllllllllll
-'',,,,,,,;;;;;,;;;;cO0kc:x00xlcccccccccccccccccclllllllllllllllcllccc
-',',,,,,,,,;;,,;;;;;cO0Oo:lk00xlcccccccccccccccccccccclcclllllccccccc
-''',,,,,,,,;,;,,,;;;;ck00kl:lO00koc::c:::::::::cccccccccccccccccccccc
-''''',,,,,,,,,,,,,,;;;:x00Odc:lk00Odl:::::::c:::::cc:::ccccc:::::::::
-''''''',,,,,,,,,,,,,,;;;oO00Oo::lk0K0koc:::::::::::::::::::::::;:::;;
-'''''''',,,,,,,,,,,,;;;;;d000Ox:::o0K00kc:::c::::cc::::::::;;;;;;;;;;
-""";
-
-    public static String frame85 = """
-...........................'',;;,,,;;:;;:cclloooddddxxxxxdxdddddllloo
-...........................'',,,,,,,;,::;;:clloodddddddddxdddddddollo
-................ ...........''',,,,,:,;;;;::::lllloodddddddoooodoooll
-..............   ...........''''''',;;cc::::ccclllooddddddooolllclc:c
-...............  ............,,'..'',,cllc::cccclcooddxollooooollcc::
-.................. ............'....',:lloccllcc:cclodocclllldolc::::
-......'..'''.''.................'...'',clc:::cccccclllc:::ccclc::::;:
-.......'''''o,c''.'...',.':oddddddl;;;;,',,,;;:cccclc:;,,;;::cc::;;;:
-.'''''''....,;;,,,'''',.''lxddddxxkxol:;;;,,,,;::c:::::c:::::ccccccc:
-ccllllccccccc:::::c'.......'',;;,,ccclll;,::::clodxxxxxxxxxxxxxdllc;;
-''''',''','',,,;,,,,.............,'''',,';,ddddxxxxxxxxxxxxdolc:;;;,'
-;,;;;,;;;;;;;;,,,,''....... ............',;oddddddddxddxdxdxdol::::;,
-,,,,,,,,,,,,,,,;,,,,,;c:lc;''........'''';codddddodddddddxdddddxdollc
-,,,,,,,,,,;;;;;;;;;cxolkdccccccccclclllllloododooododdddddddddddddddd
-,,,,,,,,;;;;;;;;;;cOk:d0occccccccccllllllloooooooodooooooodooodoooooo
-,,,,,,,;;;;;;;;;;;lOOccO0occccccccccccclllllllllolooooooooooooooooooo
-,,,,,,;;,,;;;;;;;;;kOkcck0klcccccccccccccccclllllllllllllllllllllllll
-'',,,,,,,;;;;,,;;;;cO0kl:d00xlcccccccccccccccccccccllllllllllllcccccc
-',',,,,,,,,;;,,;;;;;cO0Od:cx00koccc:::cc:::cccccccccccccccccccccccccc
-''',,,,,,,,;,;,,,;;;;ck00kl:lk00Odc:::::::::::::::::cccccccccccccccc:
-''''',,,,,,,,,,,,,,;;;:x00Oxc:lk00Oxl:::::::::::::::::::::cc:::::::::
-''''''',,,,,,,,,,,,,,;;;oO00Oo::lk0K0ko::::::::::::::::::::::::;;::;;
-'''''''',,,,,,,,,,,,;;;;;o000Ox:::o0K00kc:::c::::c:::::::::;;;;;;;;;;
-""";
-
-    public static String frame86 = """
-.............................'',;,,,;,::;;:cccloooddddxxxdxdddddddoll
-.............................'',,,,,,,;,::;;:cllooddddddddddddddddool
-.............................'''',,,,,c,;;;;::::llolloddddddddooooooo
-..............................''''''',:,lcc:::cccllloooddddddoolllclc
-..............................',,''.'',,cllcc::cccllloodxdllllooollcc
-.................. ..............'...'',;llll:cocccccclddlcclllodoc::
-.........'.''.....................'...'',clcc::cccccclllc::::cclc::::
-.........''''.l;l''''..'.':looooodl;;;;;;,,',,;;::ccccc:;,,;;::cc:;;;
-'.'.,.''',....,,;,,''','''oxddddxxkkoc;:;;;;,,,,;::c:::::c::cccllccl:
-c:cccccccccccccc:::;......''';;;;;cccllc;,::::cccooxxxxxxxxxxxxdolc;;
-,,,''''',,,,,,,,,,;,'...........''''''''';;ddddddxxdxxxxxxxdolc;;;'''
-,,,,;;;;;;;;;;,,,,,',.....  ............'';ooooddddddddxdddxdoc:::;,,
-,,,,,,,,,,,,,,,;,,,,,:ccl:'............'',cooooooooddddddxdddddxdoolc
-,,,,,,,,,,;;;;;;;;;lxllOocccccccccccccllllooooooooooooodddddddddddddd
-,,,,,,,,;;;;;;;;;;cOk:d0occcccccccccccccclllllllllooooooooooooooooooo
-,,,,,,,;;;;;;;;;;;lOOccO0occccccccccccccccccllllllllllllooloooooooooo
-,,,,,,;;,,;;;;;;;;;kOkcck0klcccccccccccccccccccccllllllllllllllllllll
-'',,,,,,,;;;;,;;;;;ck0kl:d00klcccccccccccccccccccccccclllllllllcccccc
-',',,,,,,,,;;,,;;;;;cO0Od:cx00kl:c::::cc::::::::ccccccccccccccccccccc
-''',,,,,,,,;,;,,,;;;;cO0Oxc:lk00koc::::::::::::::::::ccc:::ccccccccc:
-''''',,,,,,,,,,,,,,;;;ck00Oo::ok00Odc::::::::::::::::::::::::::::;;;:
-''''''',,,,,,,,,,,,,,;;;d000kc::oOKK0xc::::::::::::::::::::::::;;;;;,
-'''''''',,,,,,,,,,,,;;;;;k000Oc:::xKK00d::::c::::c:::::::::;;;;;;;;;;
-""";
-
-    public static String frame87 = """
-...........................'..'';;,,,,,:;;::ccclooodddxxxdxddddddddol
-..............................'',,,,,,;;,::;;:cclooddddddddddddddddoo
-..............................'''',,,,,c,;::;::::llolloddddddddollolo
-...............................'''''',,:;loc:::ccclllooodddddoolllccl
-...............................',,'.''',,coocc::ccclcloodxdllllloollc
-..................................'...'',:lollccdccccccldolccllloolc:
-..........'.''....................''...'',clcc::cccccclll:::::cccc::;
-..........''''.o;c''''.'.,clooooddl:;;;;;;;',,,;:::ccccc:;,;;;;:cc:;:
-.''''''''',....,;;,,'','',xdodddxxxxoc:;::;;;,,,,,::c:::c:ccccccllcc:
-ccccccccccccc:cc::::......'',;;;;:ccccl:;;:::cccllodxxxxxkkkxxxdlc:;;
-,,',''',,,,,,,,,,,;;'...... ....,.''''''';:ooddddddddxxxxxxdol::;,'''
-,,,,;;;;;;;;;;,,,,,',.....  ............'':oooooddddddddddxxolc:::;,,
-,,,,,,,,,,,,;,,;,,,,;::cl;'...........''';cooooooooddddddxddddddddoll
-,,,,,,,,,,;;;;;;;;;okcdOccccccccccccccllllloooooooooooodddddddddddddo
-,,,,,,,,;;;;;;;;;;lOx:k0lcccccccccccccccccllllllllllloooooooooooooooo
-,,,,,,;;;;;;;;;;;;oOOclOOoccccccccccccccccccccllllllllllloloooooooooo
-,,,,,,;;,,;;;;;;;;:kOk:cO0klccccccccccccccccccccclcllllllllllllllllll
-'',,,,,,,;;;;,;;;;;lO0kc:x00xlccccccccc:c:::cccccccccclllllllllcccccc
-',',,,,,,,,;;,,;;;;;l00Ol:lk00xl::::::::::::::::ccc:ccccccccccccccccc
-''',,,,,,,,;,;,,,;;;;oO0Od::oO00xl:::::::::::::::::::ccc:::::ccccccc:
-''''',,,,,,,,,,,,,,;;;lO00kc:cd000kl:::::::::::::::::::::::::::::::;:
-''''''',,,,,,,,,,,,,,;;cO000d::cx0K0Oo:::::::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,,;;;;o0000d;;:o0KK0kc:::::::::::::::::::;;;;;;;;;;
-""";
-
-    public static String frame88 = """
-................................',;;,,;;;:;;::ccllooodddddxdddddddddo
-...............................''',,,,,,;;,::;::cclooddddddddddddoooo
-................................''',,,,,;c,;:::::::lllllodddddddollll
-................................''''''',,:;lxc:::ccclollooodddooollcc
-.................................',,'.''',;codcc::ccclcloodddlllllool
-...................................''...',;:lollccoccccccloocccclllll
-...............'....................'....',,cccc::::ccccllc::;::::cc:
-........'...''''.l;c''''.;clooooodl;,;;;;;:;;,,,,;;::ccccc:;;;;:;;cc;
-...''''.,''',..'',;;',,'':xdoddddxxxlc;;;::;;;;,,,,;:ccccccclllllll:c
-:cccccccccccccc:c:::......,';:;;;cccccl;;::cccclllooddxxxkkkkxdoc::;,
-,,,,'',',,,,,,,,,,,;'..........''''''''',,coooddddddddxxxxkllc::,''''
-;;,;;;;;;;;;;,,,,,,',..... .............''coooooodddddddddxdolcc:;;;;
-,,,,,,,,,,,,;;,;,,,,;c:lc,.............'';cloooooooooddddxddddxdoollc
-,,,,,,,,,,;;;;;;;;:dkckkc:::ccccccccccccclllllllloooooooooddddddddddo
-,,,,,,,,;;;;;;;;;;dOocOOccccccccccccccccccclllllllllllooooooooooooooo
-,,,,,,;;;;;;;;;;;;xOx:o0Olcccccccccccccccccccclllclllllllllooooooooll
-,,,,,,;;,,;;;;;;;;lOOo:o00dc:ccccccc:c:ccccccccccccllllllllllllllllll
-'',,,,,,,;;;;,;;;;:kOOl:lO0Ol:cccccccc::::::ccc::::ccclclllllllcccccc
-',',,,,,,,,;;,,;;;;cO0Oo:cx00xl:::::::::::::::::ccc::::cccccccccccccc
-''',,,,,,,,;,;,,,;;;l000o::oO00xc::::::::::::::::::::cc:::::::c:cccc:
-''''',,,,,,,,,,,,,,;;o000x:;:x000dc::::::::::::::::::::::::::::::::::
-''''''',,,,,,,,,,,,,,;o000Oc;:ck000xc::::::::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,,;;;x000Oc;;:k00K0o:;:;:::::::::::::::::;;;;;;;;;;
-""";
-
-    public static String frame89 = """
-................................'',;;;;;;;:::::cccclloodddxdddddddddd
-..................................',,,,,,;;:;::;;::clooddddddddddddoo
-.................................''',,,,,,,c;;::;::::llolllodddddddol
-..................................''''',,,,;;lxdc:::cclolloooddddoolc
-..................................'',,''',',;clxlcc::ccllcoooddllllll
-.....................................''....',:lolll:locccc:coolcccccl
-......................................'....',,:lccc::::ccccll::;;::::
-'..............'''':;:.'.,:ccllllol,,,,;,;,;:;;,',,;;:::ccccc;;;;:;::
-'.....'''','''',...,,:,,,:kdddxxxxkxoc;,,,,;:;;;;,,,,,:cccccccllllcc:
-;;;;;:::cccccccc::cc.....';,::::cclllll;;;:::cccclloooodxxkkkkxoc:;,,
-;;;;;;,,,,',,,,,,,,;'..'.......,',',,,,,,;cooooddoddddddxdxolc:;'''',
-;;;;;,;;;;;;;;;,,,,,, .... .............'';oooooooodddddddxdlcc:;;;;,
-,,,,,,,,,,,,;;,;,;,,,:;::................':lllooooooooodddddddddollcc
-,,,,,,,,,,;;;;;;;;;okcxOc:::::::::c:ccccccccclllllooooooooodddddddddo
-,,,,,,,,;;;;;;;;;;oOo:OOcccccccccccccccccccclcclllllllooooooooooooooo
-,,,,,,;;;;;;;;;;;;xOd:x0kcccccccccc:cccccccccclllcllllllllloooooollll
-,,,,,,;;,,;;;;;;;;xOOc:k0kc::ccccccc:c:ccccccccccccllllllllllllllllll
-',,,,,,,,;;;;;;;;;lO0x::k0Oo:::c::c:::::::::ccc::::ccclclllllllcccccc
-',',,,,,,,,;;,,;;;;k00d::x00kc::::::::::::::::::ccc:::ccccccccccccccc
-''',,,,,,,,;,;,,,;;c000d::o000dc:::::::::::::::::::::cc::::ccccccccc:
-''''',,,,,,,,,,,,,,;l000d:;ck000d::::::::::::::::::::::::c:::::::::::
-''''''',,,,,,,,,,,,,;d000k:;;lO00Od::;:::::::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,,;;O000k;;;:O000Oc;:;:;;::::::::::::::::;;;;;;;;;;
-""";
-
-    public static String frame90 = """
-.................................'',;;;;;;;::::::cccllooddddddddddddd
-...................................',,,,,,;;;;;::;::cclodddddddddoddd
-..................................'',,,,,',;:;;:c;::::cloolloddddddoo
-...................................'''',,',,;;ldklc:c::colllooodddoll
-...................................',,,''''',;:lddcc::ccclclooddolllc
-......................................''....',;coollc:olccc:clolccccc
-''.....................................''..'',,;lccc:::::cccllc:;;;::
-'c..............'''';;c'.,:ccllllll;,,,,;;;;;:;;,,,,;;;:::cccc:;;;;:;
-,;......'''.,''',...;,c,';kdddxxxxkkoc;,,,,;;:;;;;,,,,,:cclcclllolc::
-:;;;;::cccccccccc::c'....';,:c:::llllll:;;:::ccccllloooddxxxkxxlc:;,,
-;;;;;;,,,,,',,,,,,,;'..'.......',,',,,,,';:looooooodddddddkolc:;,'',,
-,;;;;;;;;;;;;;;,,,,,,..... .............'',looooooodddddddxdllc:;;:;;
-,,,,,,,,,,,,;;,;;;,,,::::.................;cllooooooooodddddddxdollcc
-,,,,,,,,,,;;;;;;;;;lxldOc:::::::::::cccccccccllllloooooooooddddddddoo
-,,,,,,,,;;;;;;;;;;lOd:OOccccccccccccccccccccccclllllllloooooooooooooo
-,,,,,,;;;;;;;;;;;;xOd:x0k::cccccccc:ccccc:cccclllcllllllllloooooollll
-,,,,,,;;,,;;;;;;;;xOk::O0kc::ccccccc:c:ccccccccccccllllllllllllllllll
-',,,,,,,,;;;;;;;;;dOOo:cO0Ol::::::::::::::::ccc:cccccclclllllllcccccc
-',',,,,,,,,;;,,;;;:00Ol:cO00x:::::::::::::::::::ccc:::ccccccccccccccc
-''',,,,,,,,;,;,,,;;d00Ol::d00Oo::::::::::::::::::::::ccc:ccccccccccc:
-''''',,,,,,,,,,,,,,;k00Ol;;lO00Ol::::::::::::::::::::::::c:::::::::::
-''''''',,,,,,,,,,,,,:O000l;;:x000kl::;:::::::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,,;o0000c;;;d0000d;;;;;;;::::::::::::::::;;;;;;;;;;
-""";
-
-    public static String frame91 = """
-..................................'',;;;;;;;::c;;:cccccoldddddddddddo
-....................................',,,,,,,;;:;::;::cclooddoodddoddo
-...................................'',,,,,',;::;:c:::::cllollooddddod
-....................................'''',,',,,;cdkxc::::clollooooddoo
-....................................'',,''.'',,:loxlc:::lccclllddolcl
-........................................'....',;coolll:clccc::lolcc:c
-..'.....................................''..''',;c::cc::::cccclc:;;;;
-o,;,.............'''',::',:ccllllol:;,,,,,;;;,:;;,,,,;;;:::ccc::;;;:;
-;';'.....'''.,''',..',;,',kxoddxxxxkdl:;,,,,;;::;;;,,,,,:cllllllool::
-:::;;:::cc:c:ccccc:c'.....;;;c:::ccllllc;;;:::ccllloooodddxxxxdlc;;,,
-;;;;;;;,,,,,',,,,,,;,....'......,'',,,,,';;lloooooooddddddkoc::;,',,,
-,;;;;;;;;;;;;;;,,,,,;.....  ............'''looooooooddddddxdllc::::;;
-,,,,,,,,,,,,,;,;;;,,,::;:'................,:llllloooooooddddddddolllc
-,,,,,,,,,,;;;;;;;;;lxloOl:::::::::::cccccccccllllloloooooooooddddddoo
-,,,,,,,,;;;;;;;;;;lOd:kOcccccc::::ccccccccccccclllllllloolooooooooooo
-,,,,,,;;;;;;;;;;;;kOo:x0x::cccccccc:ccc:::cccclllcllllllllloooloollll
-,,,,,,;;,,;;;;;;;:OOx:cO0d:::::cc::c:c:ccccccccccccllllllllllllllllll
-',,,,,,,,;;;;;;;;;kOOc:l00kc::::::::::::::::ccc:cccccccclllllllcccccc
-',',,,,,,,,;;,,;;;o00k::l000o:::::::::::::::::::ccc::cccccccccccccccc
-''',,,,,,,,;,;,,;;;O00x:;cO00kc::::::::::::::::::::::ccc:ccccccccccc:
-''''',,,,,,,,,,,,,,cO00x;;:d000xc::::::::::::::::::::::::c:::::::::::
-''''''',,,,,,,,,,,,,o000k;;;lO000d:;:;::::;::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,,;k000x;;;:O000Oc;;;;;;;::::::::::::::::;;;;;;;;;;
-""";
-
-    public static String frame92 = """
-...................................'',;;;;;;;::c;::cccclloodddddddddo
-.....................................',,,,,,,;;:;::;::cccloddooododdo
-....................................'',,,,,',;;c,:cc:::::clollloddood
-......................................''',,',,,:;dxklc:::clolllooodoo
-.....................................'',,,'.''',;loxdcc::llcccllodolc
-.......................................'.'....',;:odollccllccc:cooc::
-.........................................''..''',,:c:cc:::::ccclc:;;;
-.;c,c.............'''''c;,:ccclllll:;,,',,,;;;,;:;,,',,;;::::cc::;;:;
-.';,;......''''''''.'';;,'dkdddxxxxkxlc;;;,,,,;::;;;;,,,,;cllllllll::
-:::c;;;;::ccc:ccccc:'.....,;;c::ccllllll;;;;::cccllloooooddxxxxlc;;,,
-;;;;;;;;;,,,,,,,;,,;;.....'.....'',,,,,,,,::loooooooddddddxocc:;,,,,'
-,,,;;;;;;;;;;;;;,,,,;...... ..............';llloooooooddddxdllc:::;;;
-,,,,,,,,,,,,,,,;;;,,,;:;;'................';clllllooooooodddddddoollo
-,,,,,,,,,,;;;;;;;;;cxolOo::::::::::::ccccccccllllloloolooooooodddddoo
-,,,,,,,,;;;;;;;;;;cOx:kOlccccc::::ccccccccccccclllllllloolooooooooooo
-,,,,,,;;;;;;;;;;;:kOo:k0d::c:cccccc:ccc:::cccclllcllllllllloooloollll
-,,,,,,;;,,;;;;;;;:OOd:l00o:::::cc::c:c:ccccccccccccclllllllllllllllll
-',,,,,,,,;;;;;;;;:OOO::d00d:::::::::::::::::ccc:cccccccclllllllcccccc
-''',,,,,,,,;;,;;;;k00d::d00kc:::::::::::::::::::ccc:ccccccccccccccccc
-''',,,,,,,,;,;,,;;l000c;:o000o:::::::::::::::::::::::ccc:ccccccccccc:
-''''',,,,,,,,,,,,;;xO00l;;ck00Ol:::::;:::::::::::::::::::c:::::::::::
-''''''',,,,,,,,,,,,;k000l;;;d000kl;;:;;;;:;::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,,oO000c;;;d0000o;;;;;;;;::::::::::::::::;;;;;;;;;;
-""";
-
-    public static String frame93 = """
-.................'....................',;;;;;;;:::c;;:ccclcllodddoooo
-.....................................'.',,,,,,,;;;;;:;;::ccclodoooooo
-.....................................''',,,,,,,;;::;clc:::::clolllloo
-........................................''',,'',,;;cdxxoccc:cllllloll
-.......................................'',,,'.''',;coddolc::locccccod
-.........................................'.'....'',;cddolllclcccc:col
-...........................................''...'',,;:::cc:::::cc:lc:
-    .:,c.............'''',:ccccllll:'.;,;',,,;;;,;:;;,,,,;;;:::cc::::
-''..':':.....'''.,''',,;',:Oxdxxxxxkxlc;;;;;,,,;;::;;,;,,,,;cllloll:;
-;;::::c;;;;::c:::ccc'.....':;:c::ccllllll::::::ccccllloooddddxxl:;,,,
-;;;;;;;;;;;,,,',,,,:,...'.'......'',,,;;;,,:clllloooooooddxolc:;,,,''
-,;,,,;;;;;;;;;;;;,,;;......  ...............:lllloooooooodxdlcc:::;;;
-;;;,,,,,,,,,;;,;;,,,,';,,'.................';clllloooooooooddddddddoo
-,,,,,,,,,,;;;;;;;;;:ddlkd:::::;;;:::::::ccccccllllllllloooooooooodooo
-,,,,,,,,;;;;;;;;;;lkd:OOc:::cc::::::ccccccccccccllllllloolooooooooooo
-,,,,,,;;;;;;;;;;;cOO:c00c:::::cc:c::ccc:::ccccllccllllllllloooloollll
-,,,,,,;;,,;;;;;;;d0O::O0x::::::::::::c:ccccccccccccccllllllllllllllll
-',,,,,,,,;;;;;;;;x0O:;l00x::::::::::::::::::cc::cccccccclllllllllllll
-''',,,,,,,,;;,;;;dO0d;;o00kc::::::::::::::::::::ccc:ccccccccccccccccc
-''',,,,,,,,;,;,,;cO00l;;o000o::::::::::::::::::::::::ccc:ccccccccccc:
-''''',,,,,,,,,,,,;xO00l;;ck00Ol::::::;;::::::::::::::::::::::::::::::
-''''''',,,,,,,,,,,:kO00o;;;xO00kc;;;:;;;;:;::::::::::::::::::::;;;;;;
-'''''''',,,,,,,,,,,lOO00l;;;oO000o;;;;;;;;;;;:::::::::;;;::;;;;;;;;;;
-""";
-
-    public static String frame94 = """
-,;;,c:ldxxxxkkxxxxkkkxxkkxxdxddkkkkkOOkOOOxoodododooddxkkO0KKKKKKKKKK
-:::;::lodddddxxxxkkkkkkxxxddddddxkkkkkkkkxoolololloloddxO000000000000
-ccc:;::cloddddddxxxxddddxxddoododxxkkkkkdodxdllclllllldkOkkOO0O0OOOOO
-cc::;:cloddddddddxxxxxdoodoodldddxxkkkkxxdodoolcccccllodddxkkkkkkkkkk
-cc:;;:loooolloddxxxxxooooclllcldxxxxxxkxdllccllcl:cccccllodxdxxxxxxxx
-:;:;::llllolllolldddoololcclccodxdddxddddlllllc::::ccccllooolodddoldx
-::ccc:::cclllcc:llllclooccccccclooooollccclccc:::;:::cclllclllllllllo
-;::::;clloolc:::ccclcclcc:c::cclooooolc:::cc:::::;;;::cccc::cclccclll
-'',::;cccc:;;;;;;:cc:cc:::;:::cccllcc::;;;;;;;;;;;;::::::::cc:ccccc:c
-.'',',::::;,''',:lollllcc:;;;:ccccc::;,;;;:;;,;;;;;;;;;;:::::cccc:,;:
-''''',;;;:;;;::lkxxxkkkkko::;::cccc;,'''';;,,;:;,,;;;;;;;;::;::;;,;;;
-,,,,,:llooooo::lccllllllddoolllllllc::cl:c::::;:l:,;;;,;;::lc:;,,,,,,
-,;;;::ccllxxx...'..'''',';,cdxxxdddddoooollllllllllllcc::::::::;;,,,;
-lllcllodddddl..............clOOkxxxxxxxxddddoooolllccccclccc::::::cc:
-ccllllloooool;;,,'''''''''';ldxk0OOxxxxxddddddddddddoollccc::::;:::::
-ccclllllloloooooooooooooddddddddxO0OOkddddddddddddddddddxddooolcc:::;
-:cccclllllllllllloooooooodddodddddxO0OOOxdddddddddddddddddxxxxxddddol
-::::cccclllllllllllloooooooooooooooodO0OO0Oxddddddddddddddddddddddddd
-;;::::cccllllllllllllllllllloooooooooookKOkO0kdoooooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllllokK0xk00kdooooooooooodddddooo
-,;;;::::::cccccccccllllllllllllllllllllllloxK0kxOK0xooooooooooooooool
-,,;;;;:::::::cccccccccccllllllllllllllcclllllxKKkdxOKOxolllllllllllll
-,,,,;;;;:::::::ccccccccccccccclcccccclcccclllll0XXkodKX0dlllllllllccc
-""";
-
-    public static String frame95 = """
-..................''...................,,,;;;;;;:::c;;::clccllodooooo
-.......................................'',,,,,,,;;;:,::;::c:ccloooloo
-......................................''',,,,,,',;;c;cllc::::cllllllo
-.........................................''',,'',,,::oxxdlc:::lllllll
-.........................................',,,''.'',;:lddolcc:colccccc
-..........................................'.'....'',,;oxoollclcccl:cl
-............................................''..''',,,;;;:c::::::cccc
-.    .c;;'............'''';llllllool,'',;;',,';;;,;:;;,,',,;;::::cc::
-,'''..;';,.....''',''';;',,kxdddxxxkko:;;;;;;,,,,;::;;;;;;;;;:loool;;
-:::::::cc:::::c:::cc'......;;;:c:c:lcllll;;;::::cclllloooodddddl;,,,;
-;;;;;;;;,,,,,,,,,,;:,...'..'......,',,;;;,';;lllllooooooddxolc:;;,,',
-,,;;,;;;;;;;;;;;;,,;;....... ..............',lllllloooooooxdlcccccc::
-;;;,,,,,,,,,;;;;;,,,,';,;'..................,clllllllooooooooodddoool
-,,,,,,,,,,;;;;;;;;;:ddlko:::::;;;:::::::ccccccllllllllloooooooooooooo
-,,,,,,,,;;;;;;;;;;oOocOk::::cc::::::cccccccccccclcllllloolooooooooooo
-,,,,,,;;;;;;;;;;;lOx:o0O::::::cc:c::ccc:::ccccclccclllllllllooloollll
-,,,,,,;;,,;;;;;;;k0d:l00o::::::::::::c:ccccccccccccccclllllllllllllll
-',,,,,,,,;;;;;;;:O0x;;x00l:::::::::::::::::::c::cccccccccclclllllllll
-''',,,,,,,,;;;;;:OO0c;:k00d::::::::::::::::::::::cc:ccccccccccccccccc
-''',,,,,,,,;,;,,;dO0O:;:x00Oc::::::::::::::::::::::::::::cccccc:c:c::
-''''',,,,,,,,,,,,ck00k:;;oO00xc::::::;;::::::::::::::::::::::::::::::
-''''''',,,,,,,,,,,lk00kc;;ck000xc;;;:;;;;:;;;::;:::::::::::::::;;;;;;
-'''''''',,,,,,,,,,;xOO0O:;;:k0000c;;;;;;;;;;;;;:::::::;;;::;;;;;;;;;;
-""";
-
-    public static String frame96 = """
-...................'.'..................',,;;;,;;:::c;;:::ccccllooooo
-.......................................''',,,,,,,;;;:,::;:::::ccoolll
-.......................................''',,,,,'',;;c;cloo:::::clllll
-..........................................'',,,''',,:;lxxdoc:::colccl
-.........................................'',,,''.'',;;loxolcc:colcc::
-...........................................'.''...'',,;lddollc:cc:cc:
-.............................................'''.'',,,,,,;;cc:::::ccc
-.... . ,:,;.........'..''',loolooool;''';;;',,';;;,;:;;,,',,;;;:::ccc
-,,,'''.';,;.....''',,,;,',,kxdddxxxxxoc;,;;;::;,,;;:::;;:;;;;;clool;;
-:::::::ccc:::::c::::'......,;;:c:::ccclclc;;;:ccccllllooodddxddc,,,,;
-;;;;;;;,,,,,,,,,,,,:'...'.........,',,,,,,,,;cllllloooooddxll:::;,,,,
-,,,;;;;;;;;;;;;;,,,;,.......  .............'':llllloooooooxdllclccc::
-;;;,,,,,,,,,;;;;;,,,'';,;'..................,:cllllllloooooooodddooll
-,,,,,,,,,;;;;;;;;;;cdookl:::::;;;:::::::ccccccllllllllloooooooooooooo
-,,,,,,,,;;;;;;;;;:dOlo0d::::cc::::::ccccccccccccccclllloolooooooooooo
-,,,,,,;;;;;;;;;;;xOo:k0d::::::cc:c::ccc:::ccccccccclclllllllooloollll
-,,,,,,;;,,;;;;;;lOO::x0k:::::::::::::c:ccccccccccccccclllllllllllllll
-',,,,,,,,;;;;;;;dOOc;lO0x::::::::::::::::::::c::cccccccccccclllllllll
-''',,,,,,,;;;;;;oOOx;;oO0kc::::::::::::::::::::::cc:ccccccccccccccccc
-''',,,,,,,,;,;;;ckO0o;;lO00d:::::::::::::::::::::::::::::cccccc:c:c::
-''''',,,,,,,,,,,,oO00o;;ck00Oo:::::;;;;;;;;::::::::::::::::::::::::::
-''''''',,,,,,,,,,;xO00d;;;oO00Oo:;;;;;;;;;;;;::;:::::::::::::::;;;;;;
-'''''''',,,,,,,,,,:O0O0d;;;cO000k:;;;;;;;;;;;;;:::::::;;;::;;;;;;;;;;
-""";
-
-    public static String frame97 = """
-.....................''..................',,;;;;;;;::c:;;::cccclcoooo
-......................'................'''',,,,,,,;;;:;;:;:::::cclool
-........................................''',,,,,'',;,c;cldol::::cllll
-...........................................'',,,''',,;:ldxdolc::clolc
-...........................................',,,'..''';;coxxolcc:lolc:
-..............................................''...'',,,cddoolc:cc:cc
-..............................................'''.''',,,,,,;:c::::::c
-..... ...c,:.........'..'',clooooool;'''',;:',,',;;,;:;;;,,,,,,;::::c
-,,,,''''.:';.....''',,;;',,dkdddxxxxkdc:;,;;:::;,,;;:::;;;:;;::clll;;
-;:::::::cccc:::::::;'......,:;:c::::ccllll;;;:::ccclllooooddxdol,,,,;
-;:;;;;;;,,,,,,,,,,,;'...'..........,,,,,,,,':;llllloooooodxllc::;,,,,
-,,,,;;;;;;;;;;;;;,,;,.......  ..............',llllllooooooxollllcc:::
-;;;;,,,,,,,,;;;;;,,,'',,,'..................';cllllllloooooooooddolll
-,,,,,,,,,;;;;;;;;;;cdooko:::::;;;;;:::::cccccccllllllllollooooooooooo
-,,,,,,,,;;;;;;;;;:dkco0o::::cc::::::ccccccccccccccclllllolooooooooooo
-,,,,,,;;;;;;;;;;:kOc:O0c::::::cc:c::ccc:::ccccccccclcllllllllolllllll
-,,,,,,;;,,;;;;;;xOx;:O0o:::::::::::::c:ccccccccccccccclllllllllllllll
-',,,,,,,,;;;;;;;kOk;;d00o::::::::::::::::::::c::cccccccccccccllllllll
-''',,,,,,,;;;;;;xOOl;:x00d:::::::::::::::::::::::cc::cccccccccccccccc
-''',,,,,,,,;,;;;oOOOc;:x00kl:::::::;:::::::::::::::::::::cccccc:c:c::
-'''',,,,,,,,,,,,;kO0Oc;;oO00xc:::::;;;;;;;;::::::::::::::::::::::::::
-''''''',,,,,,,,,,:k00Ol;;:x000kl;;;;;;;;;;;;;:;;:::::::::::::::;;;;;;
-'''''''',,,,,,,,,,lO0O0l,;;oO000d:;;;;;;;;;;;;;:::::::;;;::;;;;;;;;;;
-""";
-
-    public static String frame98 = """
-......................'''''''...............,,,;;;,;;;:::c;;::ccccccc
-........................................'...'',,,,,;;;;;:;,:;;::::::c
-..........................................''.',,,'',',;;:::coooc::;::
-..............................................'',,,''',,;ccodxdoc:::c
-..............................................',,,'..''',;:ldxdllc::l
-.................................................''....',,,:oddoolc:c
-.................................................'''.''',,,,,,;;cc::;
-,,......  ...',............';;:ccccc:''.''.',;;',,';;;,,:;;;,,',,,;;:
-::;;,,,,''..,:,;....''',;,,'xkkkkOOOOko:;,,,,;;;;:;,,,;:::;;;:;;;:::;
-;;::;::::;:;:::;;;;:''',..'';lcccccccccloooc:;::::ccccclllloodddl:,,;
-ccc:::;;;;;;;;;;;;;,'....'...'.....'.,;;;;;;,,ccccclllooolodllc::,,,,
-,'',,,,,;;;;;;;;;;;:,'........  ... ...........:llllllloooodlllcc:::;
-;;;;;;;;;;;;;;;;;;;,''........  .............',;ccllllllooooooooolcc:
-,,,,,,,,,;;;;;;;;;;;:llodl;;,,,'''''',,,,;;:::ccclllllllllooooooooooo
-,,,,,,,,;;;;;;;;;:cdxlxkc::::::::::::c::ccccccccccclllllllooooooooooo
-,,,,,,;;;;;;;;;;;oOo:k0l::::::cc::::ccc:::ccccccccclcllllllllllllllll
-,,,,,,;;,,;;;;;;lOk;:O0l:::::::::::::c:ccccccccccccccccccccllllllllll
-',,,,,,,,;,;;;;;xOk;;x0Oc::::::::::::::::::::::::cccccccccccccccccccc
-''',,,,,,,;;;;;;xOOc;cO0Ol::::::::::::::::::::::::c:::ccccccccccccccc
-''',,,,,,,,;,;;;lOOO:;:k00xc:::::::;:::::::::::::::::::::c:cccc::::::
-''''',,,,,,,,,,,;x00Oc;;d000dc:;;;;;;;;;;;;::::::::::::::::::::::::::
-''''''',,,,,,,,,,:k00Ol;;ck000xc;;;;;;;;;;;;;:;;:::::::;::;;;;;;;;;;;
-'''''''',,,,,,,,,,cO0O0o;;;d0000o:;;;;;;;;;;;;;:::::::;;;;;;;;;;;;;;,
-""";
-
-    public static String frame99 = """
-........................'''''''..............',,,;;;;;;:::c;;;::ccc::
-.........................................'...'',,;,,;;;;;;:,;:;;:::;:
-..............................................'',''''',,;,c;lcodlc::;
-...............................................'',,,'''',,::doxdolc:;
-...............................................',,,,''.'',;;lodxdllc:
-...................................................'....'',,;coodolcc
-....................'..............................''..'',,,,,,,;:cc:
-,;,,...... ...'.;.......''..,;;::cl::'''.''''';;'',,,;;;,;;;;,,'',,,;
-;;::;;,,,'....c,:.....'',','oOkkkOO00Odc;,,,,,;;;;:;,,,;;::;;;:;;;:;,
-;;;;::;:::;;:;:::;;;,,,,.',',llclccccccllool:;;::::cccclllloooddoc,,;
-ccccc:::;;;;;;;;;;;;'....''..'.....''.;:::::;,:cccclllllllodollc:;,,,
-'',',,,,,,;;;;;;;;;:,'........  .....'.........'llllllllooodllccc:::;
-;;;;;;;;;;;;;;;;;;;,''........  ..............,;:clllllllloooooolllc:
-,,,,,,,,,;;;;;;;;;;;;llool:,,,'''''.'''',,,;;::cccllllllllooloooooooo
-,,,,,,,,;;;;;;;;;::odlxkc::::::::::::::::ccccccccccllllllloooollooooo
-,,,,,,;;;;;;;;;;;oOo:k0c::::::cc::::ccc:::::cccccccccllllllllllllllll
-,,,,,,;;,,;;;;;;lOk;:O0c:::::::::::::c:cc:c::::ccccccccccccclllllllll
-',,,,,,,,;,;;;;;xOk;;k0k:::::::::::::::::::::::::c:cccccccccccccccccc
-''',,,,,,,;;;;;;xOOc;cO0kc::::::::::::::::::::::::c::::ccccc:cccccccc
-''',,,,,,,,;,;;;lOOk:;:k00d::::::::;::::::::::::::::::::::::::c::::::
-''''',,,,,,,,,,,;x00kc;;d00Od:;;;;;;;;;;;;;;:::::::::::::::::::;::;;:
-''''''',,,,,,,,,,:k00Oo;;cx000xc;;;;;;;;;;;;;;;;:::::::;::;;;;;;;;;;;
-'''''''',,,,,,,,,,cO0O0o;;;d0000o;;;;;;;;;;;;;;:::::::;;;;;;;;;;;;;;,
-""";
-
-    public static String frame100 = """
-.........................''''''.'.............',,,;;;;;;;:::c;;;;::::
-...........................................'..'',,,;,,;;;;;;:,:;;;::;
-................................................',','''',;;;::cloxlc;
-.................................................'',,'''',,,ccdodoolc
-................................................'',,,'..''',;:oodxocl
-....................................................'.....',,,;lloool
-....................................................'''.''',,,,,,,,:c
-,,,,,'...........'.......'''',;;;:clc,'''.'''.';:'',,',;;,;:;;;,,'',,
-;,;;:;;,,,,'...'c,;....',,,':OkkkOO000kl:;,;;,,,:;::;;,,;;:::;;:::::,
-;;;;;;::::::;;;:::;;,,','.'',clcllccccccllllc;;;:::::ccclllloooddl;,;
-lcclccc::;;;;;;;;;;;,..............''',::::::,,cccccllllllldolcc:;,,,
-''',,',,,,,;;;;;;;;;;'.........  ...............:lllllllllldlllc:::;;
-;;;;;;;;;;;;;;;;;;;;,'......... .......'......',;ccllllllllooooollcc:
-,,,,,,,,,;;;;;;;;;;;;clldl:,,''.......''',,,,;::ccclllllllllllolloooo
-,,,,,,,,;;;;;;;;;;:ododkl:::::::::::::::::c::ccccccclllllllollllooooo
-,,,,,,;;;;;;;;;;;lOo:x0c::::::cc::::ccc::::::ccccccccllllllllllllllll
-,,,,,,;;,,;;;;;;cOk;:O0c:::::::::::::c:c::::::::::cccccccccclllllllll
-',,,,,,,,;,;;;;;dOk;;k0k:::::::::::::::::::::::::c:ccccccccccccccccc:
-''',,,,,,,;;;;;;dOOl;cO0Ol:::::::::::::::::::::::::::::::::c:cccccc::
-''',,,,,,,,;,;;;cOOOc;:k00xc;:::::;;:::::::;::::::;::::::::::::::::::
-''''',,,,,,,,,,,;d00Ol;;oO00dc;;;;;;;;;;;;;;::::::;::::;;;::;;;;;;;;;
-''''''',,,,,,,,,,;dO0Od;;cx000xc;;;;;;;;;;;;;;;;;;;:;;:;::;;;;;;;;;;;
-'''''''',,,,,,,,,,;k0O0d;;;d0000o;;;;;;;;;;;;;;:::::::;;;;;;;;;;;;;;,
-""";
-
-    public static String frame101 = """
-...........................''''''''.............',,,;;;;;;:::::,;;;::
-............................''..............'...',,,,,,;;;,;;;;,;;;;:
-.................................................'','''''',;,::cclodl
-..................................................'',,'''''',;:ldodoo
-..................................................'',,,.'.''',;:odddo
-......................................................'.....',,,:lloo
-''.....................'..............................''..'',,,,,,,,;
-,,,,,,,'...........,.....'''''',;,;:::'''''.''..,;;'',,,;,;,;:;;,,'''
-;,;,;:::;,,,'....;;;'...,;'.'xkkkOO000ko:;;,,,,,,;;;;;;,,,;;:::;;:::;
-;;;;;;;;::;:::;;;:::,'',;.''':oolollllclllllc;;;;:::::cccclllooodoc,;
-clllcllccc::;;;;;;;;;.........''..''''';:::cc;,,cccccccllllodllcc:;,,
-,,,'',,',,,,,;;;;;;;;'.......... .....'..........cllllllllldolcc::;;;
-;,;;;;;;;;;;;;;;;;;;,.' .......  .......'......,;:cccclllllooooollc::
-,,,,,,,,,;;;;;;;;;;;;;ccll:,''............''',,;:cclllllllllllllloooo
-,,,,,,,,;;;;;;;;;;:ldooxo:::::::::::::::::::::cccccclclllllllllllolll
-,,,,,,;;;;;;;;;;;:xx:d0o:::::::c::::cc:::::::::cccccccccclllllllllllc
-,,,,,,;;,,;;;;;;:kO:;k0l:::::::::::::c:c:::::::::::ccccccccclcccccccc
-',,,,,,,,;,;;;;;lOO:;x0Oc::::::::::::::::::::::::::::::ccccccccccc:::
-''',,,,,,,;;;;;;lOOo;:k0Ol:::::::::::::::::::::::::::::::::::cccccc::
-''',,,,,,,,;,;;;;kOOo;:x00xc;:::::;;:::::::;:;::::;::::::::::::::::::
-''''',,,,,,,,,,,,cO0Oo;;oO00xc;;;;;;;;;;;;;;::::::;::::;;;::;;;;;;;;;
-''''''',,,,,,,,,,;lO0Ox:;:x000xl;;;;;;;;;;;;;;;;;;;:;;:;::;;;;;;;;;,,
-'''''''',,,,,,,,,,;d000x:;;o0000d:;;;;;;;;;;;;;:;;;:::;;;;;;;;;;,,,,,
-""";
-
-    public static String frame102 = """
-..........................''...'''''';.............',';;,;;;;;;:::,,,
-...............................'''''...............',,,;;,;;;,;;;:,,;
-   ..............................'..................'',,''''',,;,:,ll
-.....................................................'''''''.''',;,dx
-.. ..................................................'',,'...''',,,ld
-.........................................................'......''',c
-''''......................''.............................''..''',,,,'
-,,,;,;,,,,'................''''...',',,;,''''......,,,.','';;;,;;;;;,
-l;,;;,;,;::;;,''.....l;;.',.';dxxkkkOOOxo,;,,,,,,,,,;;;;;;,,,;;:::;;:
-c::::;;;;;;;:;;;:;::;';,;;.',;cxdoddodoooolccc:::;;;;:::::cccllllool:
-cc:cccccclllccc::::;;'.........'',,,,,,,'::ccc:,,:c::ccccccllollcc:;'
-:::;;;,,,,',,,;,,;;;;............ ......;.........,ccccclllldoc:::;;;
-,,;;;;;;;;;;;;;;;;;;;',. .......   ......'......,;ccccccclllllollcc::
-;;;;;;,,,;;;;;;;;;;;,,',;;;'...................'',:ccllllllllllllooll
-,,,,,,,,;;;;;;;;;;;:lolddl::::::::::::::::::::cccccccccllllllllllllll
-,,,,,,;;;;;;;;;;;;ckd:kk::::::::::::cc::::::::::::ccccccccccccccccccc
-,,,,,,;;,,;;;;;;;cOx;o0k:::::::::::::c:c:::::::::::c::::c:::::ccccccc
-',,,,,,,,,,;;;;;;xOd;c00o::::::::::::::::::::::::::::::::cccccccc::::
-''',,,,,,,;;;;;;;dOOc;o00d:::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,,,;;;;cOOk:;lO0Oo::::::;;:::::::;:;::::;:;:;:;;;:;::::::;;
-''''',,,,,,,,,,,,;oO0kc;:x00ko:;;;;;;;;;;;;;::::::;::::;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,oO0Oo;;ck00Od:;;;;;;;;;;;;;;;;;;;:;:;:;;;;;;;;;;,,
-'''''''',',,,,,,,,,,d000d;;;d0000l;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame103 = """
-.....................'....'''...'''''',,..........'.''',;,,;;;;;;;:;,
-................................'''''...............',,,,,,,;,,,;,;;,
-    .................................................'',,,''''',;,;;:
-.......................................................'','''..''',;:
-......................................................'',,,'....'',,;
-..........................................................'......''',
-'''''......................''.............................'''.''',,,,
-;,,,;,,;,,,''................'''''.'''',;;''''......';;.',,',;;,,:;;;
-ooc,,;;,;,;::;,,''....l,:.,'';dxxkkkOOOdo:,;;,,,,,,,,;;;;:;,,,;;::::;
-llc::::;;;;;;::;;::::,;;;,.,;,cxdoddodoooolccc:::;;;;::::::cccllllol:
-;:cc:ccllllllccc:::;;'..........';,,,,,,'::cccc,,;c:::cccccclollcc:;,
-:::::;;;,,,,',,;,;;;;............. .....,'.........ccccccllldoc:::;;,
-,,;;;;;;;;;;;;;;;;;;;''. ...... .  .............,;:ccccccllllllllcc::
-;;;;;;,,,;;;;;;;;;;,,,',,;;'...................'',;ccllllllllllllllll
-,,,,,,,,;;;;;;;;;;;;lolddl:::::::::::::::::::::ccccccccccllllllllllll
-,,,,,,;;;;;;;;;;;;ckd:kk::::::::::::cc:::::::::::::cccccccccccccccccc
-,,,,,,;;,,;;;;;;;cOx;o0k:::::::::::::c:::::::::::::c::::::::::ccccccc
-',,,,,,,,,,;;;;;;xOx;c00o:::::::::::::::::::::::::::::::::c::cccc::::
-''',,,,,,,;;;;;;;oOOc;l00xc::::::::::::::::::::::;;:::;::::::::::::::
-''',,,,,,,,,,;;,,:kOkc;cO0Oo::::::;;:::::::;:;::::;:;;;;;;;:;:;;;::;;
-''''',,,,,,,,,,,,,cO0Ol;:o00Odc;;;;;;;;;;;;;::::::;:::;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,cO0Ox:;:d000xl;;;;;;;;;;;;;;;;;;;;;:;;;;;;;;;;;;,,
-'''''''',',,,,,,,,,,lO00k;;;l0000d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame104 = """
-.....................'.'..'''''...'''''''............'',,;,,,;;,;;;;:
-.................................''''''..............'',,,,,,,,,,,;,:
-. ..  ..............................'..................'',,'''''',,':
-........................................................'','''..'''';
-........................................................'',,'.....',,
-...................................................................''
-'''''''......................''............................'','''',,,
-,;;,,,;,;;,,,'...........'....'',,''','',::'''''......;;.',,',,;,,::;
-:lloc,;;,;;;::;;,,''...;:c,'.,dkkkkOO0Oxl:c;;;;;;,;;;,;:;:;;;,,;;:::c
-clllc:::;;;;;;::;:::;,;,;,.''':ddooooooolllllc:;;,,;;;;;:::cccclllolc
-;:;:ccclllcclccc::;;;............,',',,,',:cccc;,,c::::ccccclolccc:;,
-:::::;;;,,,,,,,;;;;;;............. .....',.........:cccccclloocc:;;;,
-,,;;;;;;;;;;;;;;;;;;;.'. ........  ......''.....',:cccccccllllllllcc:
-;;;;;;,,,,;;;;;;;;;,,'',,:;'...................'',;:cccccllllllllllll
-,,,,,,,,;;;;;;;;;;;;lolddc:::::::::::::::::::::::cccccccccccclcllllll
-,,,,,,;;;;;;;;;;;;cko:kk::::::::::::cc::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;cOx;l0k::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,;;;;dOk;:O0d::::::::::::::::::::::::::::::::::::cc::::::
-''',,,,,,,;;,,,;;lOOo;cO0kl::::::::::::::::::::::;;:::;::::::::::::::
-''',,,,,,,,,,,,,,;xOOl;:x00xc:::::;;:::::::::;::::;:;;;;;;;:;:;::::;;
-''''',,,,,,,,,,,,,:k0Od:;lk00xl:;;;;;;;;;;;;::::::;:::;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,:k00kc;;lO00ko:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-'''''''',',,,,,,,,,,:O00Oc;;:O000kc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame105 = """
-,;:,:ccdxxxxxkxxxxkkkxxkkxxxxddxkkkkOOkOOOxoodooodooddxkkO0KKKKKKKKKK
-:;:;;ccodddddxxxxkkkkkkxxxdododdxkkkkkkkkkdllooolloloddxO000000000000
-:ccc;;:ccoodddddxxxxxddddxddoododdxkkkkkdodxdlclllllllokOkkOO0OOOOOOO
-:cc:;::llodddddddxxxxxdoodoodoodoxxkkkkxxdoooolcccccllodddxkkkkkkkkkk
-ccc;;;clooooloddxxxxxdooollllcloxxxxxxkxdolccllclccccccllodxxdxxxxxxx
-c:;:;:clllolllollodxdollolcclcldxdddxddddlllllc::::ccccllooolldddolod
-:ccccc::ccllllc:clllcllolccccccloooooolcccllcc:::;:::cclllcllllllllll
-,::::::llloolc:::cccccllc:::::clooooolc:::cc:::::;;;::cccc:ccclccclll
-'',;::;cccc:;;;;;::c::c:::;::;cccllcc::;;;;;;;;;;;;::::::::cc:ccccccc
-.'',,,;::::,,'',clllllllc:;;:;:ccccc:;,,;;:;;,;;;;;;;;;;:::::cc::,,::
-'''''',;;::;;;:okdxxxxxkko::::::ccc:,'''',;,,;:;,,;;;:;;;;::;:;;,;;;;
-,,,;,,clloooo:;lcclllcllodoollllcllc::clcc::::;cl:,;:;,;;:lc:;;,,;,;;
-,,;;;:cclldxx......'''''',,coxxxddddddooollllllllllllcccccc:::::;;,;;
-llllllooddddl..............;lO0kxxxxxxxxddddooooollccc:cccccc::::::::
-ccllllllooool:;,,,''''''''',ldxO0OOxxxxxdddddddddddddolllcc::;;::::::
-ccclllllloloooooooooooooddddddddx00OOxddddddddddddddddddxdddooolc:::;
-::cccllllllllllllooooooooddoodddddk00O0Oxdddddddddddddddddxxxxxddddol
-::::cccclllllllllllloooooooooooooooox00OO0kdddddddddddddddddddddddddd
-;;::::cccllllllllllllllllllloooooooooox00kk0Oxooooooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllloxK0kxOKOdoooooooooooodddddooo
-,;;;::::::ccccccccclllllllllllllllllllllllxKKkdkK0koooloooooooooooool
-,,;;;;:::::::cccccccccccccllllllllllllccllllxKKkdxOKOxollllllllllllll
-,,,,;;;;:::::::ccccccccccccccclcccccclccccllldKXKdoxKX0olllcccclccccc
-""";
-
-    public static String frame106 = """
-.....................'......''''...'''''''............'',,,,,,,;,,,;,
-...................................'''''...............',,,,,,,,,',,'
-.....................................'..................''','''''',,'
-..........................................................',,''....''
-..........................................................'','.....''
-.............................................................'.......
-','''''''.....................''.........'..................''',''',,
-;;,;;,,,;,;;,,,'..........'....'',,'''''',::,''''......;;''','',,;,;:
-;lcolo:,;;,;,;::;;,,'...'o;'.,okkkkOO0Oxl;::;;:;;;;;;;;;:::;;;;;;;::c
-,l:llc::::;;;;;:::;:;;;;:,..'':ddoooodoollcclc:;;,,;;;;;::::ccclllllc
-:;;::clclllccccc:::;;............'''',,,''::ccc:,,c::::ccccclolccc:;,
-:;:::;;;;,,,,,,;;;;;;............. ......;.........;cccccccloocc:;;;,
-,,,;;;;;;;;;;;;;;;;;,.,. ........   .....''.....',;cccccccllllllllc::
-;;;;;;;,,,;;;;;;;;;,,'',,;,....................'',;:cccccclllllllllll
-,,,,,,,,;;;;;;;;;;;;lolddc:::;;:::::::::::::::::::cccccccccccccclllll
-,,,,,,;;;;;;;;;;;;cko:kk::::::::::::cc::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;cOk;l0k::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,;;;;oOk;:O0x::::::::::::::::::::::::::::::::::::cc::::::
-''',,,,,,,;;,,,,;cOOo;ck0kl::::::::::::::::::::::;;:::;::::::::::::::
-''',,,,,,,,,,,,,,;xOOo;:d00kl:::::;;:::::::;:;:::;;:;;;;;;;:;:;;:::;;
-''''',,,,,,,,,,,,,;k0Od:;ck00kl:;;;;;;;;;;;;:::;;;;:::;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,;xO0kc;;lO00Oo:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-'''''''',',,,,,,,,,,;dk0Oc;;:O000Ol;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame107 = """
-...................''''.....'''''''..'''''.'..........''.',,,,,,,,,,,
-..................................'..'''..''.............',,,,,,'''''
-......................................''..................''','.....'
-............................................................'','.....
-............................................................'','.....
-...............................................................'.....
-''',,''''''....................'''............................''','''
-,;;;;,;;,,,;,;,,,'................''''..''',;;,''''......;;,'',,',,,,
-;::;l:lll:,;;,;,;::;,,''.'.,';oddxxkkkxo:',,;;:;;;;;;;;;;;;::;;;;;;;:
-':d,cclllc:::;;;;;::;;,;c;.',,ckxddddxddoolccc::;;,,;;;;;;:::cccclllc
-,;;::;:;ccclllcclcc:'...........,;;,,;:;;'::ccc:,,c::::::ccccllccc:;;
-cc::;::::;;;,,,,,,;;.............. ......;''''....',ccccccccol:::;;,,
-,',,,;;;;;;;;;;;;;;;''..........    .............,;cccccccclllllcc:;;
-;;;;;;;;;;;;;;;;;;;,'.'..''......      ..........',;cccccccclllllllll
-,,,,,,,,;;;;;;;;;;;;coldoc;;;;;;;;;;;;;;;;:::::::::ccccccccccccclllll
-,,,,,,;;;;;;;;;;;;cxocOx::::::::::::::::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;cOd;d0d::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,;;;;dOd;c00o::::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,;;,,,,;oOOc;l00x:::::::::::::::::::::::;;:::;::::::::::::::
-''',,,,,,,,,,,,,,:kOOc;cO00d::::::;;:::::::;;;:::;;:;;;;;;;:;:;;:::;;
-''''',,,,,,,,,,,,,coOOl;:d00Od:;;;;;;;;;;;;;:::;;;;;::;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,;dOOd:;:d000xc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-'''''''',',,,,,,',,,:xO0x;;;l0000d;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame108 = """
-....................''......'''''''''..'''.'''.........''.'',,,,,,,,'
-..................................''...''''''.............',,,,,'''''
-.......................................''..................'''''.....
-.............................................................'','....
-.............................................................'''''...
-.....................................................................
-'''',,,'''''.....................'''...........................''',''
-,,;;;;;;;,,,,,,,''''...............'''''..''';;,''''......,;,'',,',,,
-,;;c;cccllc,;;;;,;::;,,'''..,:ooddxxxxol;,',,;;:;;;;;;;;;;;;::;;;;;;;
-,,,ol,ocolc:::;;;:;;::;:c,',,,ckxddxxxxddllccc::;;;,,;;;;;::::ccccllc
-,,;;:c;:;:cccllcccc:...........',::;;:c:;,:cccc:,,:::::::::ccllccc:;;
-llcc:::::::;;,,,,,,,.....................,,'''''.','ccccccccol::;;,,,
-,,,,,,;;:;;;;;;;;;;;............    .............',ccccccccllllccc:;;
-;;;;;;;;;;;;;;;;;;;,'...........       ..........',;:ccccccccclllllll
-,,,,,,,,;;;;;;;;;;;;clldoc;;;;,;,,,,,,,,,;;:::::::::cccccccccccclccll
-,,,,,,;;;;;;;;;;;;cxocOd::::::::::::::::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;cOd;d0o::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,;;;;dOd;l0Ol::::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,;,,,,,oOO:;o00d:::::::::::::::::::::::;;::;;::::::::::::::
-''',,,,,,,,,,,,,,:dkk:;lO0Oo::::::;;:::::::;;;:::;;;;;;;;;;:;:;;:::;;
-''''',,,,,,,,,,,,,:xOkc;:d00Oo:;;;;;;;;;;;;;:::;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,:kOOo;;cx00Odc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-'''''''',',,,,,,',,,lxOOd;;;o0000l;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame109 = """
-.....................''..'...''''''''''.'''''''..........'.'''',,,',,
-..................................''''..''''''.............',,,,,''''
-........................................'''.................'''''....
-..............................................................''''...
-...............................................................''''..
-.....................................................................
-''''''','''''.....................'''............................'',,
-;;,,;;;;,;,,,,;,,,','...............'''''..''';;;'''''.....';;''',,',
-;;,;;:;lccll:,;;,;,;:;;,''...;odooddxdlc,,,,,,;;:;;:;;;;;;;;;::;;;;;;
-;;,,,d;:llllc:::;;;;::::c;',,,ckkddxxxxxdllcc:::;;;,,;;;;;;::::cccclc
-;;,,;;;c;:;cccllccc:..''.......',;::;:c::;;cccc:,,;::::::::ccllccc:;;
-clllcc:;::::;;;,,,,,.....................';,,,,''','ccccccccol::;;,,,
-'',,,,,,;;::;;;;;;;;.............   .... ........',:cccccccllllcc::;,
-;:;:;;;;;;;;;;;;;;,,............     .............,;:ccccccccclllllll
-,,,,,,,,;;;;;;;;;;;;:lcooc;,,,,,,''''',,,,;;;:::::::cccccccccccclcclc
-,,,,,,;;;;;;;;;;;;:ddckx::::::::::::::::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;:kx;d0o::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,;,;;oOd;l0Ol::::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,;,,,,,lkO:;d00o:::::::::::::::::::::::;;::;;::::::::::::::
-''',,,,,,,,,,,,,,;oOk:;lO0Ol::::::;;:::::::;;;:::;;;;;;;;;;:;:;;;::;;
-''''',,,,,,,,,,,,,:kOkc;:x00kl:;;;;;;;;;;;;;:::;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,:xOOo;;ck00Oo:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-'''''''',',,,,,,',,,oOOOo;;;d000Oc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,
-""";
-
-    public static String frame110 = """
-.......................'.......'''''''''..''''''.'........''.''',,'',
-.........................'.''.....'''''..''''''.............'',,,,'''
-..........................................''..................'''''..
-................................................................'',..
-................................................................''''.
-.....................................................................
-'''''''','''''.....................'''.........'..................'''
-,;,,,,,,;;,;,,,,,,,''''..............''''...''',;;'''''.....';;''',,'
-,;;;;;:::c:cc:,;;,;,;:;;,,...,codlloooc;,',,,,,;;:;;:;;;;;;;;;::;;;;;
-:::;,,co,ocoll:::;;;::::c,'',,lkkxxkkkkkdlccc::;;;;;,,;;;;;;::::ccclc
-;;;;,,;:::;;:cccccc,'',''......;;:::cclcc;::ccc:,',:::::::::ccccccc;;
-cccllccc::::::;;,,,'.....................';;;;,,,,;,ccccccccoc;:;;,,;
-,,,',,,,,;;::;;;;;;,... . .......   ..    . .....'';cccccccllllc::;;,
-;;::;:;:;;;;;;;;;;,'.'....... ..     ....''.......';:ccccccccclllllll
-,,,,,,,,;;;;;;;;;;;,;ccolc,,,'''''''''''',,,;;;:::::cccccccccccclcccc
-,,,,,,;;;;;;;;;;;;:ddckx::::::::::::::::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;:kx;d0o::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,,,;;oOd;l0Oc::::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,;,,,,,cxk:;x0Ol:::::::::::::::::::::::;;::;;::::::::::::::
-'''',,,,,,,,,,,,,;xOx:;o00kc;:::::;;:::::::;;;::;;;;;;;;;;;;;:;;;::;;
-''''',,,,,,,,,,,,,ckOx:;ck00xc;;;;;;;;;;;;;;:::;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,,lkOOl;;lk00kl:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,;;,,
-'''''''''',,,,,,'',,oOOOl;;;k000k:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,
-""";
-
-    public static String frame111 = """
- ...............................'''''''''''''''''''..'....''''..'''''
-  ........................'''''''..'''''''..'''''''............''''''
-  ..........................................''...................'.''
-..................................................................'''
-...................................................................''
-.....................................................................
-'''''.''''''''''..................'.'''''............................
-,,,,,,,,,,,,;,,,,,,,,''''...............''''...'.';;'''.'......,;'.''
-,;,,;;;;;;::c:cc:,;;,;,;:;;,''',;lll:;'.'''',,,'',::;;;;;;;;;;;;:::;;
-;:;::::;;;o;llool:::;;;cc;'.';dkkkO000Okolc::::::;;;;;;,,;;;;;;:::::c
-;;;:::;;,,:;c:::ccc,;,;;,...'.'ccccllllllc:cllc:,,,::::::::::cccccc:;
-c::ccccccccc:::::::..............'......''.;:::c:;;:::c:ccccll:::;,;,
-;;;;,,,,,,,,;;:::;:...... ........   ..  ...    ...,ccccccccllc::;,,,
-,,,;:::::;::;;;;;;,'.'.    .....     .....'......'',;ccccccccccclcllc
-:;;;;;,,;;;;;;;;;;,'',;;:;.................''',;;:::ccccccccccccccccc
-,,,,,,;;;;;;;;;;;;;cdlokc:::::::::::::::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;;dk:l0o::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,,,,;ckx;l0O:::::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,;,,,,,ckk:;x0Oc:::::::::::::::::::::::;;::;;::::::::::::::
-'''',,,,,,,,,,,,,;xOx;;d00d:;:::::;;:::::::;;;::;;;;;;;;;;;;;:;;;::;;
-''''',,,,,,,,,,,,,lOOx:;ck00d:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,',lOOOl;;lO00xl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,;,,
-'''''''''',,,,,,'',,dOOOo;;;k000x:;;;;;;;;;;;;;;;;;;;;;;;;;,;;;,,,,,,
-""";
-
-    public static String frame112 = """
- . ............................'.'''''''''''''''''''..'....''''...'''
-.. ........................'''''''..'''''''..'''''''............'''''
-..  .........................................'''...................''
-... ................................................................'
-.....................................................................
-.....................................................................
-''''''.....''''''.................''''''''...........................
-,,,,,,,,,,,,,,,,,,,,,','''...............''''...'.';;'''.'......,;,''
-;,,,,,;;:;;::c::c:;;;;;;;::;,,''',:cc,...'''',,,'',;:;;:;;;;;;;;;;::;
-;;;::::::;;lc:loooc::;;:c;'',;dOkOO000Oxll::::::::;;;;;;,;;;;;;;:::::
-:;;:;::::;,;;::c:::;;;::,...'''lllloollllcccccc:,,,:::::::::::ccccc::
-::::cccllccccc::::;...................'.''';::cc::;:::::::cclc:::;;,,
-:;;;;;;,,,,,;;;;:::................  ........    ..'ccccccccllc::;,,'
-,';,;::::::::;;;;;,..'.    .....     .....'......',,;cccccccccccccccc
-;:;;;;,;;;;;;;;;;;,'.',,;,..................'',,;;::ccccccccccccccccc
-,,,,,,,;;;;;;;;;;;;:oloxc;;;;:::::::;:::::::::::::::::cc:cccccccccccc
-,,,,,,,;,,;;;;;;;;okcl0d::::::::::::::::::::::::::::::::::::::ccccccc
-',,,,,,,,,,;,,,,;:xx;l0O:::::::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,;,,,,,:kO:;x0kc;;;::::::::::::;:::::;:;;::;;::::::::::::::
-'''',,,,,,,,,,,,,;kOx;;d00d:;;;;::;;:;:::;;;;;::;;;;;;;;;;;;;:;;;;;;;
-''''',,,,,,,,,,,,,cOOx:;ck00d:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,',cOOOl;;lk00xl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,;,,
-'''''''''',,,,,,',,'lOOOo;;;x000k:;;;;;;;;;;;;;;;;;;;;;;;;;,;;;,,,,,,
-""";
-
-    public static String frame113 = """
-.. .............................'.''''''''''''.''''''..''.....''...''
-.... .......................''''''''.''''''''..''''''.............'''
-...   .........................................''....................
-..... ...............................................................
-.....................................................................
-.....................................................................
-''''''''......''''................'.'''''''.........'................
-,,,,,;;,,,,,,,,,,,,,,,','''...............''''...''';;,''.'......',,'
-;;,,,,,;:;;;;::c:c:;,;;;;,::;,,,,,,:cc....''''',,',,;::;::;;;;;;;;;::
-;;;;::::::;;;o;llool:::;c,,,,;xOOOO000Oxcc::::::::;;;;;,,;;;;;;;:::::
-';:;;:;::;;,,::c::;:;:::'...'''llllolllllcccccc:,',:::::::::::cccc::;
-:::c:ccclcccccc:::,...................'.''.;::ccc:;:::::::cclc:;;;;,;
-::;;;;;,,,,;,;;;;:,................   .. ....   ...'cccc:cccclc::;,,,
-,,,,;;;::::::;;;;;,.'..  . .....     .....'......',,;cccccccccccccccc
-;;:;;;;;;;;;;;;;;,,'.',','..................'',,;;::ccccccccccccccccc
-,,,,,,,;;;;;;;;;;;;:oloxc;;;;:;:::::;:::::::::::::::::cc:cccccccccccc
-',,,,,,;,,;;;;;;;;lkcl0o::::::::::::::::::::::::::::::::::::::ccc:ccc
-',,,,,,,,,,;,,,,;:kx;l0k:::;;::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,;,,,,,cOk;;k0k:;;;::::::::::::;:::::;;;;::;;::::::::::::;:
-'''',,,,,,,,,,,,,;kOx;;d00d:;;;;:;;;:;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;
-''''',,',,,,,,,,,,cOOx:;ck00dc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,',cOOOo;;ck00kl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,;,,
-'''''''''',,,,,,'',,lOOOd;;;d000kc;;;;;;;;;;;;;;;;;;;;;;;;;,;;;,,,,,,
-""";
-
-    public static String frame114 = """
-....................................''''''''''''''''''.'.......'....'
-.....  ......................''''''''.''''''''..'''''..............''
-.....  .........................................''...................
-...... ..............................................................
-.....................................................................
-.....................................................................
-.'''''''.......'''''.................''.''''.........'...............
-,,,,,,,;;,,,,,,,,,,,,,,,,''''..............''''...'''::''''''.....',,
-;;;;,,;,,;;:;;::c:c:;,;;;;,:::;;;,,,:::....'''',,;',,;::;::;;;;;;;;::
-,;;:;;::::::;;o;llool::::,'',ckOOO000Okoc:;:::::::;;;;;,,;;;;;;;:::::
-;,,::;:;:::;,;:;c;,;;:::....'',olcllllllcccccc:;,,,:::::::::::cccc:;;
-:::::ccclcccccc:;:....................'.''.;::cc:::;::::::cclc;;,,,,;
-::::;;,,,,,,;;;;;:.................  ..  ...    ...,cccc:::cccc:;;,,,
-',,,;;;;:::::;;;;;..'.     .....     .....'...'..'',;cccccccccccccccc
-;;;;;;;;,;;;;;;;,,'..',',...................'',;;:::ccccccccccccccccc
-,,,,,,,;;;;;;;;;;;;coldx:;;;;:;:::::;;::::::::::::::::cc:cccccccccccc
-',,,,,,;,,,,;;;;;;ok:dOl::::::::::::::::::::::::::::::::::::::c::::::
-',,,,,,,,,,;,,,,;cko;d0x::;;;::::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,,,,,,,oOx;:k0x:;;;::::::::::;;;:::::;;;;::;;::::::::::::;;
-'''',,,,,,,,,,,,,:kOd;;d0Oo:;;;;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;
-''''',,',,,,,,,,,,lOOx:;ck00dc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,',lOOOl;;lk00kl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,
-'''''''''',,,,,,'',,oOOOo;;;x000k:;;;;;;;;;;;;;;;;;;;;;;;;;,;;;,,,,,,
-""";
-
-    public static String frame115 = """
-...............................'....'.''''''''''''.'''''.............
-........ ......................''''.''''''''''''..''.................
-........  .......................................'''.................
-......... ...........................................................
-.....................................................................
-.....................................................................
-....'.'...........''''................''''''''.........'.............
-'',,,,,,,;;,,',,,,,,,,,,,,,''''..............''''...'''::''''''.....'
-,,;;;;;,,,,,;;;;::c::c;,;;;;;:::;;;,'':;;....'',',;;',;;:;;::;;;;;;::
-'..;;::;::::::;;cccloolc,'',:xkkO000Oxdlc::;;:::::;;;;;,;;;;;;;;;:::;
-';;;,,:;;:;::;;,;,:,::c,...'',odooooolollccccc:;,,::::::::::::ccc::;;
-::::::ccccccccccc.................'..''''''::ccl:;c;::::::cc::;;,,;;,
-::::::;;;,,,,,;;;.............. ...    ...'..   ..':cccc:::ccc:;;;;,,
-''',,;;;:;::::;;;.....      . . .   .....'....''',,,:cccccccccccccccc
-;;;;;;;;;;;;;;;,,'......'...................'',;;:::ccccccccccccccccc
-,,,,,,,;;;;;;;;;;;;lllxo;;;;;;;;;;;;;;::::::::::::::::cc:cccccccccccc
-',,,,,,;,,,,;;;;;:do;kx;::;::::::::::::::::::::::::::::::::::::::::::
-',,,,,,,,,,,,,,,;xk;:OOc;:;;;;;::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,,,,,,,kOl;lOOl;;;;::::::::::;;;:::::;;;;::;;::::::::::::;;
-'''',,,,,,,,,,,,,oOOc;cO0xc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;
-'''''',',,,,,,,,,;kOOl;;d00kl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,';xOOd;;cx00kl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,
-'''''''''',,,,,,'',cOOOd;;;d000k:;;;;;;;;;,,;;;;;;;;;;;;;;;,,;,,,,,,,
-""";
-
-    public static String frame116 = """
-,,:;;cloxxxxxkxxxxkkkxxkkxdxxxdxkkkkOOkOOOxoodooodooddxkkO00KKKKK0000
-:;;:;::coddddxxxxkkkkkkxxxdoddddxkkkkkkkkkdolololloloddxO000000000000
-:ccl:;;:clodddddxxxxxdddxxdddoddddxkkkkkdodxdolcllllllokOkkOO0OOOOOOO
-;ccc:;:clldddddddxxxxxddoodoooodoxxkkkkkxdoooolcccccllooddxkkkkkkkkkx
-:cc:;;:coooooloddxxxxxooolcllclodxxxxxkxdolcclcclccccccllodxxdxxxxxdx
-c:;:;::llllolllolodddollolcclcloxxdddddddolcllc::::ccccllooollooddlld
-::cccc:::clcllccclllcclolllccccloooooolcccllcc:::;:::cclllclllllllcll
-';:c:::clloolc:::ccclcllcc:c::ccloooollc::cc:::::;;;;:cccc:ccccccccll
-.'',::;:ccc:;;;;;;:cc:cc:::;:;:ccllcc::;;;;;;;;;;;;:::::::::ccccccccc
-..'',,,::::;,,';loooolooc::;:;:ccccc:;,,;;;;;,;;;;;;;;;;:::::cc:;,:::
-'''''',;;;::;,:dxdxxxxdxko:c:;::ccc:;,,,',;,,;:;,,;;:;;;;;:::;;,,;:;:
-,,,,;,:cloooc,,ccccclllloololllllllcc:clcc:c::;cl:;;;,,;;:l::;,,;,;;;
-,,;;;;:clloxc....'..'''''';;okxxxxdddddooolllllllllllcccccc::;;;;;;;;
-lllllloooddo;..............'lO0Okxxxxxxxdddddoooollccc:cccccc::::::c:
-ccclllllooool:;;;,,,,''''',,cddO0OOxxxxxdddddddddddddoollcc::;:::::::
-ccccllllloloooooooooooooddddddddx0OOOxddddddddddddddddddxxddddollcc;;
-::cccclllllllllllooooooooddoodddddkKOO0kddddddddddddddddddxxxxxdddddo
-::::ccccllllllllllllooooooooooooooookKOk0Oxdddddddddddddddddddddddddd
-;;;:::ccccllllllllllllllllllooooooooodOKOxO0kdooooooooddddddddddddddo
-;;;:::::ccccclllllllllllllllllllllllllld0KOdkK0xooooooooooooodddddooo
-,;;;;:::::cccccccccllllllllllllllllllllllxKKOdx0KOdooollooooooooooool
-,,;;;;:::::::cccccccccccccllllllcclllccclllkXKkox0K0xolllllllllllllll
-,,,,;;;;:::::::ccccccccccccccclcccccclccccllkXX0olkXX0ollllcccccccccc
-""";
-
-    public static String frame117 = """
-.............................'..'....'.''''''''''''''''''............
-................................'''''''''''''''''..''................
-.......... ......................................'''.................
-..........  .........................................................
-.....................................................................
-.....................................................................
-....................'''.................'''''''.........'............
-''',,,,,,,,;,,''',,,,,,,,,,,,'''..............'''....'',::''''''.....
-,,,,;;;;,,;,,;;;;:::::c;;;;;;;:::;;,''.::,....'',,;;,,;;;:;;:;:;;;:::
-'''.';::;;:::::;;cc:lool,'',cxkkO000kdlcc:::;;:::::;;;;,;;;;;;;;;;::;
-'.,;;;,::;:;::;;,;;::lc....'':xdoddoololcccccc:,,,::::::::::::c:c::;;
-.,::::::cccccccc,.................,..''''',:ccll:;:;::::::cc::;;,;;,,
-c;;;;:::;;,,,,;;,.............. ..    ....'..   ..':cccc:::cc::;;;;;,
-''''',;;;::::::;,....       . . .   .....'....'',,,;:cccccccccccccccc
-;;;;;;;;;;,,;;,,'..'........................'',;;:::ccccccccccccccccc
-,,,,,,,,;;;;;;;;,,;cllxc;;;;;;;;;;;;;;::::::::::::::::cc:ccccccccccc:
-',,,,,,,,,,,,;;;;:xccOo;:;;::::::::::::::::::::::::::::::::::::::::::
-'',,,,,,,,,,,,,,:kx;lOx:;;;;;;;::::::::::::::::::::::::::::::::::::::
-''',,,,,,,,,,,,,:kO:;dOkc;;;;::;::::;;;;;;:::::;;;;::;;:::::::::::;;;
-'''',,,,,,,,,,,,,xOx;;dOOd:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''''',',,,,,,,,,cOOx:;ck0Od:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''',,,,,,,,,,,oOOk:;;oO0Od:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,
-.''''''''',,,,,,'',xOOk:,;cO00Ol;;;;;;;;;,,,;;;;;;;;;;;;;;;,,;,,,,,,,
-""";
-
-    public static String frame118 = """
-..............................''.''...'..'''''''''''''''''...........
-.................................'''''''''''''''''..''...............
-........... .......................................''................
-...........  ........................................................
-.....................................................................
-.....................................................................
-.....................'''.................''.''''.........'...........
-,''',,,,,,,,;;,,'',,,,,,,,,,,,'''..............''''..''',::''''''....
-'',',;;;:,,,,,;;;;;::::c:;;;;;;:::;;,,'':;,....'',,;;;,;;;:;;;;;;;;::
-''''..;;::;:::::;;:l:olc;,',lxkkO00Oxolccc:::;;::::;;;;,,;;;;;;;;;:;,
-'''';;;,;:;:;:::;;;:cl:....''cxdoddoololcccccc;,,,:::::::::::c:::::;;
-...::::::ccccccc..................,..''''',:ccll:;::::::::cc:;;;,;,,,
-cc:;;;::;;;,',,;..................     ...'..  ...'ccccc:::cc::::;;;'
-,''''',;;;:::::;.....       . .     .....'...''',,,;:cccccccccccccccc
-;;;;;;;;;;,,,,,,'..'........................'',;;:::ccccccccccccccccc
-,,,,,,,,;;;;,,,;,,,cllxc;;;;;;;;;;;;;;::::::::::::::::cc:ccccc:cc::::
-',,,,,,,,,,,,,;;;cxclOl;:;;::::::::::;::;::::::::::::::::::::::::::::
-'',,,,,,,,,,,,,,:kd;oOx;;;;;;;;;:::::::::::::::::::::::::::::::::::::
-''',,,,,,,,,,,,,ckk;;xOx:;;;;::;:;::;;;;;;;;:::;;;;::;;:::::::::::;;;
-'''',,,,,,,,,,,,;kOd;:x0Oo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''''',',,,,,,,,,oOOo;;oO0kl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-'''''''',,,,,,,,,,xOOd;;ck00kl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,
-.''''''''',,,,,,''ckOkl,,;k000d;;;;;;;;;;,,,;;;;;;;;;;;;;;;,,,,,,,,,,
-""";
-
-    public static String frame119 = """
-...............................'''''....'..''''''''''''''''..........
-...................................''''.''''''''''''.''..............
-....................................................'''..............
-............. .......................................................
-.....................................................................
-.....................................................................
-......................'.''................'..''''.........'..........
-'',''',,,,,,,,;,,'',,,,,,,,,,',''''.............'''''..'''c:''''''..'
-',',,,,;;;;,,,,,;;;;::c:::;;;;;;;::;;,,'':;;....',,,;;;,;;;:;;;;;;;::
-''''''.';::;;:::::;;o;lc;,,,lxkkOOOOxoccccc::::;:::;;;;;,;;;;;;;;;;;,
-,'''.';;;,::;:;:::;;cc:....',cxdodddolollccccc:,,,::::::::::::c:::::;
-,'..':::::ccclc:...'..............,..''.''':ccll:;::::::::cc:;;;,;,,,
-cccc;;;;::;;,',;............... ..     ...'..  ...'ccccc:::c:::::;;,,
-.'''''',;;;;:;::.....         .     .....'....'',,,;:cccccccccccccccc
-;;;;;;;;;;,,,,,,.............................'',;::::cccccccccccccc::
-,,,,,,,,;,,,,,,,,,,:cldc;;;;;;;;;;;;;;;;;;;:::::::::::cc::cc:c:c:::::
-',,,,,,,,,,,,,;;;cdccOl;;;;;;:;::::;;;;;;::::::::::::::::::::::::::::
-'',,,,,,,,,,,,,,;kd;lOx;;;;;;;;;;:::::;;:;:;;:;:::::::::::::::::::::;
-''',,,,,,,,,,,,,ckk;;kOx:;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;::::::::::;;;;
-'''',,,,,,,,,,,,:kOo;:k0kc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''''''',,,,,,,,,xOOc;;x0Ox:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-''''''''',,,,,,,,:kOkc;;oO0Od:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,
-..''''''''',,,,,',dOOk:,,cO00Ol;;;;,,;;;;,,,,;;;;;;;;;;;;;;,,,,,,,,,,
-""";
-
-    public static String frame120 = """
-..................................'''''....'.'''''''''''''''''.......
-.....................................''.'..'''.'''''''..''...........
-.........................................'''..........'''............
-.....................................................................
-.....................................................................
-.....................................................................
-...........................................'''''''''.................
-''''''''',,,,,,,,,,,'',,,,,,,,,,'''''..............'''...'''::,''''''
-.''',,,,',;;,;,,,,,;;;;:::;:;;;;;;;:::;,,'''c:.....'';,;;,,;;;;;;;;::
-.'',',,','';::;;::;:;;;:;;;:oddxxkkxol:::::ccc::;;;:::;;;;;,;;;;;;;;,
-:,:c,'''',;:,::;:;:::::...',;okxdxxxxdolllcc:::;,,::::::::::::::::::;
-l;;l,'..;:c:::c,''',''..........'';,'''',,':clllc;c:::::::cc::;;;;,,;
-::c:ccc:;;;::;;,............... ...    ....'.......;cccc:::c::::;;,''
-;;''.,'''',;;;:,.....    .... .      .........',;;;;:cccccccccccccccc
-,,;;;;;;:;;;;,,,..'.                  .........',;;:::ccccccccccccc::
-;,,,,,,,;,,,,,,,'''';;ll;,,,,,,,,,,,,,;;;;;;::::::::::c::::::::::::::
-',,,,,,,,,,,,,;;;;lo:xx;;;;;;;;;:;;;;;;;;;:::::::::::::::::::::::::::
-'',,,,,,,,,,,,,,,dk;:Ok;;;;;;;;;;;;;;;;;;;;;;;;:::::::::::::::::::::;
-''',,,,,,,,,,,,,:kk;;kOd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::::::::::;;;;
-'''',,,,,,,,,,,,:kk:;lOOd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''''''',,,,,,,,;kOx;;lO0kc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-''''''''''',,,,,,xOOd;;cO00x:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,
-..''''''''',,,,,'oOOOl,,oO00Oc,;;;;,,;;;;,,,,;;;;;;;;;;;;;;,,,,,,,,,,
-""";
-
-    public static String frame121 = """
-...................................''''''...'.'''''''''''''.''.......
-......................................''''..''''''''''''.''..........
-..........................................'''.'.........''...........
-.................. ..................................................
-.....................................................................
-.....................................................................
-.'..........................''...............'''.''''.........'......
-''''''','',,,,,,,,,,,''',,,,,,,,,',''''.............'.'.''''';:;.''''
-..'''',,,,',;;;,,,,,;;;;:::;::;;;;;;:::;;,,''c:.....,,;;;:;;;;;;;;;::
-..',,,,',''.,:::;:::::;;,';:oxxxkkkxoc::::::c:c::::;;;;;:;,;;;;;;;;;,
-';:,c;,'''';;;,:::;:c:;...,,;okxdxxxxdolclcc::;,,,:::::::::::::::::;;
-;;l'c:''',cc:::',','''..........'';,''''',':llllc;c:::::::c:::;;;,,;;
-cc:cc:ccc;;;;:;'............... ...    ....'.......:ccc::::c::::;;,''
-:;;,''',',,,;;:......    .... .      .........',;;;;:cccccccccccccccc
-,;;;;;;;;;;;;,,'..'.                  .. ......',;;:::cc:ccccccccc:::
-;;,,,,,,;,,,,,,''.'';;lc;,,,,,,,,,,,,,;;;;;;:::::::::::::::::::::::::
-',,,,,,,,,,,,,;;;;od:xx;;;;;;;;;:;;;;;;;;;;;:::::::::::::::::::::::::
-'',,,,,,,,,,,,,,;dk;:Ox;;;;;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::;;
-''',,,,,,,,,,,,,ckx;:OOl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::::::::;;;;;
-'''',,,,,,,,,,,,lkk;;dOOl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,,lOOo;;xOOx:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-''''''''''',,,,,ckOkc,;xO0Oo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,
-..''''''''',,,,,;kOOx;,:kO00d;,;;;;,,;;;;,,,,;;;;;;;;;;;;;;,,,,,,,,,,
-""";
-
-    public static String frame122 = """
-...........................'........''''''......'''''''''''''........
-.......................................'''''.'''..'''''''.''.........
-............................................'............'''.........
-.....................................................................
-.....................................................................
-.....................................................................
-...''.......................'''...............''...'''.........'.....
-..''''''',,',,,,,,,,,,,'',,,,,,,,,,,''''.............''.'''''';:;''''
-...'''',,,,,,;;;;,,,,;;;;:::::c;;;;;;;::;;,,,'c:....',,;;::;;;;;;;;::
-....'',,,,'''':::;::::;,,,'cdxxxxkkdocc:::cc:::c::::;;;:;;;;;;;;;;;;,
-''':;;c,,''';;;,::::cc,...',:dkxdxxxdoolclcc::;,,;:::::::::::::::::;;
-,,;::,l,'''::c;',,,,,'..........'':,''''',':llll:;c:::::::c::;;;;,,;;
-;:cccc::c:;,;;;............. .. ...    ....'.......:::c::::c::::;;,''
-:;;,,''',,,,;;;.....    ....  .      .........',;;;;:cccccccccccccccc
-,,;;;;:;;:;;;,,...'.                   ........',;::::cc:ccc:cccc::::
-;;,,,,,,;,,,,,,'...';;cc,''',',,,,,,,,;;;;;;:::::::::::::::::::::::::
-',,,,,,,,,,,,,,;;;od:xx;;;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::
-'',,,,,,,,,,,,,,;dx;lOd;;;;;;;;;;;;;;;;;;;;;;;;;;;:::::::::::::::::;;
-''',,,,,,,,,,,,,lko;cOO:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::::::;;;;;
-'''',,,,,,,,,,,,xOd;;kOk:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,,kOk:,lOOOl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-''''''''''',,,,,xkOo;,okOOx:,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,
-..''''''''',,,,,dkOkl,,dkO0k:,,,;;;,,;;;;,,,,;;;;;;;;;;;;;;,,,,,,,,,,
-""";
-
-    public static String frame123 = """
-.....................................''''''....'.''''''''''''........
-......................................'.'''''..'''.'''''''..'........
-.............................................'............''.........
-.....................................................................
-.....................................................................
-.....................................................................
-'...'''........................'...............''...'''.........'....
-...''''''',,',,,,,,,,,,,'',,,,,,,,,,,''''.............'.''''.'';;;'''
-.....''',,,,,,,;;;,,;,;:;;:::::c;;;;;;;::;;,,,'c:....',,;;::;;;;;;;::
-.....',,,,,,,'.;:::;:::;,,,:ddxxxxxoc:cc:::cc:::c::::;;;:;;;;;;;;;;;,
-...',:,c;,''',;;,;:;c:,..',,lkOkxxkkddlcclcc:;;,,;:::::::::::::::::;;
-'',;;c,c:,'';c,,,,;,,...........';:,,,,,,,,clllc::c:::::::c::;;;,,;;;
-,;:clcc::c::,;,............. .....     ...''.... .':::c::::::::::,,''
-:::;;,',',,,;,'.....    ....    .    .........',;;;:::ccccccccccccccc
-',,;;;;;;;;;;;'..'..                    .......',;:::::c:ccc:cccc::::
-;;;,,,,,,,,,,,'.....,,c:'''''''''',,,,,;;;;;;::::::::::::::::::::::::
-',,,,,,,,,,,,,,,,;lo:xd;;;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::
-'',,,,,,,,,,,,,,;dd;oOl;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::;:::::::::;:;;;
-'''',,,,,,,,,,,,dk:;xOd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::;;;;;
-''''',,,,,,,,,,ckk:,oOOo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,okOl,:kOOo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,
-''''''''''',,,,okkx:,:kOOkc,,;;;;;;;;;;;,;;;;;;;;;;;;;;;;;;;;,,,,,,,,
-..''''''''''',,cxkOd,,ckOOOc,,,,;,;,,,,,,,,,,,;;;;,;;;;;;;;,,,,,,,,,,
-""";
-
-    public static String frame124 = """
-.......................................''''.''......'''''''''........
-........................................'''''.....''.'''''.'.........
-............................................'..'''...........''......
-.....................................................................
-.....................................................................
-.....................................................................
-...''.............................'..............''....''.........'..
-.......'''''''''',,,,,,,,,''',,,,,,,,,,'''''.............'.'''.'',;;.
-........''',,,,,,;,,;,,,;;;;;:::::;;;;;;;:::;,,,'c:....',,;:::;;;;;::
-........',,,,,,,,':::;::;;::llddxdoc::;::::c:cc:::c::::;;;;;;;;;;;;;,
-......'';,c;,''',;;;::'.'.'lxkOO0OOkdlccc::::;;,;;;;:::::::::::::::;;
-....',;;l,c;,'.,;:;:;.....'.';,,;c:::;:;;;:lllc;;c::::::::c::;;;,;;;;
-,,,,;:clcc::c:.............    ....    ...:,'.....,:::::::::c::;,''''
-cc::::;;,',,,,.....    ....    .    ...........',:::::::ccccccccccc::
-..'',,;;;;;;;;.....                  .. .......'',;::::c:c:c:cccc::::
-;;;;;,,,,,,,,,........',............''',,,;;;;:::::::::::::::::::::::
-''',,,,,,,,,,,,,,,cocdd;;;;;;;;;;;;;;;;;;;;;;;;:::;:::::::::::::::::;
-'''',,,,,,,,,,,,:do;xO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;:;::;::::;;;;;
-''''',,,,,,,,,,:xx;lOO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::;;;;;;
-'''''',,,,,,,,;xkl,lOOo,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-''''''''',,,,,ckkd,;xOOo,,;,,;;;;;;;;;;;;;,;;;;;;;;;;;;;;;;;;;;,,,,,,
-.'''''''''',,,:kkk:,;xOOx:,,,,,,,,,,,,,,,,;,,,,,;;;;;;;;;;;,,,,,,,,,,
-..''''''''''',,xkOx,,;xOOOl,,,,,;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,,,,
-""";
-
-    public static String frame125 = """
-................................'........'.''''....'.''''''''.'......
-.........................................''''...'..''..''''.'........
-................................................''............''.....
-.....................................................................
-.....................................................................
-.....................................................................
-....''...'.........................'...............'.....'''.......''
-........'''''''''',,',,,,,,''',,,,,,,,,,'''''.............'''''.'',;,
-.........''',,,,,,,;,;,,,,;;;;::::c;;;;;;;:::;,;,'c:...'',;;:::;;;;::
-..........',,,,,,,':::;::::cclldddocc::;:c:cc:c::::c:::;;;;;;;;;;;;,,
-.......'';,::,''',;::;''..;dOOO000Oxolccc::::;;;;;;;:::::::::::::::;;
-..'..',,:c;::''',:::,....''',:;,:c;:::;;;;lllc:;::::::::::c::;;;,;;;,
-',,,,,:clcc::,.............   ....    ...,;,'.'...:::::::::c:::,''.''
-ccc::;:;,'',,'.....    ....   .  .  ... .......';c::::::cccccccccc:::
-..'',,;;;;;;;,.....        .        ... .......'',;::::c:c:c:cccc::::
-;;;;;,,,,,,,,'........''.............'',,,;;;;;::::::::::::::::::::::
-'''',,,,,,,,,,,,,,clcdl;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::::::::::::::::;
-''''',,,,,,,,,,,:dc:kd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;:;:;;:;;:;;;;;
-''''',,,,,,,,,,lkl,xOo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;
-''''''''',,,,,ckk:;kOk;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-''''''''',,,,,dkkc,ckOx:,,;,,,,;;;;;;;,,,,,,;;;;;;;;;;;;;;;;;;;,,,,,,
-.''''''''''',,lkkd,,:xOOd;,,,,,,,,,,,,,,,,;,,,,,;;;;;;;;;;;,,,,,,,,,,
-..''''''''''',;xkOo,,;kOOOl,,,,,;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,,,,
-""";
-
-    public static String frame126 = """
-............................................''''....'..'''''''.......
-..........................................''''.'.'..'''.''''.'.......
-..............................................'....'...........''....
-.....................................................................
-.....................................................................
-.....................................................................
-.....'''...'........................'...............'.....''........'
-.......'..'''''''''',,,,,,,,',',,,,,,,,,,,''''.............'.'''.'',;
-.'''....'.''',,,,,,,;,;,,,,;:;;::::::;;:;;;:::;;,,'c:...'',;::::;;;;:
-...........',,,,,,,',:::;:::ccclloool:c:::c:cc::::::c::::;;;;;;;;;;,,
-........'',;,c,,''';:,'''':xOOO000Odoccc:c:::;;;;;;;:::::::::::::::;;
-...'...',;;l,c;'',::,....'.'::::lc::::;;;:lcc:;;c:::::::::c::;;;,;;;,
-..',,,,;:clc:.............    ....    ..'::;,''..'::::::::cc:::,'''',
-:ccc::;;;;,''......   .....   . .   ..   .......,::::::::cccccccc::::
-...'',,;;;;;;'.....        .        ...........',;;::::c:c:c:cccc::::
-;;;;;;,,,,,,,'.........'..............''',,;;;;;;::::::::::::::::::::
-,'''',,,,,,,,,,,,,:lcoo;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;::::::::::::::;;
-''''',,,,,,,,,,,:dl:kd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;:;;;;;
-''''',,,,,,,,,,lkl;kOl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,lkk;;kOd,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-''''''''',,,,,dkk:,lkOd:,,;,,,,;;;;;,,,,,,,,;;;;;;;;;;;;;;;;;;;,,,,,,
-...''''''''',,ckkd;,:xOOd:,,,,,,,,,,,,,,,,;,,,,,;;;;;;;;;;;,,,,,,,,,,
-..''''''''''',,xkOd,,;kOOkl,,,,,;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,,,,
-""";
-
-    public static String frame127 = """
-',;;,:cldxxxxxxxxxkkkxxkkkdxxxddxkkkOOkOOOkdlodooooodddkkk000KKK00000
-;:;::;cclddddxxxxxkkkkkxxxxdddoddxkkkkkkkkxolllolloloddxk000000000000
-::ccl;;:ccooddddxxxxxxdddxdddoodddxxkkkkxdoddolclllllloxOxxkOOOOOOkkk
-;;ccc:;:llodddddddxxxxddoodoodldddxxkkkkxddooolcccccllloooxkkkxkkkxxx
-;:cc:;;:loooollddxxxxxdoooclllcldxxxxxkxxolccccccccccccllldxxdoxxxxdd
-cc:;:;:clllllllllloddollloccclcodxdddddddollllc::::ccccllooollloodolo
-:::cccc:::cclllc:clllcclolcccccclooooollccclcc::c;:::cccllccclllllcll
-',;:::::cllooc::::cccccllc:::::cloooollc:::c:::::;;;;::ccc:cccccccccl
-...',::;cccc;;,;;;::c::c:::;;:;cclllc:::;,;;;;;;;;;::::;::::ccccc:ccc
-'..'',,,::::,,,:dddddoodl:::;:::cccc:;,,;;:;;,;;;;;;;;;;:::::c:;;;:::
-''''''',;;:::;:xxddxxxddkdc:::::cccc;,';,,;,,,::;,;;:;;;;::::;,,;;;::
-,,,,;;;:lloo;,.,::;cccccloccooooolllccclllcccccclc:::;;;;cc:;;,,,,;;;
-,;;::::clood'.........'''',,ckkxxxxxxddddollllllllllllllccccc::;;;:;;
-lllllllooool'...............:k00Oxxxxxxxdddddddooolcc:ccc:c::ccccc:::
-:ccclllloooolcc:::;;;;;,,,,;:ddk00Okxxxxddddddddddddddoooclc:::::::c:
-::ccccllllloooooooooooooddddddddx00O0kddddddddddddddddddxxxxxddollc:;
-:::cccccllllllllloooooooooooooodddkKOO0Oddddddddddddddddddxxxxxdddddd
-;:::ccccllllllllllllooooooooooooooodOKkk0Oxdddddddddddddddddddddddddd
-;;;:::cccccclllllllllllllllloolloooooxKKxx0Kkdooooooooddddddddddddddo
-;;;:::::cccccllllllllllllllllllllllllloOX0dx0KOdooooooooooooodddddooo
-,;;;;:::::ccccccccclllllllllllllllllllllxKXOdx0KOxooolllllllloooooool
-,,;;;;:::::::cccccccccccccllllllcclllcccloOXKkox0X0xollllllllllllcccc
-,,,,;;;;:::::::ccccccccccccccclcccccclcccclOKX0lokKXKdlllllccccccc::c
-""";
-
-    public static String frame128 = """
-............................................'.'''.....'.'''''''......
-...........................................''''''''...''..'''..'.....
-...................................................''...........''...
-.....................................................................
-.....................................................................
-.....................................................................
-.......'....'........................................''....''''......
-........''.'''''''''''''',,,,''',,,,,,,,,,,''''.............'.'''.'''
-...''......'''',,,,,,,,,;,,;;:;;;:::::;;:;;;:::;;,,'c:'...',;;;::;;;;
-.............',,,,,,,,:::;::::::c:ooolc:c::::cc:cc:::c::::;;;;;;;;;,,
-...........',,::,''',''',,lxkkOOOkxdllccc:c::;:;;;;;;;::::::::::::::;
-........',,;c:::,,::;....'';olllollcc:::;ccc:;,,::::::::::::::;;;;;;;
-....',,,,;:ll'............ .  ..... ...''ccc:;,',;::::::::cc:;;'''',,
-;;:ccc::;:;;,.....    ....    ...   .    .......,::::::::cccclcc:::;;
-'....'',,;;;;'.....                .............,;;::::::::::ccc:::::
-;;;;;;;;,,,,,'....   ....................'',;;;;;:::::::::::::::::::;
-,,''',,,',,,,''''',cclo:,,,,;;;;;;;;;;;;;;;;;;;;;;;;;::::::::::::::;;
-'''''',,,,,,,,,,;oo:xx;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;;;:;;;;;
-'''''',,,,,,,,,ckl;kOc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,ckk;;kOo,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-'''''''''',,,,okk:,ckOd:,,;,,,,;;;;;,,,,,,,,;;;;;;;;;;;;;;;;;,;,,,,,,
-...''''''''',,:kkx;,:xOOd:,,,,,,,,,,,,,,,,;,,,,,;;;;;;;;;;;,,,,,,,,,,
-...''''''''''',dkOx,,;kOOkl,,,,,;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,,,,
-""";
-
-    public static String frame129 = """
-........................................'.....'''..'.....'..'''''....
-..............................................''''.'.....''...''.....
-..................................................''..''.'...........
-.........'''.........................................................
-.....................................................................
-.....................................................................
-........................................................'...'''.'....
-...........''''''''''''''''',''''''',,,,,,,,''''''................''.
-.......''......',',,,,,,,;,,,,;;:;;;::;:;;;;;:;:;:;,,,,::....';;;;::;
-......''........',,,,,,,,;::;:;:::;lclddl:::;:::c::cc:::c::::;;;;;;,,
-..............'''::,''...:loddxxxdllcccccccc:c::;;;;;,;;:::::::::::;,
-............',;cc,c;;...',:okxdxxdoolc:::::;,',;::::::::::::::::;;;;;
-........,,,,;',,,,,'...........,'.....'',clllc;;;::::::::::c;;;,'',,,
-.'',;:cccc::;,....    ....   ....     ..'... ...,::::::::::clc::::;;;
-;,,,'.'.',,;;'....                 ......''.....,;;::::::::::::::::::
-''';;;;;;;;,,'..'.                   .......',;;;:::::::::::::::::::;
-;;,,,,,,',,'''......;;c:,'''',,,,,,,,;;;;;;;;;;;;;;;;;;;;:::::::;;:;;
-'''''''',,,,,,,,,:lllxc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,;dd;oOl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,dkc,dOx;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-''''''''''',,,,xkd,;xOkl;,,,,,,;;;;;,,,,,,,,;;;;;;;;;;;;;;;;;,;,,,,,,
-...'''''''''','lkko,,oOOxc;,,,,,,,,,,,,,,,;,,,,,;;;;,;;;;;;,,,,,,,,,,
-.....'''''''''',xOko,,:OOOx:,,,,;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame130 = """
-.........................................''....''...''....'.'.'''....
-...'...................................'.......'''''''....'''..''....
-...................................................'''.'''.'.........
-...........'''.......................................................
-.....................................................................
-.....................................................................
-.........................................................''...'''....
-.............''.'''''''''''''',',''',,,,,,,,,''''''.............'..''
-.........'......'''',,,,,,;,,,,;;:;;;::;:;;;;;:;:::;;,,,c:...'',;:;::
-........''........',,,,,,,;::;;:;::;c:lodlc::;:::cc:cc:::c::::;;;;;,,
-................',,:;,...;lodddddol:c:cc:cccc:::;;;;;;;;;::::::::::;,
-.............',,:l;:;...',:xkxdxxdoolc:::::;,,,;::::::::::::::::;;;;;
-.........',;;''',,,'..........';'...'',';clll:,:,::::::::::l;;;,,,,,,
-..'',;::cc:::,....    ....   ...      ..,... ...;::::::::::clc:::;;;,
-:;;,''...',,;,....     ..         ..  ...'''.'.',;;::::::::::::::::::
-'',,,;;;;;;,,,..'.                   .......',;;;;;:::::::::::::::::;
-;;,,,,,,',,'''......,;::,'''''',,,,,,;;;;;;;;;;;;;;;;;;;;;::::::;;:;;
-''''''''',,,,,,,,:lllxc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,,ox;lOo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,lko,cOk:,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-''''''''''',,,,lkk:,lOOo;,,,,,,;;;;;,,,,,,,,;;;;;;;;;;;;;;;;;,;,,,,,,
-...'''''''''',';xkx:,:xOOd:,,,,,,,,,,,,,,,;,,,,,;;;;,;;;;;;,,,,,,,,,,
-.....''''''''''':Okk:,,oOOOo;,,,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame131 = """
-...........................................'.........'''....'.'.''...
-.................................................'''''''....''.......
-.....'...............................................'...'''.........
-......'......'''.....................................................
-.....................................................................
-.....................................................................
-..........................................................''....''.'.
-..............''''''''''''''''',,,,',,,,,,,,,,,,'''''.............'.'
-.........'.'......'''',,,,,,,,,,,;;:;;:::::;;:;;;;::;;;;,c:,'''',;:;:
-..........''.......',,,,,,,,:::;::::;ccloooc::::::cc:c:::::::::;;;;,,
-.................',,;;,'';:loddddlc::::lc:ccc::::;:;;;;;;::::::::::;,
-............'.'',;cl,...',lxkxxxxdooc::::::;,,,;:::::::::::::::;:;;;,
-...........,;''',,,'.........',;'..'',,':ccll:,:;;:::::::::l;;;,,,,;,
-..''',;:::c::,....    ...    ...     ..,'.......:::::::::::clc::;;;,,
-:;;;,'.'..',;,....    ...         .. ....'''.'.',;;::::::::::::::::::
-'',;;,;:;;;,,,..'.                   .......',;;;;;:::::::::::::::::;
-;;,,,,''''''''......,,::,''''''',,,,,,;;;;;;;;;;;;;;;;;;;;;::;::;;:;;
-'''''''''',,,,,,,;lclxc;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''',,,,,,,lx::Ox;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''''',',,;kx,;kOl;,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-''''''''''''',,;kkl,:xOxc,,,,,,;;;;;,,,,,,,,;;;;,,;;;;;;;;;;,,,,,,,,,
-...'''''''''''',lkko,,lkOxl;,,,,,,,,,,,,,,;,,,,,,,,,,;;;,;;,,,,,,,,,,
-.....''''''''''''xkOd,,;kOOkc,,,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame132 = """
-............................................'......'..'''............
-.........................................'........'''''''....''......
-......''..................................................''.........
-'..'....'.....''''...................................................
-.....................................................................
-.....................................................................
-'...........................................................'.....'..
-..........'.....'''''',,''''',,,,,,,,,,,,,,,,,,,,,''''.............'.
-...........'.'.....'''',,,,,,;,;,,;;:;;:::::;;;;;;;:::;;;;::;'''',;:;
-...........''........',,,,,,,:::;::::::cloooc:c::ccccc:::::::::;;;;,,
-..................'';,:,,;:cloddol::c::ccc:ccc::::;:;;;;;;:::::::::;,
-..............''',;;;....;dkkxxkxdolc:::::;;,,;;:::::::::::::::;;;;;;
-............',,'',;'.......'.';,''',,;';:cclc;::;;;::::::::l:,;,,,,,,
-.'..'',;:::::,....    ...   ...     ..';'.... .':::::::::::ccc::;;;,'
-c::;;;,....',,....    ...        ..  ...''''''',;;;::::::::::::::::::
-''',;;;;;;;;,,..'.                   .......',,;;;;:::::::::::::::::;
-,;;,,,''''''''......',;:'...'''''',,,,;;;;;;;;;;;;;;;;;;;;;::;::;;:;;
-'''''''''',,,,,,,;lllxc;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''''''''',,,,,,:xc;kk;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-''''''''''',',,,xk:,xOd;,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,
-''''''''''''',,,dkd,,dOkl;,,,,,;;;;;,,,,,,,,;;;;,,;;;;;;;,,;,,,,,,,,,
-...''''''''''''';kkx:,cxOko:,,,,,,,,,,,,,,;,,,,,,,,,,;;;,;;,,,,,,,,,,
-.....''''''''''''ckOk;,,dO0Oo;,,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame133 = """
-................'..............................'.......'..''.........
-............................................'........''''.'.....'....
-........'''..........................................................
-...''.....''.'...'.''................................................
-..'........'.........................................................
-.....................................................................
-...'..........................................................''.....
-...............'...'''''',,''''',,',,,,,,,,,,,,,,,,,'''''............
-...............''...'.','',,,,,,;;,,;;::;;:::::;;:;:;:::;;;;;::'''',;
-..'...........'''......'',,,,,,;::::::::;lclooc:c:::cccc:::::::::;;;;
-..'..................',':;;;:::cc:::::cc:ccc::cc::::;:;;;;;;:::::::,'
-.................'','...,oxkkOOOkdoccc::::;;;;;;;;:::::::::::::;;;;;,
-.'.............',;:'...''.::;:;;,;;;;,:::::;;;::::;;;;:::::c:,,,,,;,,
-.,...'.',;:::,......  ..   ....   ..';:;;,,'...::::::::::::lc:;;;,'''
-;cc:::;;;,...'....   ....  .... ..  .....'''',,;;;;::::::::::::;;::::
-,'.'',;;;;;;;;....                  ........'',;;;;:::::::::::::::::;
-;;;,,,,,'''''..........,...........''',,,;;;;;;;;;;;;;;;;;;;:;::;;:;;
-'''''''''''''''''':ccdo;,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''''''''''''',',od,ok:,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-.'''''''''''',,,:ko,cOx:,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,
-'''''''''''''',';kkc,ckOo:,,,,,;;;;,,,,,,,,,;;;;,,;;;;;;;,,;,,,,,,,,,
-...''''''''''''''lkkl,;oOOxc;,,,,,,,,,,,,,;,,,,,,,,,,;;;,,;,,,,,,,,,,
-.....'''''''''''',xOOd,,:k00kc,,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame134 = """
-................'''.'...........................'......'..'''........
-..............................................'.......'''..''........
-..........''.........................................................
-.....'..'...'......'''...............................................
-....'.......'........................................................
-.....................................................................
-.....'..........................................................'....
-.....'..............'''''',,'''''''',,,,,,',,,,,,,,,,'''''...........
-...............'.'.....','',,,,,,;;,,,;::;;:::::;;:;;;:::;;;;;::'''',
-...''..........'''.......',,,,,,;:::;::::;lcloolc:::ccccc:::::::::;;;
-...'...................',;::;;;;;;::::::::ccc::cc::::;:;;;;;;::::::,'
-..................''....:dxxkOOOkdlcccc::::;;;;;;;;:::::::::::::;;;;,
-...'............';:'...'',lc:cc:;;;;;;::::;,,::::::;;;:::::c:,,,,,,;,
-''.,..''',,;:,........     ...  ...',:::;;;,..';:::::::::::l:;;;,''''
-,;:cc::;;;,'......   ...   . .  .    ....'''',;;;;;::::::::::::;:::;:
-,,'''',;;;;;;;....                 .........'',;;;;:::::::::::::::::;
-;;;;;,,,'''''..........'............'',,,;;;;;;;;;;;;;;;;;;;;;:;;;:;;
-'''''''''''''''''';c:oo;,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-.''''''''''''''''lx;lOc,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-.'''''''''''',,,;kd,:Ok:,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,
-'''''''''''''',',xkl,ckOd:,,,,,;;;;,,,,,,,,,;;;;,,;;;;;;;,,;,,,,,,,,,
-.....''''''''''''ckko;,lOOxl;,,,,,,,,,,,,,;,,,,,,,,,,;;,,,;,,,,,,,,,,
-.....'''''''''''''oOOx;,;x00Ol;,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame135 = """
-.................'''......................................''''.......
-.......................................................'''...'.......
-............''.......................................................
-.............'........'..............................................
-.....'''......'......................................................
-.....................................................................
-.....'.'.........................................................'...
-.......'..........'..''''''',,''''''',,,,,'',,,,,,,,,,,''''..........
-..................'....'.,,',,,,,,;,,,,;;:;;:::::;;:;;;:::;;;;;c:''''
-....''..........''''......',,,,,,,:::;::::;ccloolc:c::c:cc:::::::::;;
-........................',,:;,,,,;:;::::::::ccc:cc::::;:;;;;;;::::;,'
-...................'...'cdddxOOOxdlcccccc::::;;;;;;;::::::::::::;;;;;
-....'............,:,...''cdololc:::;;::;;;,,,:::::::;;:::::cc,,,,;;,,
-..'.''..,.',;,.........  . ........,';:cc::;,';;:::::::::::l:;;,,''''
-',,;cc::;;;,,....    ...   ...  .   .......''';;;;;:::::;:::::::::;;;
-;,,'''',;;;;;,....              .  .........'',;;;;::::::::::::::::;;
-;;;;;;,,,''''.....   ................''',,;;;;;;;;;;;;;;;;;;;;:;;;:;;
-'''''''''''''''''',c:ld:,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-.'''''''''''''''':xc;ko,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-..''''''''''',,''dk;,kkc,,,,;;;;;;;;;;;;;;;;;,;;;;;;;;;;;;;;;;;;;;,,,
-.''''''''''''',''dkd,;xOxc;,,,,;;;;,,,,,,,,,;;;;,,;;;;;;;,,;,,,,,,,,,
-.....'''''''''''';xkx:,cxOko:,,,,,,,,,,,,,;,,,,;,,,,,;;,,,;,,,,,,,,,,
-.....''''''''''''';kOk:,,oO0Oo;,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,',,
-""";
-
-    public static String frame136 = """
-..................'''.....................................''''.'.....
-................................................'.......''''.........
-.....................................................................
-.............'''.....................................................
-.......'''.....'.....................................................
-.......'.............................................................
-.......'.............................................................
-.........'.........''.'''''''','''''''',,''''',,,,,,,,,,'''''........
-..................'.....'.',,',,,,,;;,,;;;:;;;::;:;;;;;;;:::;;;;c:,''
-.......'..........'''......'',,,,,,;::;::::::cloooc::::::cc:c:::::::;
-.......'..................'':;;,,,;;;::::::::clc:ccc:::;:;;;;;;;:::,'
-........................:loddxkxollccccccc::::;;;;;;:::::::::::::;;;;
-......,...........,,...''lxoodollcc:;;;:;,',,::::::::;::::::c;,,,;;,,
-....'.,..'''''....................','::cccc;;';;:::::::::::l:;,,'''''
-.'',;:c:::;;;,...    ...   ...     .'.......'';;;;;:::::;:::::::;;;;;
-;;;,,'''',;;;;....             .. ....'''....';;;;;::::::::::::::;;;;
-',;;;;,;,,''''....    ...     .........'',,;;;;;;;;;;;;;;;;;;;:;;;:;;
-,'''''''''''''''...;c:oc,,,,,,,,,;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-..''''''''''''''',od,dk,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-...''''''''''',''ckl,oOo;,,,;;;;;;;;;;;;;;;;;,;;;;;;;;;;;;;;;;;,;;,,,
-.....'''''''''''':kx:,oOkl;,,,,;;;;,,,,,,,,;;;;;,,;;;;;;;,,;,,,,,,,,,
-.....'''''''''''''lkkl,;dOOdc;,,,,,,,,,,,,;,,,,,,,,,,;;,,,;,,,,,,,,,,
-......'''''''''''''dOko,,cO0Ox:,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,','
-""";
-
-    public static String frame137 = """
-.........'...........''........................................'..'..
-........................'..................................'''.......
-.....................................................................
-................''...................................................
-...........''.....'......'''.........................................
-..........',.........................................................
-..........'..........................................................
-............,......'..''.'''''''',''''''''''''''''',,,,,,,'''''......
-....................'......'.',,,,,,,,;,,;;;;;;;::;:;;;;;:;:::;;;;::;
-.....................'''......'',,,;,;:::;:;:::cloooc:::::cccc:::::::
-..........'..................',;;,,,,,:::::::::clc:cccc:::;:;;;;;;;,,
-........................,,;cldooc;,;cccccc:cc:::::;;;;;::::::::::;;;;
-.........'........',....:xxxdxxxdocc:;;;;,;;;;::::::::::::::::,,;,;,,
-.......''''..'...',......',',,,,;,;,,:;::c::c;:;:::::::::::l:,,,''',,
-..'..',;:c:::;...    ...  ...    ..':''......;;;;;;::::;;;;;:;;;;;;;,
-cc:;;;,,''',,;....   ..    .   .  ...'''''',,,;;;;;::;;:::::;::::;;;;
-...,,;;;,,,,''..'.                .......'',,;;;;;;;;;;;;;;;;;:;;;;;;
-,,,,'''''''''.......,;;c,...'''',,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-......'''''''''''',dl:kl,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-....'''''''''','''dk;:Ox;,,,;;;;;;;;;;;;;;;;;,;;;;;;;;;;;;;;;;;,;,,,,
-.....'''''''''''''oko,:kOo;,,,,;;,,,,,,,,,,,;;;;,,;;;;;;;,,;,,,,,,,,,
-.....''''''''''''',xkd;,lOOxc;,,,,,,,,,,,,;,,,,,,,,,,;;,,,;,,,,,,,,,,
-......''''''''''''';kkk;,;x0Ok:,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,','
-""";
-
-    public static String frame138 = """
-',,,:;;ccoxxxxxxxxkkkxxkkkkxddxddxkkOOkOOOkxoloooooooddxxkO0000000000
-;;:;;:;:cloddxxxxxxkkkkxxxxddddoddxkkkkOkxxdolololllloodxkO000000000O
-;::cclc;::cooddddxxxxxddddddddoodddxxkkkkxdoxdolclllllloxdxxkkkkkkkkx
-,;;clc:;:clodddodddxxxxxdooooodloddxkkkkxddoloolclcccllloodxxxxxxxxxx
-,;:ccc:;:coololloddxkxxdllollllcldxxxxxxxdolcclcccc:cccccloddddlddxxo
-,ccc:::;:lllllllllclooolllolcllcldddddodooollll::::c:c:ccloollllololc
-';::cccl:::cclolcc:llccclolcccccclooooolcc:ccc::::;:::ccclccclcllllcc
-..',;::::cllloc:::::ccccccc:::::clloollc::::::::::;;;::cc::cccccclccc
-'...',::;:ccc:,;;;;::c::c:::;;:;ccclcc::;;;;;,;;;;;:::;;:::::cc::cc:c
-'''.''''';;::;;lkkkkkkxkdc:::;:;:cccc:;,,,,;;,,:;,;;;;;;;::::;;;;::c:
-,,,',''''::;,',cddxdoooodxolcccccccc:;;;:,;;,,;:c:;;:;;;:c::;,,;;;;::
-,,,,,;:;:cl,.'....'';:::::c;:oooddooolllllllllllllcc::;;:c::;;,,,;,;;
-::ccccccloo'................'lOkxxxxxxxxdddoooolllcccclccc::cccccc:::
-:cccllllllc;,'..............'lk00Oxxxxxxdddddddddddollcccc:::ccccc:c:
-::cccllllooollllllllllcccccllodk0O0Oxxxxdddddddddddddddddddollc:::;;;
-:::cccccllllooooooooooooooodddddkKOO0kddddddddddddddddddxxxxddddddool
-;::ccccclllllllllooooooooooooooodxK0xO0kddddddddddddddddddxxxxxdddddd
-;:::ccccclllllllllllooooooooooooood0Kkx0Kkddodddddddddddddddddddddddd
-;;;:::cccccclllllllllllllllllllllloo0XOokKKxoooooooooooodddddddddddoo
-;;;:::::ccccclllllllllllllllllllllllo0X0ddOX0xooooollllollllloooooooo
-,;;;;:::::ccccccccclllllllllllllllllloOKKkod0X0xolloollllllclllllolll
-,,;;;;:::::::cccccccccccccllllclcclllccdKX0dlx0X0xolllllllllccccccccc
-,,,,;;;;:::::::ccccccccccccccclcccccclccdKXKdllOXX0olllllllccccccc:::
-""";
-
-    public static String frame139 = """
-..........''.....''...'''.........................................''.
-...........'............''...................................''......
-.....................................................................
-..................''.................................................
-....'.......'......'.....'''''.......................................
-...........''''..'..'................................................
-............''.......................................................
-..............'.....'...'..'''''''''''''''''''''''''',,,,,''''''.....
-...'..................'.....'.',,,,,,,,;,,;;;;;;;;;;;;;;;;:;;::;;,;;:
-......................'''......'',,,;;,:;:;:;:::ccloolc::::cccc::::::
-..............................'';;;,,,,:;:::::::ccccccc::::::;;;;;;,'
-.'.......................'',:colc;;,,ccccccc::c::::;;;;;;:::::::::;;;
-..''.......,.......'....:xxxxkOkxdcc;;:;;;;;;;;:::::::::::::;:;;;;;,;
-.........'.,...''';....'.,:;;;;;:;;;;::::;,;:::::::::::::::c:,,,,'',,
-....'.'',,:c::...... ...  ...   ...':,,,,'...,;;;;;:::;;;;;::;;;;;;,,
-:ccc:;;;;,,'',....   ...   .   ..  ....'''',;;;;;;;::;;:::::;::;:;;;;
-'....,;;;;;,,,..'.                .........',,;;;;;;;;;;;;;;;;;;;;;;;
-;,,,,,'''''''........,';,......''',,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'.....''''''''''''':d;dx,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-....'''''''''',''';ko,xkc,,,,;;;;;;;;;;;;;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....''''''''''''';kx;,dOd:,,,,;;,,,,,,,,,,,;;;;,,;;;;;;;,,;,,,,,,,,,
-.....''''''''''''''lkxc,ckOxl;,,,,,,,,,,,,;,,,,,,,,,,;;,,,,,,,,,,,,,,
-......''''''''''''',dOkc,,d0Ok:,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,','
-""";
-
-    public static String frame140 = """
-............,.....'''...'''.....'....................................
-............'...........'''........................................''
-.....................................................................
-.....................................................................
-.....''..'....'.....''.....''''......................................
-.............'''.....'...............................................
-.............'''.....................................................
-..............''.............'''''''''''''''''''''''''',,,'''''''....
-.........................'...''.,,,,,,,,,,;,;;;;;;;;;;;;;;;;:;:::;;,;
-........................'''......',,,,;,;::;:;;::c:loooc:::::ccc:c:::
-.............'..........'........;,;,,,,;;:::::::ccccccc:c::::;:;;;,,
-...'.......................'',;:l;:;,':ccccccc:c:::::;;;;;:::::::;;,,
-...''........'..........:odxxkOOkdll:;;:;;;;;;:;;::::::::::;;::;;;;,;
-...........,.,...':,...'.;lc:c:::::;;;::;,,,:::::::::::;:::c:;,,'',,,
-.......''',;::...... .   . .......',;;;;;,,'.';;;;;:::;;;;;:;;;;;,,,,
-,;:cc::;;;;,,,....   ...   ..  ..   ....''',;;;;;;;::;;:::::;:;;;;;;;
-;,'...',;;;;,,'.'.                .........'',;;;;;;;;;;;;;;;;;;;;;;;
-,;;,,,,''''''.........'.,........''',,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''...''''''''''''''cl;kc,,,,,,;;;;;;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-....'''''''''''''''ok;cOo,,,,;;;;;;;;;;;;;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....''''''''''''''okl,lOxc,,,,;;,,,,,,,,,,,;;;;,,;,,;;;;,,;,,,,,,,,,
-.....'''''''''''''',xko,;xOkl;,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,
-......'''''''''''''':kko,,lOOOc,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,'''
-""";
-
-    public static String frame141 = """
-.....'........'....'''...''''....''..................................
-..............,...........'''......................................''
-.....................................................................
-.......'.............................................................
-.......'............'''.....'''''....................................
-................,'.....'.............................................
-...............''....................................................
-.................'.............''''''''''''''''''''''''',,,''''''''..
-...........................'...'.',,,,,,,,;,,,;;;;;,;;;;;;;;;:;:::;;,
-.........................'''......'',,,;;;:::;:;::::llloc:::::ccc:c::
-.........................''.......';;,,,,,:::::::::cccccc:c::::;:;;;,
-....''........................',,l;c;,';ccccccc::c::::;;;;;::::::;;,'
-.....''.......'.........,lodxkOOkdllc::;::;;;;;;;;:::::::::;;;:;;;;;,
-.............'''.';;...'.;dlcllc:::;;::;;,',;::::::::::;:::::;;,',,,,
-.........''',;'..... .   .........',,::::;;,,';;;;;:::;;;;;:;;;;,,,,,
-,,;:ccc:;;;;,,....   ...   ..   .  ......''',;;;;;;;:;;:;;:;;:;;;;;;;
-;;,,'...,,;;;;,.'..            .. ..........',;;;;;;;;;;;;;;;;;;;;;;;
-,,;;;,,,'''''...... ....'..........'',,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-'''...'''''''''''''';o;od,,,,,,,,;;;;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-....''''''''''''''',xl,xk;,,,;;,;;;;;;;;;;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....'''''''''''''';kx,;kOo;,,,;;,,,,,,,,,,,;;;;,,;,,;;;;,,;,,,,,,,,,
-.....'''''''''''''''lkx;,oOOo:,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,
-......'''''''''''''',xkk;,;k0Od;,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,'''
-""";
-
-    public static String frame142 = """
-........''.......,.....'''..''','....'...............................
-.................'..........''''.....................................
-.....................................................................
-......'..''..........................................................
-..........''...........'''.....'''''.................................
-...........'.......''....'...........................................
-..................'.'................................................
-....'..'................'.......'''''''','''''''''''''''',,,,,,,,''''
-...................'.......'.'...''.,,,,,,,,,,;,;;::;;;::;:;;:;::;c::
-............................'''......',,;;;,:::;:::::ccloocc::::cccc:
-......'..........'.................'.:,;,,,;:;:::::::clc::cc:::::;;;;
-........''....................'''',:c::;;,clcc::cc::::;;;;;:::::;;;;'
-.........''......'......'clodxkkxdolc:::;,;;;;;;;;::::::::::;;::;;;,,
-................'';;'...',oocllcc:::::;;;,,,;::::::;:::;:::::;;,',,,,
-........''''';,........  ..........,,;;::;;,,';;;;;;:;;;;;;:;;;;;,,,,
-,,,;:ccc:;,,,,'....  ....  ...  .   .....''',;;;;;;;:;;:;;;;;;;;;;;;;
-:;;;,'''',,,;;;.'..             . ..........',;;;;;;;;;;;;;;;;;;;;;;;
-';;;;;;,,''''...... .....,.........'',,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-,'''.''''''''''''''''co;xc,,,,,,,;;;;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-.....''''''''''''''':k:,kx;,,,;,,;;,,;;;;;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....''''''''''''''':kd,:kkl;,,,;,,,,,,,,,,,;,,;,,;,,;;;;,,;,,,,,,,,,
-.....''''''''''''''',dkd;;oOko:,,,,,,,,,,,;,,,,;,,,,,,,,,,,,,,,,,,,,,
-......''''''''''''''';kkx,,:k0Od;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,'''
-""";
-
-    public static String frame143 = """
-......'...''......'....'.''...'','.......................'........'''
-...................,.....'....''''...................................
-.....................................................................
-........'..'.........................................................
-............'.......'...'''.....'''''................................
-...............'....''....''.........................................
-...................'''...............................................
-......'...'..............''.....''''''''',,,''''''',',,'''',,,,,,,'''
-..........'...................''...'.',,,,,,,,;;,;;;:;;;::;:;;:;::;c:
-.............................'''......',,,;;,;::;:::::ccloocc:c::cccc
-........'.........''................'.;;;,,,;;;:::::::ccc::cc::::;;;;
-.........''.....................''',;l;::,,clcc:::c::::;;;;;:::::;;;'
-..........''.......'.....:clodxxdocccc:::;,;;;;;;;::::::::::;;;:;;;,,
-.................'';'....,oolollccc::::;;,',;::::::::::;;::::;;,',,,,
-..........'',''....................,';::::;,;';;;;;;:;;;;;;:;;;;;,,,'
-',,,;:cccc;;,,,..... ....  ...  .  .......''';;;;;;;:;;;;;;;;;;;;;;;;
-c:;:;,,',,,,,,;....             . ..........',;;;;;;;;;;;;;;;;;;;;;;;
-..,;;;;;,,'''......   ...'..........'',,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-,,'''..'''''''''.'''',o:od,,,,,,,,,,,;,;;,;;;;;;;;;;;;;;;;;;;;;;;;,;,
-.....''''''''''''''''xo'dk:,,,,,,;;,,;;,;;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....''''''''''''''',xx;;xOo;,,,,,,,,,,,,,,,;,,;,,;,,;;;;,,;,,,,,,,,,
-.....''''''''''''''''ckx:,lkOd:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''dOk:,,x00x;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,'''
-""";
-
-    public static String frame144 = """
-........'..'''......'...'.''..''',''....'.........................,''
-...........'........,.....''..'''''..................................
-.....................'............'..................................
-.....................................................................
-.............'...........'''.....'''''...............................
-..............'..'....,....''........................................
-.................'..'''..............................................
-........'.'.''.............'..'..'..'''''',,,'''''''''''','',,,,,,,''
-........'..'..........'......'.''...''',,,,,,,,;;,;;;;;;;::;:;;:;;:;:
-..............................'''......'',,;;,;::;:::::ccloocc:::::cc
-....................'.................',;;,,,,;;:::::::ccc::cc::::;;;
-...........''....................''',,l;:;;,:lcc::c:c::::;;;;::::;;,'
-............''......'....;;:clodoc::ccc:::;,;;;;;;:::::::::::;;;;;;,,
-..................';,....,ooloooolc:::;:;,,,;:::::::;;;;;:;::;;,',,,;
-...........'''...................'';,;:::c:,;,;;;;;;;;;;;;;:;;;;,,,'.
-..',,;:cccc:;,,... .  ...  ...     ........'';;;;;;;:;;;;;;;;;;;;;:::
-lc:;::,,'',,,,;....             . ....'''...',;;;;;;;;;;;;;;;;;;;;;;;
-.''';;;;;,,'''...'.    ..............'',,,,;;;;;;;;;;;;;;;;;;;;;;;;;;
-;,,'''.''''.'.'......'lc:k,,,,,,,,,,,;,;;,,;;;;;;;;;;;;;;;;;;;;;;;,;,
-.......''''''''''''''lx,oOc,,,,,,;;,,,;,,;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....''''''''''''''''dk;,xOo;,,,,,,,,,,,,,,,;,,;,,;,,;;;;,,;,,,,,,,,,
-.....'''''''''''''''':kk:,lkOd:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''oOk:,,x00d;,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,'''
-""";
-
-    public static String frame145 = """
-............'''......,......'..''',,'....'..........................'
-.....................''....''...''''.................................
-......................'............''................................
-.....................................................................
-...........'..''...........''.....''''''.............................
-...............'..'....,...'''.......................................
-..................'..''''............................................
-.........'...''.........'...,......''''''''',,'''''''''''''''',,,,,,'
-..........'.'.................'.''...''',,,,,,,,;,;;;;:;;;::;:;;;;;:;
-..............'................'''......',,,;;;;::::::::ccloolc:::::c
-.......................................',;;,,,,;;:::::::ccc::cc::::;:
-............''....................''',,l;::;,:lccc:cc:::::;;;:::::;,'
-.............''......'...,,;:cloc:;::ccc:::;,;;;;;;;::::::::::;;:;;,,
-..............'....';....,odooooolcc:;;;;,,,;:;;:::::;;;;:;::;;;,,;,;
-............'''...''..........'..'';,;::cc:;:,;;;;;;;;;;;;;:;;;;,,''.
-'..',;;::ccc:;,... .  ...  ...     .'.......';;;;;;;:;;;;;;;;;;;;::::
-llcc;;;;,'',,,;....             ......'''...',;;;;;;;;;;;;;;;;;;;;;;;
-'..'',;;;;,,''...'.     ..............'',,,;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;,,''.'.'..'.........;l;xc,,,,,,,,,,;,,;,,;;;;;;;;;;;;;;;;;;;;;;;,;,
-.......'''''''''''''';x;:Ol,,,,,,;;,,,;,,;;,;,;;;;;;;;;;;;;;,;,,;,,,,
-.....''''''''''''''''lkl,oOd;,,,,,,,,,,,,,,,;,,;,,;,,;;;;,,;,,,,,,,,,
-.....'''''''''''''''';kkc,ckOd:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......''''''''''''''''lOOc,,x00d;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
-""";
-
-    public static String frame146 = """
-............''''','.....'...'..''.'''','....'.......................'
-................''......,.....''..'''''............................''
-.........................'...........'''.............................
-.....................................................................
-..............'...............'.....''''''...........................
-..................'..'....,...''.....................................
-.....................'..'.''..'.'....................................
-.............'..'..........'..''..'..''''''''',,,''',''',',',,,,,,,,,
-.............'.''...............''.'...''',,,,,,,,;;;;;;::;;::::;;;:;
-................''................'''......,,,;;;;:::;::::cclool::cc:
-....'.'.................'...............''';;;,,,;:::::cc:ccc:::c::::
-...............''...................'''',c;c:;,;lcc::::::::;;;;::;;,,
-................''......'.',;;:c:'.,::::cc:;:;;,;;;;;::::::::::;;:;,,
-.................'..'....,oddddddol:c;;;;,,;;;:;;;::::;;;;;;:;;;;;;,;
-,',:..........'.'..,.......'..'.''',';::cc:;:;;;;;;;;;;;;;;:;;;;,,'''
-,,':'',,::cccc:...    ...  ....   ..',......';;;;;;;;;;;;;;;;;;::::::
-clllc:;;,;,,,;;'...    .    .   ......''''.''';;;;;;;;;;;;;;;;;;;;;;;
-,'..,',;;;;,,''..'.      ...   ........'',,,,;;;;;;;;;;;;;;;;;;;;;;;;
-;;,,,''''..............:c:x,',,,,,,,,;,,;,,,,,,,;;;;;;;;;;;;;;;;;;,;,
-.......'''''''''''''''lx,dk;,,,,,;;,,,;,,,,,,,,,,;,;;,,;;;;;,,,,;,,,,
-.....'''''''''''''''''kk,:kkc,,,,,,,,,,,,,,,;,,,,,;,,;;;;,,,,,,,,,,,,
-.....'''''''''''''''''okd,;xOxc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......'''''''''''''''',kOd,,l00k:,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,'''
-""";
-
-    public static String frame147 = """
-............''''''''.....'...''.''.''''''....'.....................',
-...............'''''......'....''..''''''..........................'.
-..........................'...........''''...........................
-.....................................................................
-...............................'......''''''.........................
-...................'..'....'...''....................................
-......................'..'.',...''...................................
-................'......'....'..''..'..''''''''',,,''''''',','',,,,,,,
-...............'.''...............'.'....'',,,,,,,,;;;;;;::;;::::;;;:
-..................'................'''......,,,;;;;:::;::::c:loooc:cc
-......'......'...........'.........'......'';;;,,,;::c::cc:ccc::cc:::
-................''...................'''',::c:;;;ccc::::::::;;;;:;;,,
-.................''......,.',;;:;'.',::::cc:;:;;,;;;;;:::::::::;;:;,,
-..................'.'....'oddxxxxdl::;;;;;,;;;;:;;;::::;;;;;:;;;,;;;;
-..,';;..........'..,'......,'.''',',,;:::::;:;;;;;;;;;;;;;;:;;;,,''''
-..;',;',,;:cccc'..  . .........   ..',.......;;;;;;;;;;;;;;;;;:::::::
-:clolc:;;,,,',;'....   ..   .   ......''''''',;;;;;;;;;;;;;;;;;;;;;;;
-,''..,;,;;;;,,'..''      . .   .........',,,,;;;;;;;;;;;;;;;;;;;;;;;;
-,,;,,,'''..............,c;d:'',,,,,,,;,,;,,,,,,,,,;;;;;;;;;;;;;;;;,;,
-.......''.'''''''''''':x;lO:,,,,,;,,,,;,,,,,,,,,,;,,;,,;;;;;,,,,;,,,,
-.....'''''''''''''''''ok;;kOc,,,,,,,,,,,,,,,;,,,,,,,,,;;;,,,,,,,,,,,,
-.....'''''''''''''''''ckx;;dOxl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......'''''''''''''''',dOx;,lO0kc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
-""";
-
-    public static String frame148 = """
-.............''''''','.....'...'..''''''',.....'....................,
-..............'''''''......,...'''..''''''..........................'
-...........................''.........'''''..........................
-.....................................................................
-.......................................''''''........................
-.................'...'.......'..''...................................
-............................',...''..................................
-................'..........'.''..'.''...'.'''''',,,''''''',''',,,,',,
-................'.'''.......'....'''.'....''',,,,,,,,;;;;;::;;:::::;;
-...................''...............'''......,,,;;;;:::;::::c:loooc:c
-.......'..................''........'......'';,;,,,;::::::c::ccc:cc::
-.................'''......'...........'''',;cc:;,;ccc::::::::;;;;:;,,
-..................'''.....'''',,'...',::::cc:;:;;,;;;;;:::::::::;;;;;
-...................''....'lodxkkkdlcc;;;,;;;;;;;:;;;::::;;;;;;;;;:;;;
-....;':'........'.';,......;,,,,,,',,;::::;;:;;;;;;;;;;;;;;:;,,,,''''
-...';':;,,;:ccc,..... .........   ..';,'.....,;;;;;;;;;;;;;;;::::::;;
-;;clolc:;;;,,,;,....  ...   .   ......''''',,,,;;;;;;;;;;;;;;;;;;;;;;
-;;,''..;,,;;;;,'..'.             ........'',,;;;;;;;;;;;;;;;;;;;;;;;;
-,,,,;,,'''..............:;cl'''',,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;,,,
-'.....'''.'''''''''''',dc;Ol,,,,,,,,,,;,,,,,,,,,,;,;;,,;;;,;,,,,,,,,,
-.....'''''''''''''''''ckc,xOl,,,,,,,,,,,,,,,;,,,,,,,,,,;;,,,,,,,,,,,,
-.....''''''''''''''''';kk:,oOkl;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,''
-......'''''''''''''''',lOk:,cO0Oc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'''
+                                               
+                                               
+                                               
+                                               
+                                               
+              d     dd l   kOl       lNXOx     
+              lkOKXx;oxckXkll:XO; dKxdooc      
+              :odddo;olllcllllllcddddol,       
+                coollddddooollllloool:;        
+          .;',   ,::xxxxdoollllllllc;,'        
+           cookOc,ccoooolloolcccllc;;',lkxxxdol
+         ldcoool;lcll;lllldl,dd:ll:;;;;cooodo:l
+            .c:;.:::dl:lllclodccc,lc;;;clllll  
+                .cccc:ccccccocOOd;lc;;;;,'     
+                  lolXXkNNxNMKdd:ll;;;;;,'     
+                 .;llldodkddoc:llc:;;;;;,,xkl  
+                  .:llllllllllll:;;;;;;,,;,    
+                  .,;;:ccccc::;;;;:ccc:'       
+                 .kcc;,'. ',,,.':llloxdc;      
+                   'c;:.         .lllooc       
+                                     c,        
+                                               
+                                               
 """;
 
 }

@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 import sys
+import shutil
 
 
 def print_progress_bar(current, total, bar_length=20):
@@ -15,7 +16,10 @@ def print_progress_bar(current, total, bar_length=20):
 xz = input("what's the GIF's address?: ")
 
 output_dir = "Frame in png"
+if os.path.exists(output_dir):
+    shutil.rmtree(output_dir)
 os.makedirs(output_dir, exist_ok=True)
+
 
 gif = Image.open(xz)
 for i in range(gif.n_frames):
