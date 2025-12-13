@@ -1,6 +1,6 @@
 package Gif.Static;
 
-import Gif.Static.asc.Frames.*;
+import Gif.AscFrames.*;
 
 public class vid {
     public static void animate(String[] frames, long delay) {
@@ -17,20 +17,8 @@ public class vid {
     }
 
     public static void main(String[] args) {
-        
-        String[] frames = {
-                frame.A,
-                frame.b,
-                frame.c,
-                frame.d,
-                frame.e,
-                frame.f,
-                frame.g,
-                frame.h,
-                frame.i,
-                frame.j,
-                frame.k
-        };
+
+        String[] frames = aray.frames;
 
         animate(frames, 120);
 

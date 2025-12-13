@@ -200,11 +200,11 @@ for i, file in enumerate(png_files):
 # WRITE art.java
 # ---------------------------------------------
 
-os.makedirs("../Loop/cave/AscFrames", exist_ok=True)
+os.makedirs("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif/AscFrames", exist_ok=True)
 
-with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif/Loop/cave/AscFrames/art.java", "w", encoding="utf-8") as f:
+with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif/AscFrames/art.java", "w", encoding="utf-8") as f:
     f.write(
-        "package Gif.Loop.cave.AscFrames;\n\n"
+        "package Gif.AscFrames;\n\n"
         "public class art {\n\n"
     )
 
@@ -223,9 +223,9 @@ with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif/Loop/cave/AscF
 # WRITE aray.java
 # ---------------------------------------------
 
-with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif/Loop/cave/AscFrames/aray.java", "w", encoding="utf-8") as f:
+with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif/AscFrames/aray.java", "w", encoding="utf-8") as f:
     f.write(
-        "package Gif.Loop.cave.AscFrames;\n\n"
+        "package Gif.AscFrames;\n\n"
         "public class aray {\n"
         "    public static String[] frames = {\n"
     )
