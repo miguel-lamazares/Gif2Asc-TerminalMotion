@@ -13,14 +13,6 @@ public class aray {
         art.frame8,
         art.frame9,
         art.frame10,
-        art.frame11,
-        art.frame12,
-        art.frame13,
-        art.frame14,
-        art.frame15,
-        art.frame16,
-        art.frame17,
-        art.frame18,
-        art.frame19
+        art.frame11
     };
 }
