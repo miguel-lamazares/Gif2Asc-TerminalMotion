@@ -1,48 +1,51 @@
 package Gif.Loop;
 
+import java.io.OutputStream;
+import java.nio.charset.StandardCharsets;
+
 import Gif.AscFrames.*;
-import java.util.Scanner;
 
 public class gif {
 
-    public static void animatePingPong(String[] frames, long delay) {
+    private Process renderer;
+    private OutputStream rendererIn;
 
-        
+    public void startRenderer() throws Exception {
+        renderer = new ProcessBuilder("Gif/AscFramesInC/Render")
+                .redirectOutput(ProcessBuilder.Redirect.INHERIT)
+                .start();
+        rendererIn = renderer.getOutputStream();
+    }
 
-        int index = frames.length - 1; 
+    public void animate(String[] frames, long delay) throws Exception {
+
+        int index = frames.length - 1;
 
         while (true) {
 
-            System.out.print("\033[H");
-            System.out.flush();
+            rendererIn.write(frames[index].getBytes(StandardCharsets.UTF_8));
+            rendererIn.flush();
 
-            System.out.println(frames[index]);
-
-            try {
-                Thread.sleep(delay);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                break;
-            }
+            Thread.sleep(delay);
 
             index++;
-
             if (index >= frames.length) {
-                index = 0; 
+                index = 0;
             }
         }
-
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         String[] frames = aray.frames;
 
+        gif player = new gif();
+
+        player.startRenderer();
+
         System.out.print("\033[H\033[2J");
         System.out.flush();
-        animatePingPong(frames, 142);
 
-        
+        player.animate(frames, 142);
     }
-
 }
