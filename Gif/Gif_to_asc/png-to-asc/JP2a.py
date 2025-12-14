@@ -1,9 +1,7 @@
 import os
 import subprocess
 import sys
-import asc
-
-import asc
+from TerminalLIB import asc
 
 # ---------------------------------------------
 # UI — BASIC OPTIONS

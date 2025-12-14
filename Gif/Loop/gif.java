@@ -11,7 +11,7 @@ public class gif {
     private OutputStream rendererIn;
 
     public void startRenderer() throws Exception {
-        renderer = new ProcessBuilder("Gif/AscFramesInC/Render")
+        renderer = new ProcessBuilder("Gif/Render/Render")
                 .redirectOutput(ProcessBuilder.Redirect.INHERIT)
                 .start();
         rendererIn = renderer.getOutputStream();
