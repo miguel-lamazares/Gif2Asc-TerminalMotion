@@ -45,3 +45,15 @@ def typewrite(text, speed=0.03):
         sys.stdout.flush()
         time.sleep(speed)
     print()  
+
+def print_progress_bar(current, total, bar_length=20):
+    progress = current / total
+    filled_length = int(bar_length * progress)
+    bar = '∎' * filled_length + '.' * (bar_length - filled_length)
+    sys.stdout.write(f'\r[{bar}] {current}/{total}')
+    sys.stdout.flush()
+    if current == total:
+        print()
+
+def clean_args(cmd):
+    return [arg for arg in cmd if arg]

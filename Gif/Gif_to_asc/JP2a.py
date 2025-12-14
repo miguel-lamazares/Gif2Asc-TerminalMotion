@@ -3,21 +3,7 @@ import subprocess
 import sys
 import asc
 
-# ---------------------------------------------
-# UTILS
-# ---------------------------------------------
-
-def print_progress_bar(current, total, bar_length=20):
-    progress = current / total
-    filled_length = int(bar_length * progress)
-    bar = '∎' * filled_length + '.' * (bar_length - filled_length)
-    sys.stdout.write(f'\r[{bar}] {current}/{total}')
-    sys.stdout.flush()
-    if current == total:
-        print()
-
-def clean_args(cmd):
-    return [arg for arg in cmd if arg]
+import asc
 
 # ---------------------------------------------
 # UI — BASIC OPTIONS
@@ -154,7 +140,7 @@ jp2a_cmd += [
     center
 ]
 
-jp2a_cmd = clean_args(jp2a_cmd)
+jp2a_cmd = asc.clean_args(jp2a_cmd)
 
 asc.Clear_all()
 print(asc.Colors.RESET + "")
@@ -194,7 +180,7 @@ for i, file in enumerate(png_files):
     )
 
     frames.append(result.stdout)
-    print_progress_bar(i + 1, total)
+    asc.print_progress_bar(i + 1, total)
 
 # ---------------------------------------------
 # WRITE art.java
