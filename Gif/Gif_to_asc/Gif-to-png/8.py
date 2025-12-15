@@ -2,7 +2,7 @@ from PIL import Image
 import os
 import sys
 import shutil
-from TerminalLIB import asc
+from TerminalLib import asc
 
 print("\033[H\033[2J", flush=True)
 xz = input("what's the GIF's address?: ")
