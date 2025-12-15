@@ -104,7 +104,7 @@ if mode == 1:
     ]
 
 elif mode == 2:
-    pass  # pure ASCII, no colors
+    pass 
 
 elif mode == 3:
     asc.typewrite("Red   (default 0.2989): ", 0.03)
