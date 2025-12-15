@@ -1,0 +1,36 @@
+# ---- Builder stage ----
+FROM debian:bookworm-slim AS builder
+
+# Dependências pra build + runtime
+RUN apt update && apt install -y \
+    python3 python3-pip \
+    openjdk-17-jdk \
+    jp2a \
+    bash \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /build
+
+# Copia tudo pro builder
+COPY . .
+
+# Se houver compilação Java
+RUN javac *.java || true
+
+# ---- Final stage ----
+FROM debian:bookworm-slim
+
+RUN apt update && apt install -y \
+    python3 \
+    openjdk-17-jre \
+    jp2a \
+    bash \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copia arte pronta do builder
+COPY --from=builder /build /app
+
+# Entrypoint padrão
+ENTRYPOINT ["bash", "/app/start.sh"]
