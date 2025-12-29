@@ -24,20 +24,20 @@ if asc.read_int(1,3) == 1:
     asc.typewrite(asc.Colors.YELLOW + "1 - Blocks\n2 - Unicode (Braille)\n3 - spaced unicode\n4 - half blocks\n5 - japanese\n6 - it's up to you <3 \n\n", 0.02)
     options = asc.read_int(1,7) 
     if options == 1:
-        char = "--chars="" ░▒▓█"
+        chars = "--chars="" ░▒▓█"
     if options == 2:
-        char = "--chars="" ⣀⣤⣶⣯⣟⣷⣿"
+        chars = "--chars="" ⣀⣤⣶⣯⣟⣷⣿"
     if options == 3:
-        char = "--chars="" ⠁⠃⠇⠏⠟⠿⡿⣿"
+        chars = "--chars="" ⠁⠃⠇⠏⠟⠿⡿⣿"
     if options == 4:
         chars="--chars="" ▘▝ ▖▗ ▌▐▀▄█"
     if options == 5:
         chars="--chars="" .おまえはもう死んでいる"
     if options == 6:
         asc.typewrite(asc.Colors.RED + "Characters (min 2):\n")
-        char = f"--chars={input()}"
+        chars = f"--chars={input()}"
 else:
-    char = ""
+    chars = ""
 
 asc.Clear_all()
 
@@ -137,7 +137,7 @@ else:
 
 jp2a_cmd += [
     border,
-    char,
+    chars,
     fit,
     proportion,
     back,

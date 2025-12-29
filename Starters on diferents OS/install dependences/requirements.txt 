@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Dependencies
+DEPENDENCIES=(
+    "python"
+    "java-11-openjdk"
+    "gcc"
+    "jp2a"
+    "docker"
+)
+
+# Python packages
+PYTHON_PACKAGES=(
+    "pillow"
+)
+
+# Install system dependencies
+for dep in "${DEPENDENCIES[@]}"; do
+    echo "Installing $dep..."
+    sudo apt-get install -y "$dep"
+done
+
+# Install Python packages
+echo "Installing Python packages..."
+sudo pip install "${PYTHON_PACKAGES[@]}"
+
+echo "All dependencies installed!"

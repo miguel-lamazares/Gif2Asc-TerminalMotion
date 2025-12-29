@@ -69,6 +69,7 @@ def clean_args(cmd):
     return [arg for arg in cmd if arg]
 
 def download(URL, outdir):
+
     if os.path.exists(outdir):
         shutil.rmtree(outdir)
     os.makedirs(outdir, exist_ok=True)
@@ -94,3 +95,12 @@ def download(URL, outdir):
     except Exception as e:
         print(f"{URL} can't be installed: {e}")
         return None
+    
+
+def convert_to_png(input_path, output_path):
+    from PIL import Image
+    i = 0
+    img = Image.open(input_path)
+    png_path = os.path.splitext(input_path)[0] + ".png"
+    img.save(f"{output_path}/frame{i}.png", "PNG")
+    return png_path
