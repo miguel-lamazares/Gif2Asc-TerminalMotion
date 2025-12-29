@@ -20,8 +20,22 @@ asc.Clear_all()
 
 asc.typewrite(asc.Colors.CYAN + "Special characters? (1 - yes / 2 - no)\n", 0.02)
 if asc.read_int(1,3) == 1:
-    asc.typewrite(asc.Colors.RED + "Characters (min 2):\n")
-    char = f"--chars={input()}"
+    asc.Clear_all()
+    asc.typewrite(asc.Colors.YELLOW + "1 - Blocks\n2 - Unicode (Braille)\n3 - spaced unicode\n4 - half blocks\n5 - japanese\n6 - it's up to you <3 \n\n", 0.02)
+    options = asc.read_int(1,7) 
+    if options == 1:
+        char = "--chars="" ░▒▓█"
+    if options == 2:
+        char = "--chars="" ⣀⣤⣶⣯⣟⣷⣿"
+    if options == 3:
+        char = "--chars="" ⠁⠃⠇⠏⠟⠿⡿⣿"
+    if options == 4:
+        chars="--chars="" ▘▝ ▖▗ ▌▐▀▄█"
+    if options == 5:
+        chars="--chars="" .おまえはもう死んでいる"
+    if options == 6:
+        asc.typewrite(asc.Colors.RED + "Characters (min 2):\n")
+        char = f"--chars={input()}"
 else:
     char = ""
 
@@ -38,15 +52,6 @@ asc.typewrite(
     0.02
 )
 back = "--background=dark" if asc.read_int(1,3) == 1 else "--background=light"
-
-asc.Clear_all()
-
-asc.typewrite(
-    asc.Colors.CYAN +
-    "Do you want to clear the terminal before starting? (1 - yes / 2 - no)\n\n",
-    0.02
-)
-clear = "--clear" if asc.read_int(1,3) == 1 else ""
 
 asc.Clear_all()
 
@@ -70,7 +75,7 @@ asc.typewrite(
     0.02
 )
 
-choice = asc.read_int(1,3)
+choice = asc.read_int(1,4)
 proportion = ""
 
 if choice == 2:
@@ -136,7 +141,6 @@ jp2a_cmd += [
     fit,
     proportion,
     back,
-    clear,
     center
 ]
 
@@ -167,10 +171,6 @@ with open("./Gif/Gif_to_asc/Jp2aconfigs/jp2aconfig.json", "w+",encoding="utf-8")
 FOLDER = "./Gif/Gif_to_asc/Frame in png"
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
-
-if os.path.exists(FOLDER):
-    shutil.rmtree(FOLDER)
-os.makedirs(FOLDER, exist_ok=True)
 
 png_files = sorted(f for f in os.listdir(folder) if f.endswith(".png"))
 total = len(png_files)
