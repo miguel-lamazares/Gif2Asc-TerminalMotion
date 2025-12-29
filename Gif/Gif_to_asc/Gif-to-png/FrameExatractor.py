@@ -33,7 +33,7 @@ elif input_file.endswith(".gif" or ".png" or ".webp") is True:
         asc.print_progress_bar(i + 1, gif.n_frames)
 
 elif input_file.endswith(".mp4" or ".mov" or ".avi" or ".mkv" or ".webm") is True:
-    subprocess.run(["ffmpeg","-v error", "-nostats", "-i", input_file, f"{output_dir}/frame_%d.png"])
+    subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/frame_%d.png"])
     asc.Clear_all()
 
 else:

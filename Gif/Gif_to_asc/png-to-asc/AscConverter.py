@@ -17,23 +17,113 @@ asc.typewrite(asc.Colors.CYAN + "Border? (1 - yes / 2 - no)\n", 0.02)
 border = "--border" if asc.read_int(1,3) == 1 else ""
 
 asc.Clear_all()
-
 asc.typewrite(asc.Colors.CYAN + "Special characters? (1 - yes / 2 - no)\n", 0.02)
 if asc.read_int(1,3) == 1:
     asc.Clear_all()
-    asc.typewrite(asc.Colors.YELLOW + "1 - Blocks\n2 - Unicode (Braille)\n3 - spaced unicode\n4 - half blocks\n5 - japanese\n6 - it's up to you <3 \n\n", 0.02)
-    options = asc.read_int(1,7) 
+    asc.typewrite(asc.Colors.YELLOW + 
+                 "1 - Blocks\n" +
+                 "2 - Unicode (Braille)\n" + 
+                 "3 - Spaced Unicode\n" +
+                 "4 - Half Blocks\n" +
+                 "5 - Japanese\n" +
+                 "6 - Custom\n" +
+                 "7 - ASCII Only\n" +
+                 "8 - Border Characters\n" +
+                 "9 - Geometric Shapes\n" +
+                 "10 - Dot Patterns\n" +
+                 "11 - Quadrant Blocks\n" +
+                 "12 - Sextants (6-part)\n" +
+                 "13 - Technical Symbols\n" +
+                 "14 - Wedge Shapes\n" +
+                 "15 - Latin Letters\n" +
+                 "16 - Alphanumeric\n" +
+                 "17 - Extra Symbols\n" +
+                 "18 - Solid Blocks\n" +
+                 "19 - Vertical Halves\n" +
+                 "20 - Wide Characters\n" +
+                 "21 - Digital/7-Segment\n" +
+                 "22 - Math Symbols\n" +
+                 "23 - Minimalist Dots\n" +
+                 "24 - Mixed Density\n" +
+                 "25 - Artistic Flow\n" +
+                 "26 - Binary/Barcode\n" +
+                 "27 - Vertical bar gradient\n" +
+                 "28 - Asian-inspired\n" +
+                 "29 - Circle progression\n" +
+                 "30 - Unique Unicode shapes\n" +
+                 "31 - Mixed block types\n" +
+                 "32 - It's up to you <3 \n\n", 0.02)
+    
+    options = asc.read_int(1, 33) 
+    
     if options == 1:
-        chars = "--chars="" ░▒▓█"
-    if options == 2:
-        chars = "--chars="" ⣀⣤⣶⣯⣟⣷⣿"
-    if options == 3:
-        chars = "--chars="" ⠁⠃⠇⠏⠟⠿⡿⣿"
-    if options == 4:
-        chars="--chars="" ▘▝ ▖▗ ▌▐▀▄█"
-    if options == 5:
-        chars="--chars="" .おまえはもう死んでいる"
-    if options == 6:
+        chars = "--chars="" ░▒▓█"""  # Original blocks
+    elif options == 2:
+        chars = "--chars="" ⣀⣤⣶⣯⣟⣷⣿"""  # Braille gradient
+    elif options == 3:
+        chars = "--chars="" ⠁⠃⠇⠏⠟⠿⡿⣿"""  # Spaced braille
+    elif options == 4:
+        chars = "--chars="" ▘▝▖▗▌▐▀▄█"""  # Half blocks
+    elif options == 5:
+        chars = "--chars="" .。、・ヲァィゥェォおまえはもう死んでいる"""  # Japanese
+    elif options == 6:
+        asc.typewrite(asc.Colors.RED + "Characters (min 2):\n")
+        chars = f"--chars={input()}"
+    elif options == 7:
+        chars = "--chars="" .:;+*?%$@#"""  # ASCII art basic
+    elif options == 8:
+        chars = "--chars="" ─│┌┐└┘├┤┬┴┼"""  # Box drawing
+    elif options == 9:
+        chars = "--chars="" ▲▼◀▶◆■○●□△▽◇◊"""  # Geometric
+    elif options == 10:
+        chars = "--chars="" ·•∙⦁●◌○◎◉●◯"""  # Dot progression
+    elif options == 11:
+        chars = "--chars="" ▖▗▘▝▚▞▙▟"""  # Quadrants
+    elif options == 12:
+        chars = "--chars="" 🬀🬁🬂🬃🬄🬅🬆🬇🬈🬉"""  # Sextants
+    elif options == 13:
+        chars = "--chars="" ⌘⌥⎇⏎␣⏏⚙️🔧🛠️"""  # Technical symbols
+    elif options == 14:
+        chars = "--chars="" ◢◣◤◥◸◹◺◿"""  # Wedge shapes
+    elif options == 15:
+        chars = "--chars="" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"""  # Latin letters
+    elif options == 16:
+        chars = "--chars="" ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"""  # Alphanumeric
+    elif options == 17:
+        chars = "--chars="" ★☆♪♫♥♦♣♠☀☁☂☃"""  # Extra symbols
+    elif options == 18:
+        chars = "--chars="" █▉▊▋▌▍▎▏"""  # Solid block progression
+    elif options == 19:
+        chars = "--chars="" ▀▄█"""  # Vertical halves
+    elif options == 20:
+        chars = "--chars="" ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ"""  # Full-width
+    elif options == 21:
+        chars = "--chars="" ⓪①②③④⑤⑥⑦⑧⑨"""  # Digital/circled numbers
+    elif options == 22:
+        chars = "--chars="" +−×÷=≠≈±√∞∫∑∏∂"""  # Math symbols
+    elif options == 23:
+        chars = "--chars=""  ·∙∙⸱⸳⸰ꓸ"""  # Minimalist small dots
+    elif options == 24:
+        chars = "--chars=""  .:^~+*xX%&$@#█"""  # Mixed density gradient
+    elif options == 25:
+        chars = "--chars=""  ۞۩≋≌∿≈～〰️♪♫♬"""  # Artistic/flow symbols
+    elif options == 26:
+        chars = "--chars=""  01█"""  # Binary/barcode style
+    elif options == 27:
+         chars = "--chars="" ▏▎▍▌▋▊▉█▇▆▅▄▃▂▁"""  # Vertical bar gradient
+    
+    elif options == 28:
+         chars = "--chars="" ╱╲╳┃━┏┓┗┛┣┫┳┻╋"""  # Asian-inspired
+    
+    elif options == 29:
+        chars = "--chars="" ◐◑◒◓◔◕◖◗◦◌◍◎●◯"""  # Circle progression
+    
+    elif options == 30:
+         chars = "--chars="" ᗧᗢᗣᗤᗨᗩᗪᗫ"""  # Unique Unicode shapes
+    
+    elif options == 31:
+        chars = "--chars="" ░▒▓▚▞▀▄█"""  # Mixed block types
+    elif options == 32:
         asc.typewrite(asc.Colors.RED + "Characters (min 2):\n")
         chars = f"--chars={input()}"
 else:

@@ -78,7 +78,7 @@ public class Player {
     public static void main(String[] args) throws Exception {
 
         boolean exitOnEnter = true;
-        long FPS = 8;
+        long FPS = 3;
 
         Player player = new Player();
         player.startRenderer();
