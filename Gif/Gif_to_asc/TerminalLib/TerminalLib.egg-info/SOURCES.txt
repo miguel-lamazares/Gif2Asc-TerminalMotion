@@ -1,7 +1,0 @@
-pyproject.toml
-TerminalLib/__init__.py
-TerminalLib/asc.py
-TerminalLib.egg-info/PKG-INFO
-TerminalLib.egg-info/SOURCES.txt
-TerminalLib.egg-info/dependency_links.txt
-TerminalLib.egg-info/top_level.txt

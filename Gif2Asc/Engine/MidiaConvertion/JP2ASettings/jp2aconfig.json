@@ -1,0 +1,9 @@
+{
+    "jp2a_args": [
+        "jp2a",
+        "--colors",
+        "--color-depth=24",
+        "--term-fit",
+        "--background=dark"
+    ]
+}
