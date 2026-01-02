@@ -11,7 +11,7 @@ public class Player{
     private volatile boolean running = true;
 
     public void startRenderer() throws Exception {
-        renderer = new ProcessBuilder("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/Render/Render")
+        renderer = new ProcessBuilder("Gif2Asc/Engine/Render/Render")
                 .redirectOutput(ProcessBuilder.Redirect.INHERIT)
                 .start();
         rendererIn = renderer.getOutputStream();
@@ -90,7 +90,7 @@ public class Player{
         System.out.print("\033[H\033[2J\033[?25l");
         System.out.flush();
 
-        List<Path> frames = loadFrames("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/TextFrames/");
+        List<Path> frames = loadFrames("Gif2Asc/Engine/TextFrames");
 
         player.animate(frames, FPS);
 

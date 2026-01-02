@@ -243,7 +243,7 @@ print(asc.Colors.RESET + "")
 # Saving configs
 # ---------------------------------------------
 
-FOLDER = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/MidiaConvertion/JP2ASettings"
+FOLDER = "../JP2ASettings"
 
 if os.path.exists(FOLDER):
     shutil.rmtree(FOLDER)
@@ -251,14 +251,14 @@ os.makedirs(FOLDER, exist_ok=True)
 
 config = {"jp2a_args": asc.clean_args(jp2a_cmd)}
 
-with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/MidiaConvertion/JP2ASettings/jp2aconfig.json", "w+",encoding="utf-8") as f:
+with open("../JP2ASettings/jp2aconfig.json", "w+",encoding="utf-8") as f:
     json.dump(config,f,indent=4)
 
 # ---------------------------------------------
 # INPUT FOLDER
 # ---------------------------------------------
 
-FOLDER = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/MidiaConvertion/PngFrames"
+FOLDER = "../PngFrames"
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
@@ -294,7 +294,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/TextFrames"
+out = "Gif2Asc/Engine/TextFrames"
 
 if os.path.exists(out):
     shutil.rmtree(out)
