@@ -4,6 +4,7 @@ import sys
 from TerminalLib import asc
 import json
 import shutil
+import re
 
 # ---------------------------------------------
 # Fetching
@@ -14,12 +15,11 @@ with open("/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/Mid
 
 jp2a_cmd = config["jp2a_args"]
 
-
 # ---------------------------------------------
 # INPUT FOLDER
 # ---------------------------------------------
 
-FOLDER = "./Gif/Gif_to_asc/Frame in png"
+FOLDER = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/MidiaConvertion/PngFrames"
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
@@ -27,13 +27,18 @@ if not os.path.isdir(folder):
     print(f"Folder not found: {folder}")
     sys.exit(1)
 
-png_files = sorted(f for f in os.listdir(folder) if f.endswith(".png"))
+png_files = sorted(
+    (f for f in os.listdir(folder) if f.endswith(".png")),
+    key=lambda x: int(os.path.splitext(x)[0])
+)
+
 total = len(png_files)
 
 if total == 0:
     print("No PNG files found.")
     sys.exit(1)
 
+total = len(png_files)
 frames = []
 
 # ---------------------------------------------
@@ -55,7 +60,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "./Gif/AscFrames"
+out = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/TextFrames"
 
 if os.path.exists(out):
     shutil.rmtree(out)

@@ -4,7 +4,7 @@ import java.io.OutputStream;
 import java.nio.file.*;
 import java.util.List;
 
-public class Player {
+public class Player{
 
     private Process renderer;
     private OutputStream rendererIn;
@@ -78,7 +78,7 @@ public class Player {
     public static void main(String[] args) throws Exception {
 
         boolean exitOnEnter = true;
-        long FPS = 3;
+        long FPS = 30;
 
         Player player = new Player();
         player.startRenderer();
@@ -95,6 +95,7 @@ public class Player {
         player.animate(frames, FPS);
 
         player.cleanup();
+        
         System.exit(0);
     }
 }

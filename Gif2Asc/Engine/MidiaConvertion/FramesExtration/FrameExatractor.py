@@ -7,7 +7,7 @@ from TerminalLib import asc
 
 print("\033[H\033[2J", flush=True)
 
-output_dir = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/MidiaConvertion/PngFrames"
+output_dir = "../PngFrames"
 if os.path.exists(output_dir):
     shutil.rmtree(output_dir)
 os.makedirs(output_dir, exist_ok=True)
@@ -15,25 +15,25 @@ os.makedirs(output_dir, exist_ok=True)
 input_file = input("what's the GIF's address?: ")
 
 if input_file.startswith("https:" or "http:"):
-    folder = "/home/dex/Documentos/GitHub/Inutil-things-for-JAVA/Gif2Asc/Engine/MidiaConvertion/FramesExtration/Downloads"
+    folder = "./Downloads"
     asc.download(input_file, folder)
     input_file = f"{folder}/gif.gif"
 
 if input_file.endswith(".jpeg" or ".jpg" or ".svg") is True:
     convert_input = asc.convert_to_png(input_file, output_path=output_dir)
     input_file = convert_input
-    print(convert_input)
+    
 
 elif input_file.endswith(".gif" or ".png" or ".webp") is True:
     gif = Image.open(input_file)
     for i in range(gif.n_frames):
         gif.seek(i)
-        gif.save(f"{output_dir}/frame_{i}.png")
+        gif.save(f"{output_dir}/{i}.png")
 
         asc.print_progress_bar(i + 1, gif.n_frames)
 
 elif input_file.endswith(".mp4" or ".mov" or ".avi" or ".mkv" or ".webm") is True:
-    subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/frame_%d.png"])
+    subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/%d.png"])
     asc.Clear_all()
 
 else:
