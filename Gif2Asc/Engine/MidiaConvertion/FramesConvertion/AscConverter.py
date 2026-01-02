@@ -20,7 +20,7 @@ asc.Clear_all()
 asc.typewrite(asc.Colors.CYAN + "Special characters? (1 - yes / 2 - no)\n", 0.02)
 if asc.read_int(1,3) == 1:
     asc.Clear_all()
-    asc.typewrite(asc.Colors.YELLOW + 
+    print(asc.Colors.YELLOW + 
                  "1 - Blocks\n" +
                  "2 - Unicode (Braille)\n" + 
                  "3 - Spaced Unicode\n" +
@@ -52,7 +52,7 @@ if asc.read_int(1,3) == 1:
                  "29 - Circle progression\n" +
                  "30 - Unique Unicode shapes\n" +
                  "31 - Mixed block types\n" +
-                 "32 - It's up to you <3 \n\n", 0.02)
+                 "32 - It's up to you <3 \n\n")
     
     options = asc.read_int(1, 33) 
     
@@ -65,7 +65,7 @@ if asc.read_int(1,3) == 1:
     elif options == 4:
         chars = "--chars="" ▘▝▖▗▌▐▀▄█"""  # Half blocks
     elif options == 5:
-        chars = "--chars="" .。、・ヲァィゥェォおまえはもう死んでいる"""  # Japanese
+        chars = "--chars="" ･｡ｧｨｩｪｫｰｱﾏﾓﾜ"""  # Japanese
     elif options == 6:
         asc.typewrite(asc.Colors.RED + "Characters (min 2):\n")
         chars = f"--chars={input()}"
@@ -294,7 +294,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "Gif2Asc/Engine/TextFrames"
+out = "../TextFrames"
 
 if os.path.exists(out):
     shutil.rmtree(out)

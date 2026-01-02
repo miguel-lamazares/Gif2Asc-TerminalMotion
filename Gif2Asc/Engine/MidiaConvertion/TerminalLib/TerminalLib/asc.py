@@ -39,7 +39,7 @@ def read_int(Min_value: int,max_value: int) -> int:
             sys.stdout.write("\033[K")
             continue
 
-        if choice >= max_value:
+        if choice >= max_value + 1:
             sys.stdout.write("\033[F")
             sys.stdout.write("\033[K")
             continue

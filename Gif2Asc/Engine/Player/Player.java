@@ -1,10 +1,11 @@
 package Gif2Asc.Engine.Player;
 
+import java.io.File;
 import java.io.OutputStream;
 import java.nio.file.*;
 import java.util.List;
 
-public class Player{
+public class Player {
 
     private Process renderer;
     private OutputStream rendererIn;
@@ -20,8 +21,13 @@ public class Player{
     public void listenForExit() {
         new Thread(() -> {
             try {
-                System.in.read();
-                running = false;
+                int r;
+                while ((r = System.in.read()) != -1) {
+                    if (r == '\n' || r == '\r') {
+                        stopSong();
+                        break;
+                    }
+                }
             } catch (Exception ignored) {
             }
         }, "exit-listener").start();
@@ -75,6 +81,50 @@ public class Player{
         System.out.flush();
     }
 
+    private volatile Process audioProcess;
+
+    private static List<Path> loadSongs(String dir) throws Exception {
+        Path songDir = Paths.get(dir);
+        if (!Files.exists(songDir) || !Files.isDirectory(songDir))
+            return List.of();
+        return Files.list(songDir)
+                .filter(p -> {
+                    String s = p.toString().toLowerCase();
+                    return s.endsWith(".wav") || s.endsWith(".mp3") || s.endsWith(".ogg") || s.endsWith(".flac")
+                            || s.endsWith(".aac");
+                })
+                .sorted()
+                .toList();
+    }
+
+    private void songPlayer() {
+        try {
+            List<Path> songs = loadSongs("Gif2Asc/Engine/MidiaConvertion/FramesExtration/Song");
+            if (songs.isEmpty()) {
+                System.err.println(
+                        "Nenhuma música encontrada em Gif2Asc/Engine/MidiaConvertion/FramesExtration/Song — pulando reprodução.");
+                return;
+            }
+            Path song = songs.get(0);
+            audioProcess = new ProcessBuilder(
+                    "mpv",
+                    "--no-video",
+                    song.toAbsolutePath().toString())
+                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
+                    .redirectError(ProcessBuilder.Redirect.INHERIT)
+                    .start();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private synchronized void stopSong() {
+        if (audioProcess != null && audioProcess.isAlive()) {
+            audioProcess.destroy();
+        }
+        running = false;
+    }
+
     public static void main(String[] args) throws Exception {
 
         boolean exitOnEnter = true;
@@ -90,12 +140,13 @@ public class Player{
         System.out.print("\033[H\033[2J\033[?25l");
         System.out.flush();
 
-        List<Path> frames = loadFrames("Gif2Asc/Engine/TextFrames");
+        List<Path> frames = loadFrames("Gif2Asc/Engine/MidiaConvertion/TextFrames");
 
+        player.songPlayer();
         player.animate(frames, FPS);
 
         player.cleanup();
-        
+        player.stopSong();
         System.exit(0);
     }
 }

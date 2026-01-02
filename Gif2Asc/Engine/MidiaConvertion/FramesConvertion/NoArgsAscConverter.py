@@ -60,7 +60,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "Gif2Asc/Engine/TextFrames"
+out = "../TextFrames"
 
 if os.path.exists(out):
     shutil.rmtree(out)
