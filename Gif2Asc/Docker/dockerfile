@@ -1,6 +1,5 @@
 FROM debian:bookworm-slim AS builder
 
-
 RUN apt update && apt install -y \
     python3 python3-pip \
     openjdk-17-jdk \
@@ -11,12 +10,9 @@ RUN apt update && apt install -y \
 
 WORKDIR /build
 
-
 COPY . .
 
-
 RUN javac *.java || true
-
 
 FROM debian:bookworm-slim
 
@@ -29,8 +25,6 @@ RUN apt update && apt install -y \
 
 WORKDIR /app
 
-
 COPY --from=builder /build /app
-
 
 ENTRYPOINT ["bash", "/app/start.sh"]

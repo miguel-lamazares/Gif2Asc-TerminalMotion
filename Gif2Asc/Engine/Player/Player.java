@@ -1,6 +1,6 @@
 package Gif2Asc.Engine.Player;
 
-import java.io.File;
+
 import java.io.OutputStream;
 import java.nio.file.*;
 import java.util.List;
