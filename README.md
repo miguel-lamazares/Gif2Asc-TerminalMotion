@@ -53,7 +53,7 @@
 </div>
 
 <h3 align="center"> How it works </h3>
-<img src="Midias for Readme/IMG/Extration.svg">
+<img src="Midias for Readme/IMG/Extration.svg" align="center">
 <h3 align="center"> Midias </h3>
 
 <p align="center">
