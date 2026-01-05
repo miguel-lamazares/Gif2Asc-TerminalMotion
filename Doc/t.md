@@ -90,3 +90,18 @@ after it just execute on your pc, please the Dependency list.
 * Custom TerminalLib (included in repo)
 * pillow
 * Docker (for containerized deployment)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
