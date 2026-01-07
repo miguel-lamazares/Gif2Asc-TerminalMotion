@@ -55,10 +55,17 @@
 </div>
 <h3 align="center"> Midias </h3>
 
-<p align="center">
-  <video src="Midias for Readme/Videos/Undertale.mp4" width="45%" controls></video>
-  <video src="Midias for Readme/Videos/BadApple.mp4" width="45%" controls></video>
-</p>
+<table align="center">
+<tr>
+<td>
+<video src="Midias for Readme/Videos/Undertale.mp4" width="100%" controls></video>
+</td>
+<td>
+<video src="Midias for Readme/Videos/BadApple.mp4" width="100%" controls></video>
+</td>
+</tr>
+</table>
+
 
 
 <h3 align="center"> Other related projects </h3>
