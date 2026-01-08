@@ -3,7 +3,7 @@
  #### Docker 🐳
 Recomendado se você não quer lidar com dependências manualmente.
  ```bash
- https://github.com/miguel-lamazares/Gif2Asc-TerminalMotion.git
+ git clone https://github.com/miguel-lamazares/Gif2Asc-TerminalMotion.git
  cd Gif2Asc-TerminalMotion/Gif2Asc/Docker
  docker build -t gif2asc .
  docker run -it gif2asc
@@ -80,4 +80,5 @@ ou clone o repositorio e execulte o comando start.sh para instalar todas as depe
 | **JP2A** | Converter quadros da animação | `sudo apt install jp2a` |
 | **Git** | Gerenciar diretorios | `sudo apt install git` |
 | **Docker (Opcional)** | Isolar todo o ambiente | `sudo apt install docker.io` |
+
 
