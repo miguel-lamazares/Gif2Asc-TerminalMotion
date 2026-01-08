@@ -56,8 +56,8 @@
 <h3 align="center"> Midias </h3>
 
 <p align="center">
-  <video src="[https://github.com/user/repo/assets/XXXX/Undertale.mp4](https://github.com/miguel-lamazares/Gif2Asc-TerminalMotion/blob/main/Midias%20for%20Readme/Videos/Undertale.mp4)" width="45%" controls></video>
-  <video src="https://github.com/user/repo/assets/YYYY/BadApple.mp4" width="45%" controls></video>
+  <img src="Midias for Readme/Videos/Undertale.gif" width="45%"></img>
+  <img src="Midias for Readme/Videos/BadApple.gif" width="45%"></img>
 </p>
 
 
