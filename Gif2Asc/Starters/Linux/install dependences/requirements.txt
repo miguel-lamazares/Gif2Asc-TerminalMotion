@@ -26,4 +26,6 @@ done
 echo "Installing Python packages..."
 sudo pip install "${PYTHON_PACKAGES[@]}"
 
+sudo pip install Gif2Asc-TerminalMotion/Gif2Asc/Engine/MidiaConvertion/TerminalLib -e .
+
 echo "All dependencies installed!"
