@@ -71,6 +71,9 @@
 
 <h3 align="center"> Help this project </h3>
 
-<p align="center">if you've an ideia or willingness to contribute code, please do it. please look in the doc. how do your contribute.</p>
+<p align="center">If you have ideas or would like to contribute code, feel free to do so.
+Please check the documentation to learn how to contribute.
+</p>
 
-<h3 align="center"> it was made by Miguel lamazares, follow me for seing anymore things.</h3>
+<h3 align="center">This project was created by Miguel Lamazares.
+Follow me to see more projects and experiments.</h3>
