@@ -57,16 +57,18 @@ ou clone o repositorio e execulte o comando start.sh para instalar todas as depe
 ## Lista de dependecias
 
 ### Python 🐍
- - TerminalLib (ja incluida no projeto)
+
 - Pillow
 - Requests
+(TerminalLib já está incluída no projeto)
 
  ### sistema 👨🏼‍💻
 - MPV
 - Python 3.x
- - Java JDK 11+
-- GCC for C compilation
-- JP2A for ASCII conversion
- - Docker
- - Git
+- Java JDK 11+
+- GCC
+- JP2A
+- Docker (opcional)
+- Git
+
 
