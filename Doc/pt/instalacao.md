@@ -60,7 +60,7 @@ ou clone o repositorio e execulte o comando start.sh para instalar todas as depe
 
 - Pillow
 - Requests
-(TerminalLib já está incluída no projeto)
+- (TerminalLib já está incluída no projeto)
 
  ### sistema 👨🏼‍💻
 - MPV
@@ -70,5 +70,6 @@ ou clone o repositorio e execulte o comando start.sh para instalar todas as depe
 - JP2A
 - Docker (opcional)
 - Git
+
 
 
