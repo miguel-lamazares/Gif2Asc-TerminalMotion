@@ -45,6 +45,11 @@ ou clone o repositorio e execulte o comando start.sh para instalar todas as depe
 
 4. Execute o projeto
 
+### Solução de Problemas
+*   **Erro de permissão no pip?** Use `pip install --user ...` ou um ambiente virtual (`python -m venv venv && source venv/bin/activate`).
+*   **O comando `mpv` não encontrado?** Verifique se o pacote foi instalado corretamente e se está no seu `PATH`.
+*   **Problemas com dependências Java?** Confirme a versão instalada com `java -version`.
+
 #### shell command list
 
 - Start: Gif2Asc/Starters/Linux/install dependences/start.sh - Instala todas as dependencias de forma automatica. Caso esteja no Kali ou em distros que restringem instalacoes diretas, considere usar uma venv.
@@ -58,18 +63,21 @@ ou clone o repositorio e execulte o comando start.sh para instalar todas as depe
 
 ### Python 🐍
 
-- Pillow
-- Requests
-- (TerminalLib já está incluída no projeto)
+| Dependência | Necessária Para | Método de Instalação |
+| :--- | :--- | :--- |
+| **Pillow** | Processamento de imagens (abrir, manipular e salvar diferentes formatos de imagem) | `pip install pillow ` |
+| **Requests** | Fazer requisições HTTP (por exemplo, para baixar arquivos da web) | `pip install requests` |
+| **TerminalLib** | Biblioteca que fornece funcionalidades gráficas para o terminal (parte do projeto) | `pip install Gif2Asc-TerminalMotion/Gif2Asc/Engine/MidiaConvertion/TerminalLib -e .` Nota: Execute a partir da raiz do projeto. |
 
  ### sistema 👨🏼‍💻
-- MPV
-- Python 3.x
-- Java JDK 11+
-- GCC
-- JP2A
-- Docker (opcional)
-- Git
 
-
+| Dependência | Necessária Para | Método de Instalação |
+| :--- | :--- | :--- |
+| **MPV** | Reproduzir áudio no terminal | `sudo apt install mpv` |
+| **Python 3.x** | Interpretador Python para executar o código. | `sudo apt install python` |
+| **Java JDK 11+** | Compilar e executar componentes do motor escritos em Java. | `sudo apt install openjdk-11-jdk` |
+| **GCC** | Compilar componentes do motor | `sudo apt install gcc` |
+| **JP2A** | Converter quadros da animação | `sudo apt install jp2a` |
+| **Git** | Gerenciar diretorios | `sudo apt install git` |
+| **Docker (Opcional)** | Isolar todo o ambiente | `sudo apt install docker.io` |
 
