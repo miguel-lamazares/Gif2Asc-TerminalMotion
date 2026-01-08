@@ -56,8 +56,8 @@
 <h3 align="center"> Midias </h3>
 
 <p align="center">
-  <img src="Midias for Readme/Videos/Undertale.gif" width="45%"></img>
-  <img src="Midias for Readme/Videos/BadApple.gif" width="45%"></img>
+  <img src="Midias for Readme/Media/Undertale.gif" width="45%"></img>
+  <img src="Midias for Readme/Media/BadApple.gif" width="45%"></img>
 </p>
 
 
