@@ -7,11 +7,13 @@ DEPENDENCIES=(
     "gcc"
     "jp2a"
     "docker"
+    "mpv"
 )
 
 # Python packages
 PYTHON_PACKAGES=(
     "pillow"
+    "requests"
 )
 
 # Install system dependencies
