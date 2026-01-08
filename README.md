@@ -53,7 +53,7 @@
 <div align="center">
   <img src="./added diagram.svg">
 </div>
-<h3 align="center"> Midias </h3>
+<h3 align="center"> Medias </h3>
 
 <p align="center">
   <img src="Midias for Readme/Media/Undertale.gif" width="45%"></img>
