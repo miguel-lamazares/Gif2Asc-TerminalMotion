@@ -51,7 +51,7 @@
 
 <h3 align="center"> How it works </h3>
 <div align="center">
-  <img src="./added diagram.svg">
+  <img src="Midias for Readme/IMG/Diag.svg">
 </div>
 <h3 align="center"> Medias </h3>
 
