@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "Installing dependencies..."
+
+python -m venv Gif2Asc-TerminalMotion/Gif2Asc/venv
+source Gif2Asc-TerminalMotion/Gif2Asc/venv/bin/activate
+
 # Dependencies
 DEPENDENCIES=(
     "python"
@@ -19,13 +24,15 @@ PYTHON_PACKAGES=(
 # Install system dependencies
 for dep in "${DEPENDENCIES[@]}"; do
     echo "Installing $dep..."
+	sudo apt-get update
     sudo apt-get install -y "$dep"
+	sudo apt-get install -y docker
 done
 
 # Install Python packages
 echo "Installing Python packages..."
-sudo pip install "${PYTHON_PACKAGES[@]}"
+pip install "${PYTHON_PACKAGES[@]}"
 
-sudo pip install Gif2Asc-TerminalMotion/Gif2Asc/Engine/MidiaConvertion/TerminalLib -e .
+pip install Gif2Asc-TerminalMotion/Gif2Asc/Engine/MidiaConvertion/TerminalLib -e .
 
 echo "All dependencies installed!"
