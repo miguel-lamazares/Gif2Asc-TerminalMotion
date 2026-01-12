@@ -113,3 +113,5 @@ def print_centralizedText(text):
         padding = max(0, (terminal_width - line_length) // 2)
  
         print(' ' * padding + line)
+
+        
