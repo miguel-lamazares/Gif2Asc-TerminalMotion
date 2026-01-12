@@ -1,7 +1,7 @@
 import os
 import subprocess
 import sys
-from TerminalLib import asc
+from TerminalLib import Terminal as ter
 import json
 import shutil
 import re
@@ -55,7 +55,7 @@ for i, file in enumerate(png_files):
     )
 
     frames.append(result.stdout)
-    asc.print_progress_bar(i + 1, total)
+    ter.print_progress_bar(i + 1, total)
 
 # ---------------------------------------------
 #  CLEANING OLD FRAMES

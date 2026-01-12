@@ -1,9 +1,10 @@
 {
     "jp2a_args": [
         "jp2a",
-        "--chars= \uff65\uff61\uff67\uff68\uff69\uff6a\uff6b\uff70\uff71\uff8f\uff93\uff9c",
+        "--colors",
+        "--color-depth=24",
         "--term-fit",
-        "--term-zoom",
+        "--size=60 x24",
         "--background=dark"
     ]
 }
