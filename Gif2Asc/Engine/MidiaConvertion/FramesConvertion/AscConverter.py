@@ -273,7 +273,7 @@ print(ter.Colors.RESET + "")
 # Saving configs
 # ---------------------------------------------
 
-FOLDER = "../JP2ASettings"
+FOLDER = "Gif2Asc/Engine/MidiaConvertion/Settings"
 
 if os.path.exists(FOLDER):
     shutil.rmtree(FOLDER)
@@ -281,14 +281,14 @@ os.makedirs(FOLDER, exist_ok=True)
 
 config = {"jp2a_args": asc.clean_args(jp2a_cmd)}
 
-with open("../JP2ASettings/jp2aconfig.json", "w+",encoding="utf-8") as f:
+with open("Gif2Asc/Engine/MidiaConvertion/Settings/jp2aconfig.json", "w+",encoding="utf-8") as f:
     json.dump(config,f,indent=4)
 
 # ---------------------------------------------
 # INPUT FOLDER
 # ---------------------------------------------
 
-FOLDER = "../PngFrames"
+FOLDER = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
@@ -324,7 +324,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "../TextFrames"
+out = "Gif2Asc/Engine/MidiaConvertion/TextFrames"
 
 if os.path.exists(out):
     shutil.rmtree(out)

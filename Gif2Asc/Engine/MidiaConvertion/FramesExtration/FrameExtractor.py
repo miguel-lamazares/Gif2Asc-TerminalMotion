@@ -26,7 +26,7 @@ for file in asc_files:
 input_file = input("what's the GIF's address?: ")
 
 if input_file.startswith("https:") or input_file.startswith("http:") is True:
-    folder = "./Downloads"
+    folder = "Gif2Asc/Engine/MidiaConvertion/FramesExtration/Downloads"
     asc.download(input_file, folder)
     input_file = f"{folder}/gif.gif"
 

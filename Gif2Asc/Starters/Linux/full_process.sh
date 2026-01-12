@@ -6,34 +6,34 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
 # -----------------------------
 # Activate virtualenv
 # -----------------------------
-if [ ! -d "$PROJECT_ROOT/.venv" ]; then
+if [ ! -d "$PROJECT_ROOT/Gif2Asc/venv" ]; then
     echo "[!] Virtualenv not found. Run ./setup_env.sh first."
     exit 1
 fi
 
-. "$PROJECT_ROOT/.venv/bin/activate"
+. "$PROJECT_ROOT/Gif2Asc/venv/bin/activate"
 
 # -----------------------------
 # Python steps
 # -----------------------------
 
-PYTHON="$PROJECT_ROOT/.venv/bin/python"
+PYTHON="$PROJECT_ROOT/Gif2Asc/venv/bin/python"
 
-"$PYTHON" "$PROJECT_ROOT/Gif/Gif_to_asc/Gif-to-png/FrameExtractor.py"
-"$PYTHON" "$PROJECT_ROOT/Gif/Gif_to_asc/png-to-asc/AscConverter.py"
+"$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/FramesExtration/FrameExtractor.py"
+"$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/PngTreatment/PNGPersonalizer.py"
+"$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/AsciiConversion/AscConverter.py"
 
 # -----------------------------
 # C build
 # -----------------------------
-RENDER_C="$PROJECT_ROOT/Engine/Render/Render.c"
-RENDER_OUT="$PROJECT_ROOT/Engine/Render/Render"
-
+RENDER_C="$PROJECT_ROOT/Gif2Asc/Engine/Render/Render.c"
+RENDER_OUT="$PROJECT_ROOT/Gif2Asc/Engine/Render/Render"
 gcc "$RENDER_C" -O3 -o "$RENDER_OUT"
 
 # -----------------------------
 # Java build
 # -----------------------------
-PLAYER_JAVA="$PROJECT_ROOT/Engine/Player/Player.java"
+PLAYER_JAVA="$PROJECT_ROOT/Gif2Asc/Engine/Player/Player.java"
 javac "$PLAYER_JAVA"
 
 # -----------------------------

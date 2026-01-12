@@ -10,7 +10,7 @@ import re
 # Fetching
 # ---------------------------------------------
 
-with open("../JP2ASettings/jp2aconfig.json", "r") as f:
+with open("Gif2Asc/Engine/MidiaConvertion/Settings/jp2aconfig.json", "r") as f:
         config = json.load(f)
 
 jp2a_cmd = config["jp2a_args"]
@@ -19,7 +19,7 @@ jp2a_cmd = config["jp2a_args"]
 # INPUT FOLDER
 # ---------------------------------------------
 
-FOLDER = "../PngFrames"
+FOLDER = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
@@ -60,7 +60,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "../TextFrames"
+out = "Gif2Asc/Engine/MidiaConvertion/TextFrames"
 
 if os.path.exists(out):
     shutil.rmtree(out)

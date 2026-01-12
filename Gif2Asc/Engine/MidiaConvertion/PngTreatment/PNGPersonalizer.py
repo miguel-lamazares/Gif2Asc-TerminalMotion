@@ -788,7 +788,7 @@ class PNGCustomizer:
             return
         
         # Carregar frame de exemplo
-        input_folder = "../PngFrames"
+        input_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
         png_files = sorted([f for f in os.listdir(input_folder) if f.endswith(".png")])
         
         if not png_files:
@@ -825,7 +825,7 @@ class PNGCustomizer:
             'config': self.config
         }
         
-        config_folder = "../PNGPersonalizer"
+        config_folder = "Gif2Asc/Engine/MidiaConvertion/Settings"
         if not os.path.exists(config_folder):
             os.makedirs(config_folder, exist_ok=True)
         
@@ -837,7 +837,7 @@ class PNGCustomizer:
     
     def load_configuration(self):
         """Carrega uma configuração salva"""
-        config_folder = "../PNGPersonalizer"
+        config_folder = "Gif2Asc/Engine/MidiaConvertion/Settings"
         config_path = os.path.join(config_folder, "customization.json")
         
         if os.path.exists(config_path):
@@ -861,8 +861,8 @@ class PNGCustomizer:
             return
         
         # Definir pastas
-        input_folder = "../PngFrames"
-        output_folder = "../PngFrames_Processed"
+        input_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+        output_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
         
         # Criar backup ou pasta processada
         if os.path.exists(output_folder):
@@ -944,9 +944,9 @@ def main():
     customizer = PNGCustomizer()
     
     # Verificar se há PNGs
-    input_folder = "../PngFrames"
+    input_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
     if not os.path.exists(input_folder) or len(os.listdir(input_folder)) == 0:
-        ter.typewrite(ter.Colors.RED + "ERRO: Pasta '../PngFrames' vazia ou não existe!\n", 0.02)
+        ter.typewrite(ter.Colors.RED + "ERRO: Pasta 'Gif2Asc/Engine/MidiaConvertion/PngFrames' vazia ou não existe!\n", 0.02)
         ter.typewrite("Execute primeiro o FrameExtractor.py\n", 0.02)
         sys.exit(1)
     
