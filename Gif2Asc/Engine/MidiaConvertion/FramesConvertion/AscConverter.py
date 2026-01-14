@@ -28,7 +28,7 @@ if ter.read_int(1,3) == 1:
     Defs.options_list()
 
     options = ter.read_int(1, 32)
-    
+  
     if options == 1:
         chars = "--chars="" ░▒▓█"""  # Original blocks
     elif options == 2:
@@ -155,10 +155,48 @@ elif choice == 5:
     smart_full_size = True
 
 if smart_full_size:
-    term_size = shutil.get_terminal_size()
-    max_width = term_size.columns
-    max_height = term_size.lines * 2 
-    proportion = f"--size={max_width}x{max_height}"
+    max_image_width = 0
+    max_image_height = 0
+    FOLDER = ROOT.Addresses.PngFrames
+
+    folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
+
+    png_files = sorted(
+        (f for f in os.listdir(folder) if f.endswith(".png")),
+        key=lambda x: int(os.path.splitext(x)[0])
+    )
+
+    for file in png_files:
+        path = os.path.join(folder, file)
+        with Image.open(path) as img:
+            width, height = img.size
+            max_image_width = max(max_image_width, width)
+            max_image_height = max(max_image_height, height)
+
+    term = shutil.get_terminal_size()
+
+    
+    ASCII_RATIO = 0.5
+
+    
+    term_width = term.columns
+    term_height = term.lines
+
+    
+    img_ratio = max_image_width / max_image_height
+    term_ratio = term_width / (term_height / ASCII_RATIO)
+
+    if img_ratio > term_ratio:
+        
+        smart_width = term_width
+        smart_height = int((term_width / img_ratio) * ASCII_RATIO)
+    else:
+        
+        smart_height = term_height
+        smart_width = int((term_height * img_ratio) / ASCII_RATIO)
+
+    proportion = f"--size={smart_width}x{smart_height}"
+
 
 elif full_size_mode:
     max_image_width = 0

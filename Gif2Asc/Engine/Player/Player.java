@@ -1,6 +1,5 @@
 package Gif2Asc.Engine.Player;
 
-
 import java.io.OutputStream;
 import java.nio.file.*;
 import java.util.List;
@@ -9,7 +8,12 @@ public class Player {
 
     private Process renderer;
     private OutputStream rendererIn;
-    private volatile boolean running = true;
+    volatile boolean running = true;
+    volatile Process audioProcess;
+
+    /* =========================
+       RENDER
+       ========================= */
 
     public void startRenderer() throws Exception {
         renderer = new ProcessBuilder("Gif2Asc/Engine/Render/Render")
@@ -18,19 +22,31 @@ public class Player {
         rendererIn = renderer.getOutputStream();
     }
 
-    public void listenForExit() {
-        new Thread(() -> {
-            try {
-                int r;
-                while ((r = System.in.read()) != -1) {
-                    if (r == '\n' || r == '\r') {
-                        stopSong();
-                        break;
-                    }
-                }
-            } catch (Exception ignored) {
+    /* =========================
+       ANIMATION LOOP
+       ========================= */
+
+    public void animate(List<Path> frames, PlayerControl control) throws Exception {
+        int index = 0;
+
+        while (running) {
+            long frameTimeNanos = 1_000_000_000L / control.fps;
+            long start = System.nanoTime();
+
+            Path frame = frames.get(index);
+            byte[] data = Files.readAllBytes(frame);
+            rendererIn.write(data);
+            rendererIn.flush();
+
+            index = (index + 1) % frames.size();
+
+            long elapsed = System.nanoTime() - start;
+            long sleep = frameTimeNanos - elapsed;
+
+            if (sleep > 0) {
+                busyWaitUntil(System.nanoTime() + sleep);
             }
-        }, "exit-listener").start();
+        }
     }
 
     private void busyWaitUntil(long targetTimeNanos) {
@@ -39,26 +55,50 @@ public class Player {
         }
     }
 
-    public void animate(List<Path> frames, long FPS) throws Exception {
+    /* =========================
+       AUDIO
+       ========================= */
 
-        int index = 0;
+    private static List<Path> loadSongs(String dir) throws Exception {
+        Path songDir = Paths.get(dir);
+        if (!Files.exists(songDir)) return List.of();
 
-        long frameTimeNanos = 1_000_000_000L / FPS;
-        long nextFrameTime = System.nanoTime();
+        return Files.list(songDir)
+                .filter(p -> p.toString().matches(".*\\.(mp3|wav|ogg|flac|aac)$"))
+                .sorted()
+                .toList();
+    }
 
-        while (running) {
-            Path frame = frames.get(index);
+    public void songPlayer() {
+        try {
+            List<Path> songs = loadSongs("Gif2Asc/Engine/MidiaConvertion/Files/Song");
+            if (songs.isEmpty()) {
+                System.err.println("Nenhuma música encontrada — seguindo sem áudio.");
+                return;
+            }
 
-            byte[] data = Files.readAllBytes(frame);
-            rendererIn.write(data);
-            rendererIn.flush();
+            audioProcess = new ProcessBuilder(
+                    "mpv",
+                    "--input-terminal=yes",
+                    "--no-video",
+                    songs.get(0).toAbsolutePath().toString()
+            ).inheritIO().start();
 
-            nextFrameTime += frameTimeNanos;
-            busyWaitUntil(nextFrameTime);
-
-            index = (index + 1) % frames.size();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
+
+    synchronized void stopAll() {
+        running = false;
+        if (audioProcess != null && audioProcess.isAlive()) {
+            audioProcess.destroy();
+        }
+    }
+
+    /* =========================
+       FRAMES
+       ========================= */
 
     private static List<Path> loadFrames(String dir) throws Exception {
         return Files.list(Paths.get(dir))
@@ -67,89 +107,120 @@ public class Player {
                 .toList();
     }
 
-    private void cleanup() {
-        try {
-            if (rendererIn != null)
-                rendererIn.close();
-        } catch (Exception ignored) {
+    /* =========================
+       CONTROL
+       ========================= */
+
+    public static class PlayerControl {
+        public volatile int fps = 30;
+        public volatile int volume = 50;
+
+        void increaseFps() { fps = Math.min(fps + 2, 120); }
+        void decreaseFps() { fps = Math.max(fps - 2, 5); }
+
+        void increaseVolume() { volume = Math.min(volume + 5, 100); }
+        void decreaseVolume() { volume = Math.max(volume - 5, 0); }
+    }
+
+    /* =========================
+       KEYBOARD
+       ========================= */
+
+    public static class KeyboardListener implements Runnable {
+
+        private final Player player;
+        private final PlayerControl control;
+        private final OutputStream mpvStdin;
+
+        public KeyboardListener(Player player, PlayerControl control, OutputStream mpvStdin) {
+            this.player = player;
+            this.control = control;
+            this.mpvStdin = mpvStdin;
         }
 
-        if (renderer != null)
-            renderer.destroy();
+        @Override
+        public void run() {
+            try {
+                while (player.running) {
+                    int ch = System.in.read();
 
-        System.out.print("\033[0m\033[?25h");
-        System.out.flush();
+                    // ENTER encerra tudo
+                    if (ch == '\n' || ch == '\r') {
+                        player.stopAll();
+                        break;
+                    }
+
+                    // Setas
+                    if (ch == 27 && System.in.read() == '[') {
+                        int code = System.in.read();
+                        switch (code) {
+                            case 'A' -> control.increaseFps();
+                            case 'B' -> control.decreaseFps();
+                            case 'C' -> { control.increaseVolume(); sendVolume(); }
+                            case 'D' -> { control.decreaseVolume(); sendVolume(); }
+                        }
+                    }
+                }
+            } catch (Exception ignored) {}
+        }
+
+        private void sendVolume() {
+            try {
+                if (mpvStdin != null) {
+                    mpvStdin.write(("set volume " + control.volume + "\n").getBytes());
+                    mpvStdin.flush();
+                }
+            } catch (Exception ignored) {}
+        }
     }
 
-    private volatile Process audioProcess;
+    /* =========================
+       TERMINAL
+       ========================= */
 
-    private static List<Path> loadSongs(String dir) throws Exception {
-        Path songDir = Paths.get(dir);
-        if (!Files.exists(songDir) || !Files.isDirectory(songDir))
-            return List.of();
-        return Files.list(songDir)
-                .filter(p -> {
-                    String s = p.toString().toLowerCase();
-                    return s.endsWith(".wav") || s.endsWith(".mp3") || s.endsWith(".ogg") || s.endsWith(".flac")
-                            || s.endsWith(".aac");
-                })
-                .sorted()
-                .toList();
-    }
-
-    private void songPlayer() {
+    private static void enableRawMode() {
         try {
-            List<Path> songs = loadSongs("Gif2Asc/Engine/MidiaConvertion/Files/Song");
-            if (songs.isEmpty()) {
-                System.err.println(
-                        "Nenhuma música encontrada em Gif2Asc/Engine/MidiaConvertion/Files/Song — pulando reprodução.");
-                return;
-            }
-            Path song = songs.get(0);
-            audioProcess = new ProcessBuilder(
-                    "mpv",
-                    "--no-video",
-                    song.toAbsolutePath().toString())
-                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
-                    .redirectError(ProcessBuilder.Redirect.INHERIT)
+            new ProcessBuilder("sh", "-c", "stty -icanon -echo < /dev/tty")
+                    .inheritIO()
                     .start();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        } catch (Exception ignored) {}
     }
 
-    private synchronized void stopSong() {
-        if (audioProcess != null && audioProcess.isAlive()) {
-            audioProcess.destroy();
-        }
-        running = false;
-    }
-
-    
-
+    /* =========================
+       MAIN
+       ========================= */
 
     public static void main(String[] args) throws Exception {
 
-        boolean exitOnEnter = true;
-        long FPS = 30;
+        enableRawMode();
 
         Player player = new Player();
-        player.startRenderer();
+        PlayerControl control = new PlayerControl();
 
-        if (exitOnEnter) {
-            player.listenForExit();
+        player.startRenderer();
+        player.songPlayer();
+
+        OutputStream mpvStdin = null;
+        if (player.audioProcess != null) {
+            mpvStdin = player.audioProcess.getOutputStream();
         }
+
+        Thread keyboard = new Thread(
+                new KeyboardListener(player, control, mpvStdin),
+                "keyboard-listener"
+        );
+        keyboard.setDaemon(true);
+        keyboard.start();
 
         System.out.print("\033[H\033[2J\033[?25l");
         System.out.flush();
 
-        List<Path> frames = loadFrames("Gif2Asc/Engine/MidiaConvertion/Files/TextFrames");
+        List<Path> frames =
+                loadFrames("Gif2Asc/Engine/MidiaConvertion/Files/TextFrames");
 
-        player.songPlayer();
-        player.animate(frames, FPS);
+        player.animate(frames, control);
 
-        player.cleanup();
-        player.stopSong();
+        System.out.print("\033[0m\033[?25h");
         System.exit(0);
     }
 }
