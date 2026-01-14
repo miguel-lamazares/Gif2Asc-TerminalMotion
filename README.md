@@ -48,7 +48,17 @@
 
 </div>
 
-
+<h3 align="center"> Controls </h3>
+<div align="center">
+  <p>
+    Song 🎵<br><br>
+    ➡️ - turn up the volume<br>
+    ⬅️ - turn up the volume<br>
+  <br> Fps 🖥️<br><br>
+    ⬆️ - turn up the fps<br>
+    ⬇️ - turn down the fps
+  </p>
+</div>
 <h3 align="center"> How it works </h3>
 <div align="center">
   <img src="Midias for Readme/IMG/Diag.svg">
