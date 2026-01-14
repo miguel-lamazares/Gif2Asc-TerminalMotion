@@ -2,7 +2,7 @@
 
 echo "Installing dependencies..."
 
-python -m venv Gif2Asc-TerminalMotion/Gif2Asc/venv
+python3 -m venv Gif2Asc-TerminalMotion/Gif2Asc/venv
 source Gif2Asc-TerminalMotion/Gif2Asc/venv/bin/activate
 
 # Dependencies
@@ -19,6 +19,7 @@ DEPENDENCIES=(
 PYTHON_PACKAGES=(
     "pillow"
     "requests"
+    "numpy"
 )
 
 # Install system dependencies

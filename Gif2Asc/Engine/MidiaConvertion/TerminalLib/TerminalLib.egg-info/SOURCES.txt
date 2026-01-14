@@ -1,4 +1,5 @@
 pyproject.toml
+TerminalLib/Terminal.py
 TerminalLib/asc.py
 TerminalLib.egg-info/PKG-INFO
 TerminalLib.egg-info/SOURCES.txt

@@ -21,7 +21,7 @@ PYTHON="$PROJECT_ROOT/Gif2Asc/venv/bin/python"
 
 "$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/FramesExtration/FrameExtractor.py"
 "$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/PngTreatment/PNGPersonalizer.py"
-"$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/AsciiConversion/AscConverter.py"
+"$PYTHON" "$PROJECT_ROOT/Gif2Asc/Engine/MidiaConvertion/FramesConversion/AscConverter.py"
 
 # -----------------------------
 # C build

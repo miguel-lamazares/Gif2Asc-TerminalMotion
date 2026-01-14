@@ -5,11 +5,12 @@ import os
 import shutil
 from TerminalLib import Terminal as ter
 from TerminalLib import asc
+from TerminalLib import ROOT
 
 print("\033[H\033[2J", flush=True)
 
-song_output = "Gif2Asc/Engine/MidiaConvertion/FramesExtration/Song"
-output_dir = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+song_output = ROOT.Addresses.Song
+output_dir = ROOT.Addresses.PngFrames
 if os.path.exists(output_dir):
     shutil.rmtree(output_dir)
 os.makedirs(output_dir, exist_ok=True)
@@ -26,7 +27,7 @@ for file in asc_files:
 input_file = input("what's the GIF's address?: ")
 
 if input_file.startswith("https:") or input_file.startswith("http:") is True:
-    folder = "Gif2Asc/Engine/MidiaConvertion/FramesExtration/Downloads"
+    folder = ROOT.Addresses.Downloads
     asc.download(input_file, folder)
     input_file = f"{folder}/gif.gif"
 
@@ -69,7 +70,8 @@ elif input_file.endswith(".mp4") or input_file.endswith(".mov") or input_file.en
     song_choice = ter.read_int(1, 2)
     if song_choice == 1:
             ter.typewrite(ter.Colors.GREEN + "Do you wanna play the itself audio or by other file?", 0.02)
-            song_choice = ter.read_int(1, 2, "1 - itself audio / 2 - other file: ")
+            
+            song_choice = ter.read_int(1, 2)
             if song_choice == 1:
                 subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/%d.png"])
                 subprocess.run(["ffmpeg", "-i", input_file, "-ar", "22050", "-ac", "1", "-f", "wav", f"{song_output}/song.wav"])

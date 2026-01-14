@@ -1,11 +1,13 @@
 import os
 import subprocess
 import sys
+import PIL.Image as Image
 from TerminalLib import Terminal as ter
 from TerminalLib import asc
 import json
 import shutil
-import Defs
+from Defs import Defs
+from TerminalLib import ROOT
 
 # ---------------------------------------------
 # UI — BASIC OPTIONS
@@ -22,6 +24,7 @@ ter.Clear_all()
 ter.typewrite(ter.Colors.CYAN + "Special characters? (1 - yes / 2 - no)\n", 0.02)
 if ter.read_int(1,3) == 1:
     ter.Clear_all()
+
     Defs.options_list()
 
     options = ter.read_int(1, 32)
@@ -158,23 +161,20 @@ if smart_full_size:
     proportion = f"--size={max_width}x{max_height}"
 
 elif full_size_mode:
-    # Configuração para usar dimensões originais
-    # Primeiro, encontrar o maior frame para dimensionamento consistente
     max_image_width = 0
     max_image_height = 0
     
     ter.typewrite(ter.Colors.CYAN + "Analyzing frames for full size mode...\n", 0.02)
     
-    FOLDER = "../PngFrames"
+    FOLDER = ROOT.Addresses.PngFrames
 
     folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
     png_files = sorted(
-    (f for f in os.listdir(folder) if f.endswith(".png")),
-    key=lambda x: int(os.path.splitext(x)[0])
-)
+        (f for f in os.listdir(folder) if f.endswith(".png")),
+        key=lambda x: int(os.path.splitext(x)[0])
+    )
 
-    # Coletar as dimensões máximas de todos os frames
     for i, file in enumerate(png_files):
         path = os.path.join(folder, file)
         with Image.open(path) as img:
@@ -184,30 +184,31 @@ elif full_size_mode:
     
     ter.typewrite(f"Max dimensions found: {max_image_width}x{max_image_height}\n", 0.02)
     
-    # Verificar se precisamos reduzir para caber no terminal
-    import shutil
     term_size = shutil.get_terminal_size()
     term_width = term_size.columns
-    term_height = term_size.lines * 2  # Fator 2 porque caracteres são mais altos
     
-    # Calcular escala para caber no terminal
+    term_height = (term_size.lines - 2) * 1.7
+    
     width_ratio = term_width / max_image_width if max_image_width > 0 else 1
     height_ratio = term_height / max_image_height if max_image_height > 0 else 1
     scale = min(width_ratio, height_ratio)
     
+    ascii_adjustment = 0.5 if scale < 1 else 0.7
+    
     if scale < 1:
-        # Precisa redimensionar para caber no terminal
+       
         smart_width = int(max_image_width * scale)
-        smart_height = int(max_image_height * scale)
+        smart_height = int(max_image_height * scale * ascii_adjustment)
         proportion = f"--size={smart_width}x{smart_height}"
         ter.typewrite(f"Scaling to fit terminal: {smart_width}x{smart_height} (scale: {scale:.2f})\n", 0.02)
-        full_size_mode = False  # Agora usaremos o tamanho redimensionado
+        full_size_mode = False  
     else:
-        # Cabe no terminal, usar tamanho original
-        proportion = f"--size={max_image_width}x{max_image_height}"
-        ter.typewrite("Images fit terminal at original size\n", 0.02)
+        adjusted_height = int(max_image_height * ascii_adjustment)
+        proportion = f"--size={max_image_width}x{adjusted_height}"
+        ter.typewrite(f"Images fit terminal at original size (adjusted for ASCII)\n", 0.02)
 
 ter.Clear_all()
+
 # ---------------------------------------------
 # COLORS
 # ---------------------------------------------
@@ -234,13 +235,13 @@ elif mode == 2:
     pass 
 
 elif mode == 3:
-    asc.typewrite("Red   (default 0.2989): ", 0.03)
+    ter.typewrite("Red   (default 0.2989): ", 0.03)
     red = input()
-    asc.typewrite("Green (default 0.5866): ", 0.03)
+    ter.typewrite("Green (default 0.5866): ", 0.03)
     green = input()
-    asc.typewrite("Blue  (default 0.1145): ", 0.03)
+    ter.typewrite("Blue  (default 0.1145): ", 0.03)
     blue = input()
-    asc.typewrite("Color depth (4 / 8 / 24): ", 0.03)
+    ter.typewrite("Color depth (4 / 8 / 24): ", 0.03)
     depth = input()
 
     jp2a_cmd += [
@@ -273,7 +274,7 @@ print(ter.Colors.RESET + "")
 # Saving configs
 # ---------------------------------------------
 
-FOLDER = "Gif2Asc/Engine/MidiaConvertion/Settings"
+FOLDER = ROOT.Addresses.Settings
 
 if os.path.exists(FOLDER):
     shutil.rmtree(FOLDER)
@@ -281,14 +282,14 @@ os.makedirs(FOLDER, exist_ok=True)
 
 config = {"jp2a_args": asc.clean_args(jp2a_cmd)}
 
-with open("Gif2Asc/Engine/MidiaConvertion/Settings/jp2aconfig.json", "w+",encoding="utf-8") as f:
+with open(ROOT.Addresses.Settings / "jp2aconfig.json", "w+",encoding="utf-8") as f:
     json.dump(config,f,indent=4)
 
 # ---------------------------------------------
 # INPUT FOLDER
 # ---------------------------------------------
 
-FOLDER = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+FOLDER = ROOT.Addresses.PngFrames
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
@@ -324,7 +325,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "Gif2Asc/Engine/MidiaConvertion/TextFrames"
+out = ROOT.Addresses.TextFrames
 
 if os.path.exists(out):
     shutil.rmtree(out)

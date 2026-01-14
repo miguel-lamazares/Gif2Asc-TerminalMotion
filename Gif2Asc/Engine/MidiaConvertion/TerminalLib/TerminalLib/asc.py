@@ -6,6 +6,7 @@ import shutil
 import re
 
 
+
 def clean_args(cmd):
     return [arg for arg in cmd if arg]
 
@@ -45,6 +46,8 @@ def convert_to_png(input_path, output_path):
     png_path = os.path.splitext(input_path)[0] + ".png"
     img.save(f"{output_path}/frame{i}.png", "PNG")
     return png_path
+
+
 
 
 

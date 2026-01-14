@@ -1,16 +1,12 @@
-"""
-PNGPersonalizer.py - Camada de personalização direta de frames PNG
-Permite aplicar efeitos, ajustes e transformações nos frames antes da conversão ASCII
-"""
-
-import os
 import json
 import shutil
 import numpy as np
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps, ImageDraw, ImageFont
 from TerminalLib import Terminal as ter
 from TerminalLib import asc
+from TerminalLib import ROOT
 import sys
+import os
 
 class PNGCustomizer:
     def __init__(self):
@@ -788,7 +784,7 @@ class PNGCustomizer:
             return
         
         # Carregar frame de exemplo
-        input_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+        input_folder = ROOT.Addresses.PngFrames
         png_files = sorted([f for f in os.listdir(input_folder) if f.endswith(".png")])
         
         if not png_files:
@@ -825,7 +821,7 @@ class PNGCustomizer:
             'config': self.config
         }
         
-        config_folder = "Gif2Asc/Engine/MidiaConvertion/Settings"
+        config_folder = ROOT.Addresses.Settings
         if not os.path.exists(config_folder):
             os.makedirs(config_folder, exist_ok=True)
         
@@ -837,7 +833,7 @@ class PNGCustomizer:
     
     def load_configuration(self):
         """Carrega uma configuração salva"""
-        config_folder = "Gif2Asc/Engine/MidiaConvertion/Settings"
+        config_folder = ROOT.Addresses.Settings
         config_path = os.path.join(config_folder, "customization.json")
         
         if os.path.exists(config_path):
@@ -861,8 +857,8 @@ class PNGCustomizer:
             return
         
         # Definir pastas
-        input_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
-        output_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+        input_folder = ROOT.Addresses.PngFrames
+        output_folder = ROOT.Addresses.PngFrames
         
         # Criar backup ou pasta processada
         if os.path.exists(output_folder):
@@ -933,8 +929,8 @@ def main():
     # Banner
     banner = """
     ╔══════════════════════════════════════════════════════╗
-    ║      PERSONALIZADOR DE FRAMES PNG - GIF2ASC         ║
-    ║   Camada intermediária para tratamento de frames    ║
+    ║      PERSONALIZADOR DE FRAMES PNG - GIF2ASC          ║
+    ║   Camada intermediária para tratamento de frames     ║
     ╚══════════════════════════════════════════════════════╝
     """
     
@@ -944,7 +940,7 @@ def main():
     customizer = PNGCustomizer()
     
     # Verificar se há PNGs
-    input_folder = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+    input_folder = ROOT.Addresses.PngFrames
     if not os.path.exists(input_folder) or len(os.listdir(input_folder)) == 0:
         ter.typewrite(ter.Colors.RED + "ERRO: Pasta 'Gif2Asc/Engine/MidiaConvertion/PngFrames' vazia ou não existe!\n", 0.02)
         ter.typewrite("Execute primeiro o FrameExtractor.py\n", 0.02)
@@ -953,3 +949,5 @@ def main():
     # Mostrar menu
     customizer.show_menu()
 
+if __name__ == "__main__":
+    main()

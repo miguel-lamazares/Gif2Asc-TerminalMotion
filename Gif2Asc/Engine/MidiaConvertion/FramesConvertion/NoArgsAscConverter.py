@@ -5,12 +5,13 @@ from TerminalLib import Terminal as ter
 import json
 import shutil
 import re
+from TerminalLib import ROOT
 
 # ---------------------------------------------
 # Fetching
 # ---------------------------------------------
 
-with open("Gif2Asc/Engine/MidiaConvertion/Settings/jp2aconfig.json", "r") as f:
+with open(ROOT.Addresses.Settings / "jp2aconfig.json", "r") as f:
         config = json.load(f)
 
 jp2a_cmd = config["jp2a_args"]
@@ -19,7 +20,7 @@ jp2a_cmd = config["jp2a_args"]
 # INPUT FOLDER
 # ---------------------------------------------
 
-FOLDER = "Gif2Asc/Engine/MidiaConvertion/PngFrames"
+FOLDER = ROOT.Addresses.PngFrames
 
 folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
 
@@ -60,7 +61,7 @@ for i, file in enumerate(png_files):
 # ---------------------------------------------
 #  CLEANING OLD FRAMES
 # ---------------------------------------------
-out = "Gif2Asc/Engine/MidiaConvertion/TextFrames"
+out = ROOT.Addresses.TextFrames
 
 if os.path.exists(out):
     shutil.rmtree(out)

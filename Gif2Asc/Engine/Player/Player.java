@@ -99,10 +99,10 @@ public class Player {
 
     private void songPlayer() {
         try {
-            List<Path> songs = loadSongs("Gif2Asc/Engine/MidiaConvertion/FramesExtration/Song");
+            List<Path> songs = loadSongs("Gif2Asc/Engine/MidiaConvertion/Files/Song");
             if (songs.isEmpty()) {
                 System.err.println(
-                        "Nenhuma música encontrada em Gif2Asc/Engine/MidiaConvertion/FramesExtration/Song — pulando reprodução.");
+                        "Nenhuma música encontrada em Gif2Asc/Engine/MidiaConvertion/Files/Song — pulando reprodução.");
                 return;
             }
             Path song = songs.get(0);
@@ -143,7 +143,7 @@ public class Player {
         System.out.print("\033[H\033[2J\033[?25l");
         System.out.flush();
 
-        List<Path> frames = loadFrames("Gif2Asc/Engine/MidiaConvertion/TextFrames");
+        List<Path> frames = loadFrames("Gif2Asc/Engine/MidiaConvertion/Files/TextFrames");
 
         player.songPlayer();
         player.animate(frames, FPS);
