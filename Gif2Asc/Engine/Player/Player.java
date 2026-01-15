@@ -144,13 +144,21 @@ public class Player {
                 while (player.running) {
                     int ch = System.in.read();
 
+<<<<<<< Updated upstream
                     // ENTER encerra tudo
+=======
+                    
+>>>>>>> Stashed changes
                     if (ch == '\n' || ch == '\r') {
                         player.stopAll();
                         break;
                     }
 
+<<<<<<< Updated upstream
                     // Setas
+=======
+                    
+>>>>>>> Stashed changes
                     if (ch == 27 && System.in.read() == '[') {
                         int code = System.in.read();
                         switch (code) {

@@ -34,7 +34,7 @@ if input_file.startswith("https:") or input_file.startswith("http:") is True:
 if input_file.endswith(".jpeg") or input_file.endswith(".jpg") or input_file.endswith(".svg") is True:
     convert_input = asc.convert_to_png(input_file, output_path=output_dir)
     input_file = convert_input
-
+    ter.Clear_all()
     ter.typewrite(ter.Colors.GREEN + "Do you wanna play something with it? (1 - yes / 2 - no)", 0.02)
     song_choice = ter.read_int(1, 2)
     if song_choice == 1:
@@ -47,10 +47,11 @@ if input_file.endswith(".jpeg") or input_file.endswith(".jpg") or input_file.end
         song_path = "song.wav"
 
 elif input_file.endswith(".gif") or input_file.endswith(".webp") or input_file.endswith(".png") is True:
+    ter.Clear_all()
     ter.typewrite(ter.Colors.GREEN + "Do you wanna play something with it? (1 - yes / 2 - no)", 0.02)
     song_choice = ter.read_int(1, 2)
     if song_choice == 1:
-        ter.typewrite(ter.Colors.GREEN + "What's the song's address? (must be wav or wav)", 0.02)
+        ter.typewrite(ter.Colors.GREEN + "What's the song's address?", 0.02)
         song_path = input("-> ")
         if not os.path.exists(song_path):
             ter.typewrite(ter.Colors.RED + "File not found!", 0.02)
@@ -69,6 +70,7 @@ elif input_file.endswith(".mp4") or input_file.endswith(".mov") or input_file.en
     ter.typewrite(ter.Colors.GREEN + "Do you wanna play some audio? (1 - yes / 2 - no: )", 0.02)
     song_choice = ter.read_int(1, 2)
     if song_choice == 1:
+            ter.Clear_all()
             ter.typewrite(ter.Colors.GREEN + "Do you wanna play the itself audio or by other file?", 0.02)
             
             song_choice = ter.read_int(1, 2)

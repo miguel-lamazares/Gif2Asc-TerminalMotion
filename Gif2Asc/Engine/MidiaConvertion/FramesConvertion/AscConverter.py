@@ -9,10 +9,17 @@ import shutil
 from Defs import Defs
 from TerminalLib import ROOT
 
+
+ter.Clear_all()
+ter.print_centralizedText(Defs.icon)
+ter.print_centralizedText(ter.Colors.PURPLE + "it was developed by Miguel\n\nif you like it, please consider supporting me on:\nGitHub: miguel-lamazares\nInstagram: @miguel.dex\nlinkedin: miguel lamazares")
+
+ter.wait_enter_clear()
+ter.Clear_all()
+
 # ---------------------------------------------
 # UI — BASIC OPTIONS
 # ---------------------------------------------
-ter.Clear_all()
 
 ter.typewrite(ter.Colors.PURPLE + "Configure your jp2a\n", 0.04)
 ter.typewrite(ter.Colors.GREEN + "Border and text\n\n", 0.02)
@@ -379,7 +386,7 @@ for file in asc_files:
 # ---------------------------------------------
 
 for i, frame in enumerate(frames):
-    path = os.path.join(out, f"{i:04d}.asc")
+    path = os.path.join(out, f"{i:09d}.asc")
     with open(path, "w", encoding="utf-8") as f:
         f.write(frame)
 
