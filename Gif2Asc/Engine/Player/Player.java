@@ -145,7 +145,11 @@ public class Player {
                     int ch = System.in.read();
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     // ENTER encerra tudo
+=======
+                    
+>>>>>>> Stashed changes
 =======
                     
 >>>>>>> Stashed changes
@@ -155,7 +159,11 @@ public class Player {
                     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     // Setas
+=======
+                    
+>>>>>>> Stashed changes
 =======
                     
 >>>>>>> Stashed changes
