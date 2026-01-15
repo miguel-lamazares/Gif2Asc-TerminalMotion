@@ -77,6 +77,7 @@
 <div align="center">
   <p>DOYFN - DoomOnYourFancyNodepad (shortly)</p>
   <p>NT Steam - ASC Arts to Comments (on testing)</p>
+  <p><a href="https://github.com/miguel-lamazares/TerminalLib">TerminalLib - your terminal doesn't need be ugly</a></p>
 </div>
 
 <h3 align="center"> Help this project </h3>
