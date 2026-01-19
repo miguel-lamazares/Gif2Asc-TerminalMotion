@@ -1,6 +1,6 @@
 from TerminalLib import Terminal as ter
-import os
 import re
+import shutil
 
 icon = """[0m[38;2;96;96;96m                                                                                    [0m
 [0m[38;2;96;96;96m                                                                                    [0m
@@ -90,5 +90,25 @@ def options_list():
     ter.print_centralizedText(ter.Colors.YELLOW + menu + ter.Colors.RESET)
     
 
+def center_ascii_frame(ascii_text, terminal_width=None):
 
+    if terminal_width is None:
+        terminal_width = shutil.get_terminal_size().columns
+    
+    lines = [line.rstrip() for line in ascii_text.splitlines()]
+    if not lines:
+        return ascii_text
+    
+    ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
+    stripped_lines = [ansi_escape.sub('', line) for line in lines]
+    
+    frame_width = max(len(line) for line in stripped_lines)
+    
+    if frame_width >= terminal_width:
+        return ascii_text
+    
+    left_margin = (terminal_width - frame_width) // 2
+    
+    centered_lines = [(" " * left_margin) + line for line in lines]
+    return "\n".join(centered_lines)
     

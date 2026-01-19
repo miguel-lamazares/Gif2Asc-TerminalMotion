@@ -128,7 +128,14 @@ ter.typewrite(
     "Do you want to center the image? (1 - yes / 2 - no)\n\n",
     0.02
 )
-center = "--term-center" if ter.read_int(1,3) == 1 else ""
+
+ter.typewrite(
+    ter.Colors.CYAN +
+    "Do you want to center the image? (1 - yes / 2 - no)\n\n",
+    0.02
+)
+user_wants_center = (ter.read_int(1, 2) == 1)
+
 ter.Clear_all()
 
 # ---------------------------------------------
@@ -306,8 +313,7 @@ jp2a_cmd += [
     chars,
     fit,
     proportion,
-    back,
-    center
+    back
 ]
 
 jp2a_cmd = asc.clean_args(jp2a_cmd)
@@ -355,16 +361,23 @@ frames = []
 # GENERATE ASCII FRAMES
 # ---------------------------------------------
 
+
 for i, file in enumerate(png_files):
     path = os.path.join(folder, file)
 
     result = subprocess.run(
-        jp2a_cmd + [path],
+        jp2a_cmd + [path],  
         capture_output=True,
         text=True
     )
-
-    frames.append(result.stdout)
+    
+   
+    if user_wants_center:
+        processed_output = Defs.center_ascii_frame(result.stdout)
+    else:
+        processed_output = result.stdout
+    
+    frames.append(processed_output)
     ter.print_progress_bar(i + 1, total)
 
 # ---------------------------------------------
