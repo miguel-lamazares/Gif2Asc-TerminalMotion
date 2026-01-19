@@ -71,7 +71,7 @@
   <img src="Midias for Readme/Media/CS2 Dance.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Drifting cars.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Hunter.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Law.gif" width="45%"> he</img>
+  <img src="Midias for Readme/Media/Law.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Jester dance.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Little car with his back fire.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Nyan cat.gif" width="45%"></img>
