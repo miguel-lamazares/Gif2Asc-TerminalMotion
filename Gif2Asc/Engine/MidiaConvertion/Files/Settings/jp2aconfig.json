@@ -4,7 +4,7 @@
         "--colors",
         "--color-depth=24",
         "--term-fit",
-        "--size=88x44",
+        "--size=68x34",
         "--background=dark"
     ]
 }

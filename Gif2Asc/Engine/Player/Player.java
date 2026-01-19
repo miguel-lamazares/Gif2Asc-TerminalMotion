@@ -166,13 +166,11 @@ public class Player {
                 while (player.running) {
                     int ch = System.in.read();
 
-                    // ENTER encerra tudo
                     if (ch == '\n' || ch == '\r') {
                         player.stopAll();
                         break;
                     }
 
-                    // Setas do teclado
                     if (ch == 27 && System.in.read() == '[') {
                         int code = System.in.read();
                         switch (code) {
@@ -190,7 +188,7 @@ public class Player {
                     }
                 }
             } catch (Exception ignored) {
-                // silêncio absoluto, como todo bom bug em produção
+
             }
         }
 
@@ -225,7 +223,7 @@ public class Player {
          * =========================
          */
 
-        public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
             enableRawMode();
 
