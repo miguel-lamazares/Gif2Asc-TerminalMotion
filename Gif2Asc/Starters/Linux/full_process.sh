@@ -33,11 +33,11 @@ gcc "$RENDER_C" -O3 -o "$RENDER_OUT"
 # -----------------------------
 # Java build
 # -----------------------------
-PLAYER_JAVA="$PROJECT_ROOT/Gif2Asc/Engine/Player/Player.java"
+PLAYER_JAVA="$PROJECT_ROOT/Gif2Asc/Engine/Player/*.java"
 javac "$PLAYER_JAVA"
 
 # -----------------------------
 # Run animation
 # -----------------------------
 cd "$PROJECT_ROOT"
-java Gif2Asc.Engine.Player.Player
+java Gif2Asc.Engine.Player.Main

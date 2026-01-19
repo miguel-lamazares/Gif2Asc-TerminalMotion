@@ -1,3 +1,7 @@
+// why not java?
+// 'cause it's an old version of the player, it's a .rs file for doesn't broke the java
+
+
 package Gif2Asc.Engine.Player;
 
 
