@@ -128,12 +128,6 @@ ter.typewrite(
     "Do you want to center the image? (1 - yes / 2 - no)\n\n",
     0.02
 )
-
-ter.typewrite(
-    ter.Colors.CYAN +
-    "Do you want to center the image? (1 - yes / 2 - no)\n\n",
-    0.02
-)
 user_wants_center = (ter.read_int(1, 2) == 1)
 
 ter.Clear_all()

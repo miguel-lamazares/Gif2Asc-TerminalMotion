@@ -5,7 +5,8 @@
         "--color-depth=24",
         "--chars= \u2801\u2803\u2807\u280f\u281f\u283f\u287f\u28ff",
         "--term-fit",
-        "--size=86x42",
+        "--size=84x42",
         "--background=dark"
-    ]
+    ],
+    "center": true
 }
