@@ -331,7 +331,8 @@ if os.path.exists(FOLDER):
     shutil.rmtree(FOLDER)
 os.makedirs(FOLDER, exist_ok=True)
 
-config = {"jp2a_args": asc.clean_args(jp2a_cmd)}
+config = {"jp2a_args": asc.clean_args(jp2a_cmd),
+          "center": user_wants_center}
 
 with open(ROOT.Addresses.Settings / "jp2aconfig.json", "w+",encoding="utf-8") as f:
     json.dump(config,f,indent=4)

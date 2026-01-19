@@ -4,7 +4,7 @@ import sys
 from TerminalLib import Terminal as ter
 import json
 import shutil
-import re
+from Defs import Defs
 from TerminalLib import ROOT
 
 # ---------------------------------------------
@@ -15,7 +15,7 @@ with open(ROOT.Addresses.Settings / "jp2aconfig.json", "r") as f:
         config = json.load(f)
 
 jp2a_cmd = config["jp2a_args"]
-
+should_center = config.get("center", False)
 # ---------------------------------------------
 # INPUT FOLDER
 # ---------------------------------------------
@@ -55,7 +55,12 @@ for i, file in enumerate(png_files):
         text=True
     )
 
-    frames.append(result.stdout)
+    if should_center:  # Aplicar centralização se necessário
+        processed_output = Defs.center_ascii_frame(result.stdout)
+    else:
+        processed_output = result.stdout
+    
+    frames.append(processed_output)
     ter.print_progress_bar(i + 1, total)
 
 # ---------------------------------------------
