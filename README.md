@@ -63,7 +63,7 @@
   <img src="Midias for Readme/Media/CS2 Dance.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Drifting cars.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Hunter.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Law.gif" width="45%"> he</img>
+  <img src="Midias for Readme/Media/Law.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Jester dance.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Little car with his back fire.gif" width="45%"></img>
   <img src="Midias for Readme/Media/Nyan cat.gif" width="45%"></img>
@@ -77,7 +77,6 @@
 
 <h3 align="center"> Other related projects </h3>
 <div align="center">
-  <p>DOYFN - DoomOnYourFancyNodepad (shortly)</p>
   <p><a href="https://github.com/miguel-lamazares/Nt-Steam">NT Steam - ASC Arts to Comments </a></p>
   <p><a href="https://github.com/miguel-lamazares/TerminalLib">TerminalLib - your terminal doesn't need be ugly</a></p>
 </div>
