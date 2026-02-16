@@ -49,6 +49,8 @@
   <br> Fps 🖥️<br><br>
     ⬆️ - turn up the fps<br>
     ⬇️ - turn down the fps
+    <br> Stop 🛑<br><br>
+    Enter - to finish
   </p>
 </div>
 <h3 align="center"> How it works </h3>
