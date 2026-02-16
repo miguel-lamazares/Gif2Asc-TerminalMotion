@@ -3,9 +3,9 @@
         "jp2a",
         "--colors",
         "--color-depth=24",
-        "--chars= \u2801\u2803\u2807\u280f\u281f\u283f\u287f\u28ff",
+        "--chars= \uff65\uff61\uff67\uff68\uff69\uff6a\uff6b\uff70\uff71\uff8f\uff93\uff9c",
         "--term-fit",
-        "--size=84x42",
+        "--size=81x44",
         "--background=dark"
     ],
     "center": true

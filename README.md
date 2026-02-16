@@ -35,14 +35,6 @@
 <a href="Doc/es/contribucion.md">Contribución</a>
 </td>
 
-<td align="center">
-<img src="Midias for Readme/Flags/jp.svg" width="40"><br>
-<a href="Doc/jp/インストール.md">インストール</a><br>
-<a href="Doc/jp/使い方.md">使い方</a><br>
-<a href="Doc/jp/カスタマイズ.md">カスタマイズ</a><br>
-<a href="Doc/jp/どうやって動くの.md">どうやって動くの？</a><br>
-<a href="Doc/jp/貢献.md">貢献</a>
-</td>
 </tr>
 </table>
 
