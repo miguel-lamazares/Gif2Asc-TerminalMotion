@@ -1,8 +1,28 @@
-<h1 align="center">Gif to ASC II 🎥</h1>
+<h1 align="center">Gif2Asc — Terminal Motion 🎥✨</h1>
 
-<p align="center">this is a project that can trassform midias into ASC Arts</p>
+<p align="center">
+  <i>Transform GIFs, videos, and images into animated ASCII art — right on your device.</i>
+</p>
 
-<h3 align="center">Documentation</h3>
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-86%25-3776AB?logo=python&logoColor=white">
+  <img alt="Java" src="https://img.shields.io/badge/Java-6%25-ED8B00?logo=openjdk&logoColor=white">
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-4%25-000000?logo=rust&logoColor=white">
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-3%25-4EAA25?logo=gnubash&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
+</p>
+
+---
+
+## 📖 About the project
+
+**Gif2Asc — Terminal Motion** is a media-to-ASCII engine that converts GIFs (and other media) into smooth, frame-by-frame ASCII animations playable inside your terminal — with optional audio playback and live controls for FPS and volume.
+
+It’s a small experiment that mixes image processing, terminal rendering and a bit of nostalgia. Perfect for fun, demos, or just to make your terminal feel a little more alive.
+
+---
+
+## 🌍 Documentation
 
 <div align="center">
 
@@ -10,6 +30,7 @@
 <tr>
 <td align="center">
 <img src="Midias for Readme/Flags/br.svg" width="40"><br>
+<b>Português</b><br>
 <a href="Doc/pt/instalacao.md">Instalação</a><br>
 <a href="Doc/pt/comoUsar.md">Como usar</a><br>
 <a href="Doc/pt/personalizacao.md">Personalização</a><br>
@@ -19,6 +40,7 @@
 
 <td align="center">
 <img src="Midias for Readme/Flags/us.svg" width="40"><br>
+<b>English</b><br>
 <a href="Doc/en/installation.md">Installation</a><br>
 <a href="Doc/en/howToUse.md">How to use</a><br>
 <a href="Doc/en/customization.md">Customization</a><br>
@@ -28,66 +50,112 @@
 
 <td align="center">
 <img src="Midias for Readme/Flags/es.svg" width="40"><br>
+<b>Español</b><br>
 <a href="Doc/es/instalacion.md">Instalación</a><br>
 <a href="Doc/es/comousar.md">Cómo usar</a><br>
 <a href="Doc/es/personalizacion.md">Personalización</a><br>
 <a href="Doc/es/comoFunciona.md">¿Cómo funciona?</a><br>
 <a href="Doc/es/contribucion.md">Contribución</a>
 </td>
-
 </tr>
 </table>
 
 </div>
 
-<h3 align="center"> Controls </h3>
+---
+
+## ✨ Features
+
+- 🎞️ Converts **GIFs and media** into animated ASCII art
+- 🔊 Plays an **optional soundtrack** in sync with the animation
+- ⚙️ **Live controls** for FPS and volume during playback
+- 🎨 Customizable character ramps and rendering width
+- 🧩 Cross-language core (Python · Java · Rust · Shell)
+- 🪶 Lightweight and runs in any modern terminal
+
+---
+
+## ⚡ Quick start
+
+```bash
+# Clone the repo
+git clone https://github.com/miguel-lamazares/Gif2Asc-TerminalMotion.git
+cd Gif2Asc-TerminalMotion/Gif2Asc
+
+# Run
+python main.py path/to/your.gif
+```
+
+> Need detailed setup instructions? Check the [installation guide](Doc/en/installation.md).
+
+---
+
+## 🎮 Controls
+
+While the animation is playing:
+
+| Key | Action |
+|-----|--------|
+| ➡️ | Turn the volume **up** |
+| ⬅️ | Turn the volume **down** |
+| ⬆️ | Increase **FPS** |
+| ⬇️ | Decrease **FPS** |
+| ⏎ `Enter` | **Stop / finish** playback |
+
+---
+
+## 🧠 How it works
+
 <div align="center">
-  <p>
-    Song 🎵<br><br>
-    ➡️ - turn up the volume<br>
-    ⬅️ - turn up the volume<br>
-  <br> Fps 🖥️<br><br>
-    ⬆️ - turn up the fps<br>
-    ⬇️ - turn down the fps
-    <br> Stop 🛑<br><br>
-    Enter - to finish
-  </p>
+  <img src="Midias for Readme/IMG/Diag.svg" alt="Pipeline diagram">
 </div>
-<h3 align="center"> How it works </h3>
-<div align="center">
-  <img src="Midias for Readme/IMG/Diag.svg">
-</div>
-<h3 align="center"> Medias </h3>
+
+In short: each frame of the input media is **resized**, converted to **grayscale**, and each pixel is mapped to an ASCII character based on its luminance. The frames are then printed in sequence at a controlled FPS — optionally synchronized with audio.
+
+Want the deep dive? See [How does it work?](Doc/en/howDoesItWorks.md).
+
+---
+
+## 🖼️ Gallery
 
 <p align="center">
-  <img src="Midias for Readme/Media/Undertale.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/BadApple.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/CS2 Dance.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Drifting cars.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Hunter.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Law.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Jester dance.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Little car with his back fire.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Nyan cat.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Skull.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Denji.gif" width="45%"></img>
-  <img src="Midias for Readme/Media/Alucard.gif" width="45%"></img>
+  <img src="Midias for Readme/Media/Undertale.gif" width="45%">
+  <img src="Midias for Readme/Media/BadApple.gif" width="45%">
+  <img src="Midias for Readme/Media/CS2 Dance.gif" width="45%">
+  <img src="Midias for Readme/Media/Drifting cars.gif" width="45%">
+  <img src="Midias for Readme/Media/Hunter.gif" width="45%">
+  <img src="Midias for Readme/Media/Law.gif" width="45%">
+  <img src="Midias for Readme/Media/Jester dance.gif" width="45%">
+  <img src="Midias for Readme/Media/Little car with his back fire.gif" width="45%">
+  <img src="Midias for Readme/Media/Nyan cat.gif" width="45%">
+  <img src="Midias for Readme/Media/Skull.gif" width="45%">
+  <img src="Midias for Readme/Media/Denji.gif" width="45%">
+  <img src="Midias for Readme/Media/Alucard.gif" width="45%">
 </p>
 
+---
 
+## 🔗 Related projects
 
+- 🟦 [**NT Steam**](https://github.com/miguel-lamazares/Nt-Steam) — turn ASCII art into Steam comments
+- 🖥️ [**TerminalLib**](https://github.com/miguel-lamazares/TerminalLib) — your terminal doesn’t need to be ugly
 
-<h3 align="center"> Other related projects </h3>
-<div align="center">
-  <p><a href="https://github.com/miguel-lamazares/Nt-Steam">NT Steam - ASC Arts to Comments </a></p>
-  <p><a href="https://github.com/miguel-lamazares/TerminalLib">TerminalLib - your terminal doesn't need be ugly</a></p>
-</div>
+---
 
-<h3 align="center"> Help this project </h3>
+## 🤝 Contributing
 
-<p align="center">If you have ideas or would like to contribute code, feel free to do so.
-Please check the documentation to learn how to contribute.
+Got an idea, a bug fix, or a new feature in mind? Contributions are very welcome!
+Check the contribution guide in your language: [PT](Doc/pt/Contribuicao.md) · [EN](Doc/en/Contribution.md) · [ES](Doc/es/contribucion.md).
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+
+---
+
+<p align="center">
+  Made with ☕ and a lot of <code>printf</code> by <a href="https://github.com/miguel-lamazares"><b>Miguel Lamazares</b></a>.<br>
+  <i>Follow me on GitHub for more projects and experiments.</i>
 </p>
-
-<h3 align="center">This project was created by Miguel Lamazares.
-Follow me to see more projects and experiments.</h3>
