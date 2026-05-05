@@ -1,403 +1,86 @@
-import os
-import subprocess
-import sys
-import PIL.Image as Image
-from TerminalLib import Terminal as ter
-from TerminalLib import asc
-import json
-import shutil
-from Defs import Defs
-from TerminalLib import ROOT
+#!/usr/bin/env python3
+"""
+AscConverter — interactive jp2a wizard.
+Reads PNGs from Files/PngFrames, writes .asc to Files/TextFrames,
+and persists the chosen settings to Files/Settings/jp2aconfig.json.
+"""
+from __future__ import annotations
+import os, sys, json, subprocess, shutil
+from pathlib import Path
 
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent / "TerminalLib"))
+sys.path.insert(0, str(HERE / "Defs"))
 
-ter.Clear_all()
-ter.print_centralizedText(Defs.icon)
-ter.print_centralizedText(ter.Colors.PURPLE + "it was developed by Miguel\n\nif you like it, please consider supporting me on:\nGitHub: miguel-lamazares\nInstagram: @miguel.dex\nlinkedin: miguel lamazares")
-
-ter.wait_enter_clear()
-ter.Clear_all()
-
-# ---------------------------------------------
-# UI — BASIC OPTIONS
-# ---------------------------------------------
-
-ter.typewrite(ter.Colors.PURPLE + "Configure your jp2a\n", 0.04)
-ter.typewrite(ter.Colors.GREEN + "Border and text\n\n", 0.02)
-
-ter.typewrite(ter.Colors.CYAN + "Border? (1 - yes / 2 - no)\n", 0.02)
-border = "--border" if ter.read_int(1,3) == 1 else ""
-
-ter.Clear_all()
-ter.typewrite(ter.Colors.CYAN + "Special characters? (1 - yes / 2 - no)\n", 0.02)
-if ter.read_int(1,3) == 1:
-    ter.Clear_all()
-
-    Defs.options_list()
-
-    options = ter.read_int(1, 32)
-  
-    if options == 1:
-        chars = "--chars="" ░▒▓█"""  # Original blocks
-    elif options == 2:
-        chars = "--chars="" ⣀⣤⣶⣯⣟⣷⣿"""  # Braille gradient
-    elif options == 3:
-        chars = "--chars="" ⠁⠃⠇⠏⠟⠿⡿⣿"""  # Spaced braille
-    elif options == 4:
-        chars = "--chars="" ▘▝▖▗▌▐▀▄█"""  # Half blocks
-    elif options == 5:
-        chars = "--chars="" ･｡ｧｨｩｪｫｰｱﾏﾓﾜ"""  # Japanese
-    elif options == 6:
-        ter.Clear_all()
-        ter.typewrite(ter.Colors.RED + "Characters (min 2):\n")
-        chars = f"--chars={input()}"
-    elif options == 7:
-        chars = "--chars="" .:;+*?%$@#"""  # ASCII art basic
-    elif options == 8:
-        chars = "--chars="" ─│┌┐└┘├┤┬┴┼"""  # Box drawing
-    elif options == 9:
-        chars = "--chars="" ▲▼◀▶◆■○●□△▽◇◊"""  # Geometric
-    elif options == 10:
-        chars = "--chars="" ·•∙⦁●◌○◎◉●◯"""  # Dot progression
-    elif options == 11:
-        chars = "--chars="" ▖▗▘▝▚▞▙▟"""  # Quadrants
-    elif options == 12:
-        chars = "--chars="" 🬀🬁🬂🬃🬄🬅🬆🬇🬈🬉"""  # Sextants
-    elif options == 13:
-        chars = "--chars="" ⌘⌥⎇⏎␣⏏⚙️🔧🛠️"""  # Technical symbols
-    elif options == 14:
-        chars = "--chars="" ◢◣◤◥◸◹◺◿"""  # Wedge shapes
-    elif options == 15:
-        chars = "--chars="" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"""  # Latin letters
-    elif options == 16:
-        chars = "--chars="" ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"""  # Alphanumeric
-    elif options == 17:
-        chars = "--chars="" ★☆♪♫♥♦♣♠☀☁☂☃"""  # Extra symbols
-    elif options == 18:
-        chars = "--chars="" █▉▊▋▌▍▎▏"""  # Solid block progression
-    elif options == 19:
-        chars = "--chars="" ▀▄█"""  # Vertical halves
-    elif options == 20:
-        chars = "--chars="" ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ"""  # Full-width
-    elif options == 21:
-        chars = "--chars="" ⓪①②③④⑤⑥⑦⑧⑨"""  # Digital/circled numbers
-    elif options == 22:
-        chars = "--chars="" +−×÷=≠≈±√∞∫∑∏∂"""  # Math symbols
-    elif options == 23:
-        chars = "--chars=""  ·∙∙⸱⸳⸰ꓸ"""  # Minimalist small dots
-    elif options == 24:
-        chars = "--chars=""  .:^~+*xX%&$@#█"""  # Mixed density gradient
-    elif options == 25:
-        chars = "--chars=""  ۞۩≋≌∿≈～〰️♪♫♬"""  # Artistic/flow symbols
-    elif options == 26:
-        chars = "--chars=""  01█"""  # Binary/barcode style
-    elif options == 27:
-         chars = "--chars="" ▏▎▍▌▋▊▉█▇▆▅▄▃▂▁"""  # Vertical bar gradient
-    
-    elif options == 28:
-         chars = "--chars="" ╱╲╳┃━┏┓┗┛┣┫┳┻╋"""  # Asian-inspired
-    
-    elif options == 29:
-        chars = "--chars="" ◐◑◒◓◔◕◖◗◦◌◍◎●◯"""  # Circle progression
-    
-    elif options == 30:
-         chars = "--chars="" ᗧᗢᗣᗤᗨᗩᗪᗫ"""  # Unique Unicode shapes
-    
-    elif options == 31:
-        chars = "--chars="" ░▒▓▚▞▀▄█"""  # Mixed block types
-
-else:
-    chars = ""
-
-ter.Clear_all()
-
-ter.typewrite(ter.Colors.CYAN + "Frame is big? (1 - yes / 2 - no)\n", 0.02)
-fit = "--term-fit" if ter.read_int(1,3) == 1 else ""
-
-ter.Clear_all()
-
-ter.typewrite(
-    ter.Colors.CYAN +
-    "Light characters on dark background? (1 - yes / 2 - no)\n",
-    0.02
+from TerminalLib.Terminal import (
+    banner, gradient, glitch, box, Spinner, progress,
+    arrow_menu, confirm, rgb, RESET, typewriter,
 )
-back = "--background=dark" if ter.read_int(1,3) == 1 else "--background=light"
-ter.Clear_all()
+from TerminalLib.ROOT import png_dir, text_dir, settings_dir
+from Defs import select_charset
 
-ter.typewrite(
-    ter.Colors.CYAN +
-    "Do you want to center the image? (1 - yes / 2 - no)\n\n",
-    0.02
-)
-user_wants_center = (ter.read_int(1, 2) == 1)
+CFG_PATH = settings_dir() / "jp2aconfig.json"
 
-ter.Clear_all()
+def _ask_int(label: str, default: int, lo=1, hi=400) -> int:
+    while True:
+        raw = input(rgb(0,220,255) + f"  {label} " + RESET + rgb(120,120,140) + f"[{default}]" + RESET + " > ").strip()
+        if not raw: return default
+        try:
+            v = int(raw)
+            if lo <= v <= hi: return v
+        except ValueError: pass
+        glitch(f"  ✗ invalid (need int between {lo} and {hi})")
 
-# ---------------------------------------------
-# SIZE / PROPORTION
-# ---------------------------------------------
+def wizard() -> dict:
+    banner("⟢ jp2a Wizard", "configure how your PNGs become art")
 
-ter.typewrite(ter.Colors.YELLOW + "Proportion\n\n", 0.02)
-ter.typewrite(
-    ter.Colors.CYAN +
-    "1. Default\n2. Set width and height\n3. Use terminal zoom\n4. Fullscreen\n5. Smart full size \n\n",
-    0.02
-)
+    typewriter("  ◇ Picking the perfect glyphs…", color=rgb(140,140,160))
+    name, glyphs = select_charset()
+    print()
 
-choice = ter.read_int(1,5)
-proportion = ""
-full_size_mode = False
-smart_full_size = False
+    width  = _ask_int("Width  (cols)", 100)
+    height = _ask_int("Height (rows)", 30)
 
+    invert = confirm("Invert luminance?")
+    print()
+    color  = confirm("Color output?  (slower but pretty)")
+    print()
 
-if choice == 2:
-    ter.typewrite("Width: ", 0.03)
-    w = input()
-    ter.typewrite("Height: ", 0.03)
-    h = input()
-    proportion = f"--size={w}x{h}"
-elif choice == 3:
-    proportion = "--term-zoom"
-elif choice == 4:
-    full_size_mode = True
-elif choice == 5:
-    smart_full_size = True
+    cfg = {"charset_name": name, "charset": glyphs,
+           "width": width, "height": height,
+           "invert": invert, "color": color}
 
-if smart_full_size:
-    max_image_width = 0
-    max_image_height = 0
-    FOLDER = ROOT.Addresses.PngFrames
+    settings_dir().mkdir(parents=True, exist_ok=True)
+    CFG_PATH.write_text(json.dumps(cfg, indent=2))
+    print(box(f"✔ saved → {CFG_PATH.relative_to(CFG_PATH.parents[2])}", color=(0,255,160)))
+    return cfg
 
-    folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
+def jp2a_args(cfg: dict) -> list[str]:
+    args = [f"--width={cfg['width']}", f"--height={cfg['height']}",
+            f"--chars={cfg['charset']}"]
+    if cfg.get("invert"): args.append("--invert")
+    if cfg.get("color"):  args.append("--color")
+    return args
 
-    png_files = sorted(
-        (f for f in os.listdir(folder) if f.endswith(".png")),
-        key=lambda x: int(os.path.splitext(x)[0])
-    )
+def render(cfg: dict):
+    if not shutil.which("jp2a"):
+        glitch("  ✗ jp2a not found in PATH — install it first."); sys.exit(1)
 
-    for file in png_files:
-        path = os.path.join(folder, file)
-        with Image.open(path) as img:
-            width, height = img.size
-            max_image_width = max(max_image_width, width)
-            max_image_height = max(max_image_height, height)
+    src, dst = png_dir(), text_dir()
+    dst.mkdir(parents=True, exist_ok=True)
+    pngs = sorted(src.glob("*.png"), key=lambda p: int(p.stem) if p.stem.isdigit() else 0)
+    if not pngs:
+        glitch(f"  ✗ no PNGs in {src}"); sys.exit(1)
 
-    term = shutil.get_terminal_size()
+    print(gradient(f"\n⟶ rendering {len(pngs)} frames\n"))
+    for i, png in enumerate(pngs, 1):
+        out = dst / f"{i-1:09d}.asc"
+        subprocess.run(["jp2a", *jp2a_args(cfg), str(png)],
+                       stdout=open(out, "w"), stderr=subprocess.DEVNULL, check=False)
+        progress(i, len(pngs), label=png.name)
+    print(box(f"✔ wrote {len(pngs)} .asc → {dst}", color=(0,255,160)))
 
-    
-    ASCII_RATIO = 0.5
-
-    
-    term_width = term.columns
-    term_height = term.lines
-
-    
-    img_ratio = max_image_width / max_image_height
-    term_ratio = term_width / (term_height / ASCII_RATIO)
-
-    if img_ratio > term_ratio:
-        
-        smart_width = term_width
-        smart_height = int((term_width / img_ratio) * ASCII_RATIO)
-    else:
-        
-        smart_height = term_height
-        smart_width = int((term_height * img_ratio) / ASCII_RATIO)
-
-    proportion = f"--size={smart_width}x{smart_height}"
-
-
-elif full_size_mode:
-    max_image_width = 0
-    max_image_height = 0
-    
-    ter.typewrite(ter.Colors.CYAN + "Analyzing frames for full size mode...\n", 0.02)
-    
-    FOLDER = ROOT.Addresses.PngFrames
-
-    folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
-
-    png_files = sorted(
-        (f for f in os.listdir(folder) if f.endswith(".png")),
-        key=lambda x: int(os.path.splitext(x)[0])
-    )
-
-    for i, file in enumerate(png_files):
-        path = os.path.join(folder, file)
-        with Image.open(path) as img:
-            width, height = img.size
-            max_image_width = max(max_image_width, width)
-            max_image_height = max(max_image_height, height)
-    
-    ter.typewrite(f"Max dimensions found: {max_image_width}x{max_image_height}\n", 0.02)
-    
-    term_size = shutil.get_terminal_size()
-    term_width = term_size.columns
-    
-    term_height = (term_size.lines - 2) * 1.7
-    
-    width_ratio = term_width / max_image_width if max_image_width > 0 else 1
-    height_ratio = term_height / max_image_height if max_image_height > 0 else 1
-    scale = min(width_ratio, height_ratio)
-    
-    ascii_adjustment = 0.5 if scale < 1 else 0.7
-    
-    if scale < 1:
-       
-        smart_width = int(max_image_width * scale)
-        smart_height = int(max_image_height * scale * ascii_adjustment)
-        proportion = f"--size={smart_width}x{smart_height}"
-        ter.typewrite(f"Scaling to fit terminal: {smart_width}x{smart_height} (scale: {scale:.2f})\n", 0.02)
-        full_size_mode = False  
-    else:
-        adjusted_height = int(max_image_height * ascii_adjustment)
-        proportion = f"--size={max_image_width}x{adjusted_height}"
-        ter.typewrite(f"Images fit terminal at original size (adjusted for ASCII)\n", 0.02)
-
-ter.Clear_all()
-
-# ---------------------------------------------
-# COLORS
-# ---------------------------------------------
-
-ter.typewrite(ter.Colors.GREEN + "Colors\n\n", 0.02)
-ter.typewrite(
-    ter.Colors.CYAN +
-    "1. True colors\n2. Black and white\n3. Manual config\n",
-    0.02
-)
-
-mode = ter.read_int(1,3)
-
-jp2a_cmd = ["jp2a"]
-
-if mode == 1:
-    jp2a_cmd += [
-        "--colors",
-        "--color-depth=24",
-        
-    ]
-
-elif mode == 2:
-    pass 
-
-elif mode == 3:
-    ter.typewrite("Red   (default 0.2989): ", 0.03)
-    red = input()
-    ter.typewrite("Green (default 0.5866): ", 0.03)
-    green = input()
-    ter.typewrite("Blue  (default 0.1145): ", 0.03)
-    blue = input()
-    ter.typewrite("Color depth (4 / 8 / 24): ", 0.03)
-    depth = input()
-
-    jp2a_cmd += [
-        "--colors",
-        f"--color-depth={depth}",
-        f"--red={red}",
-        f"--green={green}",
-        f"--blue={blue}",
-        
-    ]
-else:
-    print("Invalid option.")
-    sys.exit(1)
-
-jp2a_cmd += [
-    border,
-    chars,
-    fit,
-    proportion,
-    back
-]
-
-jp2a_cmd = asc.clean_args(jp2a_cmd)
-
-ter.Clear_all()
-print(ter.Colors.RESET + "")
-
-# ---------------------------------------------
-# Saving configs
-# ---------------------------------------------
-
-FOLDER = ROOT.Addresses.Settings
-
-if os.path.exists(FOLDER):
-    shutil.rmtree(FOLDER)
-os.makedirs(FOLDER, exist_ok=True)
-
-config = {"jp2a_args": asc.clean_args(jp2a_cmd),
-          "center": user_wants_center}
-
-with open(ROOT.Addresses.Settings / "jp2aconfig.json", "w+",encoding="utf-8") as f:
-    json.dump(config,f,indent=4)
-
-# ---------------------------------------------
-# INPUT FOLDER
-# ---------------------------------------------
-
-FOLDER = ROOT.Addresses.PngFrames
-
-folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
-
-png_files = sorted(
-    (f for f in os.listdir(folder) if f.endswith(".png")),
-    key=lambda x: int(os.path.splitext(x)[0])
-)
-
-total = len(png_files)
-
-if total == 0:
-    print("No PNG files found.")
-    sys.exit(1)
-
-frames = []
-
-# ---------------------------------------------
-# GENERATE ASCII FRAMES
-# ---------------------------------------------
-
-
-for i, file in enumerate(png_files):
-    path = os.path.join(folder, file)
-
-    result = subprocess.run(
-        jp2a_cmd + [path],  
-        capture_output=True,
-        text=True
-    )
-    
-   
-    if user_wants_center:
-        processed_output = Defs.center_ascii_frame(result.stdout)
-    else:
-        processed_output = result.stdout
-    
-    frames.append(processed_output)
-    ter.print_progress_bar(i + 1, total)
-
-# ---------------------------------------------
-#  CLEANING OLD FRAMES
-# ---------------------------------------------
-out = ROOT.Addresses.TextFrames
-
-if os.path.exists(out):
-    shutil.rmtree(out)
-os.makedirs(out, exist_ok=True)
-
-asc_files = sorted(f for f in os.listdir(out) if f.endswith(".asc"))
-
-for file in asc_files:
-    os.remove(os.path.join(out, file))
-
-# ---------------------------------------------
-# WRITING ASC FRAMES
-# ---------------------------------------------
-
-for i, frame in enumerate(frames):
-    path = os.path.join(out, f"{i:09d}.asc")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(frame)
-
-print("Finish with sucess, java starting")
-
-
+if __name__ == "__main__":
+    cfg = wizard()
+    if confirm("\nRender frames now with these settings?"):
+        render(cfg)

@@ -1,12 +1,8 @@
 {
-    "jp2a_args": [
-        "jp2a",
-        "--colors",
-        "--color-depth=24",
-        "--chars= \uff65\uff61\uff67\uff68\uff69\uff6a\uff6b\uff70\uff71\uff8f\uff93\uff9c",
-        "--term-fit",
-        "--size=81x44",
-        "--background=dark"
-    ],
-    "center": true
+  "charset_name": "russian",
+  "charset": " \u0410\u0411\u0412\u0413\u0414\u0415\u0416\u0417\u0418\u0419\u041a\u041b\u041c\u041d\u041e\u041f\u0420\u0421\u0422\u0423\u0424\u0425\u0426\u0427\u0428\u0429\u042a\u042b\u042c\u042d\u042e\u042f",
+  "width": 100,
+  "height": 30,
+  "invert": true,
+  "color": true
 }

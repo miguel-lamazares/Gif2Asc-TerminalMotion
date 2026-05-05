@@ -1,97 +1,87 @@
-from PIL import Image
-import subprocess
-import os
+#!/usr/bin/env python3
+"""
+FrameExtractor — pulls PNG frames + audio from a local file or URL.
+Output: Files/PngFrames/{N}.png  +  Files/Song/audio.{ext}
+"""
+from __future__ import annotations
+import sys, os, shutil, subprocess, urllib.parse, urllib.request, re
+from pathlib import Path
 
-import shutil
-from TerminalLib import Terminal as ter
-from TerminalLib import asc
-from TerminalLib import ROOT
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent / "TerminalLib"))
 
-print("\033[H\033[2J", flush=True)
+from TerminalLib.Terminal import (
+    banner, gradient, glitch, box, Spinner, rgb, RESET, typewriter, confirm,
+)
+from TerminalLib.ROOT import png_dir, downloads_dir, song_dir
 
-song_output = ROOT.Addresses.Song
-output_dir = ROOT.Addresses.PngFrames
-if os.path.exists(output_dir):
-    shutil.rmtree(output_dir)
-os.makedirs(output_dir, exist_ok=True)
+URL_RE = re.compile(r"^https?://", re.I)
 
-if not os.path.exists(song_output):
-                os.makedirs(song_output, exist_ok=True)
+def _sanitize(p: str) -> str:
+    p = p.strip().strip('"').strip("'")
+    return p.replace("\\ ", " ")
 
-asc_files = sorted(f for f in os.listdir(song_output) if f.endswith(".wav"))
+def _ask_path() -> str:
+    print(gradient("⟢ Drop a path or URL (gif / mp4 / webm)"))
+    for attempt in range(3):
+        raw = input(rgb(0,220,255) + "  ➜  " + RESET).strip()
+        raw = _sanitize(raw)
+        if not raw:
+            glitch("  ✗ empty input"); continue
+        if URL_RE.match(raw):
+            return raw
+        if Path(raw).exists():
+            return raw
+        glitch(f"  ✗ not found: {raw}  ({2-attempt} tries left)")
+    sys.exit(1)
 
-for file in asc_files:
-    os.remove(os.path.join(song_output, file))
+def _download(url: str) -> Path:
+    downloads_dir().mkdir(parents=True, exist_ok=True)
+    ext = Path(urllib.parse.urlparse(url).path).suffix or ".gif"
+    out = downloads_dir() / f"input{ext}"
+    with Spinner(f"downloading {url[:60]}…"):
+        urllib.request.urlretrieve(url, out)
+    print(box(f"✔ saved → {out}", color=(0,255,160)))
+    return out
 
+def _clean(path: Path):
+    if path.exists():
+        for f in path.iterdir():
+            if f.is_file(): f.unlink()
+    path.mkdir(parents=True, exist_ok=True)
 
-input_file = input("what's the GIF's address?: ")
+def extract(src: Path):
+    if not shutil.which("ffmpeg"):
+        glitch("  ✗ ffmpeg not in PATH"); sys.exit(1)
 
-if input_file.startswith("https:") or input_file.startswith("http:") is True:
-    folder = ROOT.Addresses.Downloads
-    asc.download(input_file, folder)
-    input_file = f"{folder}/gif.gif"
+    _clean(png_dir())
+    print(gradient("\n⟶ extracting frames…\n"))
+    with Spinner("ffmpeg is doing ffmpeg things"):
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", str(src), str(png_dir() / "%d.png")],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=False,
+        )
+    n = len(list(png_dir().glob("*.png")))
+    print(box(f"✔ {n} PNG frames → {png_dir()}", color=(0,255,160)))
 
-if input_file.endswith(".jpeg") or input_file.endswith(".jpg") or input_file.endswith(".svg") is True:
-    convert_input = asc.convert_to_png(input_file, output_path=output_dir)
-    input_file = convert_input
-    ter.Clear_all()
-    ter.typewrite(ter.Colors.GREEN + "Do you wanna play something with it? (1 - yes / 2 - no)", 0.02)
-    song_choice = ter.read_int(1, 2)
-    if song_choice == 1:
-        ter.typewrite(ter.Colors.GREEN + "What's the song's address?", 0.02)
-        song_path = input("-> ")
-        if not os.path.exists(song_path):
-            ter.typewrite(ter.Colors.RED + "File not found!", 0.02)
-            exit()
-        subprocess.run(["ffmpeg", "-i", song_path, "-ar", "22050", "-ac", "1", "-f", "wav", f"{song_output}/song.wav"])
-        song_path = "song.wav"
+    if confirm("\nAlso extract the audio track?"):
+        song_dir().mkdir(parents=True, exist_ok=True)
+        out = song_dir() / "audio.mp3"
+        with Spinner("ripping audio"):
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", str(src), "-vn", "-acodec", "libmp3lame", str(out)],
+                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=False,
+            )
+        if out.exists() and out.stat().st_size > 0:
+            print(box(f"✔ audio → {out}", color=(0,255,160)))
+        else:
+            glitch("  ⚠ no audio track found in source")
 
-elif input_file.endswith(".gif") or input_file.endswith(".webp") or input_file.endswith(".png") is True:
-    ter.Clear_all()
-    ter.typewrite(ter.Colors.GREEN + "Do you wanna play something with it? (1 - yes / 2 - no)", 0.02)
-    song_choice = ter.read_int(1, 2)
-    if song_choice == 1:
-        ter.typewrite(ter.Colors.GREEN + "What's the song's address?", 0.02)
-        song_path = input("-> ")
-        if not os.path.exists(song_path):
-            ter.typewrite(ter.Colors.RED + "File not found!", 0.02)
-            exit()
-        subprocess.run(["ffmpeg", "-i", song_path, "-ar", "22050", "-ac", "1", "-f", "wav", f"{song_output}/song.wav"])
-        song_path = "song.wav"
-                
-    gif = Image.open(input_file)
-    for i in range(gif.n_frames):
-        gif.seek(i)
-        gif.save(f"{output_dir}/{i}.png")
+def run():
+    banner("⟢ Frame Extractor", "GIF/MP4/URL → PNG sequence (+ audio)")
+    raw = _ask_path()
+    src = _download(raw) if URL_RE.match(raw) else Path(raw)
+    extract(src)
 
-        ter.print_progress_bar(i + 1, gif.n_frames)
-
-elif input_file.endswith(".mp4") or input_file.endswith(".mov") or input_file.endswith(".avi") or input_file.endswith(".mkv") or input_file.endswith(".webm") is True:
-    ter.typewrite(ter.Colors.GREEN + "Do you wanna play some audio? (1 - yes / 2 - no: )", 0.02)
-    song_choice = ter.read_int(1, 2)
-    if song_choice == 1:
-            ter.Clear_all()
-            ter.typewrite(ter.Colors.GREEN + "Do you wanna play the itself audio or by other file?", 0.02)
-            
-            song_choice = ter.read_int(1, 2)
-            if song_choice == 1:
-                subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/%d.png"])
-                subprocess.run(["ffmpeg", "-i", input_file, "-ar", "22050", "-ac", "1", "-f", "wav", f"{song_output}/song.wav"])
-                ter.Clear_all()
-            if song_choice == 2:
-                ter.typewrite(ter.Colors.GREEN + "What's the song's address? (must be wav or wav)", 0.02)
-                song_path = input("-> ")
-                if not os.path.exists(song_path):
-                    ter.typewrite(ter.Colors.RED + "File not found!", 0.02)
-                    exit()
-                subprocess.run(["ffmpeg", "-i", song_path, "-ar", "22050", "-ac", "1", "-f", "wav", f"{song_output}/song.wav"])
-                subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/%d.png"])
-                ter.Clear_all()
-    else:
-            subprocess.run(["ffmpeg", "-nostats", "-i", input_file, f"{output_dir}/%d.png"])
-            ter.Clear_all()
-    
-
-else:
-    ter.Clear_all()
-    ter.typewrite(ter.Colors.RED + "Invalid file format. Please provide a GIF, image file or video file.", 0.02)
+if __name__ == "__main__":
+    run()

@@ -1,89 +1,31 @@
-import os
-import subprocess
-import sys
-from TerminalLib import Terminal as ter
-import json
-import shutil
-from Defs import Defs
-from TerminalLib import ROOT
+#!/usr/bin/env python3
+"""
+NoArgsAscConverter — re-runs the last saved jp2a config without questions.
+Reads Files/Settings/jp2aconfig.json and renders Files/PngFrames → Files/TextFrames.
+"""
+from __future__ import annotations
+import sys, json
+from pathlib import Path
 
-# ---------------------------------------------
-# Fetching
-# ---------------------------------------------
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent / "TerminalLib"))
 
-with open(ROOT.Addresses.Settings / "jp2aconfig.json", "r") as f:
-        config = json.load(f)
+from TerminalLib.Terminal import banner, glitch, box, rgb, RESET
+from TerminalLib.ROOT import settings_dir
 
-jp2a_cmd = config["jp2a_args"]
-should_center = config.get("center", False)
-# ---------------------------------------------
-# INPUT FOLDER
-# ---------------------------------------------
+# reuse the renderer
+sys.path.insert(0, str(HERE))
+from AscConverter import render, CFG_PATH
 
-FOLDER = ROOT.Addresses.PngFrames
-
-folder = sys.argv[1] if len(sys.argv) > 1 else FOLDER
-
-if not os.path.isdir(folder):
-    print(f"Folder not found: {folder}")
-    sys.exit(1)
-
-png_files = sorted(
-    (f for f in os.listdir(folder) if f.endswith(".png")),
-    key=lambda x: int(os.path.splitext(x)[0])
-)
-
-total = len(png_files)
-
-if total == 0:
-    print("No PNG files found.")
-    sys.exit(1)
-
-total = len(png_files)
-frames = []
-
-# ---------------------------------------------
-# GENERATE ASCII FRAMES
-# ---------------------------------------------
-
-for i, file in enumerate(png_files):
-    path = os.path.join(folder, file)
-
-    result = subprocess.run(
-        jp2a_cmd + [path],
-        capture_output=True,
-        text=True
-    )
-
-    if should_center:  # Aplicar centralização se necessário
-        processed_output = Defs.center_ascii_frame(result.stdout)
-    else:
-        processed_output = result.stdout
-    
-    frames.append(processed_output)
-    ter.print_progress_bar(i + 1, total)
-
-# ---------------------------------------------
-#  CLEANING OLD FRAMES
-# ---------------------------------------------
-out = ROOT.Addresses.TextFrames
-
-if os.path.exists(out):
-    shutil.rmtree(out)
-os.makedirs(out, exist_ok=True)
-
-asc_files = sorted(f for f in os.listdir(out) if f.endswith(".asc"))
-
-for file in asc_files:
-    os.remove(os.path.join(out, file))
-
-# ---------------------------------------------
-# WRITING ASC FRAMES
-# ---------------------------------------------
-
-for i, frame in enumerate(frames):
-    path = os.path.join(out, f"{i:04d}.asc")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(frame)
-
-print("Finish with sucess, java starting")
+if __name__ == "__main__":
+    banner("⟢ NoArgs Render", "reusing your last jp2a config")
+    if not CFG_PATH.exists():
+        glitch(f"  ✗ no config at {CFG_PATH} — run AscConverter first.")
+        sys.exit(1)
+    cfg = json.loads(CFG_PATH.read_text())
+    print(box(f"charset : {cfg['charset_name']}\n"
+              f"size    : {cfg['width']}×{cfg['height']}\n"
+              f"invert  : {cfg.get('invert', False)}\n"
+              f"color   : {cfg.get('color', False)}",
+              color=(0,200,255)))
+    render(cfg)
