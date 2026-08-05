@@ -138,7 +138,7 @@ Want the deep dive? See [How does it work?](Doc/en/howDoesItWorks.md).
 ## 🔗 Related projects
 
 - 🟦 [**NT Steam**](https://github.com/miguel-lamazares/Nt-Steam) — turn ASCII art into Steam comments
-- 🖥️ [**TerminalLib**](https://github.com/miguel-lamazares/TerminalLib) — your terminal doesn’t need to be ugly
+- 🖥️ [**TermForge**](https://github.com/miguel-lamazares/TerminalLib) — your terminal doesn’t need to be ugly
 
 ---
 
