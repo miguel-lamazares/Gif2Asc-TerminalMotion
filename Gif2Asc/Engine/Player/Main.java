@@ -3,6 +3,7 @@ package Gif2Asc.Engine.Player;
 import java.io.OutputStream;
 import java.nio.file.Path;
 import java.util.List;
+import Gif2Asc.Engine.Player.PlayerControl;
 
 public class Main {
     public static void main(String[] args) throws Exception {

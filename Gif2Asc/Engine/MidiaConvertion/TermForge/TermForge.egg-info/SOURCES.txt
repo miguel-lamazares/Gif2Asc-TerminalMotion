@@ -1,0 +1,8 @@
+pyproject.toml
+TermForge/Terminal.py
+TermForge.egg-info/PKG-INFO
+TermForge.egg-info/SOURCES.txt
+TermForge.egg-info/dependency_links.txt
+TermForge.egg-info/top_level.txt
+TermForge/core/ansi.py
+TermForge/core/colors.py

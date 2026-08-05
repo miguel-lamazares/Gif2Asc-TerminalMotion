@@ -12,14 +12,14 @@ import sys, runpy, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT / "TerminalLib"))
+sys.path.insert(0, str(ROOT / "TermForge"))
 
-from TerminalLib.Terminal import (
+from TermForge.termforge.Terminal import (
     banner, gradient, gradient_block, glitch, box, Spinner,
     arrow_menu, confirm, typewriter, rgb, RESET, clear,
 )
-from TerminalLib.ROOT import settings_dir, png_dir
-from TerminalLib.asc import LOGO
+from TermForge.termforge.ROOT import settings_dir, png_dir
+from TermForge.termforge.asc import LOGO
 
 TREATMENT = {
     "PNG Personalizer (brightness/contrast/scale)": ROOT / "PngTreatment" / "PNGPersonalizer.py",
@@ -46,7 +46,7 @@ def _intro():
 def _step_extract():
     print(box("STEP 1/3 · EXTRACT", color=(0,200,255)))
     if confirm("Extract frames now?"):
-        _run_script(ROOT / "FramesExtration" / "FrameExtractor.py")
+        _run_script(ROOT / "FramesExtration" / "FramingExtration.py")
     else:
         typewriter("  ↷ skipping extraction", color=rgb(140,140,160))
 

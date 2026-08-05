@@ -1,9 +1,0 @@
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "TerminalLib"
-version = "0.1.0"
-description = "Personal terminal utilities"
-authors = [{ name = "Dex" }]
