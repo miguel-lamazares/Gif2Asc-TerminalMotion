@@ -1,4 +1,4 @@
-<h1 align="center">Gif2Asc — Terminal Motion 🎥✨</h1>
+<h1 align="center">Gif2Asc - Terminal Motion 🎥✨</h1>
 
 <p align="center">
   <i>Transform GIFs, videos, and images into animated ASCII art — right on your device.</i>
