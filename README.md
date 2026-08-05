@@ -7,7 +7,6 @@
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-86%25-3776AB?logo=python&logoColor=white">
   <img alt="Java" src="https://img.shields.io/badge/Java-6%25-ED8B00?logo=openjdk&logoColor=white">
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-4%25-000000?logo=rust&logoColor=white">
   <img alt="Shell" src="https://img.shields.io/badge/Shell-3%25-4EAA25?logo=gnubash&logoColor=white">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
 </p>
@@ -16,7 +15,7 @@
 
 ## 📖 About the project
 
-**Gif2Asc — Terminal Motion** is a media-to-ASCII engine that converts GIFs (and other media) into smooth, frame-by-frame ASCII animations playable inside your terminal — with optional audio playback and live controls for FPS and volume.
+**Gif2Asc — Terminal Motion** turns your GIFs and videos into animated ASCII art right in your terminal — complete with optional soundtrack and live controls for speed and volume.
 
 It’s a small experiment that mixes image processing, terminal rendering and a bit of nostalgia. Perfect for fun, demos, or just to make your terminal feel a little more alive.
 
@@ -70,7 +69,7 @@ It’s a small experiment that mixes image processing, terminal rendering and a 
 - 🔊 Plays an **optional soundtrack** in sync with the animation
 - ⚙️ **Live controls** for FPS and volume during playback
 - 🎨 Customizable character ramps and rendering width
-- 🧩 Cross-language core (Python · Java · Rust · Shell)
+- 🧩 Cross-language core (Python · Java · Shell)
 - 🪶 Lightweight and runs in any modern terminal
 
 ---
@@ -94,13 +93,13 @@ python main.py path/to/your.gif
 
 While the animation is playing:
 
-| Key | Action |
-|-----|--------|
-| ➡️ | Turn the volume **up** |
-| ⬅️ | Turn the volume **down** |
-| ⬆️ | Increase **FPS** |
-| ⬇️ | Decrease **FPS** |
-| ⏎ `Enter` | **Stop / finish** playback |
+ Key | Action |
+-----|--------|
+ ➡️ | Turn the volume **up** |
+ ⬅️ | Turn the volume **down** |
+ ⬆️ | Increase **FPS** |
+ ⬇️ | Decrease **FPS** |
+ ⏎ `Enter` | **Stop / finish** playback |
 
 ---
 
@@ -110,7 +109,7 @@ While the animation is playing:
   <img src="Midias for Readme/IMG/Diag.svg" alt="Pipeline diagram">
 </div>
 
-In short: each frame of the input media is **resized**, converted to **grayscale**, and each pixel is mapped to an ASCII character based on its luminance. The frames are then printed in sequence at a controlled FPS — optionally synchronized with audio.
+Here's the magic: each frame gets **resized**, turned into **grayscale**, and then each pixel is turned into an ASCII character based on its **brightness**. These frames are then played back in sequence at a speed you control — and you can even add a soundtrack if you want.
 
 Want the deep dive? See [How does it work?](Doc/en/howDoesItWorks.md).
 
